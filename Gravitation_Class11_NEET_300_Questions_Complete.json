@@ -1,0 +1,4194 @@
+{
+  "title": "NEET Class 11 Physics - Gravitation: Concept Practice and Assessment",
+  "chapter": "Gravitation",
+  "syllabus_level": "Class 11 Physics / NEET",
+  "total_questions": 300,
+  "concept_count": 15,
+  "questions_per_concept": 20,
+  "distribution_per_concept": {
+    "practice": 10,
+    "assessment": 10
+  },
+  "concepts": [
+    "Introduction to Gravitation",
+    "Kepler's Laws of Planetary Motion",
+    "Universal Law of Gravitation",
+    "Gravitational Constant G",
+    "Acceleration Due to Gravity",
+    "Mass, Weight and g",
+    "Variation of g with Altitude and Depth",
+    "Gravitational Field",
+    "Gravitational Potential Energy",
+    "Gravitational Potential",
+    "Escape Speed",
+    "Earth Satellites and Orbital Motion",
+    "Geostationary Satellites",
+    "Energy of an Orbiting Satellite",
+    "Spherically Symmetric Bodies"
+  ],
+  "questions": [
+    {
+      "concept": "Introduction to Gravitation",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "Which statement best describes gravitation?",
+      "options": [
+        "A repulsive force between charged bodies",
+        "A universal attractive force between masses",
+        "A force acting only on planets",
+        "A force acting only on falling objects"
+      ],
+      "answer": "B",
+      "explanation": "Gravitation is the universal attractive interaction between any two bodies having mass."
+    },
+    {
+      "concept": "Introduction to Gravitation",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "The gravitational force between two bodies acts along the",
+      "options": [
+        "tangent to their surfaces",
+        "line joining their centres of mass",
+        "vertical direction only",
+        "direction of motion"
+      ],
+      "answer": "B",
+      "explanation": "For two bodies treated as particles or spherically symmetric bodies, gravitational force acts along the line joining their centres."
+    },
+    {
+      "concept": "Introduction to Gravitation",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "Why does a person feel Earth's gravitational pull but usually not notice the gravitational pull between two books?",
+      "options": [
+        "Books have no mass",
+        "Gravity does not act on books",
+        "The gravitational force between ordinary small masses is extremely small",
+        "Gravity acts only in vacuum"
+      ],
+      "answer": "C",
+      "explanation": "Every mass attracts every other mass, but the force between ordinary objects is usually too small to notice."
+    },
+    {
+      "concept": "Introduction to Gravitation",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "Which phenomenon is primarily explained by gravitation?",
+      "options": [
+        "Reflection of light",
+        "Motion of the Moon around Earth",
+        "Electric current in a wire",
+        "Heating of a resistor"
+      ],
+      "answer": "B",
+      "explanation": "The Moon remains in orbit around Earth because of Earth's gravitational attraction."
+    },
+    {
+      "concept": "Introduction to Gravitation",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "Near Earth, the term 'gravity' usually refers to",
+      "options": [
+        "only the mass of Earth",
+        "the gravitational attraction experienced by objects near Earth",
+        "the universal constant G",
+        "the orbital speed of Earth"
+      ],
+      "answer": "B",
+      "explanation": "Gravity is the gravitational attraction experienced near a celestial body such as Earth."
+    },
+    {
+      "concept": "Introduction to Gravitation",
+      "type": "Assessment",
+      "difficulty": "Easy",
+      "question": "Two isolated spherical bodies attract each other gravitationally. If both bodies are present, the forces they exert on each other are",
+      "options": [
+        "equal in magnitude and opposite in direction",
+        "equal in magnitude and same in direction",
+        "different in magnitude and opposite",
+        "zero"
+      ],
+      "answer": "A",
+      "explanation": "By Newton's third law, the gravitational forces on the two bodies are equal in magnitude and opposite in direction."
+    },
+    {
+      "concept": "Introduction to Gravitation",
+      "type": "Assessment",
+      "difficulty": "Easy",
+      "question": "Which statement is correct about gravitational interaction?",
+      "options": [
+        "It requires physical contact",
+        "It acts only between planets",
+        "It can act across empty space",
+        "It acts only when bodies are moving"
+      ],
+      "answer": "C",
+      "explanation": "Gravitational interaction is a long-range force and can act through empty space."
+    },
+    {
+      "concept": "Introduction to Gravitation",
+      "type": "Assessment",
+      "difficulty": "Easy",
+      "question": "A satellite orbiting Earth is continuously accelerating because",
+      "options": [
+        "its speed must always increase",
+        "Earth's gravity continuously changes the direction of its velocity",
+        "there is no force on it",
+        "its mass changes continuously"
+      ],
+      "answer": "B",
+      "explanation": "Even in a circular orbit with constant speed, the velocity direction changes, producing centripetal acceleration supplied by gravity."
+    },
+    {
+      "concept": "Introduction to Gravitation",
+      "type": "Assessment",
+      "difficulty": "Easy",
+      "question": "Which pair contains two phenomena that both arise from gravitation?",
+      "options": [
+        "Tides and planetary orbits",
+        "Electric sparks and tides",
+        "Refraction and eclipses",
+        "Magnetic attraction and rainfall"
+      ],
+      "answer": "A",
+      "explanation": "Tides and planetary orbits are both consequences of gravitational interactions."
+    },
+    {
+      "concept": "Introduction to Gravitation",
+      "type": "Assessment",
+      "difficulty": "Easy",
+      "question": "If all masses in the universe suddenly lost their mass, gravitational interactions would",
+      "options": [
+        "become stronger",
+        "remain unchanged",
+        "vanish",
+        "become electromagnetic"
+      ],
+      "answer": "C",
+      "explanation": "Gravitational attraction depends on mass, so with zero mass there would be no gravitational interaction."
+    },
+    {
+      "concept": "Kepler's Laws of Planetary Motion",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "Kepler's first law states that a planet moves around the Sun in",
+      "options": [
+        "a circular path with the Sun at the centre",
+        "an elliptical orbit with the Sun at one focus",
+        "a parabolic path with the Sun at the centre",
+        "a straight line"
+      ],
+      "answer": "B",
+      "explanation": "The orbit of a planet is an ellipse with the Sun at one of its foci."
+    },
+    {
+      "concept": "Kepler's Laws of Planetary Motion",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "According to Kepler's second law, the line joining a planet to the Sun sweeps",
+      "options": [
+        "equal distances in equal times",
+        "equal areas in equal times",
+        "equal angles in equal times",
+        "equal speeds in equal times"
+      ],
+      "answer": "B",
+      "explanation": "Kepler's second law states that the radius vector sweeps out equal areas in equal intervals of time."
+    },
+    {
+      "concept": "Kepler's Laws of Planetary Motion",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "Kepler's third law gives the relation between a planet's period T and semi-major axis a as",
+      "options": [
+        "T ∝ a",
+        "T² ∝ a³",
+        "T³ ∝ a²",
+        "T² ∝ a"
+      ],
+      "answer": "B",
+      "explanation": "For planets orbiting the same Sun, T²/a³ is constant."
+    },
+    {
+      "concept": "Kepler's Laws of Planetary Motion",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "A planet moves fastest when it is",
+      "options": [
+        "farthest from the Sun",
+        "closest to the Sun",
+        "at the centre of the Sun",
+        "at the midpoint of its orbit"
+      ],
+      "answer": "B",
+      "explanation": "Equal areas are swept in equal times, so the planet must move faster when it is closer to the Sun."
+    },
+    {
+      "concept": "Kepler's Laws of Planetary Motion",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "If the orbital radius of a planet is increased by a factor of 4, its orbital period becomes",
+      "options": [
+        "2 times",
+        "4 times",
+        "8 times",
+        "16 times"
+      ],
+      "answer": "C",
+      "explanation": "Using T² ∝ r³, T' / T = 4^(3/2) = 8."
+    },
+    {
+      "concept": "Kepler's Laws of Planetary Motion",
+      "type": "Assessment",
+      "difficulty": "Easy",
+      "question": "A planet sweeps an area of 10^10 m² in 5 days. How much area will it sweep in the next 10 days if no external torque acts?",
+      "options": [
+        "1×10^10 m²",
+        "2×10^10 m²",
+        "5×10^9 m²",
+        "2×10^11 m²"
+      ],
+      "answer": "B",
+      "explanation": "Equal areas are swept in equal times, so twice the time gives twice the area: 2×10^10 m²."
+    },
+    {
+      "concept": "Kepler's Laws of Planetary Motion",
+      "type": "Assessment",
+      "difficulty": "Easy",
+      "question": "For two planets orbiting the same star, T1 = 2T2. The ratio of their semi-major axes a1/a2 is",
+      "options": [
+        "2",
+        "2^(2/3)",
+        "4",
+        "8"
+      ],
+      "answer": "B",
+      "explanation": "From T² ∝ a³, a1/a2 = (T1/T2)^(2/3) = 2^(2/3)."
+    },
+    {
+      "concept": "Kepler's Laws of Planetary Motion",
+      "type": "Assessment",
+      "difficulty": "Easy",
+      "question": "At perihelion, compared with aphelion, a planet has",
+      "options": [
+        "smaller speed and smaller angular speed",
+        "greater speed and greater angular speed about the Sun",
+        "the same speed but different direction",
+        "zero speed"
+      ],
+      "answer": "B",
+      "explanation": "The planet is closest at perihelion and moves fastest; its angular rate about the Sun is also greater."
+    },
+    {
+      "concept": "Kepler's Laws of Planetary Motion",
+      "type": "Assessment",
+      "difficulty": "Easy",
+      "question": "If the semi-major axis of a planet's orbit becomes 9 times larger around the same star, its period becomes",
+      "options": [
+        "3 times",
+        "9 times",
+        "27 times",
+        "81 times"
+      ],
+      "answer": "C",
+      "explanation": "T'/T = 9^(3/2) = 27."
+    },
+    {
+      "concept": "Kepler's Laws of Planetary Motion",
+      "type": "Assessment",
+      "difficulty": "Easy",
+      "question": "Kepler's laws are most directly applicable to the idealized motion of planets when",
+      "options": [
+        "gravitational interaction is neglected",
+        "the central star's gravity dominates the motion",
+        "the planet has no mass",
+        "the planet is at rest"
+      ],
+      "answer": "B",
+      "explanation": "Kepler's laws describe orbital motion when the central body's gravitational influence dominates."
+    },
+    {
+      "concept": "Universal Law of Gravitation",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "The magnitude of gravitational force between masses m1 and m2 separated by distance r is",
+      "options": [
+        "Gm1m2/r",
+        "Gm1m2/r²",
+        "G(m1+m2)/r²",
+        "Gm1m2r²"
+      ],
+      "answer": "B",
+      "explanation": "Newton's law of gravitation is F = Gm1m2/r²."
+    },
+    {
+      "concept": "Universal Law of Gravitation",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "If the distance between two masses is doubled, their gravitational force becomes",
+      "options": [
+        "2F",
+        "F/2",
+        "F/4",
+        "4F"
+      ],
+      "answer": "C",
+      "explanation": "Since F ∝ 1/r², doubling r makes the force one-fourth."
+    },
+    {
+      "concept": "Universal Law of Gravitation",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "If one of two masses is tripled while distance remains unchanged, gravitational force becomes",
+      "options": [
+        "F/3",
+        "F",
+        "3F",
+        "9F"
+      ],
+      "answer": "C",
+      "explanation": "Force is directly proportional to each mass."
+    },
+    {
+      "concept": "Universal Law of Gravitation",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "If both masses are doubled and the separation is unchanged, force becomes",
+      "options": [
+        "F",
+        "2F",
+        "4F",
+        "F/4"
+      ],
+      "answer": "C",
+      "explanation": "F ∝ m1m2, so doubling both gives a factor of 4."
+    },
+    {
+      "concept": "Universal Law of Gravitation",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "For two point masses, if the separation is reduced to half, the force becomes",
+      "options": [
+        "F/4",
+        "F/2",
+        "2F",
+        "4F"
+      ],
+      "answer": "D",
+      "explanation": "F ∝ 1/r², so replacing r by r/2 multiplies force by 4."
+    },
+    {
+      "concept": "Universal Law of Gravitation",
+      "type": "Assessment",
+      "difficulty": "Medium",
+      "question": "Two masses 2 kg and 3 kg are 1 m apart. Taking G = 6.67×10^-11 N m² kg^-2, the force is approximately",
+      "options": [
+        "A. 4.00×10^-10 N",
+        "B. 6.67×10^-11 N",
+        "C. 4.00×10^-11 N",
+        "D. 1.00×10^-10 N"
+      ],
+      "answer": "A",
+      "explanation": "F = G(2)(3)/1² = 6G = 4.002×10^-10 N. Thus the correct value is 4.00×10^-10 N."
+    },
+    {
+      "concept": "Universal Law of Gravitation",
+      "type": "Assessment",
+      "difficulty": "Easy",
+      "question": "Two bodies attract with force F. If their separation is increased by 3 times, the new force is",
+      "options": [
+        "F/3",
+        "F/6",
+        "F/9",
+        "3F"
+      ],
+      "answer": "C",
+      "explanation": "F' = F/3² = F/9."
+    },
+    {
+      "concept": "Universal Law of Gravitation",
+      "type": "Assessment",
+      "difficulty": "Easy",
+      "question": "If the product m1m2 is kept constant while their separation is doubled, the gravitational force",
+      "options": [
+        "doubles",
+        "becomes one-fourth",
+        "becomes half",
+        "remains unchanged"
+      ],
+      "answer": "B",
+      "explanation": "With m1m2 constant, F ∝ 1/r²; doubling r reduces F to F/4."
+    },
+    {
+      "concept": "Universal Law of Gravitation",
+      "type": "Assessment",
+      "difficulty": "Easy",
+      "question": "Two equal masses each exert a gravitational force F on each other. If both masses become three times their original values, the new force is",
+      "options": [
+        "3F",
+        "6F",
+        "9F",
+        "F/9"
+      ],
+      "answer": "C",
+      "explanation": "Both masses are multiplied by 3, so the product is multiplied by 9."
+    },
+    {
+      "concept": "Universal Law of Gravitation",
+      "type": "Assessment",
+      "difficulty": "Easy",
+      "question": "For a spherically symmetric body, outside the body its gravitational attraction can be treated as if its mass were concentrated at",
+      "options": [
+        "the surface",
+        "the centre",
+        "the topmost point",
+        "the nearest point only"
+      ],
+      "answer": "B",
+      "explanation": "For points outside a spherically symmetric body, the gravitational field is equivalent to that of a point mass at its centre."
+    },
+    {
+      "concept": "Gravitational Constant G",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "The SI unit of G is",
+      "options": [
+        "N kg² m^-2",
+        "N m² kg^-2",
+        "N m^-2 kg²",
+        "m s^-2"
+      ],
+      "answer": "B",
+      "explanation": "G has SI unit N m² kg^-2."
+    },
+    {
+      "concept": "Gravitational Constant G",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "The approximate value of G is",
+      "options": [
+        "9.8 N m² kg^-2",
+        "6.67×10^-11 N m² kg^-2",
+        "6.67×10^11 N m² kg^-2",
+        "3×10^8 N m² kg^-2"
+      ],
+      "answer": "B",
+      "explanation": "The universal gravitational constant is approximately 6.67×10^-11 N m² kg^-2."
+    },
+    {
+      "concept": "Gravitational Constant G",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "Which statement correctly compares G and g?",
+      "options": [
+        "Both are universal constants",
+        "G is universal, while g depends on location",
+        "g is universal, while G depends on location",
+        "Both depend only on object mass"
+      ],
+      "answer": "B",
+      "explanation": "G is universal; acceleration due to gravity g varies with the celestial body and location."
+    },
+    {
+      "concept": "Gravitational Constant G",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "The dimensions of G are",
+      "options": [
+        "[M L T^-2]",
+        "[M^-1 L^3 T^-2]",
+        "[M L^-1 T^-2]",
+        "[M^0 L^0 T^-1]"
+      ],
+      "answer": "B",
+      "explanation": "From F = Gm1m2/r², G = Fr²/m², giving [M^-1 L^3 T^-2]."
+    },
+    {
+      "concept": "Gravitational Constant G",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "The numerical value of G is approximately the same",
+      "options": [
+        "only on Earth",
+        "only in vacuum",
+        "throughout the universe",
+        "only at sea level"
+      ],
+      "answer": "C",
+      "explanation": "G is a universal constant and does not depend on location."
+    },
+    {
+      "concept": "Gravitational Constant G",
+      "type": "Assessment",
+      "difficulty": "Easy",
+      "question": "If the value of G were measured in a different unit system, its numerical value would",
+      "options": [
+        "necessarily remain 6.67×10^-11",
+        "change, while the physical constant remains the same",
+        "become zero",
+        "become equal to g"
+      ],
+      "answer": "B",
+      "explanation": "Numerical values depend on the chosen units, while the physical constant is unchanged."
+    },
+    {
+      "concept": "Gravitational Constant G",
+      "type": "Assessment",
+      "difficulty": "Easy",
+      "question": "From F = Gm1m2/r², the SI dimensions of G are obtained by",
+      "options": [
+        "Fr²/(m1m2)",
+        "F/(m1m2r²)",
+        "m1m2/(Fr²)",
+        "Fr/(m1m2)"
+      ],
+      "answer": "A",
+      "explanation": "Rearranging gives G = Fr²/(m1m2)."
+    },
+    {
+      "concept": "Gravitational Constant G",
+      "type": "Assessment",
+      "difficulty": "Easy",
+      "question": "If G were larger while two masses and their separation remained unchanged, the gravitational force would",
+      "options": [
+        "decrease",
+        "increase",
+        "remain zero",
+        "become independent of mass"
+      ],
+      "answer": "B",
+      "explanation": "Since F is directly proportional to G, a larger G produces a larger force."
+    },
+    {
+      "concept": "Gravitational Constant G",
+      "type": "Assessment",
+      "difficulty": "Easy",
+      "question": "Which quantity has the SI unit m s^-2 rather than N m² kg^-2?",
+      "options": [
+        "G",
+        "gravitational force",
+        "g",
+        "mass"
+      ],
+      "answer": "C",
+      "explanation": "Acceleration due to gravity g is measured in m s^-2; G has unit N m² kg^-2."
+    },
+    {
+      "concept": "Gravitational Constant G",
+      "type": "Assessment",
+      "difficulty": "Easy",
+      "question": "The small numerical magnitude of G in SI mainly indicates that",
+      "options": [
+        "gravity does not exist",
+        "gravitational interaction between ordinary small masses is weak",
+        "G changes every day",
+        "G is dimensionless"
+      ],
+      "answer": "B",
+      "explanation": "The small value of G leads to very small gravitational forces for ordinary laboratory-scale masses."
+    },
+    {
+      "concept": "Acceleration Due to Gravity",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "The acceleration of a freely falling body near Earth's surface, neglecting air resistance, is approximately",
+      "options": [
+        "0 m/s²",
+        "4.9 m/s²",
+        "9.8 m/s²",
+        "98 m/s²"
+      ],
+      "answer": "C",
+      "explanation": "Near Earth's surface, g is approximately 9.8 m/s²."
+    },
+    {
+      "concept": "Acceleration Due to Gravity",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "For a body of mass m near Earth's surface, the gravitational force is",
+      "options": [
+        "mg",
+        "m/g",
+        "g/m",
+        "m+g"
+      ],
+      "answer": "A",
+      "explanation": "Weight or gravitational force near Earth's surface is W = mg."
+    },
+    {
+      "concept": "Acceleration Due to Gravity",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "Ignoring air resistance, two bodies of different masses dropped from the same height have",
+      "options": [
+        "different accelerations",
+        "the same acceleration g",
+        "zero acceleration",
+        "acceleration proportional to mass"
+      ],
+      "answer": "B",
+      "explanation": "In the same gravitational field, all freely falling bodies have the same acceleration when air resistance is neglected."
+    },
+    {
+      "concept": "Acceleration Due to Gravity",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "The relation between Earth's mass M, radius R and surface acceleration g is",
+      "options": [
+        "g = GM/R",
+        "g = GM/R²",
+        "g = GR/M²",
+        "g = M/GR²"
+      ],
+      "answer": "B",
+      "explanation": "From Newton's law, g = GM/R² at Earth's surface."
+    },
+    {
+      "concept": "Acceleration Due to Gravity",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "If Earth's mass remains constant but its radius increases, surface g",
+      "options": [
+        "increases",
+        "decreases",
+        "remains unchanged",
+        "becomes zero immediately"
+      ],
+      "answer": "B",
+      "explanation": "Since g = GM/R², increasing R decreases g."
+    },
+    {
+      "concept": "Acceleration Due to Gravity",
+      "type": "Assessment",
+      "difficulty": "Easy",
+      "question": "A body is dropped from rest near Earth's surface. Its acceleration, ignoring air resistance, is",
+      "options": [
+        "upward and approximately 9.8 m/s²",
+        "downward and approximately 9.8 m/s²",
+        "zero",
+        "dependent on its mass"
+      ],
+      "answer": "B",
+      "explanation": "The acceleration is downward toward Earth's centre and has magnitude about 9.8 m/s²."
+    },
+    {
+      "concept": "Acceleration Due to Gravity",
+      "type": "Assessment",
+      "difficulty": "Easy",
+      "question": "If Earth's mass were doubled while its radius stayed the same, surface g would become",
+      "options": [
+        "g/2",
+        "g",
+        "2g",
+        "4g"
+      ],
+      "answer": "C",
+      "explanation": "g = GM/R², so doubling M doubles g."
+    },
+    {
+      "concept": "Acceleration Due to Gravity",
+      "type": "Assessment",
+      "difficulty": "Easy",
+      "question": "If both Earth's mass and radius were doubled, the new surface acceleration would be",
+      "options": [
+        "g/4",
+        "g/2",
+        "g",
+        "2g"
+      ],
+      "answer": "B",
+      "explanation": "g' = G(2M)/(2R)² = 2GM/4R² = g/2."
+    },
+    {
+      "concept": "Acceleration Due to Gravity",
+      "type": "Assessment",
+      "difficulty": "Easy",
+      "question": "A freely falling object near Earth has acceleration independent of its",
+      "options": [
+        "position",
+        "direction of gravity",
+        "mass, when air resistance is neglected",
+        "distance from Earth"
+      ],
+      "answer": "C",
+      "explanation": "For a given location, gravitational acceleration is independent of the object's mass in ideal free fall."
+    },
+    {
+      "concept": "Acceleration Due to Gravity",
+      "type": "Assessment",
+      "difficulty": "Easy",
+      "question": "At the surface of a planet of mass M and radius R, if M/R² is four times Earth's value, the planet's surface g is",
+      "options": [
+        "g/4",
+        "g/2",
+        "2g",
+        "4g"
+      ],
+      "answer": "D",
+      "explanation": "Because g = G(M/R²), four times M/R² gives four times the surface acceleration."
+    },
+    {
+      "concept": "Mass, Weight and g",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "Which quantity is a measure of the amount of matter in a body?",
+      "options": [
+        "Weight",
+        "Mass",
+        "Acceleration",
+        "Gravitational force only"
+      ],
+      "answer": "B",
+      "explanation": "Mass is the amount of matter and is measured in kilograms."
+    },
+    {
+      "concept": "Mass, Weight and g",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "The SI unit of weight is",
+      "options": [
+        "kg",
+        "N",
+        "J",
+        "m/s"
+      ],
+      "answer": "B",
+      "explanation": "Weight is a force, so its SI unit is newton (N)."
+    },
+    {
+      "concept": "Mass, Weight and g",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "The weight of a body of mass m at a location where acceleration due to gravity is g is",
+      "options": [
+        "m/g",
+        "mg",
+        "m+g",
+        "g/m"
+      ],
+      "answer": "B",
+      "explanation": "Weight W = mg."
+    },
+    {
+      "concept": "Mass, Weight and g",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "A person's mass on the Moon compared with Earth is",
+      "options": [
+        "six times",
+        "one-sixth",
+        "approximately the same",
+        "zero"
+      ],
+      "answer": "C",
+      "explanation": "Mass is an intrinsic property and does not change merely because g changes."
+    },
+    {
+      "concept": "Mass, Weight and g",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "A person's weight on the Moon is approximately",
+      "options": [
+        "the same as on Earth",
+        "six times the Earth value",
+        "one-sixth of the Earth value",
+        "zero"
+      ],
+      "answer": "C",
+      "explanation": "Moon's surface g is approximately one-sixth of Earth's, so W = mg is approximately one-sixth."
+    },
+    {
+      "concept": "Mass, Weight and g",
+      "type": "Assessment",
+      "difficulty": "Easy",
+      "question": "A 50 kg person is on Earth where g = 9.8 m/s². The person's weight is",
+      "options": [
+        "49 N",
+        "98 N",
+        "490 N",
+        "5000 N"
+      ],
+      "answer": "C",
+      "explanation": "W = mg = 50×9.8 = 490 N."
+    },
+    {
+      "concept": "Mass, Weight and g",
+      "type": "Assessment",
+      "difficulty": "Easy",
+      "question": "A body weighs 98 N on Earth where g = 9.8 m/s². Its mass is",
+      "options": [
+        "10 kg",
+        "9.8 kg",
+        "98 kg",
+        "1 kg"
+      ],
+      "answer": "A",
+      "explanation": "m = W/g = 98/9.8 = 10 kg."
+    },
+    {
+      "concept": "Mass, Weight and g",
+      "type": "Assessment",
+      "difficulty": "Easy",
+      "question": "A 5 kg object is taken from Earth to a place where g becomes half its original value. Its mass and weight become",
+      "options": [
+        "half mass, half weight",
+        "same mass, half weight",
+        "half mass, same weight",
+        "same mass, same weight"
+      ],
+      "answer": "B",
+      "explanation": "Mass remains 5 kg, while W = mg becomes half when g becomes half."
+    },
+    {
+      "concept": "Mass, Weight and g",
+      "type": "Assessment",
+      "difficulty": "Easy",
+      "question": "Two objects have masses 2 kg and 5 kg at the same place. The ratio of their weights W1:W2 is",
+      "options": [
+        "2:5",
+        "5:2",
+        "1:1",
+        "4:25"
+      ],
+      "answer": "A",
+      "explanation": "At the same location g is common, so W1:W2 = m1:m2 = 2:5."
+    },
+    {
+      "concept": "Mass, Weight and g",
+      "type": "Assessment",
+      "difficulty": "Easy",
+      "question": "An object is weightless in an orbiting spacecraft mainly because",
+      "options": [
+        "its mass becomes zero",
+        "there is no gravity anywhere in space",
+        "the spacecraft and object are in continuous free fall together",
+        "G becomes zero"
+      ],
+      "answer": "C",
+      "explanation": "The object and spacecraft accelerate together under gravity, producing apparent weightlessness."
+    },
+    {
+      "concept": "Variation of g with Altitude and Depth",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "At a height h above Earth's surface, the exact expression for g is",
+      "options": [
+        "GM/(R+h)²",
+        "GM/R²+h²",
+        "GMh/R²",
+        "GM/(R-h)²"
+      ],
+      "answer": "A",
+      "explanation": "The distance from Earth's centre is R+h, so g_h = GM/(R+h)²."
+    },
+    {
+      "concept": "Variation of g with Altitude and Depth",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "For small height h compared with Earth's radius R, g at height h is approximately",
+      "options": [
+        "g(1+h/R)",
+        "g(1-h/R)",
+        "g(1-2h/R)",
+        "g(1+h²/R²)"
+      ],
+      "answer": "C",
+      "explanation": "Using (1+h/R)^-2 ≈ 1-2h/R for h << R gives g_h ≈ g(1-2h/R)."
+    },
+    {
+      "concept": "Variation of g with Altitude and Depth",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "At the centre of a uniform Earth, the value of g is",
+      "options": [
+        "maximum",
+        "9.8 m/s²",
+        "zero",
+        "infinite"
+      ],
+      "answer": "C",
+      "explanation": "By symmetry, gravitational pulls from all directions cancel at the centre; for a uniform Earth, g = 0 there."
+    },
+    {
+      "concept": "Variation of g with Altitude and Depth",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "For a uniform Earth, inside the Earth at depth d, g is",
+      "options": [
+        "g(1-d/R)",
+        "g(1+d/R)",
+        "gR/d",
+        "g(1-d²/R²)"
+      ],
+      "answer": "A",
+      "explanation": "For a uniform spherical Earth, g_d = g(1-d/R)."
+    },
+    {
+      "concept": "Variation of g with Altitude and Depth",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "At a height equal to Earth's radius (h = R), surface g becomes",
+      "options": [
+        "g/2",
+        "g/4",
+        "2g",
+        "4g"
+      ],
+      "answer": "B",
+      "explanation": "g_h = GM/(2R)² = g/4."
+    },
+    {
+      "concept": "Variation of g with Altitude and Depth",
+      "type": "Assessment",
+      "difficulty": "Easy",
+      "question": "At depth d = R/2 inside a uniform Earth, the acceleration due to gravity is",
+      "options": [
+        "0",
+        "g/4",
+        "g/2",
+        "2g"
+      ],
+      "answer": "C",
+      "explanation": "g_d = g(1-d/R) = g(1-1/2) = g/2."
+    },
+    {
+      "concept": "Variation of g with Altitude and Depth",
+      "type": "Assessment",
+      "difficulty": "Easy",
+      "question": "At height h = R above Earth's surface, the ratio g_h/g is",
+      "options": [
+        "1/2",
+        "1/3",
+        "1/4",
+        "1/9"
+      ],
+      "answer": "C",
+      "explanation": "The distance from Earth's centre becomes 2R, so g_h/g = R²/(2R)² = 1/4."
+    },
+    {
+      "concept": "Variation of g with Altitude and Depth",
+      "type": "Assessment",
+      "difficulty": "Easy",
+      "question": "For small altitude h and depth d, which comparison is correct for equal values h = d?",
+      "options": [
+        "Both changes in g have equal magnitude",
+        "Decrease due to altitude is approximately twice the decrease due to depth",
+        "Decrease due to depth is approximately twice the decrease due to altitude",
+        "Both increase g"
+      ],
+      "answer": "B",
+      "explanation": "For h << R, altitude gives g_h ≈ g(1-2h/R), while depth gives g_d = g(1-h/R)."
+    },
+    {
+      "concept": "Variation of g with Altitude and Depth",
+      "type": "Assessment",
+      "difficulty": "Easy",
+      "question": "A body is moved from Earth's surface to a depth R/2 inside a uniform Earth. Its weight becomes",
+      "options": [
+        "zero",
+        "half its surface value",
+        "twice its surface value",
+        "one-fourth its surface value"
+      ],
+      "answer": "B",
+      "explanation": "Since g at depth R/2 is g/2 and mass is unchanged, weight becomes half."
+    },
+    {
+      "concept": "Variation of g with Altitude and Depth",
+      "type": "Assessment",
+      "difficulty": "Easy",
+      "question": "At what depth inside a uniform Earth will g become 25% of its surface value?",
+      "options": [
+        "R/4",
+        "R/2",
+        "3R/4",
+        "R"
+      ],
+      "answer": "C",
+      "explanation": "Set g_d/g = 1-d/R = 1/4. Thus d/R = 3/4, so d = 3R/4."
+    },
+    {
+      "concept": "Introduction to Gravitation",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "Which force keeps a book resting on a table from floating away from Earth?",
+      "options": [
+        "A. Earth's gravitational attraction",
+        "B. Normal reaction",
+        "C. Friction",
+        "D. Magnetic force"
+      ],
+      "answer": "A",
+      "explanation": "Earth's gravitational attraction acts on the book."
+    },
+    {
+      "concept": "Introduction to Gravitation",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "Gravitational force between two masses is always",
+      "options": [
+        "A. Attractive",
+        "B. Repulsive",
+        "C. Alternately attractive and repulsive",
+        "D. Zero"
+      ],
+      "answer": "A",
+      "explanation": "For ordinary positive masses, gravitational interaction is attractive."
+    },
+    {
+      "concept": "Introduction to Gravitation",
+      "type": "Practice",
+      "difficulty": "Medium",
+      "question": "If the distance between two bodies becomes extremely large, their mutual gravitational force approaches",
+      "options": [
+        "A. Infinite",
+        "B. Zero",
+        "C. Maximum",
+        "D. Constant"
+      ],
+      "answer": "B",
+      "explanation": "Since gravitational force varies as 1/r², it approaches zero as r becomes very large."
+    },
+    {
+      "concept": "Introduction to Gravitation",
+      "type": "Practice",
+      "difficulty": "Medium",
+      "question": "Which statement distinguishes gravity from gravitation?",
+      "options": [
+        "A. They are completely unrelated",
+        "B. Gravity acts only between charged bodies",
+        "C. Gravitation is universal; gravity commonly describes the local effect near a celestial body",
+        "D. Gravity is always repulsive"
+      ],
+      "answer": "C",
+      "explanation": "Gravitation is the universal attraction between masses, while gravity commonly refers to gravitational attraction near a celestial body."
+    },
+    {
+      "concept": "Introduction to Gravitation",
+      "type": "Practice",
+      "difficulty": "Hard",
+      "question": "Why can the gravitational force of a star control the motion of a planet despite the large separation?",
+      "options": [
+        "A. It acts only through contact",
+        "B. It requires air",
+        "C. It stops beyond Earth's atmosphere",
+        "D. It is a long-range force"
+      ],
+      "answer": "D",
+      "explanation": "Gravity is a long-range interaction and acts across large distances."
+    },
+    {
+      "concept": "Introduction to Gravitation",
+      "type": "Assessment",
+      "difficulty": "Easy",
+      "question": "Which of the following is NOT a gravitational phenomenon?",
+      "options": [
+        "A. Moon's orbit",
+        "B. Electric current",
+        "C. Falling of a stone",
+        "D. Planetary orbit"
+      ],
+      "answer": "B",
+      "explanation": "Electric current is caused by electromagnetic effects, not gravity."
+    },
+    {
+      "concept": "Introduction to Gravitation",
+      "type": "Assessment",
+      "difficulty": "Medium",
+      "question": "The gravitational force between two isolated masses is directed",
+      "options": [
+        "A. Perpendicular to the line joining centres",
+        "B. Tangential to the orbit always",
+        "C. Along the line joining centres",
+        "D. Opposite to velocity always"
+      ],
+      "answer": "C",
+      "explanation": "The force acts along the line joining their centres."
+    },
+    {
+      "concept": "Introduction to Gravitation",
+      "type": "Assessment",
+      "difficulty": "Medium",
+      "question": "If one body is removed from a two-body gravitational system, the mutual gravitational force between the original pair becomes",
+      "options": [
+        "A. It doubles",
+        "B. It becomes infinite",
+        "C. It remains unchanged",
+        "D. The original mutual force no longer exists"
+      ],
+      "answer": "D",
+      "explanation": "With one body absent, there is no pair of masses between which the original force can act."
+    },
+    {
+      "concept": "Introduction to Gravitation",
+      "type": "Assessment",
+      "difficulty": "Hard",
+      "question": "A planet and its moon attract each other. Which statement is correct?",
+      "options": [
+        "A. They exert equal and opposite forces on each other",
+        "B. The planet exerts force but the moon does not",
+        "C. The moon's force is always zero",
+        "D. Only the heavier body attracts"
+      ],
+      "answer": "A",
+      "explanation": "Both bodies exert equal and opposite gravitational forces on each other."
+    },
+    {
+      "concept": "Introduction to Gravitation",
+      "type": "Assessment",
+      "difficulty": "Hard",
+      "question": "Gravitational interaction is called universal because",
+      "options": [
+        "A. Only planets attract one another",
+        "B. Only stars have gravity",
+        "C. Every mass can gravitationally interact with every other mass",
+        "D. Gravity acts only inside galaxies"
+      ],
+      "answer": "C",
+      "explanation": "Every object having mass can gravitationally interact with every other object having mass."
+    },
+    {
+      "concept": "Kepler's Laws of Planetary Motion",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "The point in a planet's elliptical orbit closest to the Sun is called",
+      "options": [
+        "A. Perihelion",
+        "B. Aphelion",
+        "C. Focus",
+        "D. Node"
+      ],
+      "answer": "B",
+      "explanation": "The closest point is perihelion."
+    },
+    {
+      "concept": "Kepler's Laws of Planetary Motion",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "The point farthest from the Sun in an elliptical orbit is called",
+      "options": [
+        "A. Perihelion",
+        "B. Focus",
+        "C. Aphelion",
+        "D. Centre"
+      ],
+      "answer": "C",
+      "explanation": "The farthest point is aphelion."
+    },
+    {
+      "concept": "Kepler's Laws of Planetary Motion",
+      "type": "Practice",
+      "difficulty": "Medium",
+      "question": "Kepler's second law is a consequence of conservation of",
+      "options": [
+        "A. Angular momentum",
+        "B. Linear momentum only",
+        "C. Mass",
+        "D. Energy only"
+      ],
+      "answer": "A",
+      "explanation": "The constant areal velocity follows from conservation of angular momentum."
+    },
+    {
+      "concept": "Kepler's Laws of Planetary Motion",
+      "type": "Practice",
+      "difficulty": "Medium",
+      "question": "If a planet's distance from the Sun decreases while angular momentum is conserved, its speed",
+      "options": [
+        "A. Decreases",
+        "B. Becomes zero",
+        "C. Remains exactly unchanged",
+        "D. Increases"
+      ],
+      "answer": "D",
+      "explanation": "At smaller radius, conservation of angular momentum requires greater tangential speed."
+    },
+    {
+      "concept": "Kepler's Laws of Planetary Motion",
+      "type": "Practice",
+      "difficulty": "Hard",
+      "question": "For planets around the same Sun, which quantity is constant according to Kepler's third law?",
+      "options": [
+        "A. T/a²",
+        "B. T²/a³",
+        "C. T³/a²",
+        "D. T²a³"
+      ],
+      "answer": "B",
+      "explanation": "T²/a³ is constant for planets orbiting the same central star."
+    },
+    {
+      "concept": "Kepler's Laws of Planetary Motion",
+      "type": "Assessment",
+      "difficulty": "Easy",
+      "question": "If a planet takes 8 years to complete an orbit, its semi-major axis relative to a planet taking 1 year is",
+      "options": [
+        "A. 2",
+        "B. 3",
+        "C. 4",
+        "D. 8"
+      ],
+      "answer": "C",
+      "explanation": "a ratio = (8/1)^(2/3) = 4."
+    },
+    {
+      "concept": "Kepler's Laws of Planetary Motion",
+      "type": "Assessment",
+      "difficulty": "Medium",
+      "question": "A planet's areal velocity is constant. If it sweeps 6×10^10 m² in 3 days, it sweeps in 5 days",
+      "options": [
+        "A. 6×10^10",
+        "B. 8×10^10",
+        "C. 9×10^10",
+        "D. 1×10^11"
+      ],
+      "answer": "D",
+      "explanation": "Area swept is proportional to time, so 6×10^10 × 5/3 = 10^11 m²."
+    },
+    {
+      "concept": "Kepler's Laws of Planetary Motion",
+      "type": "Assessment",
+      "difficulty": "Medium",
+      "question": "If T²/a³ = 4 for one planet around a star, another planet around the same star must also have",
+      "options": [
+        "A. T²/a³ = 4",
+        "B. T/a³ = 4",
+        "C. T³/a² = 4",
+        "D. T²a³ = 4"
+      ],
+      "answer": "A",
+      "explanation": "The same ratio T²/a³."
+    },
+    {
+      "concept": "Kepler's Laws of Planetary Motion",
+      "type": "Assessment",
+      "difficulty": "Hard",
+      "question": "A planet has orbital period 27 years. Its semi-major axis in AU, taking Earth's period as 1 year and semi-major axis as 1 AU, is",
+      "options": [
+        "A. 3 AU",
+        "B. 9 AU",
+        "C. 18 AU",
+        "D. 27 AU"
+      ],
+      "answer": "B",
+      "explanation": "a = T^(2/3) = 27^(2/3) = 9 AU."
+    },
+    {
+      "concept": "Kepler's Laws of Planetary Motion",
+      "type": "Assessment",
+      "difficulty": "Hard",
+      "question": "At aphelion, the planet's speed is lower than at perihelion because",
+      "options": [
+        "A. It is farther from the Sun and angular momentum is conserved",
+        "B. Gravity disappears there",
+        "C. It is farther from the Sun and angular momentum conservation gives lower speed",
+        "D. The planet loses mass"
+      ],
+      "answer": "C",
+      "explanation": "Conservation of angular momentum requires greater speed at smaller orbital radius."
+    },
+    {
+      "concept": "Universal Law of Gravitation",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "If both masses are reduced to half while distance is unchanged, force becomes",
+      "options": [
+        "A. F/4",
+        "B. F/2",
+        "C. F/4",
+        "D. 4F"
+      ],
+      "answer": "C",
+      "explanation": "The product of masses becomes one-fourth, so force becomes one-fourth."
+    },
+    {
+      "concept": "Universal Law of Gravitation",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "If one mass is doubled and the distance is tripled, the force becomes",
+      "options": [
+        "A. 2F/9",
+        "B. 2F/3",
+        "C. 6F",
+        "D. 9F/2"
+      ],
+      "answer": "A",
+      "explanation": "F'/F = 2/3² = 2/9."
+    },
+    {
+      "concept": "Universal Law of Gravitation",
+      "type": "Practice",
+      "difficulty": "Medium",
+      "question": "If both masses are tripled and distance is doubled, force becomes",
+      "options": [
+        "A. 9F",
+        "B. 3F/2",
+        "C. F/9",
+        "D. 9F/4"
+      ],
+      "answer": "D",
+      "explanation": "F'/F = 9/4."
+    },
+    {
+      "concept": "Universal Law of Gravitation",
+      "type": "Practice",
+      "difficulty": "Medium",
+      "question": "Two masses exert force F at distance r. At distance 2r, the force is",
+      "options": [
+        "A. F/2",
+        "B. F/4",
+        "C. 2F",
+        "D. 4F"
+      ],
+      "answer": "B",
+      "explanation": "Inverse-square dependence gives F/4."
+    },
+    {
+      "concept": "Universal Law of Gravitation",
+      "type": "Practice",
+      "difficulty": "Hard",
+      "question": "If gravitational force is kept constant while one mass is doubled, the distance must be changed by factor",
+      "options": [
+        "A. 2",
+        "B. 1/2",
+        "C. √2",
+        "D. 2√2"
+      ],
+      "answer": "C",
+      "explanation": "For constant F, r² must also double, so r changes by √2."
+    },
+    {
+      "concept": "Universal Law of Gravitation",
+      "type": "Assessment",
+      "difficulty": "Easy",
+      "question": "Two masses 4 kg and 5 kg are 2 m apart. With G = 6.67×10^-11, force is approximately",
+      "options": [
+        "A. 3.34×10^-10 N",
+        "B. 6.67×10^-10 N",
+        "C. 1.67×10^-10 N",
+        "D. 3.34×10^-11 N"
+      ],
+      "answer": "A",
+      "explanation": "F = 6.67×10^-11 × 20/4 = 3.335×10^-10 N."
+    },
+    {
+      "concept": "Universal Law of Gravitation",
+      "type": "Assessment",
+      "difficulty": "Medium",
+      "question": "If the separation is increased from r to 4r, gravitational force becomes",
+      "options": [
+        "A. F/4",
+        "B. F/8",
+        "C. 4F",
+        "D. F/16"
+      ],
+      "answer": "D",
+      "explanation": "F'/F = 1/16."
+    },
+    {
+      "concept": "Universal Law of Gravitation",
+      "type": "Assessment",
+      "difficulty": "Medium",
+      "question": "If m1 is increased by 50% and m2 is decreased by 20%, force changes by factor",
+      "options": [
+        "A. 0.8F",
+        "B. 1.2F",
+        "C. 1.5F",
+        "D. 2F"
+      ],
+      "answer": "B",
+      "explanation": "Factor = 1.5×0.8 = 1.2, so force increases by 20%."
+    },
+    {
+      "concept": "Universal Law of Gravitation",
+      "type": "Assessment",
+      "difficulty": "Hard",
+      "question": "Two masses m and 4m are separated by r. If both are moved so their separation becomes 2r, new force compared with original is",
+      "options": [
+        "A. F/2",
+        "B. F",
+        "C. F/4",
+        "D. 4F"
+      ],
+      "answer": "C",
+      "explanation": "Mass product is unchanged and distance doubles, so force becomes F/4."
+    },
+    {
+      "concept": "Universal Law of Gravitation",
+      "type": "Assessment",
+      "difficulty": "Hard",
+      "question": "The gravitational force between two bodies is F. If their masses are both increased by 10% and distance is unchanged, force becomes",
+      "options": [
+        "A. 1.21F",
+        "B. 1.10F",
+        "C. 1.01F",
+        "D. 0.81F"
+      ],
+      "answer": "A",
+      "explanation": "New factor = 1.1×1.1 = 1.21, so force is 1.21F."
+    },
+    {
+      "concept": "Gravitational Constant G",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "G is called universal because its value",
+      "options": [
+        "A. It is independent of location",
+        "B. It changes with altitude",
+        "C. It depends on Earth's radius",
+        "D. It depends on the test mass"
+      ],
+      "answer": "A",
+      "explanation": "G has the same physical value throughout the universe."
+    },
+    {
+      "concept": "Gravitational Constant G",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "The unit N m² kg^-2 can also be written dimensionally as",
+      "options": [
+        "A. m kg^-1 s^-2",
+        "B. m³ kg^-1 s^-2",
+        "C. kg m^-3 s²",
+        "D. N kg"
+      ],
+      "answer": "C",
+      "explanation": "It is equivalent to m³ kg^-1 s^-2."
+    },
+    {
+      "concept": "Gravitational Constant G",
+      "type": "Practice",
+      "difficulty": "Medium",
+      "question": "The dimensions of gravitational force are",
+      "options": [
+        "A. ML²T^-2",
+        "B. MLT^-2",
+        "C. ML^-1T^-2",
+        "D. M^-1LT^-2"
+      ],
+      "answer": "B",
+      "explanation": "Force has dimensions ML T^-2."
+    },
+    {
+      "concept": "Gravitational Constant G",
+      "type": "Practice",
+      "difficulty": "Medium",
+      "question": "Which equation can be used to determine G experimentally?",
+      "options": [
+        "A. G = Fm1m2/r²",
+        "B. G = Fr/(m1m2)",
+        "C. G = m1m2/(Fr²)",
+        "D. G = Fr²/(m1m2)"
+      ],
+      "answer": "D",
+      "explanation": "From F = Gm1m2/r², G = Fr²/(m1m2)."
+    },
+    {
+      "concept": "Gravitational Constant G",
+      "type": "Practice",
+      "difficulty": "Hard",
+      "question": "If G had dimensions [M^-1L^3T^-2], then the gravitational law is dimensionally consistent because",
+      "options": [
+        "A. It gives energy dimensions",
+        "B. It gives acceleration dimensions",
+        "C. It gives force dimensions after multiplication by m1m2/r²",
+        "D. It gives mass dimensions"
+      ],
+      "answer": "C",
+      "explanation": "Substitution gives [M^-1L^3T^-2][M²]/L² = MLT^-2, the dimension of force."
+    },
+    {
+      "concept": "Gravitational Constant G",
+      "type": "Assessment",
+      "difficulty": "Easy",
+      "question": "The approximate SI value of G is",
+      "options": [
+        "A. 9.8",
+        "B. 6.67×10^-11",
+        "C. 3×10^8",
+        "D. 1.6×10^-19"
+      ],
+      "answer": "B",
+      "explanation": "G ≈ 6.67×10^-11 N m² kg^-2."
+    },
+    {
+      "concept": "Gravitational Constant G",
+      "type": "Assessment",
+      "difficulty": "Medium",
+      "question": "A quantity has unit m³ kg^-1 s^-2. It can represent",
+      "options": [
+        "A. G",
+        "B. g",
+        "C. velocity",
+        "D. force"
+      ],
+      "answer": "A",
+      "explanation": "This is another SI form of the unit of G."
+    },
+    {
+      "concept": "Gravitational Constant G",
+      "type": "Assessment",
+      "difficulty": "Medium",
+      "question": "Which factor does NOT determine the value of G itself?",
+      "options": [
+        "A. test mass",
+        "B. distance",
+        "C. source mass",
+        "D. none of these"
+      ],
+      "answer": "D",
+      "explanation": "G is universal and is not changed by the masses or separation used in an experiment."
+    },
+    {
+      "concept": "Gravitational Constant G",
+      "type": "Assessment",
+      "difficulty": "Hard",
+      "question": "If the measured force is doubled while masses and separation remain unchanged, the inferred value of G would",
+      "options": [
+        "A. Half",
+        "B. Unchanged",
+        "C. Double",
+        "D. Four times"
+      ],
+      "answer": "C",
+      "explanation": "Since G = Fr²/(m1m2), doubling F doubles the inferred value."
+    },
+    {
+      "concept": "Gravitational Constant G",
+      "type": "Assessment",
+      "difficulty": "Hard",
+      "question": "Why is G much smaller numerically than g?",
+      "options": [
+        "A. They are different physical quantities and cannot be compared as identical numerical constants",
+        "B. G is a force",
+        "C. g is universal",
+        "D. G has no units"
+      ],
+      "answer": "A",
+      "explanation": "They are different physical quantities with different dimensions and units; their numerical values are not directly comparable as the same kind of quantity."
+    },
+    {
+      "concept": "Acceleration Due to Gravity",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "The direction of g near Earth's surface is",
+      "options": [
+        "A. Toward Earth's centre",
+        "B. Upward always",
+        "C. Along velocity",
+        "D. Horizontal"
+      ],
+      "answer": "A",
+      "explanation": "Acceleration due to gravity is directed toward Earth's centre."
+    },
+    {
+      "concept": "Acceleration Due to Gravity",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "For a freely falling object, the only force considered in ideal free fall is",
+      "options": [
+        "A. Normal reaction",
+        "B. Gravitational force",
+        "C. Friction",
+        "D. Tension"
+      ],
+      "answer": "B",
+      "explanation": "Neglecting air resistance, gravitational force is the only force."
+    },
+    {
+      "concept": "Acceleration Due to Gravity",
+      "type": "Practice",
+      "difficulty": "Medium",
+      "question": "If a body is thrown vertically upward, its acceleration while moving upward is",
+      "options": [
+        "A. Upward",
+        "B. Zero",
+        "C. Downward",
+        "D. Horizontal"
+      ],
+      "answer": "C",
+      "explanation": "Gravity remains downward even while velocity is upward."
+    },
+    {
+      "concept": "Acceleration Due to Gravity",
+      "type": "Practice",
+      "difficulty": "Medium",
+      "question": "At the highest point of a vertical throw, acceleration is",
+      "options": [
+        "A. Zero",
+        "B. Upward",
+        "C. Horizontal",
+        "D. Downward with magnitude g"
+      ],
+      "answer": "D",
+      "explanation": "Velocity is momentarily zero, but gravitational acceleration remains g downward."
+    },
+    {
+      "concept": "Acceleration Due to Gravity",
+      "type": "Practice",
+      "difficulty": "Hard",
+      "question": "Two objects of masses 1 kg and 10 kg are released simultaneously in vacuum. Their accelerations are",
+      "options": [
+        "A. Same",
+        "B. 10 times",
+        "C. 1/10",
+        "D. Depends on mass"
+      ],
+      "answer": "A",
+      "explanation": "In the same gravitational field, acceleration is independent of mass."
+    },
+    {
+      "concept": "Acceleration Due to Gravity",
+      "type": "Assessment",
+      "difficulty": "Easy",
+      "question": "The weight of a 2 kg body at g=9.8 m/s² is",
+      "options": [
+        "A. 9.8 N",
+        "B. 19.6 N",
+        "C. 4.9 N",
+        "D. 98 N"
+      ],
+      "answer": "B",
+      "explanation": "W = 2×9.8 = 19.6 N."
+    },
+    {
+      "concept": "Acceleration Due to Gravity",
+      "type": "Assessment",
+      "difficulty": "Medium",
+      "question": "A stone is thrown upward with velocity 19.6 m/s. Ignoring air resistance, time to reach the highest point is",
+      "options": [
+        "A. 1 s",
+        "B. 1.5 s",
+        "C. 2 s",
+        "D. 4 s"
+      ],
+      "answer": "C",
+      "explanation": "At the top v=0; t=u/g=19.6/9.8=2 s."
+    },
+    {
+      "concept": "Acceleration Due to Gravity",
+      "type": "Assessment",
+      "difficulty": "Medium",
+      "question": "A body falls freely for 3 s from rest near Earth. Its speed is",
+      "options": [
+        "A. 9.8 m/s",
+        "B. 19.6 m/s",
+        "C. 24.5 m/s",
+        "D. 29.4 m/s"
+      ],
+      "answer": "D",
+      "explanation": "v = gt = 9.8×3 = 29.4 m/s."
+    },
+    {
+      "concept": "Acceleration Due to Gravity",
+      "type": "Assessment",
+      "difficulty": "Hard",
+      "question": "For a planet with M'=4M and R'=2R, surface g' compared with Earth's is",
+      "options": [
+        "A. g'=g",
+        "B. g'=2g",
+        "C. g'=4g",
+        "D. g'=g/2"
+      ],
+      "answer": "A",
+      "explanation": "g'/g = 4/2² = 1."
+    },
+    {
+      "concept": "Acceleration Due to Gravity",
+      "type": "Assessment",
+      "difficulty": "Hard",
+      "question": "If a planet's radius is unchanged and its surface g is 3 times Earth's, its mass is",
+      "options": [
+        "A. M/3",
+        "B. M/2",
+        "C. 3M",
+        "D. 9M"
+      ],
+      "answer": "C",
+      "explanation": "Since g ∝ M for fixed R, the planet's mass is 3M."
+    },
+    {
+      "concept": "Mass, Weight and g",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "Mass is a scalar quantity whereas weight is",
+      "options": [
+        "A. A vector quantity",
+        "B. A scalar quantity",
+        "C. Dimensionless",
+        "D. Always zero"
+      ],
+      "answer": "A",
+      "explanation": "Weight is a force and therefore has both magnitude and direction."
+    },
+    {
+      "concept": "Mass, Weight and g",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "If g at a location is zero, the weight of a body there is",
+      "options": [
+        "A. Infinite",
+        "B. mg",
+        "C. Zero",
+        "D. m/g"
+      ],
+      "answer": "C",
+      "explanation": "W = mg, so if g=0, weight is zero."
+    },
+    {
+      "concept": "Mass, Weight and g",
+      "type": "Practice",
+      "difficulty": "Medium",
+      "question": "A body of mass 10 kg is carried from Earth to Moon. Which remains unchanged?",
+      "options": [
+        "A. Weight",
+        "B. Mass",
+        "C. g",
+        "D. Gravitational force"
+      ],
+      "answer": "B",
+      "explanation": "Mass does not depend on the local gravitational field."
+    },
+    {
+      "concept": "Mass, Weight and g",
+      "type": "Practice",
+      "difficulty": "Medium",
+      "question": "If g increases by 20% while mass remains constant, weight increases by",
+      "options": [
+        "A. 10%",
+        "B. 40%",
+        "C. 50%",
+        "D. 20%"
+      ],
+      "answer": "D",
+      "explanation": "Weight is directly proportional to g, so it increases by 20%."
+    },
+    {
+      "concept": "Mass, Weight and g",
+      "type": "Practice",
+      "difficulty": "Hard",
+      "question": "Two objects have equal weights at the same location. Their masses must be",
+      "options": [
+        "A. Equal",
+        "B. Inversely proportional",
+        "C. Unrelated",
+        "D. Always different"
+      ],
+      "answer": "A",
+      "explanation": "At the same location, g is common, so equal W means equal m."
+    },
+    {
+      "concept": "Mass, Weight and g",
+      "type": "Assessment",
+      "difficulty": "Easy",
+      "question": "A 60 kg student has weight 588 N where g=9.8 m/s². This student's mass on Moon is",
+      "options": [
+        "A. 10 kg",
+        "B. 60 kg",
+        "C. 98 kg",
+        "D. 360 kg"
+      ],
+      "answer": "B",
+      "explanation": "Mass is invariant under change of location, so it remains 60 kg."
+    },
+    {
+      "concept": "Mass, Weight and g",
+      "type": "Assessment",
+      "difficulty": "Medium",
+      "question": "If an object has mass 8 kg and is on a planet where g=5 m/s², its weight is",
+      "options": [
+        "A. 13 N",
+        "B. 16 N",
+        "C. 40 N",
+        "D. 80 N"
+      ],
+      "answer": "C",
+      "explanation": "W = 8×5 = 40 N."
+    },
+    {
+      "concept": "Mass, Weight and g",
+      "type": "Assessment",
+      "difficulty": "Medium",
+      "question": "A 20 N object is moved to a location where g becomes 2.5 times its original value. Its new weight is",
+      "options": [
+        "A. 8 N",
+        "B. 22.5 N",
+        "C. 40 N",
+        "D. 50 N"
+      ],
+      "answer": "D",
+      "explanation": "W is proportional to g, so it becomes 2.5×20 = 50 N."
+    },
+    {
+      "concept": "Mass, Weight and g",
+      "type": "Assessment",
+      "difficulty": "Hard",
+      "question": "A spring balance measures the weight of an object. If taken from Earth to a place with smaller g, its reading",
+      "options": [
+        "A. Decreases",
+        "B. Increases",
+        "C. Becomes infinite",
+        "D. Never changes"
+      ],
+      "answer": "A",
+      "explanation": "A spring balance measures force, so its reading decreases when g decreases."
+    },
+    {
+      "concept": "Mass, Weight and g",
+      "type": "Assessment",
+      "difficulty": "Hard",
+      "question": "Which statement is correct about mass and weight?",
+      "options": [
+        "A. Both are measured in kg",
+        "B. Both are vectors",
+        "C. Mass is intrinsic; weight is gravitational force",
+        "D. Weight is independent of g"
+      ],
+      "answer": "C",
+      "explanation": "Mass is intrinsic and measured in kg; weight is gravitational force and measured in N."
+    },
+    {
+      "concept": "Variation of g with Altitude and Depth",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "As altitude above Earth's surface increases, g generally",
+      "options": [
+        "A. Decreases",
+        "B. Increases",
+        "C. Remains exactly constant",
+        "D. Becomes negative"
+      ],
+      "answer": "A",
+      "explanation": "Outside Earth, g = GM/(R+h)^2, so it decreases with altitude."
+    },
+    {
+      "concept": "Variation of g with Altitude and Depth",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "As depth increases inside a uniform Earth, g",
+      "options": [
+        "A. Increases",
+        "B. Decreases",
+        "C. Becomes infinite",
+        "D. Remains unchanged"
+      ],
+      "answer": "B",
+      "explanation": "For a uniform Earth, g_d = g(1-d/R), which decreases linearly with depth."
+    },
+    {
+      "concept": "Variation of g with Altitude and Depth",
+      "type": "Practice",
+      "difficulty": "Medium",
+      "question": "At a height h = R/2 above Earth's surface, g_h/g is",
+      "options": [
+        "A. 1/2",
+        "B. 1/3",
+        "C. 4/9",
+        "D. 3/4"
+      ],
+      "answer": "C",
+      "explanation": "g_h/g = R²/(R+R/2)² = 1/(1.5)² = 4/9."
+    },
+    {
+      "concept": "Variation of g with Altitude and Depth",
+      "type": "Practice",
+      "difficulty": "Medium",
+      "question": "At a depth R/4 inside a uniform Earth, g_d/g is",
+      "options": [
+        "A. 1/4",
+        "B. 1/2",
+        "C. 2/3",
+        "D. 3/4"
+      ],
+      "answer": "D",
+      "explanation": "g_d/g = 1 - 1/4 = 3/4."
+    },
+    {
+      "concept": "Variation of g with Altitude and Depth",
+      "type": "Practice",
+      "difficulty": "Hard",
+      "question": "For small altitude h, the fractional decrease in g is approximately",
+      "options": [
+        "A. 2h/R",
+        "B. h/2R",
+        "C. h/R²",
+        "D. R/2h"
+      ],
+      "answer": "A",
+      "explanation": "g_h ≈ g(1-2h/R), so fractional decrease is 2h/R."
+    },
+    {
+      "concept": "Variation of g with Altitude and Depth",
+      "type": "Assessment",
+      "difficulty": "Easy",
+      "question": "At altitude h=R, the distance from Earth's centre is",
+      "options": [
+        "A. R",
+        "B. 2R",
+        "C. R/2",
+        "D. 3R"
+      ],
+      "answer": "B",
+      "explanation": "Distance from centre is R+h=2R."
+    },
+    {
+      "concept": "Variation of g with Altitude and Depth",
+      "type": "Assessment",
+      "difficulty": "Medium",
+      "question": "At altitude h=R/2, the surface value g changes to",
+      "options": [
+        "A. g/4",
+        "B. g/2",
+        "C. 4g/9",
+        "D. 9g/4"
+      ],
+      "answer": "C",
+      "explanation": "g_h = g/(1.5)^2 = 4g/9."
+    },
+    {
+      "concept": "Variation of g with Altitude and Depth",
+      "type": "Assessment",
+      "difficulty": "Medium",
+      "question": "At depth R/3 inside a uniform Earth, g becomes",
+      "options": [
+        "A. g/3",
+        "B. g/2",
+        "C. g/4",
+        "D. 2g/3"
+      ],
+      "answer": "D",
+      "explanation": "g_d = g(1-1/3)=2g/3."
+    },
+    {
+      "concept": "Variation of g with Altitude and Depth",
+      "type": "Assessment",
+      "difficulty": "Hard",
+      "question": "At what altitude h is g equal to g/9?",
+      "options": [
+        "A. 2R",
+        "B. R",
+        "C. 3R",
+        "D. 9R"
+      ],
+      "answer": "A",
+      "explanation": "GM/(R+h)^2 = GM/(9R²), so R+h=3R and h=2R."
+    },
+    {
+      "concept": "Variation of g with Altitude and Depth",
+      "type": "Assessment",
+      "difficulty": "Hard",
+      "question": "At what depth d inside a uniform Earth is g equal to g/10?",
+      "options": [
+        "A. R/10",
+        "B. R/2",
+        "C. 9R/10",
+        "D. 9R"
+      ],
+      "answer": "C",
+      "explanation": "g_d/g = 1-d/R = 1/10, so d=9R/10."
+    },
+    {
+      "concept": "Gravitational Field",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "Gravitational field strength is gravitational force per unit",
+      "options": [
+        "A. mass",
+        "B. volume",
+        "C. distance",
+        "D. time"
+      ],
+      "answer": "A",
+      "explanation": "Field strength is defined as F/m."
+    },
+    {
+      "concept": "Gravitational Field",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "The SI unit of gravitational field strength is",
+      "options": [
+        "A. N",
+        "B. N kg^-1",
+        "C. J",
+        "D. kg N"
+      ],
+      "answer": "B",
+      "explanation": "Field strength is force per unit mass, so its unit is N kg^-1."
+    },
+    {
+      "concept": "Gravitational Field",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "The field due to a point mass M at distance r is",
+      "options": [
+        "A. GM/r",
+        "B. GM/r²",
+        "C. GMr",
+        "D. GM/r³"
+      ],
+      "answer": "B",
+      "explanation": "For a point mass, g = GM/r²."
+    },
+    {
+      "concept": "Gravitational Field",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "The gravitational field around an isolated positive mass is directed",
+      "options": [
+        "A. outward",
+        "B. inward",
+        "C. tangentially",
+        "D. randomly"
+      ],
+      "answer": "B",
+      "explanation": "Gravity is attractive, so the field points toward the mass."
+    },
+    {
+      "concept": "Gravitational Field",
+      "type": "Practice",
+      "difficulty": "Medium",
+      "question": "If distance from a point mass is doubled, field strength becomes",
+      "options": [
+        "A. 2g",
+        "B. g/2",
+        "C. g/4",
+        "D. 4g"
+      ],
+      "answer": "C",
+      "explanation": "The inverse-square law gives g' = g/4."
+    },
+    {
+      "concept": "Gravitational Field",
+      "type": "Practice",
+      "difficulty": "Medium",
+      "question": "If the source mass is doubled, with distance fixed, its field becomes",
+      "options": [
+        "A. g/4",
+        "B. g/2",
+        "C. 2g",
+        "D. 4g"
+      ],
+      "answer": "C",
+      "explanation": "Field strength is directly proportional to source mass."
+    },
+    {
+      "concept": "Gravitational Field",
+      "type": "Practice",
+      "difficulty": "Medium",
+      "question": "A 5 kg test mass experiences 25 N gravitational force. The field is",
+      "options": [
+        "A. 5 N kg^-1",
+        "B. 25 N kg^-1",
+        "C. 125 N kg^-1",
+        "D. 0.2 N kg^-1"
+      ],
+      "answer": "A",
+      "explanation": "g = F/m = 25/5 = 5 N kg^-1."
+    },
+    {
+      "concept": "Gravitational Field",
+      "type": "Practice",
+      "difficulty": "Hard",
+      "question": "Two equal masses are symmetrically placed about a midpoint. The net field at the midpoint is",
+      "options": [
+        "A. maximum",
+        "B. zero",
+        "C. twice one field",
+        "D. infinite"
+      ],
+      "answer": "B",
+      "explanation": "Equal field vectors point in opposite directions and cancel."
+    },
+    {
+      "concept": "Gravitational Field",
+      "type": "Practice",
+      "difficulty": "Hard",
+      "question": "A point mass 4M produces field g at distance r. Mass M produces the same field at",
+      "options": [
+        "A. r/4",
+        "B. r/2",
+        "C. 2r",
+        "D. 4r"
+      ],
+      "answer": "B",
+      "explanation": "Set GM/r'² = 4GM/r²; hence r'=r/2."
+    },
+    {
+      "concept": "Gravitational Field",
+      "type": "Practice",
+      "difficulty": "Hard",
+      "question": "Inside a uniform solid sphere, gravitational field varies with distance r from its centre as",
+      "options": [
+        "A. 1/r²",
+        "B. 1/r",
+        "C. r",
+        "D. constant"
+      ],
+      "answer": "C",
+      "explanation": "Enclosed mass is proportional to r³, hence g ∝ r."
+    },
+    {
+      "concept": "Gravitational Field",
+      "type": "Assessment",
+      "difficulty": "Easy",
+      "question": "A 2 kg object in a field of 7 N kg^-1 experiences force",
+      "options": [
+        "A. 3.5 N",
+        "B. 7 N",
+        "C. 14 N",
+        "D. 28 N"
+      ],
+      "answer": "C",
+      "explanation": "F = mg = 2×7 = 14 N."
+    },
+    {
+      "concept": "Gravitational Field",
+      "type": "Assessment",
+      "difficulty": "Medium",
+      "question": "If test mass is doubled, gravitational field at the same point",
+      "options": [
+        "A. doubles",
+        "B. halves",
+        "C. remains unchanged",
+        "D. becomes zero"
+      ],
+      "answer": "C",
+      "explanation": "The field is determined by source masses and position, not test mass."
+    },
+    {
+      "concept": "Gravitational Field",
+      "type": "Assessment",
+      "difficulty": "Medium",
+      "question": "The net gravitational field of several masses is found using",
+      "options": [
+        "A. scalar multiplication",
+        "B. vector addition",
+        "C. averaging",
+        "D. subtraction only"
+      ],
+      "answer": "B",
+      "explanation": "Gravitational field is a vector."
+    },
+    {
+      "concept": "Gravitational Field",
+      "type": "Assessment",
+      "difficulty": "Hard",
+      "question": "A point mass M produces g at r. A mass 9M produces g at distance",
+      "options": [
+        "A. 9r",
+        "B. 3r",
+        "C. r/3",
+        "D. r/9"
+      ],
+      "answer": "B",
+      "explanation": "For equal field, 9M/r'² = M/r², so r'=3r."
+    },
+    {
+      "concept": "Gravitational Field",
+      "type": "Assessment",
+      "difficulty": "Medium",
+      "question": "A gravitational field of 9.8 N kg^-1 is equivalent dimensionally to",
+      "options": [
+        "A. 9.8 m s^-1",
+        "B. 9.8 m s^-2",
+        "C. 98 m s^-2",
+        "D. 0.98 m s^-2"
+      ],
+      "answer": "B",
+      "explanation": "N kg^-1 has dimensions of m s^-2."
+    },
+    {
+      "concept": "Gravitational Field",
+      "type": "Assessment",
+      "difficulty": "Hard",
+      "question": "At the centre of a uniform spherical shell, field is",
+      "options": [
+        "A. GM/R²",
+        "B. GM/R",
+        "C. zero",
+        "D. infinite"
+      ],
+      "answer": "C",
+      "explanation": "Shell symmetry makes the net field zero everywhere inside."
+    },
+    {
+      "concept": "Gravitational Field",
+      "type": "Assessment",
+      "difficulty": "Medium",
+      "question": "If source mass is tripled and distance is also tripled, field becomes",
+      "options": [
+        "A. 3g",
+        "B. g/3",
+        "C. g/9",
+        "D. g"
+      ],
+      "answer": "B",
+      "explanation": "g' / g = 3/3² = 1/3."
+    },
+    {
+      "concept": "Gravitational Field",
+      "type": "Assessment",
+      "difficulty": "Hard",
+      "question": "Outside a spherically symmetric body, its field is equivalent to that of",
+      "options": [
+        "A. its surface",
+        "B. total mass at centre",
+        "C. only outer layer",
+        "D. zero mass"
+      ],
+      "answer": "B",
+      "explanation": "Newton's shell theorem gives a point-mass equivalent at the centre."
+    },
+    {
+      "concept": "Gravitational Field",
+      "type": "Assessment",
+      "difficulty": "Medium",
+      "question": "The gravitational field at a point can be zero even when potential is non-zero because",
+      "options": [
+        "A. potential is a vector",
+        "B. fields can cancel while potentials add",
+        "C. G is zero",
+        "D. mass is zero"
+      ],
+      "answer": "B",
+      "explanation": "Field vectors may cancel, whereas scalar potentials need not."
+    },
+    {
+      "concept": "Gravitational Field",
+      "type": "Assessment",
+      "difficulty": "Hard",
+      "question": "For a uniform sphere, field reaches its maximum value at",
+      "options": [
+        "A. centre",
+        "B. surface",
+        "C. infinity",
+        "D. half radius"
+      ],
+      "answer": "B",
+      "explanation": "Inside it rises with r; outside it falls as 1/r², so maximum is at the surface."
+    },
+    {
+      "concept": "Gravitational Potential Energy",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "Near Earth's surface, increase in gravitational potential energy for height h is",
+      "options": [
+        "A. mgh",
+        "B. mg/h",
+        "C. mh/g",
+        "D. h/mg"
+      ],
+      "answer": "A",
+      "explanation": "Near the surface, ΔU = mgh."
+    },
+    {
+      "concept": "Gravitational Potential Energy",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "Gravitational potential energy is a",
+      "options": [
+        "A. vector",
+        "B. scalar",
+        "C. force",
+        "D. acceleration"
+      ],
+      "answer": "B",
+      "explanation": "Potential energy is a scalar."
+    },
+    {
+      "concept": "Gravitational Potential Energy",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "Work done by gravity when a body rises by h is",
+      "options": [
+        "A. +mgh",
+        "B. -mgh",
+        "C. 2mgh",
+        "D. zero"
+      ],
+      "answer": "B",
+      "explanation": "Gravity and upward displacement are opposite, so its work is negative."
+    },
+    {
+      "concept": "Gravitational Potential Energy",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "With zero potential energy at infinity, PE of masses M and m separated by r is",
+      "options": [
+        "A. +GMm/r",
+        "B. -GMm/r",
+        "C. GMm/r²",
+        "D. -GMm/r²"
+      ],
+      "answer": "B",
+      "explanation": "The standard gravitational PE is U = -GMm/r."
+    },
+    {
+      "concept": "Gravitational Potential Energy",
+      "type": "Practice",
+      "difficulty": "Medium",
+      "question": "If height is doubled near Earth, ΔU becomes",
+      "options": [
+        "A. half",
+        "B. unchanged",
+        "C. double",
+        "D. four times"
+      ],
+      "answer": "C",
+      "explanation": "ΔU is proportional to height."
+    },
+    {
+      "concept": "Gravitational Potential Energy",
+      "type": "Practice",
+      "difficulty": "Medium",
+      "question": "If mass is doubled at the same height, ΔU becomes",
+      "options": [
+        "A. half",
+        "B. double",
+        "C. four times",
+        "D. unchanged"
+      ],
+      "answer": "B",
+      "explanation": "ΔU = mgh."
+    },
+    {
+      "concept": "Gravitational Potential Energy",
+      "type": "Practice",
+      "difficulty": "Medium",
+      "question": "Changing the reference level of PE changes",
+      "options": [
+        "A. physical forces",
+        "B. absolute PE values",
+        "C. mass",
+        "D. G"
+      ],
+      "answer": "B",
+      "explanation": "Potential energy has an arbitrary reference; differences remain physical."
+    },
+    {
+      "concept": "Gravitational Potential Energy",
+      "type": "Practice",
+      "difficulty": "Hard",
+      "question": "As a bound satellite moves farther from Earth, its gravitational PE",
+      "options": [
+        "A. becomes more negative",
+        "B. approaches zero from below",
+        "C. becomes infinite",
+        "D. stays fixed"
+      ],
+      "answer": "B",
+      "explanation": "U = -GMm/r increases toward zero as r increases."
+    },
+    {
+      "concept": "Gravitational Potential Energy",
+      "type": "Practice",
+      "difficulty": "Medium",
+      "question": "A 4 kg body rises 5 m with g=9.8 m/s². ΔU is",
+      "options": [
+        "A. 49 J",
+        "B. 98 J",
+        "C. 196 J",
+        "D. 392 J"
+      ],
+      "answer": "C",
+      "explanation": "ΔU=4×9.8×5=196 J."
+    },
+    {
+      "concept": "Gravitational Potential Energy",
+      "type": "Practice",
+      "difficulty": "Hard",
+      "question": "Moving a mass slowly from r to 2r around a point mass changes PE by",
+      "options": [
+        "A. -GMm/(2r)",
+        "B. +GMm/(2r)",
+        "C. +GMm/r",
+        "D. zero"
+      ],
+      "answer": "B",
+      "explanation": "U_i=-GMm/r and U_f=-GMm/(2r), so ΔU=+GMm/(2r)."
+    },
+    {
+      "concept": "Gravitational Potential Energy",
+      "type": "Assessment",
+      "difficulty": "Easy",
+      "question": "At infinity, conventional gravitational PE is",
+      "options": [
+        "A. zero",
+        "B. one joule",
+        "C. infinite",
+        "D. negative infinity"
+      ],
+      "answer": "A",
+      "explanation": "The usual reference is U(∞)=0."
+    },
+    {
+      "concept": "Gravitational Potential Energy",
+      "type": "Assessment",
+      "difficulty": "Medium",
+      "question": "In a circular orbit of fixed radius, gravitational PE is",
+      "options": [
+        "A. changing continuously",
+        "B. constant",
+        "C. zero",
+        "D. positive"
+      ],
+      "answer": "B",
+      "explanation": "PE depends only on radius, which is constant."
+    },
+    {
+      "concept": "Gravitational Potential Energy",
+      "type": "Assessment",
+      "difficulty": "Medium",
+      "question": "For a conservative gravitational force, PE change depends on",
+      "options": [
+        "A. path only",
+        "B. endpoints",
+        "C. time only",
+        "D. speed only"
+      ],
+      "answer": "B",
+      "explanation": "Conservative-force PE depends only on initial and final positions."
+    },
+    {
+      "concept": "Gravitational Potential Energy",
+      "type": "Assessment",
+      "difficulty": "Hard",
+      "question": "A 2 kg mass moves from 3 m to 8 m with g=10. Increase in PE is",
+      "options": [
+        "A. 50 J",
+        "B. 80 J",
+        "C. 100 J",
+        "D. 160 J"
+      ],
+      "answer": "C",
+      "explanation": "ΔU=2×10×5=100 J."
+    },
+    {
+      "concept": "Gravitational Potential Energy",
+      "type": "Assessment",
+      "difficulty": "Hard",
+      "question": "For a circular satellite, U and K satisfy",
+      "options": [
+        "A. U=K",
+        "B. U=-2K",
+        "C. U=2K",
+        "D. U=-K/2"
+      ],
+      "answer": "B",
+      "explanation": "U=-GMm/r and K=GMm/(2r), hence U=-2K."
+    },
+    {
+      "concept": "Gravitational Potential Energy",
+      "type": "Assessment",
+      "difficulty": "Medium",
+      "question": "If an object falls through height h, its gravitational PE changes by",
+      "options": [
+        "A. +mgh",
+        "B. -mgh",
+        "C. zero",
+        "D. +2mgh"
+      ],
+      "answer": "B",
+      "explanation": "Its height decreases, so PE decreases by mgh."
+    },
+    {
+      "concept": "Gravitational Potential Energy",
+      "type": "Assessment",
+      "difficulty": "Hard",
+      "question": "The exact PE increase from Earth's surface R to 2R is",
+      "options": [
+        "A. GMm/R",
+        "B. GMm/(2R)",
+        "C. 2GMm/R",
+        "D. GMm/(4R)"
+      ],
+      "answer": "B",
+      "explanation": "U changes from -GMm/R to -GMm/(2R), giving +GMm/(2R)."
+    },
+    {
+      "concept": "Gravitational Potential Energy",
+      "type": "Assessment",
+      "difficulty": "Medium",
+      "question": "A bound object's negative gravitational PE means",
+      "options": [
+        "A. mass is negative",
+        "B. gravity is repulsive",
+        "C. the zero reference is at infinity",
+        "D. energy is impossible"
+      ],
+      "answer": "C",
+      "explanation": "With U(∞)=0, bound configurations have negative gravitational PE."
+    },
+    {
+      "concept": "Gravitational Potential Energy",
+      "type": "Assessment",
+      "difficulty": "Hard",
+      "question": "The work done by gravity equals",
+      "options": [
+        "A. increase in PE",
+        "B. negative change in PE",
+        "C. total energy always",
+        "D. mass times distance"
+      ],
+      "answer": "B",
+      "explanation": "For a conservative force, W_gravity = -ΔU."
+    },
+    {
+      "concept": "Gravitational Potential Energy",
+      "type": "Assessment",
+      "difficulty": "Hard",
+      "question": "A satellite is raised to a higher circular orbit. Its gravitational PE",
+      "options": [
+        "A. decreases",
+        "B. becomes more negative",
+        "C. increases toward zero",
+        "D. becomes zero instantly"
+      ],
+      "answer": "C",
+      "explanation": "Increasing r makes -GMm/r less negative."
+    },
+    {
+      "concept": "Gravitational Potential",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "Gravitational potential at a point is PE per unit",
+      "options": [
+        "A. mass",
+        "B. force",
+        "C. volume",
+        "D. distance"
+      ],
+      "answer": "A",
+      "explanation": "V=U/m."
+    },
+    {
+      "concept": "Gravitational Potential",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "SI unit of gravitational potential is",
+      "options": [
+        "A. N kg^-1",
+        "B. J kg^-1",
+        "C. N",
+        "D. J m^-1"
+      ],
+      "answer": "B",
+      "explanation": "Potential is energy per unit mass."
+    },
+    {
+      "concept": "Gravitational Potential",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "Potential due to point mass M at r, zero at infinity, is",
+      "options": [
+        "A. GM/r",
+        "B. -GM/r",
+        "C. GM/r²",
+        "D. -GM/r²"
+      ],
+      "answer": "B",
+      "explanation": "V=-GM/r."
+    },
+    {
+      "concept": "Gravitational Potential",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "Gravitational potential is",
+      "options": [
+        "A. vector",
+        "B. scalar",
+        "C. force",
+        "D. acceleration"
+      ],
+      "answer": "B",
+      "explanation": "Potential has no direction."
+    },
+    {
+      "concept": "Gravitational Potential",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "At infinity, gravitational potential is conventionally",
+      "options": [
+        "A. zero",
+        "B. infinite",
+        "C. negative infinite",
+        "D. positive"
+      ],
+      "answer": "A",
+      "explanation": "The reference is V(∞)=0."
+    },
+    {
+      "concept": "Gravitational Potential",
+      "type": "Practice",
+      "difficulty": "Medium",
+      "question": "At distance 2r from a point mass, potential V at r becomes",
+      "options": [
+        "A. 2V",
+        "B. V/2",
+        "C. 4V",
+        "D. V/4"
+      ],
+      "answer": "B",
+      "explanation": "V∝1/r."
+    },
+    {
+      "concept": "Gravitational Potential",
+      "type": "Practice",
+      "difficulty": "Medium",
+      "question": "Potential energy and potential are related by",
+      "options": [
+        "A. U=V/m",
+        "B. U=mV",
+        "C. U=V²m",
+        "D. U=V+m"
+      ],
+      "answer": "B",
+      "explanation": "Potential energy of mass m is mV."
+    },
+    {
+      "concept": "Gravitational Potential",
+      "type": "Practice",
+      "difficulty": "Medium",
+      "question": "Potential due to multiple masses is found by",
+      "options": [
+        "A. vector addition",
+        "B. scalar addition",
+        "C. multiplication",
+        "D. averaging"
+      ],
+      "answer": "B",
+      "explanation": "Potential is scalar, so contributions add algebraically."
+    },
+    {
+      "concept": "Gravitational Potential",
+      "type": "Practice",
+      "difficulty": "Hard",
+      "question": "Two equal masses M are each distance r from a point. Potential there is",
+      "options": [
+        "A. -GM/r",
+        "B. -2GM/r",
+        "C. +2GM/r",
+        "D. zero"
+      ],
+      "answer": "B",
+      "explanation": "Each contributes -GM/r."
+    },
+    {
+      "concept": "Gravitational Potential",
+      "type": "Practice",
+      "difficulty": "Medium",
+      "question": "A point has potential -20 J/kg. PE of 3 kg there is",
+      "options": [
+        "A. -60 J",
+        "B. -20/3 J",
+        "C. +60 J",
+        "D. +20 J"
+      ],
+      "answer": "A",
+      "explanation": "U=mV=3(-20)=-60 J."
+    },
+    {
+      "concept": "Gravitational Potential",
+      "type": "Assessment",
+      "difficulty": "Medium",
+      "question": "On an equipotential surface, potential is",
+      "options": [
+        "A. zero",
+        "B. constant",
+        "C. infinite",
+        "D. changing"
+      ],
+      "answer": "B",
+      "explanation": "That is the definition of an equipotential surface."
+    },
+    {
+      "concept": "Gravitational Potential",
+      "type": "Assessment",
+      "difficulty": "Medium",
+      "question": "Work done in moving a mass along an equipotential surface is",
+      "options": [
+        "A. maximum",
+        "B. zero",
+        "C. infinite",
+        "D. negative always"
+      ],
+      "answer": "B",
+      "explanation": "There is no potential difference along an equipotential."
+    },
+    {
+      "concept": "Gravitational Potential",
+      "type": "Assessment",
+      "difficulty": "Hard",
+      "question": "For a point mass, field and potential are related by",
+      "options": [
+        "A. g=dV/dr",
+        "B. g=-dV/dr",
+        "C. g=V/r",
+        "D. g=Vr"
+      ],
+      "answer": "B",
+      "explanation": "The radial gravitational field is the negative gradient of potential."
+    },
+    {
+      "concept": "Gravitational Potential",
+      "type": "Assessment",
+      "difficulty": "Hard",
+      "question": "If potential is -5 J/kg, work required to move 2 kg slowly to infinity is",
+      "options": [
+        "A. -10 J",
+        "B. +10 J",
+        "C. +2.5 J",
+        "D. zero"
+      ],
+      "answer": "B",
+      "explanation": "PE rises from -10 J to zero, requiring +10 J external work."
+    },
+    {
+      "concept": "Gravitational Potential",
+      "type": "Assessment",
+      "difficulty": "Medium",
+      "question": "If two equal masses produce non-zero negative potentials at a point, total potential is",
+      "options": [
+        "A. zero",
+        "B. positive",
+        "C. negative sum",
+        "D. product"
+      ],
+      "answer": "C",
+      "explanation": "Gravitational potentials of positive masses are negative under the infinity reference."
+    },
+    {
+      "concept": "Gravitational Potential",
+      "type": "Assessment",
+      "difficulty": "Hard",
+      "question": "At the centre of a uniform shell, field is zero but potential is",
+      "options": [
+        "A. necessarily zero",
+        "B. generally non-zero constant",
+        "C. infinite",
+        "D. undefined"
+      ],
+      "answer": "B",
+      "explanation": "Field can be zero while potential remains a constant such as -GM/R."
+    },
+    {
+      "concept": "Gravitational Potential",
+      "type": "Assessment",
+      "difficulty": "Medium",
+      "question": "Potential at 3R from a point mass is",
+      "options": [
+        "A. -GM/(3R)",
+        "B. -3GM/R",
+        "C. -GM/(9R)",
+        "D. +GM/(3R)"
+      ],
+      "answer": "A",
+      "explanation": "Substitute r=3R into V=-GM/r."
+    },
+    {
+      "concept": "Gravitational Potential",
+      "type": "Assessment",
+      "difficulty": "Hard",
+      "question": "If source mass is doubled at the same point, potential becomes",
+      "options": [
+        "A. half",
+        "B. double",
+        "C. four times",
+        "D. unchanged"
+      ],
+      "answer": "B",
+      "explanation": "V is directly proportional to source mass."
+    },
+    {
+      "concept": "Gravitational Potential",
+      "type": "Assessment",
+      "difficulty": "Hard",
+      "question": "If both source mass and distance are doubled, potential becomes",
+      "options": [
+        "A. half",
+        "B. double",
+        "C. unchanged",
+        "D. four times"
+      ],
+      "answer": "C",
+      "explanation": "V∝M/r, so both factors cancel."
+    },
+    {
+      "concept": "Gravitational Potential",
+      "type": "Assessment",
+      "difficulty": "Hard",
+      "question": "A region with zero gravitational field can still have non-zero potential because",
+      "options": [
+        "A. potential is vector",
+        "B. scalar contributions can add while vector fields cancel",
+        "C. G is zero",
+        "D. gravity is repulsive"
+      ],
+      "answer": "B",
+      "explanation": "Field cancellation does not imply potential cancellation."
+    },
+    {
+      "concept": "Escape Speed",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "Escape speed is the minimum speed needed to",
+      "options": [
+        "A. reach infinity without returning",
+        "B. enter any circular orbit",
+        "C. stop at the surface",
+        "D. reach the centre"
+      ],
+      "answer": "A",
+      "explanation": "It is the minimum speed for escape from the body's gravitational influence."
+    },
+    {
+      "concept": "Escape Speed",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "Escape speed from mass M and radius R is",
+      "options": [
+        "A. √(GM/R)",
+        "B. √(2GM/R)",
+        "C. GM/R²",
+        "D. 2GM/R"
+      ],
+      "answer": "B",
+      "explanation": "Energy conservation gives v_e=√(2GM/R)."
+    },
+    {
+      "concept": "Escape Speed",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "Escape speed is independent of the escaping body's",
+      "options": [
+        "A. mass",
+        "B. position",
+        "C. launch radius",
+        "D. planet mass"
+      ],
+      "answer": "A",
+      "explanation": "The object's mass cancels from the energy equation."
+    },
+    {
+      "concept": "Escape Speed",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "Earth's approximate surface escape speed is",
+      "options": [
+        "A. 9.8 km/s",
+        "B. 11.2 km/s",
+        "C. 3.0 km/s",
+        "D. 22.4 km/s"
+      ],
+      "answer": "B",
+      "explanation": "Earth's escape speed is about 11.2 km/s."
+    },
+    {
+      "concept": "Escape Speed",
+      "type": "Practice",
+      "difficulty": "Medium",
+      "question": "Using surface g and radius R, escape speed is",
+      "options": [
+        "A. √(gR)",
+        "B. √(2gR)",
+        "C. 2gR",
+        "D. g/R"
+      ],
+      "answer": "B",
+      "explanation": "Since GM=gR², v_e=√(2GM/R)=√(2gR)."
+    },
+    {
+      "concept": "Escape Speed",
+      "type": "Practice",
+      "difficulty": "Medium",
+      "question": "If planet mass doubles and radius stays fixed, escape speed becomes",
+      "options": [
+        "A. 2 times",
+        "B. √2 times",
+        "C. half",
+        "D. 4 times"
+      ],
+      "answer": "B",
+      "explanation": "v_e∝√M."
+    },
+    {
+      "concept": "Escape Speed",
+      "type": "Practice",
+      "difficulty": "Medium",
+      "question": "If both planet mass and radius double, escape speed",
+      "options": [
+        "A. doubles",
+        "B. halves",
+        "C. remains unchanged",
+        "D. quadruples"
+      ],
+      "answer": "C",
+      "explanation": "v_e∝√(M/R), and M/R is unchanged."
+    },
+    {
+      "concept": "Escape Speed",
+      "type": "Practice",
+      "difficulty": "Hard",
+      "question": "At exactly escape speed, speed at infinity is ideally",
+      "options": [
+        "A. zero",
+        "B. equal to launch speed",
+        "C. infinite",
+        "D. negative"
+      ],
+      "answer": "A",
+      "explanation": "The limiting escape trajectory reaches infinity with zero residual speed."
+    },
+    {
+      "concept": "Escape Speed",
+      "type": "Practice",
+      "difficulty": "Hard",
+      "question": "At altitude h, escape speed is",
+      "options": [
+        "A. √[2GM/(R+h)]",
+        "B. √(2GM/R)",
+        "C. GM/(R+h)²",
+        "D. √[GM(R+h)]"
+      ],
+      "answer": "A",
+      "explanation": "Distance from centre is R+h."
+    },
+    {
+      "concept": "Escape Speed",
+      "type": "Practice",
+      "difficulty": "Medium",
+      "question": "A planet has same R as Earth but one-fourth M. Its escape speed is",
+      "options": [
+        "A. 2.8 km/s",
+        "B. 5.6 km/s",
+        "C. 11.2 km/s",
+        "D. 22.4 km/s"
+      ],
+      "answer": "B",
+      "explanation": "Escape speed scales as √M, giving half of Earth's value."
+    },
+    {
+      "concept": "Escape Speed",
+      "type": "Assessment",
+      "difficulty": "Medium",
+      "question": "If radius becomes four times with mass unchanged, escape speed becomes",
+      "options": [
+        "A. 4 times",
+        "B. 2 times",
+        "C. half",
+        "D. one-fourth"
+      ],
+      "answer": "C",
+      "explanation": "v_e∝1/√R."
+    },
+    {
+      "concept": "Escape Speed",
+      "type": "Assessment",
+      "difficulty": "Hard",
+      "question": "Escape speed at a given radius is √2 times circular orbital speed because",
+      "options": [
+        "A. v_e²=2GM/r and v_o²=GM/r",
+        "B. gravity is doubled",
+        "C. mass is doubled",
+        "D. radius is halved"
+      ],
+      "answer": "A",
+      "explanation": "The two speed formulas directly give v_e=√2 v_o."
+    },
+    {
+      "concept": "Escape Speed",
+      "type": "Assessment",
+      "difficulty": "Hard",
+      "question": "An object launched faster than escape speed has total mechanical energy",
+      "options": [
+        "A. negative",
+        "B. zero",
+        "C. positive",
+        "D. undefined"
+      ],
+      "answer": "C",
+      "explanation": "Its kinetic energy exceeds the magnitude of negative potential energy."
+    },
+    {
+      "concept": "Escape Speed",
+      "type": "Assessment",
+      "difficulty": "Medium",
+      "question": "At limiting escape, total mechanical energy with U(∞)=0 is",
+      "options": [
+        "A. positive",
+        "B. zero",
+        "C. negative",
+        "D. infinite"
+      ],
+      "answer": "B",
+      "explanation": "K and U cancel at infinity in the limiting case."
+    },
+    {
+      "concept": "Escape Speed",
+      "type": "Assessment",
+      "difficulty": "Hard",
+      "question": "The escape energy needed from a circular orbit of radius r is",
+      "options": [
+        "A. GMm/r",
+        "B. GMm/(2r)",
+        "C. 2GMm/r",
+        "D. zero"
+      ],
+      "answer": "B",
+      "explanation": "Circular total energy is -GMm/(2r); added energy to reach zero is its magnitude."
+    },
+    {
+      "concept": "Escape Speed",
+      "type": "Assessment",
+      "difficulty": "Medium",
+      "question": "Escape speed from the Moon is smaller than Earth's because",
+      "options": [
+        "A. Moon has no gravity",
+        "B. its M/R ratio is smaller",
+        "C. G is smaller there",
+        "D. mass of object changes"
+      ],
+      "answer": "B",
+      "explanation": "v_e depends on √(M/R)."
+    },
+    {
+      "concept": "Escape Speed",
+      "type": "Assessment",
+      "difficulty": "Hard",
+      "question": "If surface g is unchanged but planet radius doubles, escape speed becomes",
+      "options": [
+        "A. √2 times",
+        "B. 2 times",
+        "C. half",
+        "D. unchanged"
+      ],
+      "answer": "A",
+      "explanation": "v_e=√(2gR), so doubling R gives factor √2."
+    },
+    {
+      "concept": "Escape Speed",
+      "type": "Assessment",
+      "difficulty": "Hard",
+      "question": "A body with exactly escape speed has a parabolic limiting trajectory in the ideal two-body model because",
+      "options": [
+        "A. total energy is zero",
+        "B. energy is negative",
+        "C. speed is zero at launch",
+        "D. gravity is absent"
+      ],
+      "answer": "A",
+      "explanation": "Zero total mechanical energy corresponds to the parabolic escape trajectory."
+    },
+    {
+      "concept": "Escape Speed",
+      "type": "Assessment",
+      "difficulty": "Medium",
+      "question": "Escape speed is a property of",
+      "options": [
+        "A. the celestial body and launch location",
+        "B. the object's colour",
+        "C. object mass only",
+        "D. time of day only"
+      ],
+      "answer": "A",
+      "explanation": "It depends on the gravitational potential at the launch location."
+    },
+    {
+      "concept": "Escape Speed",
+      "type": "Assessment",
+      "difficulty": "Hard",
+      "question": "If M/R is increased by factor 9, escape speed increases by",
+      "options": [
+        "A. 9",
+        "B. 3",
+        "C. √9/2",
+        "D. 81"
+      ],
+      "answer": "B",
+      "explanation": "v_e∝√(M/R), so factor √9=3."
+    },
+    {
+      "concept": "Earth Satellites and Orbital Motion",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "Circular orbital speed around Earth at radius r is",
+      "options": [
+        "A. √(GM/r)",
+        "B. √(2GM/r)",
+        "C. GM/r²",
+        "D. GM/r"
+      ],
+      "answer": "A",
+      "explanation": "Equating gravitational and centripetal forces gives v=√(GM/r)."
+    },
+    {
+      "concept": "Earth Satellites and Orbital Motion",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "Gravity provides the satellite's",
+      "options": [
+        "A. tangential force",
+        "B. centripetal force",
+        "C. outward force",
+        "D. friction"
+      ],
+      "answer": "B",
+      "explanation": "Gravity supplies the inward centripetal force."
+    },
+    {
+      "concept": "Earth Satellites and Orbital Motion",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "Orbital speed decreases as orbital radius",
+      "options": [
+        "A. increases",
+        "B. decreases",
+        "C. becomes zero",
+        "D. is unrelated"
+      ],
+      "answer": "A",
+      "explanation": "v∝1/√r."
+    },
+    {
+      "concept": "Earth Satellites and Orbital Motion",
+      "type": "Practice",
+      "difficulty": "Medium",
+      "question": "Orbital period is",
+      "options": [
+        "A. 2π√(r³/GM)",
+        "B. 2π√(GM/r³)",
+        "C. √(GM/r)",
+        "D. GM/r²"
+      ],
+      "answer": "A",
+      "explanation": "T=2πr/v gives the stated expression."
+    },
+    {
+      "concept": "Earth Satellites and Orbital Motion",
+      "type": "Practice",
+      "difficulty": "Medium",
+      "question": "A satellite is in continuous",
+      "options": [
+        "A. free fall",
+        "B. rest",
+        "C. no gravity",
+        "D. upward motion"
+      ],
+      "answer": "A",
+      "explanation": "It is continuously falling under gravity while moving tangentially."
+    },
+    {
+      "concept": "Earth Satellites and Orbital Motion",
+      "type": "Practice",
+      "difficulty": "Medium",
+      "question": "If radius becomes 4r, orbital speed becomes",
+      "options": [
+        "A. 4v",
+        "B. 2v",
+        "C. v/2",
+        "D. v/4"
+      ],
+      "answer": "C",
+      "explanation": "v∝r^-1/2."
+    },
+    {
+      "concept": "Earth Satellites and Orbital Motion",
+      "type": "Practice",
+      "difficulty": "Hard",
+      "question": "If radius becomes 4r, orbital period becomes",
+      "options": [
+        "A. 2T",
+        "B. 4T",
+        "C. 8T",
+        "D. 16T"
+      ],
+      "answer": "C",
+      "explanation": "T∝r^(3/2)."
+    },
+    {
+      "concept": "Earth Satellites and Orbital Motion",
+      "type": "Practice",
+      "difficulty": "Hard",
+      "question": "Orbital period for an ideal circular satellite is independent of",
+      "options": [
+        "A. Earth mass",
+        "B. orbital radius",
+        "C. satellite mass",
+        "D. G"
+      ],
+      "answer": "C",
+      "explanation": "Satellite mass cancels from the orbital equation."
+    },
+    {
+      "concept": "Earth Satellites and Orbital Motion",
+      "type": "Practice",
+      "difficulty": "Medium",
+      "question": "At radius 4R, orbital speed compared with that at R is",
+      "options": [
+        "A. 4 times",
+        "B. half",
+        "C. twice",
+        "D. one-fourth"
+      ],
+      "answer": "B",
+      "explanation": "v(4R)=v(R)/2."
+    },
+    {
+      "concept": "Earth Satellites and Orbital Motion",
+      "type": "Practice",
+      "difficulty": "Medium",
+      "question": "Periods at R and 9R are in ratio",
+      "options": [
+        "A. 1:3",
+        "B. 1:9",
+        "C. 1:27",
+        "D. 3:1"
+      ],
+      "answer": "C",
+      "explanation": "T∝r^(3/2), so 9^(3/2)=27."
+    },
+    {
+      "concept": "Earth Satellites and Orbital Motion",
+      "type": "Assessment",
+      "difficulty": "Easy",
+      "question": "An astronaut in an orbiting satellite experiences apparent",
+      "options": [
+        "A. weightlessness",
+        "B. infinite weight",
+        "C. double weight",
+        "D. no mass"
+      ],
+      "answer": "A",
+      "explanation": "Astronaut and spacecraft are in free fall together."
+    },
+    {
+      "concept": "Earth Satellites and Orbital Motion",
+      "type": "Assessment",
+      "difficulty": "Medium",
+      "question": "For a circular orbit, centripetal acceleration is",
+      "options": [
+        "A. GM/r²",
+        "B. GM/r",
+        "C. √(GM/r)",
+        "D. zero"
+      ],
+      "answer": "A",
+      "explanation": "It equals the gravitational field at the orbit."
+    },
+    {
+      "concept": "Earth Satellites and Orbital Motion",
+      "type": "Assessment",
+      "difficulty": "Hard",
+      "question": "Escape speed at the same radius equals",
+      "options": [
+        "A. √2 times orbital speed",
+        "B. orbital speed/√2",
+        "C. 2 times orbital speed",
+        "D. same speed"
+      ],
+      "answer": "A",
+      "explanation": "v_e²=2v_o²."
+    },
+    {
+      "concept": "Earth Satellites and Orbital Motion",
+      "type": "Assessment",
+      "difficulty": "Medium",
+      "question": "A higher circular orbit has kinetic energy",
+      "options": [
+        "A. greater",
+        "B. smaller",
+        "C. equal",
+        "D. zero"
+      ],
+      "answer": "B",
+      "explanation": "K=GMm/(2r)."
+    },
+    {
+      "concept": "Earth Satellites and Orbital Motion",
+      "type": "Assessment",
+      "difficulty": "Hard",
+      "question": "Angular momentum of a circular satellite is",
+      "options": [
+        "A. m√(GMr)",
+        "B. GMm/r²",
+        "C. mGM/r",
+        "D. zero"
+      ],
+      "answer": "A",
+      "explanation": "L=mvr=m√(GMr)."
+    },
+    {
+      "concept": "Earth Satellites and Orbital Motion",
+      "type": "Assessment",
+      "difficulty": "Hard",
+      "question": "If Earth mass doubles at fixed orbital radius, orbital speed becomes",
+      "options": [
+        "A. √2 times",
+        "B. 2 times",
+        "C. half",
+        "D. unchanged"
+      ],
+      "answer": "A",
+      "explanation": "v∝√M."
+    },
+    {
+      "concept": "Earth Satellites and Orbital Motion",
+      "type": "Assessment",
+      "difficulty": "Medium",
+      "question": "A satellite's orbital acceleration is always directed",
+      "options": [
+        "A. away from Earth",
+        "B. toward Earth's centre",
+        "C. tangentially",
+        "D. upward"
+      ],
+      "answer": "B",
+      "explanation": "Centripetal acceleration is inward."
+    },
+    {
+      "concept": "Earth Satellites and Orbital Motion",
+      "type": "Assessment",
+      "difficulty": "Hard",
+      "question": "Total energy of a circular satellite is",
+      "options": [
+        "A. -GMm/(2r)",
+        "B. +GMm/(2r)",
+        "C. -GMm/r",
+        "D. zero"
+      ],
+      "answer": "A",
+      "explanation": "E=K+U=-GMm/(2r)."
+    },
+    {
+      "concept": "Earth Satellites and Orbital Motion",
+      "type": "Assessment",
+      "difficulty": "Hard",
+      "question": "A tangential speed between circular and escape speed generally produces a",
+      "options": [
+        "A. bound elliptical orbit",
+        "B. guaranteed collision",
+        "C. zero-energy orbit",
+        "D. stationary object"
+      ],
+      "answer": "A",
+      "explanation": "The object remains bound but is no longer on the original circular orbit."
+    },
+    {
+      "concept": "Earth Satellites and Orbital Motion",
+      "type": "Assessment",
+      "difficulty": "Medium",
+      "question": "For satellites around the same Earth, T²/r³ is",
+      "options": [
+        "A. constant",
+        "B. proportional to satellite mass",
+        "C. zero",
+        "D. variable with colour"
+      ],
+      "answer": "A",
+      "explanation": "T²/r³=4π²/(GM), constant for the same central body."
+    },
+    {
+      "concept": "Geostationary Satellites",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "A geostationary satellite appears fixed relative to",
+      "options": [
+        "A. Earth",
+        "B. Moon",
+        "C. Sun only",
+        "D. Mars"
+      ],
+      "answer": "A",
+      "explanation": "It has the same angular speed as Earth's rotation."
+    },
+    {
+      "concept": "Geostationary Satellites",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "Its orbital plane must be",
+      "options": [
+        "A. equatorial",
+        "B. polar",
+        "C. arbitrary",
+        "D. vertical through a pole"
+      ],
+      "answer": "A",
+      "explanation": "A geostationary orbit lies in the equatorial plane."
+    },
+    {
+      "concept": "Geostationary Satellites",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "Its period is approximately",
+      "options": [
+        "A. 24 h",
+        "B. 12 h",
+        "C. 48 h",
+        "D. 365 days"
+      ],
+      "answer": "A",
+      "explanation": "Its period matches Earth's rotation period."
+    },
+    {
+      "concept": "Geostationary Satellites",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "Its direction is",
+      "options": [
+        "A. same as Earth's rotation",
+        "B. opposite",
+        "C. random",
+        "D. polar"
+      ],
+      "answer": "A",
+      "explanation": "It moves eastward in the same sense as Earth."
+    },
+    {
+      "concept": "Geostationary Satellites",
+      "type": "Practice",
+      "difficulty": "Medium",
+      "question": "The ideal geostationary orbit is",
+      "options": [
+        "A. circular",
+        "B. parabolic",
+        "C. highly elliptical",
+        "D. radial"
+      ],
+      "answer": "A",
+      "explanation": "A geostationary orbit is circular and equatorial."
+    },
+    {
+      "concept": "Geostationary Satellites",
+      "type": "Practice",
+      "difficulty": "Medium",
+      "question": "A major use is",
+      "options": [
+        "A. communications",
+        "B. mining",
+        "C. measuring only local gravity",
+        "D. replacing all navigation satellites"
+      ],
+      "answer": "A",
+      "explanation": "Its fixed apparent position is ideal for communication links."
+    },
+    {
+      "concept": "Geostationary Satellites",
+      "type": "Practice",
+      "difficulty": "Medium",
+      "question": "Geostationary orbital radius depends on",
+      "options": [
+        "A. Earth mass and rotation period",
+        "B. satellite mass only",
+        "C. Earth's atmosphere only",
+        "D. satellite colour"
+      ],
+      "answer": "A",
+      "explanation": "T=2π√(r³/GM) determines r."
+    },
+    {
+      "concept": "Geostationary Satellites",
+      "type": "Practice",
+      "difficulty": "Medium",
+      "question": "Altitude of geostationary orbit is approximately",
+      "options": [
+        "A. 3,600 km",
+        "B. 7,200 km",
+        "C. 21,000 km",
+        "D. 35,800 km"
+      ],
+      "answer": "D",
+      "explanation": "The altitude is about 35,786 km above the equator."
+    },
+    {
+      "concept": "Geostationary Satellites",
+      "type": "Practice",
+      "difficulty": "Assessment",
+      "question": "Medium",
+      "options": [
+        "A 24-hour satellite in a polar orbit is"
+      ],
+      "answer": "A. not geostationary|B. geostationary|C. fixed over a pole|D. an escape satellite",
+      "explanation": "A"
+    },
+    {
+      "concept": "Geostationary Satellites",
+      "type": "Practice",
+      "difficulty": "Assessment",
+      "question": "Medium",
+      "options": [
+        "A satellite with period shorter than Earth's cannot remain fixed because"
+      ],
+      "answer": "A. its angular speed differs|B. its mass differs|C. G changes|D. gravity is zero",
+      "explanation": "A"
+    },
+    {
+      "concept": "Geostationary Satellites",
+      "type": "Assessment",
+      "difficulty": "Assessment",
+      "question": "Easy",
+      "options": [
+        "Orbital inclination for a geostationary satellite is"
+      ],
+      "answer": "A. 0°|B. 45°|C. 90°|D. 180°",
+      "explanation": "A"
+    },
+    {
+      "concept": "Geostationary Satellites",
+      "type": "Assessment",
+      "difficulty": "Assessment",
+      "question": "Medium",
+      "options": [
+        "Geostationary orbital radius is measured from"
+      ],
+      "answer": "A. Earth's centre|B. surface|C. atmosphere top|D. equator only",
+      "explanation": "A"
+    },
+    {
+      "concept": "Geostationary Satellites",
+      "type": "Assessment",
+      "difficulty": "Assessment",
+      "question": "Hard",
+      "options": [
+        "If Earth's rotation period increases, geostationary orbital radius"
+      ],
+      "answer": "A. increases|B. decreases|C. stays fixed|D. becomes zero",
+      "explanation": "A"
+    },
+    {
+      "concept": "Geostationary Satellites",
+      "type": "Assessment",
+      "difficulty": "Assessment",
+      "question": "Hard",
+      "options": [
+        "A geostationary satellite cannot be directly above a pole because"
+      ],
+      "answer": "A. orbit must be equatorial|B. gravity is zero at poles|C. poles have no atmosphere|D. satellites cannot cross poles",
+      "explanation": "A"
+    },
+    {
+      "concept": "Geostationary Satellites",
+      "type": "Assessment",
+      "difficulty": "Assessment",
+      "question": "Medium",
+      "options": [
+        "Angular velocity of a geostationary satellite equals"
+      ],
+      "answer": "A. Earth's angular velocity|B. twice Earth's|C. half Earth's|D. zero",
+      "explanation": "A"
+    },
+    {
+      "concept": "Geostationary Satellites",
+      "type": "Assessment",
+      "difficulty": "Assessment",
+      "question": "Hard",
+      "options": [
+        "A 24-hour westward satellite is"
+      ],
+      "answer": "A. not geostationary|B. geostationary|C. stationary|D. polar geostationary",
+      "explanation": "A"
+    },
+    {
+      "concept": "Geostationary Satellites",
+      "type": "Assessment",
+      "difficulty": "Assessment",
+      "question": "Medium",
+      "options": [
+        "A geostationary satellite appears nearly fixed in"
+      ],
+      "answer": "A. longitude|B. latitude everywhere|C. altitude from the Sun|D. distance from Moon",
+      "explanation": "A"
+    },
+    {
+      "concept": "Geostationary Satellites",
+      "type": "Assessment",
+      "difficulty": "Assessment",
+      "question": "Hard",
+      "options": [
+        "Multiple geostationary satellites can cover broad regions because they can occupy"
+      ],
+      "answer": "A. different longitudes|B. different inclinations|C. polar orbits|D. arbitrary periods",
+      "explanation": "A"
+    },
+    {
+      "concept": "Geostationary Satellites",
+      "type": "Assessment",
+      "difficulty": "Assessment",
+      "question": "Medium",
+      "options": [
+        "Geostationary orbital speed is approximately"
+      ],
+      "answer": "A. 0|B. 3.1 km/s|C. 11.2 km/s|D. 30 km/s",
+      "explanation": "B"
+    },
+    {
+      "concept": "Geostationary Satellites",
+      "type": "Assessment",
+      "difficulty": "Assessment",
+      "question": "Hard",
+      "options": [
+        "If orbital period is doubled around the same Earth, radius changes by"
+      ],
+      "answer": "A. 2^(2/3)|B. 2|C. 4|D. 8",
+      "explanation": "A"
+    },
+    {
+      "concept": "Energy of an Orbiting Satellite",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "Kinetic energy of a circular satellite is",
+      "options": [
+        "A. GMm/(2r)",
+        "B. GMm/r",
+        "C. -GMm/(2r)",
+        "D. zero"
+      ],
+      "answer": "A",
+      "explanation": "K=1/2mv²=GMm/(2r)."
+    },
+    {
+      "concept": "Energy of an Orbiting Satellite",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "Gravitational PE in a circular orbit is",
+      "options": [
+        "A. +GMm/r",
+        "B. -GMm/r",
+        "C. -GMm/(2r)",
+        "D. zero"
+      ],
+      "answer": "B",
+      "explanation": "With zero at infinity, U=-GMm/r."
+    },
+    {
+      "concept": "Energy of an Orbiting Satellite",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "Total mechanical energy in a circular orbit is",
+      "options": [
+        "A. -GMm/(2r)",
+        "B. +GMm/(2r)",
+        "C. -GMm/r",
+        "D. zero"
+      ],
+      "answer": "A",
+      "explanation": "Adding K and U gives -GMm/(2r)."
+    },
+    {
+      "concept": "Energy of an Orbiting Satellite",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "Total energy of a bound circular orbit is",
+      "options": [
+        "A. positive",
+        "B. negative",
+        "C. zero",
+        "D. infinite"
+      ],
+      "answer": "B",
+      "explanation": "Negative total energy means the orbit is bound."
+    },
+    {
+      "concept": "Energy of an Orbiting Satellite",
+      "type": "Practice",
+      "difficulty": "Medium",
+      "question": "As circular orbital radius increases, total energy",
+      "options": [
+        "A. becomes more negative",
+        "B. approaches zero from below",
+        "C. becomes positive immediately",
+        "D. stays fixed"
+      ],
+      "answer": "B",
+      "explanation": "E=-GMm/(2r)."
+    },
+    {
+      "concept": "Energy of an Orbiting Satellite",
+      "type": "Practice",
+      "difficulty": "Medium",
+      "question": "For circular orbit, the relation is",
+      "options": [
+        "A. U=K",
+        "B. U=-2K",
+        "C. U=2K",
+        "D. U=-K/2"
+      ],
+      "answer": "B",
+      "explanation": "U=-GMm/r and K=GMm/(2r)."
+    },
+    {
+      "concept": "Energy of an Orbiting Satellite",
+      "type": "Practice",
+      "difficulty": "Medium",
+      "question": "Moving a satellite slowly to a higher circular orbit requires external work that is",
+      "options": [
+        "A. positive",
+        "B. negative",
+        "C. zero",
+        "D. undefined"
+      ],
+      "answer": "A",
+      "explanation": "Orbital total energy increases, so positive work must be supplied."
+    },
+    {
+      "concept": "Energy of an Orbiting Satellite",
+      "type": "Practice",
+      "difficulty": "Medium",
+      "question": "At a higher circular orbit, kinetic energy",
+      "options": [
+        "A. increases",
+        "B. decreases",
+        "C. stays constant",
+        "D. becomes negative"
+      ],
+      "answer": "B",
+      "explanation": "K=GMm/(2r), so it decreases with r."
+    },
+    {
+      "concept": "Energy of an Orbiting Satellite",
+      "type": "Practice",
+      "difficulty": "Medium",
+      "question": "If GM/r=9×10^6 J/kg for a 1000 kg satellite, K is",
+      "options": [
+        "A. 4.5×10^9 J",
+        "B. 9×10^9 J",
+        "C. 18×10^9 J",
+        "D. 4.5×10^6 J"
+      ],
+      "answer": "A",
+      "explanation": "K=1/2×1000×9×10^6=4.5×10^9 J."
+    },
+    {
+      "concept": "Energy of an Orbiting Satellite",
+      "type": "Practice",
+      "difficulty": "Medium",
+      "question": "For the same satellite, U is",
+      "options": [
+        "A. -9×10^9 J",
+        "B. +9×10^9 J",
+        "C. -4.5×10^9 J",
+        "D. zero"
+      ],
+      "answer": "A",
+      "explanation": "U=-mGM/r=-9×10^9 J."
+    },
+    {
+      "concept": "Energy of an Orbiting Satellite",
+      "type": "Assessment",
+      "difficulty": "Medium",
+      "question": "For the same satellite, total energy is",
+      "options": [
+        "A. -4.5×10^9 J",
+        "B. +4.5×10^9 J",
+        "C. -9×10^9 J",
+        "D. zero"
+      ],
+      "answer": "A",
+      "explanation": "E=K+U=-4.5×10^9 J."
+    },
+    {
+      "concept": "Energy of an Orbiting Satellite",
+      "type": "Assessment",
+      "difficulty": "Hard",
+      "question": "Energy required to move a satellite from r to 2r is",
+      "options": [
+        "A. GMm/(4r)",
+        "B. GMm/(2r)",
+        "C. GMm/r",
+        "D. zero"
+      ],
+      "answer": "A",
+      "explanation": "ΔE=GMm/(4r)."
+    },
+    {
+      "concept": "Energy of an Orbiting Satellite",
+      "type": "Assessment",
+      "difficulty": "Hard",
+      "question": "If satellite mass doubles at fixed orbit, total energy becomes",
+      "options": [
+        "A. twice as negative",
+        "B. half as negative",
+        "C. unchanged",
+        "D. four times positive"
+      ],
+      "answer": "A",
+      "explanation": "E is directly proportional to satellite mass."
+    },
+    {
+      "concept": "Energy of an Orbiting Satellite",
+      "type": "Assessment",
+      "difficulty": "Medium",
+      "question": "A satellite lowered to a lower circular orbit has orbital speed",
+      "options": [
+        "A. higher",
+        "B. lower",
+        "C. zero",
+        "D. unchanged"
+      ],
+      "answer": "A",
+      "explanation": "v=√(GM/r), so smaller r gives larger speed."
+    },
+    {
+      "concept": "Energy of an Orbiting Satellite",
+      "type": "Assessment",
+      "difficulty": "Hard",
+      "question": "Energy needed to escape from a circular orbit equals",
+      "options": [
+        "A. ",
+        "total orbital energy",
+        ""
+      ],
+      "answer": "B. twice K",
+      "explanation": "C. |U|"
+    },
+    {
+      "concept": "Energy of an Orbiting Satellite",
+      "type": "Assessment",
+      "difficulty": "Medium",
+      "question": "If orbital radius becomes 4r, circular kinetic energy becomes",
+      "options": [
+        "A. K/4",
+        "B. K/2",
+        "C. 2K",
+        "D. 4K"
+      ],
+      "answer": "A",
+      "explanation": "K∝1/r."
+    },
+    {
+      "concept": "Energy of an Orbiting Satellite",
+      "type": "Assessment",
+      "difficulty": "Hard",
+      "question": "If K=5 MJ in a circular orbit, U is",
+      "options": [
+        "A. -10 MJ",
+        "B. -5 MJ",
+        "C. +10 MJ",
+        "D. -2.5 MJ"
+      ],
+      "answer": "A",
+      "explanation": "U=-2K."
+    },
+    {
+      "concept": "Energy of an Orbiting Satellite",
+      "type": "Assessment",
+      "difficulty": "Hard",
+      "question": "If total energy is -20 MJ in a circular orbit, K is",
+      "options": [
+        "A. 20 MJ",
+        "B. -20 MJ",
+        "C. 10 MJ",
+        "D. -10 MJ"
+      ],
+      "answer": "A",
+      "explanation": "For circular orbit E=-K."
+    },
+    {
+      "concept": "Energy of an Orbiting Satellite",
+      "type": "Assessment",
+      "difficulty": "Medium",
+      "question": "At a larger orbit, total energy is closer to zero because",
+      "options": [
+        "A. gravitational binding is weaker",
+        "B. gravity becomes repulsive",
+        "C. mass disappears",
+        "D. G decreases"
+      ],
+      "answer": "A",
+      "explanation": "The magnitude of gravitational binding energy decreases with radius."
+    },
+    {
+      "concept": "Energy of an Orbiting Satellite",
+      "type": "Assessment",
+      "difficulty": "Hard",
+      "question": "For a bound elliptical satellite orbit, total mechanical energy is",
+      "options": [
+        "A. negative and constant",
+        "B. zero",
+        "C. positive",
+        "D. changing periodically"
+      ],
+      "answer": "A",
+      "explanation": "In an ideal gravitational field, total energy is conserved and negative for a bound ellipse."
+    },
+    {
+      "concept": "Spherically Symmetric Bodies",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "Outside a spherically symmetric body, gravity is equivalent to a point mass located at",
+      "options": [
+        "A. centre",
+        "B. surface",
+        "C. nearest point",
+        "D. any point"
+      ],
+      "answer": "A",
+      "explanation": "Newton's shell theorem gives the point-mass equivalent at the centre."
+    },
+    {
+      "concept": "Spherically Symmetric Bodies",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "External field of mass M at radius r is",
+      "options": [
+        "A. GM/r²",
+        "B. GM/r",
+        "C. GMr",
+        "D. GM/r³"
+      ],
+      "answer": "A",
+      "explanation": "Outside, g=GM/r²."
+    },
+    {
+      "concept": "Spherically Symmetric Bodies",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "Inside a uniform thin spherical shell, gravitational field is",
+      "options": [
+        "A. zero",
+        "B. GM/r²",
+        "C. constant nonzero",
+        "D. infinite"
+      ],
+      "answer": "A",
+      "explanation": "The shell theorem gives zero net field inside."
+    },
+    {
+      "concept": "Spherically Symmetric Bodies",
+      "type": "Practice",
+      "difficulty": "Easy",
+      "question": "Field at the centre of a uniform solid sphere is",
+      "options": [
+        "A. zero",
+        "B. GM/R²",
+        "C. maximum",
+        "D. infinite"
+      ],
+      "answer": "A",
+      "explanation": "Symmetry causes cancellation at the centre."
+    },
+    {
+      "concept": "Spherically Symmetric Bodies",
+      "type": "Practice",
+      "difficulty": "Medium",
+      "question": "Inside a uniform solid sphere, g varies as",
+      "options": [
+        "A. r",
+        "B. 1/r",
+        "C. 1/r²",
+        "D. r²"
+      ],
+      "answer": "A",
+      "explanation": "Enclosed mass ∝r³, hence g∝r."
+    },
+    {
+      "concept": "Spherically Symmetric Bodies",
+      "type": "Practice",
+      "difficulty": "Medium",
+      "question": "At the surface of a uniform sphere, inside and outside field expressions",
+      "options": [
+        "A. match",
+        "B. differ by factor 2",
+        "C. are both zero",
+        "D. have opposite signs"
+      ],
+      "answer": "A",
+      "explanation": "Both give GM/R² at r=R."
+    },
+    {
+      "concept": "Spherically Symmetric Bodies",
+      "type": "Practice",
+      "difficulty": "Medium",
+      "question": "Potential inside a uniform spherical shell is",
+      "options": [
+        "A. constant",
+        "B. proportional to r",
+        "C. proportional to 1/r",
+        "D. zero necessarily"
+      ],
+      "answer": "A",
+      "explanation": "Field is zero inside, so potential is constant."
+    },
+    {
+      "concept": "Spherically Symmetric Bodies",
+      "type": "Practice",
+      "difficulty": "Hard",
+      "question": "A spherical body with radially varying density has external field determined by",
+      "options": [
+        "A. total mass and centre distance",
+        "B. only surface density",
+        "C. density at centre",
+        "D. radius only"
+      ],
+      "answer": "A",
+      "explanation": "Spherical symmetry makes the external field depend only on total mass and r."
+    },
+    {
+      "concept": "Spherically Symmetric Bodies",
+      "type": "Practice",
+      "difficulty": "Medium",
+      "question": "For a uniform solid sphere, field at R/2 is",
+      "options": [
+        "A. GM/(2R²)",
+        "B. GM/R²",
+        "C. 2GM/R²",
+        "D. GM/(4R²)"
+      ],
+      "answer": "A",
+      "explanation": "Inside, g=GMr/R³; at R/2 it is GM/(2R²)."
+    },
+    {
+      "concept": "Spherically Symmetric Bodies",
+      "type": "Practice",
+      "difficulty": "Medium",
+      "question": "Inside a shell at R/2, field is",
+      "options": [
+        "A. zero",
+        "B. GM/(2R²)",
+        "C. GM/R²",
+        "D. 2GM/R²"
+      ],
+      "answer": "A",
+      "explanation": "A uniform shell has zero field at every interior point."
+    },
+    {
+      "concept": "Spherically Symmetric Bodies",
+      "type": "Assessment",
+      "difficulty": "Medium",
+      "question": "Maximum field of a uniform solid sphere occurs at",
+      "options": [
+        "A. centre",
+        "B. surface",
+        "C. infinity",
+        "D. R/2"
+      ],
+      "answer": "B",
+      "explanation": "It rises linearly inside and falls outside."
+    },
+    {
+      "concept": "Spherically Symmetric Bodies",
+      "type": "Assessment",
+      "difficulty": "Hard",
+      "question": "If radius doubles at constant density, mass becomes",
+      "options": [
+        "A. 2M",
+        "B. 4M",
+        "C. 8M",
+        "D. M/2"
+      ],
+      "answer": "C",
+      "explanation": "Mass ∝R³ for fixed density."
+    },
+    {
+      "concept": "Spherically Symmetric Bodies",
+      "type": "Assessment",
+      "difficulty": "Hard",
+      "question": "At constant density, if radius doubles, surface g becomes",
+      "options": [
+        "A. 2g",
+        "B. 4g",
+        "C. g/2",
+        "D. unchanged"
+      ],
+      "answer": "A",
+      "explanation": "With fixed density, M∝R³ and g∝M/R²∝R."
+    },
+    {
+      "concept": "Spherically Symmetric Bodies",
+      "type": "Assessment",
+      "difficulty": "Medium",
+      "question": "If shell radius changes but total mass and observation point remain fixed outside, external field",
+      "options": [
+        "A. remains same",
+        "B. doubles",
+        "C. halves",
+        "D. becomes zero"
+      ],
+      "answer": "A",
+      "explanation": "External field depends only on total mass and centre distance."
+    },
+    {
+      "concept": "Spherically Symmetric Bodies",
+      "type": "Assessment",
+      "difficulty": "Hard",
+      "question": "For a uniform solid sphere, field at R/4 compared with surface is",
+      "options": [
+        "A. g/4",
+        "B. g/2",
+        "C. 4g",
+        "D. g/16"
+      ],
+      "answer": "A",
+      "explanation": "Inside, g∝r, so at R/4 it is g/4."
+    },
+    {
+      "concept": "Spherically Symmetric Bodies",
+      "type": "Assessment",
+      "difficulty": "Hard",
+      "question": "Potential anywhere inside a thin uniform shell is",
+      "options": [
+        "A. -GM/R",
+        "B. -GM/r",
+        "C. zero",
+        "D. +GM/R"
+      ],
+      "answer": "A",
+      "explanation": "The potential is constant and equal to -GM/R."
+    },
+    {
+      "concept": "Spherically Symmetric Bodies",
+      "type": "Assessment",
+      "difficulty": "Medium",
+      "question": "At centre of a spherical planet, field is zero but potential can be",
+      "options": [
+        "A. non-zero",
+        "B. impossible",
+        "C. infinite",
+        "D. always positive"
+      ],
+      "answer": "A",
+      "explanation": "Vector field cancels by symmetry, but scalar potential need not be zero."
+    },
+    {
+      "concept": "Spherically Symmetric Bodies",
+      "type": "Assessment",
+      "difficulty": "Hard",
+      "question": "The theorem allowing a spherical shell to be treated as a central point mass externally is",
+      "options": [
+        "A. Newton's shell theorem",
+        "B. Kepler's law",
+        "C. Hooke's law",
+        "D. Bernoulli's theorem"
+      ],
+      "answer": "A",
+      "explanation": "This is Newton's shell theorem."
+    },
+    {
+      "concept": "Spherically Symmetric Bodies",
+      "type": "Assessment",
+      "difficulty": "Medium",
+      "question": "For external points, internal density distribution of a spherically symmetric body",
+      "options": [
+        "A. does not affect the field if total mass is fixed",
+        "B. completely determines it",
+        "C. makes field zero",
+        "D. reverses field"
+      ],
+      "answer": "A",
+      "explanation": "Only total mass and distance matter externally."
+    },
+    {
+      "concept": "Spherically Symmetric Bodies",
+      "type": "Assessment",
+      "difficulty": "Hard",
+      "question": "For a uniform solid sphere, if r is reduced from R to R/2, internal field",
+      "options": [
+        "A. halves",
+        "B. doubles",
+        "C. becomes one-fourth",
+        "D. becomes four times"
+      ],
+      "answer": "A",
+      "explanation": "Inside a uniform sphere, g is proportional to r."
+    }
+  ]
+}

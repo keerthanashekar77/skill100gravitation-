@@ -1,0 +1,158 @@
+{
+  "metadata": {
+    "id": "gravitation_introduction",
+    "title": "Gravitation",
+    "chapter": "Gravitation",
+    "class": 11,
+    "subject": "Physics",
+    "page": "Introduction",
+    "ui_structure": {
+      "prerequisites": "3 prerequisite cards",
+      "big_questions": "6 Big Questions",
+      "next_section": "Terminology"
+    }
+  },
+  "prerequisites": [
+    {
+      "id": "basic_mathematics",
+      "title": "Basic Mathematics",
+      "icon": "📐",
+      "description": "Algebra (solving for unknowns), ratios and proportions, powers and roots, basic coordinate geometry, and elementary calculus ideas such as rates of change.",
+      "key_points": [
+        "Rearranging equations and solving for unknown quantities.",
+        "Working with ratios, proportions and inverse-square relationships.",
+        "Using powers, roots and scientific notation.",
+        "Understanding simple rates of change used in physical relationships."
+      ]
+    },
+    {
+      "id": "scalars_vectors",
+      "title": "Scalars & Vectors",
+      "icon": "➕",
+      "description": "A scalar has magnitude only, while a vector has magnitude and direction. This distinction is important for gravitational force, acceleration and orbital motion.",
+      "key_points": [
+        "Mass, energy and gravitational potential are scalar quantities.",
+        "Gravitational force and acceleration due to gravity are vector quantities.",
+        "Vectors have both magnitude and direction.",
+        "Direction matters when applying gravitational force and acceleration."
+      ]
+    },
+    {
+      "id": "si_units",
+      "title": "SI Units",
+      "icon": "🔬",
+      "description": "Use SI units consistently for mass, distance, time, force, energy and gravitational quantities.",
+      "key_points": [
+        "Length is measured in metres (m).",
+        "Mass is measured in kilograms (kg).",
+        "Time is measured in seconds (s).",
+        "Force is measured in newtons (N).",
+        "Energy and potential energy are measured in joules (J).",
+        "Gravitational acceleration is measured in m/s².",
+        "Gravitational potential is measured in J/kg.",
+        "The gravitational constant G has SI unit N·m²/kg²."
+      ]
+    }
+  ],
+  "big_questions": [
+    {
+      "id": "what",
+      "type": "WHAT",
+      "title": "What is Gravitation?",
+      "subtitle": "The Fundamental Attractive Force",
+      "icon": "🌌",
+      "question": "What is the physical nature of gravitational force and how does it act?",
+      "answer": "Gravitation is the universal attractive force exerted between any two bodies due to their masses. It is a non-contact, central force that acts along the line joining the centres of mass of the interacting bodies and obeys Newton's inverse-square law.",
+      "keyPoints": [
+        "Always attractive in nature — never repulsive.",
+        "Universal constant G = 6.674 × 10⁻¹¹ N·m²/kg² applies everywhere.",
+        "Obeys Newton's Third Law (F₁₂ = −F₂₁ action-reaction pair).",
+        "Independent of the intervening medium between masses."
+      ],
+      "insight": "Although gravity is weak compared with the other fundamental interactions at the particle scale, its long range and always-attractive nature make it important in the structure and motion of astronomical systems."
+    },
+    {
+      "id": "why",
+      "type": "WHY",
+      "title": "Why Do Celestial Bodies Orbit?",
+      "subtitle": "Centripetal Acceleration from Gravity",
+      "icon": "🪐",
+      "question": "Why don't satellites and planets simply fall into Earth or the Sun?",
+      "answer": "Celestial bodies remain in orbit because their tangential motion combines with the gravitational attraction toward the primary body. Gravity supplies the required centripetal acceleration for circular orbital motion, while more generally gravitational motion can produce elliptical orbits.",
+      "keyPoints": [
+        "Gravitational force provides the necessary centripetal force for circular orbital motion.",
+        "For a circular orbit, v = √(GM/r), so orbital speed is independent of the satellite's mass.",
+        "Escape speed from the same radius is √2 times the circular orbital speed.",
+        "An orbiting satellite is in continuous free fall toward Earth while its tangential motion carries it around Earth."
+      ],
+      "insight": "A satellite is continually falling toward Earth, but its sideways velocity makes its path curve around Earth rather than directly reaching the surface."
+    },
+    {
+      "id": "when",
+      "type": "WHEN",
+      "title": "When Does 'g' Vary Across Earth?",
+      "subtitle": "Altitude, Depth, and Earth's Rotation",
+      "icon": "🏔️",
+      "question": "When and why does acceleration due to gravity (g) change its value?",
+      "answer": "The acceleration due to gravity is not exactly the same everywhere. It decreases with altitude above Earth's surface and decreases with depth inside a uniform Earth, becoming zero at the centre. Its effective value also varies with latitude because Earth rotates and is not a perfect sphere.",
+      "keyPoints": [
+        "Altitude (h): gₕ = GM/(R+h)², and for h ≪ R, gₕ ≈ g(1 − 2h/R).",
+        "Depth (d): for a uniform Earth, g_d = g(1 − d/R).",
+        "At the centre of a uniform Earth, g = 0.",
+        "Effective g is generally greater near the poles and smaller near the equator because of Earth's rotation and its oblate shape."
+      ],
+      "insight": "The value of g depends on position relative to Earth, so the familiar 9.8 m/s² value is an approximate reference value near Earth's surface."
+    },
+    {
+      "id": "where",
+      "type": "WHERE",
+      "title": "Where is Gravitational Potential Zero?",
+      "subtitle": "Reference Point and Gravitational Potential Well",
+      "icon": "📉",
+      "question": "Where is gravitational potential defined, and why is potential energy negative?",
+      "answer": "For an isolated gravitating mass, gravitational potential V = −GM/r and potential energy U = −GMm/r are conventionally taken to be zero at infinity. Because gravity is attractive, a finite point in the gravitational field has negative potential relative to this reference.",
+      "keyPoints": [
+        "Zero reference point is conventionally set at r = ∞.",
+        "Gravitational potential V = −GM/r is a scalar quantity measured in J/kg.",
+        "Gravitational potential energy U = −GMm/r is measured in joules.",
+        "Negative potential energy indicates a gravitationally bound state relative to the zero-at-infinity convention."
+      ],
+      "insight": "To take an object from a finite distance to infinity with zero final speed, energy must be supplied to overcome the gravitational binding."
+    },
+    {
+      "id": "who",
+      "type": "WHO",
+      "title": "Who Shaped Gravitational Theory?",
+      "subtitle": "From Planetary Observation to Universal Gravitation",
+      "icon": "📜",
+      "question": "Who were the key historical scientists associated with the development of gravitational theory?",
+      "answer": "The development of gravitational theory involved several stages: Ptolemy's geocentric model, Copernicus's heliocentric model, Tycho Brahe's astronomical observations, Kepler's laws of planetary motion, Newton's universal law of gravitation, and Cavendish's torsion-balance experiment for determining the gravitational constant.",
+      "keyPoints": [
+        "Claudius Ptolemy: associated with the geocentric model.",
+        "Nicolaus Copernicus: proposed the heliocentric model.",
+        "Tycho Brahe: collected precise astronomical observations.",
+        "Johannes Kepler: formulated the three laws of planetary motion.",
+        "Isaac Newton: formulated the universal law of gravitation and connected terrestrial and celestial motion.",
+        "Henry Cavendish: used a torsion-balance experiment to determine the gravitational constant."
+      ],
+      "insight": "Kepler's observational laws describe planetary motion, while Newton's theory provides a physical gravitational explanation for that motion."
+    },
+    {
+      "id": "how",
+      "type": "HOW",
+      "title": "How Do We Calculate Satellite Energy?",
+      "subtitle": "Kinetic, Potential and Total Energy",
+      "icon": "🔋",
+      "question": "How are orbital kinetic energy, potential energy and total energy mathematically linked for a circular satellite orbit?",
+      "answer": "For a satellite of mass m orbiting a body of mass M in a circular orbit of radius r, the kinetic energy is K = GMm/(2r), the potential energy is U = −GMm/r, and the total mechanical energy is E = −GMm/(2r).",
+      "keyPoints": [
+        "Kinetic Energy: K = ½mvₒ² = GMm/(2r).",
+        "Potential Energy: U = −GMm/r.",
+        "Total Energy: E = K + U = −GMm/(2r).",
+        "Energy relation: K = −E = −U/2, so |U| = 2K = 2|E|.",
+        "Binding energy for the circular orbit is the positive energy required to take the satellite to infinity with zero final speed: BE = GMm/(2r)."
+      ],
+      "insight": "For a circular orbit, increasing the orbital radius decreases the orbital speed but makes the total energy less negative, meaning the satellite is less tightly bound."
+    }
+  ]
+}

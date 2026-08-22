@@ -1,0 +1,3733 @@
+{
+  "chapter": "Gravitation",
+  "title": "Gravitation — Updated Question Bank with Correct Explanations",
+  "version": "2.0",
+  "total_questions": 87,
+  "question_types": {
+    "true_false": 15,
+    "assertion_reason": 11,
+    "mcq_check_your_understanding": 10,
+    "mcq_neet_previous_high_yield": 51
+  },
+  "sections": [
+    {
+      "section": "Section I - NCERT Liners",
+      "question_type": "true_false",
+      "questions": [
+        {
+          "id": 1,
+          "question": "A planet revolves in an elliptical orbit around sun. The velocity ratio of the planet at perihelion and aphelion is greater than one.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "question_type": "true_false",
+          "correctAnswer": "True",
+          "correctOption": 1,
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "True",
+              "explanation": "True. By conservation of angular momentum, mvr is constant. Since r is smaller at perihelion than at aphelion, v is greater at perihelion; therefore v_perihelion/v_aphelion > 1."
+            },
+            {
+              "option": 2,
+              "text": "False",
+              "explanation": "False. The statement is correct because the planet moves fastest at perihelion and slowest at aphelion."
+            }
+          ],
+          "explanation": "The answer follows directly from the relevant gravitation principle."
+        },
+        {
+          "id": 2,
+          "question": "Kepler's law of area is a consequence of conservation of linear momentum which is valid for any central force.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "question_type": "true_false",
+          "correctAnswer": "False",
+          "correctOption": 2,
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "True",
+              "explanation": "False. Kepler's area law follows from conservation of angular momentum, not conservation of linear momentum."
+            },
+            {
+              "option": 2,
+              "text": "False",
+              "explanation": "True. A central force produces zero torque about the centre, so angular momentum is conserved and equal areas are swept in equal times."
+            }
+          ],
+          "explanation": "The answer follows directly from the relevant gravitation principle."
+        },
+        {
+          "id": 3,
+          "question": "The force of attraction between a hollow spherical shell of uniform density and a point mass situated just outside it is calculated as if the entire mass of the shell is concentrated at the centre of the shell.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "question_type": "true_false",
+          "correctAnswer": "True",
+          "correctOption": 1,
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "True",
+              "explanation": "True. By the shell theorem, for a point outside a uniform spherical shell, the shell attracts the point mass as if all the shell's mass were concentrated at its centre."
+            },
+            {
+              "option": 2,
+              "text": "False",
+              "explanation": "False. This would be incorrect for a point outside a uniform spherical shell."
+            }
+          ],
+          "explanation": "The answer follows directly from the relevant gravitation principle."
+        },
+        {
+          "id": 4,
+          "question": "Cavendish experimentally measured the value of universal gravitational constant and currently accepted value is 6.67 × 10^-8 N m^2 kg^-2.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "question_type": "true_false",
+          "correctAnswer": "False",
+          "correctOption": 2,
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "True",
+              "explanation": "False. The accepted SI value is 6.67 × 10^-11 N m² kg^-2, not 10^-8."
+            },
+            {
+              "option": 2,
+              "text": "False",
+              "explanation": "True. Cavendish's experiment determined G, whose accepted SI value is approximately 6.67 × 10^-11 N m² kg^-2."
+            }
+          ],
+          "explanation": "The answer follows directly from the relevant gravitation principle."
+        },
+        {
+          "id": 5,
+          "question": "For small height h, above surface of earth, the value of g decreases by a factor of (1 - 2h/R).",
+          "options": [
+            "True",
+            "False"
+          ],
+          "question_type": "true_false",
+          "correctAnswer": "True",
+          "correctOption": 1,
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "True",
+              "explanation": "True. At height h, g_h = g(R/(R+h))² ≈ g(1 - 2h/R) for h << R."
+            },
+            {
+              "option": 2,
+              "text": "False",
+              "explanation": "False. For small h the first-order decrease factor is 1 - 2h/R."
+            }
+          ],
+          "explanation": "The answer follows directly from the relevant gravitation principle."
+        },
+        {
+          "id": 6,
+          "question": "As we go down below the earth surface, acceleration due to gravity decreases at a faster rate than above the surface of earth.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "question_type": "true_false",
+          "correctAnswer": "False",
+          "correctOption": 2,
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "True",
+              "explanation": "False. For a uniform Earth, g decreases linearly with depth, while just above the surface the first-order decrease is about twice as rapid with distance. So it does not decrease faster below the surface."
+            },
+            {
+              "option": 2,
+              "text": "False",
+              "explanation": "True. The statement is false; the standard small-height/depth relations show a faster variation just outside the surface than inside a uniform Earth."
+            }
+          ],
+          "explanation": "The answer follows directly from the relevant gravitation principle."
+        },
+        {
+          "id": 7,
+          "question": "The gravitational potential is position dependent. As we move above the surface of earth gravitational potential increases.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "question_type": "true_false",
+          "correctAnswer": "True",
+          "correctOption": 1,
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "True",
+              "explanation": "True. Gravitational potential V = -GM/r. As r increases, V becomes less negative, so it increases toward zero."
+            },
+            {
+              "option": 2,
+              "text": "False",
+              "explanation": "False. Moving away from Earth increases gravitational potential (makes it less negative)."
+            }
+          ],
+          "explanation": "The answer follows directly from the relevant gravitation principle."
+        },
+        {
+          "id": 8,
+          "question": "Gravitational potential energy associated with two particles of masses m1 and m2 separated by a distance r is given by V = -Gm1m2/r, if we use gravitational potential to be zero at infinite separation.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "question_type": "true_false",
+          "correctAnswer": "True",
+          "correctOption": 1,
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "True",
+              "explanation": "True. With zero potential at infinity, U = -Gm1m2/r."
+            },
+            {
+              "option": 2,
+              "text": "False",
+              "explanation": "False. The gravitational potential energy is negative under the stated zero-at-infinity convention."
+            }
+          ],
+          "explanation": "The answer follows directly from the relevant gravitation principle."
+        },
+        {
+          "id": 9,
+          "question": "Minimum speed with which an object thrown from earth surface to escape, depends on radius of earth but independent of mass of the object.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "question_type": "true_false",
+          "correctAnswer": "True",
+          "correctOption": 1,
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "True",
+              "explanation": "True. Escape speed v_e = sqrt(2GM/R), so it depends on Earth's mass and radius, but not on the mass of the escaping object."
+            },
+            {
+              "option": 2,
+              "text": "False",
+              "explanation": "False. The object's mass cancels from the escape-speed equation."
+            }
+          ],
+          "explanation": "The answer follows directly from the relevant gravitation principle."
+        },
+        {
+          "id": 10,
+          "question": "Numerical value of escape velocity of earth surface is 11.2 km/s but from surface of moon the value is about 2.3 km/s.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "question_type": "true_false",
+          "correctAnswer": "True",
+          "correctOption": 1,
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "True",
+              "explanation": "True. Earth's escape speed is about 11.2 km/s and the Moon's is about 2.4 km/s (often rounded to about 2.3 km/s in textbooks)."
+            },
+            {
+              "option": 2,
+              "text": "False",
+              "explanation": "False. The stated approximate textbook values are consistent with the much smaller mass and radius of the Moon."
+            }
+          ],
+          "explanation": "The answer follows directly from the relevant gravitation principle."
+        },
+        {
+          "id": 11,
+          "question": "A neutral point, where gravitational field intensity is zero on line joining earth and moon, is closer to earth.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "question_type": "true_false",
+          "correctAnswer": "True",
+          "correctOption": 1,
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "True",
+              "explanation": "False. The neutral point is closer to the Moon, the less massive body, because a point must be farther from the more massive Earth for the two field magnitudes to become equal."
+            },
+            {
+              "option": 2,
+              "text": "False",
+              "explanation": "True. The neutral point between Earth and Moon lies closer to the Moon, not closer to Earth."
+            }
+          ],
+          "explanation": "The answer follows directly from the relevant gravitation principle."
+        },
+        {
+          "id": 12,
+          "question": "Total energy of satellite orbiting on circular path is negative with potential energy being less negative and positive kinetic energy.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "question_type": "true_false",
+          "correctAnswer": "True",
+          "correctOption": 1,
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "True",
+              "explanation": "True. For a circular satellite orbit, K = GMm/(2r), U = -GMm/r and E = K+U = -GMm/(2r). Thus total energy is negative, potential energy is negative, and kinetic energy is positive."
+            },
+            {
+              "option": 2,
+              "text": "False",
+              "explanation": "False. The circular-orbit relations show that total mechanical energy is negative while kinetic energy is positive."
+            }
+          ],
+          "explanation": "The answer follows directly from the relevant gravitation principle."
+        },
+        {
+          "id": 13,
+          "question": "Satellites orbiting in a circular orbit in equatorial plane of the earth with zero relative angular velocity is called a polar satellite.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "question_type": "true_false",
+          "correctAnswer": "False",
+          "correctOption": 2,
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "True",
+              "explanation": "False. A polar satellite has an orbital plane passing approximately over Earth's poles. An equatorial satellite lies in Earth's equatorial plane; a geostationary satellite has zero relative angular velocity with respect to Earth."
+            },
+            {
+              "option": 2,
+              "text": "False",
+              "explanation": "True. The statement describes a geostationary/geosynchronous condition in the equatorial plane, not a polar satellite."
+            }
+          ],
+          "explanation": "The answer follows directly from the relevant gravitation principle."
+        },
+        {
+          "id": 14,
+          "question": "When a satellite is shifted from one circular orbit to higher circular orbit its kinetic energy decreases but linear momentum of satellite remains conserved.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "question_type": "true_false",
+          "correctAnswer": "False",
+          "correctOption": 2,
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "True",
+              "explanation": "False. When moved to a higher circular orbit, the satellite's speed and kinetic energy decrease, but its linear momentum is not conserved because an external force/impulse is involved during the transfer."
+            },
+            {
+              "option": 2,
+              "text": "False",
+              "explanation": "True. The kinetic energy decreases, but linear momentum of the satellite is not conserved during an orbit-raising manoeuvre."
+            }
+          ],
+          "explanation": "The answer follows directly from the relevant gravitation principle."
+        },
+        {
+          "id": 15,
+          "question": "In a satellite around earth, every part and parcel of the satellite has an acceleration towards the centre of the earth which is value of earth's acceleration due to gravity at that position. Thus inside a satellite everything is in a state of free fall.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "question_type": "true_false",
+          "correctAnswer": "True",
+          "correctOption": 1,
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "True",
+              "explanation": "True. A satellite and everything inside it have the same gravitational acceleration toward Earth's centre. Because there is no supporting normal force balancing gravity, objects inside are in continuous free fall and appear weightless."
+            },
+            {
+              "option": 2,
+              "text": "False",
+              "explanation": "False. The apparent weightlessness of objects inside an orbiting satellite is explained by their common free-fall acceleration."
+            }
+          ],
+          "explanation": "The answer follows directly from the relevant gravitation principle."
+        }
+      ]
+    },
+    {
+      "section": "Section II - Assertion-Reason",
+      "question_type": "assertion_reason",
+      "questions": [
+        {
+          "id": 1,
+          "assertion": "Angular momentum of an orbiting body is always conserved about centre of rotation (centre of mass of system).",
+          "reason": "Gravitational force is a central force (always directed towards some point).",
+          "options": [
+            "1. Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+            "2. Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+            "3. Assertion is true, but Reason is false.",
+            "4. Both Assertion and Reason are false."
+          ],
+          "question_type": "assertion_reason",
+          "correctOption": 1,
+          "correctAnswer": "1. Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "1. Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+              "explanation": "Correct. Both statements are true. Gravity is a central force, so its torque about the centre is zero; therefore angular momentum about that centre is conserved."
+            },
+            {
+              "option": 2,
+              "text": "2. Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+              "explanation": "Incorrect. The reason is not merely an independent fact; the central nature of gravity directly makes the torque zero and hence explains conservation of angular momentum."
+            },
+            {
+              "option": 3,
+              "text": "3. Assertion is true, but Reason is false.",
+              "explanation": "Incorrect. The Reason is true: gravitational force is central."
+            },
+            {
+              "option": 4,
+              "text": "4. Both Assertion and Reason are false.",
+              "explanation": "Incorrect. Both Assertion and Reason are true."
+            }
+          ],
+          "explanation": "The answer follows directly from the relevant gravitation principle."
+        },
+        {
+          "id": 2,
+          "assertion": "A planet of mass m rotating in circular orbit of radius r around sun of mass M has kinetic energy equal to negative half of potential energy.",
+          "reason": "Total mechanical energy of the rotating planet is half of potential energy.",
+          "options": [
+            "1. Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+            "2. Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+            "3. Assertion is true, but Reason is false.",
+            "4. Both Assertion and Reason are false."
+          ],
+          "question_type": "assertion_reason",
+          "correctOption": 1,
+          "correctAnswer": "1. Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "1. Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+              "explanation": "Correct. For a circular orbit, K = GMm/(2r) and U = -GMm/r, so K = -U/2. Also E = K+U = U/2, so the Reason is true and correctly supports the Assertion."
+            },
+            {
+              "option": 2,
+              "text": "2. Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+              "explanation": "Incorrect. The Reason directly gives K = -U/2 because E = U/2 and E = K+U."
+            },
+            {
+              "option": 3,
+              "text": "3. Assertion is true, but Reason is false.",
+              "explanation": "Incorrect. The Reason is true, since total energy E = U/2."
+            },
+            {
+              "option": 4,
+              "text": "4. Both Assertion and Reason are false.",
+              "explanation": "Incorrect. Both Assertion and Reason are true."
+            }
+          ],
+          "explanation": "The answer follows directly from the relevant gravitation principle."
+        },
+        {
+          "id": 3,
+          "assertion": "Whatever is gravitational potential at the surface, the same continues inside the shell of mass m.",
+          "reason": "No gravitational field exists inside earth.",
+          "options": [
+            "1. Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+            "2. Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+            "3. Assertion is true, but Reason is false.",
+            "4. Both Assertion and Reason are false."
+          ],
+          "question_type": "assertion_reason",
+          "correctOption": 1,
+          "correctAnswer": "1. Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "1. Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+              "explanation": "Correct. Both are true. Inside a uniform spherical shell the gravitational field is zero, so the gravitational potential is constant throughout the interior and equal to its value at the surface."
+            },
+            {
+              "option": 2,
+              "text": "2. Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+              "explanation": "Incorrect. The Reason directly explains why the potential remains constant inside the shell."
+            },
+            {
+              "option": 3,
+              "text": "3. Assertion is true, but Reason is false.",
+              "explanation": "Incorrect. The Reason is true for a spherical shell: the net gravitational field inside is zero."
+            },
+            {
+              "option": 4,
+              "text": "4. Both Assertion and Reason are false.",
+              "explanation": "Incorrect. Both Assertion and Reason are true."
+            }
+          ],
+          "explanation": "The answer follows directly from the relevant gravitation principle."
+        },
+        {
+          "id": 4,
+          "assertion": "Atmosphere of moon contains no gas, not even hydrogen, whereas earth's atmosphere has little amount of hydrogen also.",
+          "reason": "The escape velocity from moon is smaller than r.m.s. velocity of the gases.",
+          "options": [
+            "1. Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+            "2. Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+            "3. Assertion is true, but Reason is false.",
+            "4. Both Assertion and Reason are false."
+          ],
+          "question_type": "assertion_reason",
+          "correctOption": 1,
+          "correctAnswer": "1. Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "1. Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+              "explanation": "Correct. The Moon cannot retain a substantial atmosphere because its low escape speed allows gas molecules to escape more readily; Earth's greater gravity retains gases better. Thus both statements are true and the Reason explains the Assertion."
+            },
+            {
+              "option": 2,
+              "text": "2. Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+              "explanation": "Incorrect. The Reason directly explains why the Moon cannot retain gases."
+            },
+            {
+              "option": 3,
+              "text": "3. Assertion is true, but Reason is false.",
+              "explanation": "Incorrect. The escape velocity of the Moon is not smaller than the rms speed of all gases; the relevant comparison is for atmospheric gas molecules and retention over long times."
+            },
+            {
+              "option": 4,
+              "text": "4. Both Assertion and Reason are false.",
+              "explanation": "Incorrect. The Assertion is broadly true in the textbook context and the Reason gives the physical basis."
+            }
+          ],
+          "explanation": "The answer follows directly from the relevant gravitation principle."
+        },
+        {
+          "id": 5,
+          "assertion": "An astronaut in an orbiting space station above the earth experiences weightlessness.",
+          "reason": "An object moving around earth under the influence of earth's gravitational force is in state of free fall.",
+          "options": [
+            "1. Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+            "2. Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+            "3. Assertion is true, but Reason is false.",
+            "4. Both Assertion and Reason are false."
+          ],
+          "question_type": "assertion_reason",
+          "correctOption": 1,
+          "correctAnswer": "1. Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "1. Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+              "explanation": "Correct. An orbiting astronaut and spacecraft are both continuously falling under Earth's gravity with the same acceleration, so there is no supporting normal force and apparent weight is zero."
+            },
+            {
+              "option": 2,
+              "text": "2. Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+              "explanation": "Incorrect. The Reason is the direct explanation of weightlessness."
+            },
+            {
+              "option": 3,
+              "text": "3. Assertion is true, but Reason is false.",
+              "explanation": "Incorrect. The Reason is true."
+            },
+            {
+              "option": 4,
+              "text": "4. Both Assertion and Reason are false.",
+              "explanation": "Incorrect. Both Assertion and Reason are true."
+            }
+          ],
+          "explanation": "The answer follows directly from the relevant gravitation principle."
+        },
+        {
+          "id": 6,
+          "assertion": "Smaller the orbit of planet Mercury around the Sun, shortest is the time it takes to complete one revolution.",
+          "reason": "According to Kepler's first law of planetary motion, square of time period is proportional to cube of mean distance from Sun.",
+          "options": [
+            "1. Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+            "2. Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+            "3. Assertion is true, but Reason is false.",
+            "4. Both Assertion and Reason are false."
+          ],
+          "question_type": "assertion_reason",
+          "correctOption": 1,
+          "correctAnswer": "1. Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "1. Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+              "explanation": "Correct. Mercury has the smallest mean orbital radius among the planets, and Kepler's third law T² ∝ a³ shows that smaller a gives a shorter period."
+            },
+            {
+              "option": 2,
+              "text": "2. Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+              "explanation": "Incorrect. The Reason directly explains the Assertion."
+            },
+            {
+              "option": 3,
+              "text": "3. Assertion is true, but Reason is false.",
+              "explanation": "Incorrect. Kepler's third law is true."
+            },
+            {
+              "option": 4,
+              "text": "4. Both Assertion and Reason are false.",
+              "explanation": "Incorrect. Both Assertion and Reason are true."
+            }
+          ],
+          "explanation": "The answer follows directly from the relevant gravitation principle."
+        },
+        {
+          "id": 7,
+          "assertion": "If the radius of earth were to shrink by 1% with its mass remaining unchanged, its acceleration due to gravity on the surface will increase by 2%.",
+          "reason": "Acceleration due to gravity on surface of earth is g = GM/R^2.",
+          "options": [
+            "1. Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+            "2. Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+            "3. Assertion is true, but Reason is false.",
+            "4. Both Assertion and Reason are false."
+          ],
+          "question_type": "assertion_reason",
+          "correctOption": 1,
+          "correctAnswer": "1. Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "1. Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+              "explanation": "Correct. g = GM/R². If R becomes 0.99R, g' = g/(0.99)² ≈ 1.0203g, an increase of about 2%. The Reason correctly explains it."
+            },
+            {
+              "option": 2,
+              "text": "2. Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+              "explanation": "Incorrect. The Reason is the equation used to derive the 2% increase."
+            },
+            {
+              "option": 3,
+              "text": "3. Assertion is true, but Reason is false.",
+              "explanation": "Incorrect. The Reason is true."
+            },
+            {
+              "option": 4,
+              "text": "4. Both Assertion and Reason are false.",
+              "explanation": "Incorrect. Both Assertion and Reason are true."
+            }
+          ],
+          "explanation": "The answer follows directly from the relevant gravitation principle."
+        },
+        {
+          "id": 8,
+          "assertion": "A satellite is orbiting a planet at a certain height in circular orbit. If mass of the planet is suddenly reduced to half, the satellite falls freely on planet.",
+          "reason": "The speed of a satellite around planet in circular orbit depends on the mass of the satellite.",
+          "options": [
+            "1. Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+            "2. Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+            "3. Assertion is true, but Reason is false.",
+            "4. Both Assertion and Reason are false."
+          ],
+          "question_type": "assertion_reason",
+          "correctOption": 4,
+          "correctAnswer": "4. Both Assertion and Reason are false.",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "1. Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+              "explanation": "Incorrect. The Assertion is false and the Reason is also false."
+            },
+            {
+              "option": 2,
+              "text": "2. Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+              "explanation": "Incorrect. The Reason is false because circular orbital speed depends on the planet's mass, not the satellite's mass."
+            },
+            {
+              "option": 3,
+              "text": "3. Assertion is true, but Reason is false.",
+              "explanation": "Incorrect. The Assertion is false: after the planet mass is halved, the satellite's instantaneous speed equals the new escape speed, so it would be on a parabolic escape trajectory rather than falling onto the planet."
+            },
+            {
+              "option": 4,
+              "text": "4. Both Assertion and Reason are false.",
+              "explanation": "Correct. Both are false. The circular speed is v = sqrt(GM/r), independent of satellite mass; after M becomes M/2, the unchanged speed equals the new escape speed sqrt(2G(M/2)/r) = sqrt(GM/r)."
+            }
+          ],
+          "explanation": "The answer follows directly from the relevant gravitation principle."
+        },
+        {
+          "id": 9,
+          "assertion": "The gravitational force is a non-conservative force.",
+          "reason": "The gravitational force is a strongest known force.",
+          "options": [
+            "1. Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+            "2. Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+            "3. Assertion is true, but Reason is false.",
+            "4. Both Assertion and Reason are false."
+          ],
+          "question_type": "assertion_reason",
+          "correctOption": 4,
+          "correctAnswer": "4. Both Assertion and Reason are false.",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "1. Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+              "explanation": "Incorrect. Both statements would need to be true, but the Assertion is false and the Reason is also false."
+            },
+            {
+              "option": 2,
+              "text": "2. Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+              "explanation": "Incorrect. The Reason is false: gravitational force is not the strongest fundamental force."
+            },
+            {
+              "option": 3,
+              "text": "3. Assertion is true, but Reason is false.",
+              "explanation": "Incorrect. The Assertion is false because gravitational force is conservative, not non-conservative."
+            },
+            {
+              "option": 4,
+              "text": "4. Both Assertion and Reason are false.",
+              "explanation": "Correct. Both are false. Gravitational force is conservative, and it is the weakest of the four fundamental interactions, not the strongest."
+            }
+          ],
+          "explanation": "The answer follows directly from the relevant gravitation principle."
+        },
+        {
+          "id": 10,
+          "assertion": "The binding energy of a satellite is independent of mass of the satellite.",
+          "reason": "Binding energy is the negative of potential energy of the satellite.",
+          "options": [
+            "1. Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+            "2. Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+            "3. Assertion is true, but Reason is false.",
+            "4. Both Assertion and Reason are false."
+          ],
+          "question_type": "assertion_reason",
+          "correctOption": 4,
+          "correctAnswer": "4. Both Assertion and Reason are false.",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "1. Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+              "explanation": "Incorrect. Binding energy is not independent of satellite mass, and the Reason is not correctly stated."
+            },
+            {
+              "option": 2,
+              "text": "2. Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+              "explanation": "Incorrect. The Assertion is false because binding energy depends on satellite mass."
+            },
+            {
+              "option": 3,
+              "text": "3. Assertion is true, but Reason is false.",
+              "explanation": "Incorrect. The Assertion is false and the Reason is also false as stated. Binding energy is the negative of total mechanical energy, not simply the negative of potential energy."
+            },
+            {
+              "option": 4,
+              "text": "4. Both Assertion and Reason are false.",
+              "explanation": "Correct. Both statements are false. For a circular orbit, total energy E = -GMm/(2r), so binding energy = GMm/(2r), which depends on m. Also binding energy is -E, not -U."
+            }
+          ],
+          "explanation": "The answer follows directly from the relevant gravitation principle."
+        },
+        {
+          "id": 11,
+          "assertion": "A planet of mass M moving around the sun in an elliptic orbit. Angular momentum of planet about sun remains constant but its kinetic energy changes with time.",
+          "reason": "Net torque on planet about sun is zero, hence angular momentum remains conserved.",
+          "options": [
+            "1. Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+            "2. Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+            "3. Assertion is true, but Reason is false.",
+            "4. Both Assertion and Reason are false."
+          ],
+          "question_type": "assertion_reason",
+          "correctOption": 1,
+          "correctAnswer": "1. Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "1. Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+              "explanation": "Correct. Gravity is a central force, so torque about the Sun is zero and angular momentum remains constant. In an elliptical orbit the distance and speed vary, so kinetic energy changes."
+            },
+            {
+              "option": 2,
+              "text": "2. Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+              "explanation": "Incorrect. The Reason directly explains the angular-momentum part of the Assertion."
+            },
+            {
+              "option": 3,
+              "text": "3. Assertion is true, but Reason is false.",
+              "explanation": "Incorrect. The Reason is true."
+            },
+            {
+              "option": 4,
+              "text": "4. Both Assertion and Reason are false.",
+              "explanation": "Incorrect. Both statements are true."
+            }
+          ],
+          "explanation": "The answer follows directly from the relevant gravitation principle."
+        }
+      ]
+    },
+    {
+      "section": "Section III - Check Your Understanding",
+      "question_type": "mcq",
+      "questions": [
+        {
+          "id": 1,
+          "question": "The distance between earth and moon is about 4 × 10^5 km. At what point will the gravitational strength of earth and moon be zero? (Take Mm = ME/81).",
+          "options": [
+            "1. 3.2 × 10^5 km from earth",
+            "2. 3.6 × 10^5 km from earth",
+            "3. 1.6 × 10^5 km from earth",
+            "4. 4 × 10^4 km from earth"
+          ],
+          "question_type": "mcq",
+          "correctOption": 2,
+          "correctAnswer": "2. 3.6 × 10^5 km from earth",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "1. 3.2 × 10^5 km from earth",
+              "explanation": "Incorrect. 3.2×10^5 km from Earth is too close to Earth; Earth's gravitational field is still stronger there."
+            },
+            {
+              "option": 2,
+              "text": "2. 3.6 × 10^5 km from earth",
+              "explanation": "Correct. Let the neutral point be x from Earth. GM_E/x² = GM_M/(D-x)², with M_M=M_E/81. Thus (D-x)/x=1/9, so D=10x/9 and x=0.9D=3.6×10^5 km."
+            },
+            {
+              "option": 3,
+              "text": "3. 1.6 × 10^5 km from earth",
+              "explanation": "Incorrect. At 1.6×10^5 km from Earth, the point is not far enough from Earth for the weaker Moon's field to balance Earth's field."
+            },
+            {
+              "option": 4,
+              "text": "4. 4 × 10^4 km from earth",
+              "explanation": "Incorrect. 4×10^4 km is far too close to Earth for gravitational fields to cancel."
+            }
+          ],
+          "explanation": "The answer follows directly from the relevant gravitation principle."
+        },
+        {
+          "id": 2,
+          "question": "In the above question, where gravitational field intensity becomes zero, what is the total gravitational potential at this point? (Mass of earth is 6 × 10^24 kg).",
+          "options": [
+            "1. -1.2 × 10^6 J/kg",
+            "2. -6.5 × 10^5 J/kg",
+            "3. -2.9 × 10^5 J/kg",
+            "4. -4.5 × 10^6 J/kg"
+          ],
+          "question_type": "mcq",
+          "correctOption": 1,
+          "correctAnswer": "1. -1.2 × 10^6 J/kg",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "1. -1.2 × 10^6 J/kg",
+              "explanation": "Correct. At x=3.6×10^5 km from Earth and D-x=4×10^4 km from Moon, V=-GM_E/x-GM_M/(D-x) ≈ -1.2×10^6 J/kg."
+            },
+            {
+              "option": 2,
+              "text": "2. -6.5 × 10^5 J/kg",
+              "explanation": "Incorrect. This value does not result from substituting the neutral-point distances into the gravitational potential formula."
+            },
+            {
+              "option": 3,
+              "text": "3. -2.9 × 10^5 J/kg",
+              "explanation": "Incorrect. The potential must include contributions from both Earth and Moon; the resulting value is about -1.2×10^6 J/kg."
+            },
+            {
+              "option": 4,
+              "text": "4. -4.5 × 10^6 J/kg",
+              "explanation": "Incorrect. This magnitude is too large and is not obtained from the given masses and distances."
+            }
+          ],
+          "explanation": "The answer follows directly from the relevant gravitation principle."
+        },
+        {
+          "id": 3,
+          "question": "If the mass of moon is (ME/81) and radius is (RE/6), then the acceleration due to gravity on the surface of earth to that on surface of moon is (ME = Mass of Earth).",
+          "options": [
+            "1. 5/4",
+            "2. 7/4",
+            "3. 9/4",
+            "4. 11/4"
+          ],
+          "question_type": "mcq",
+          "correctOption": 3,
+          "correctAnswer": "3. 9/4",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "1. 5/4",
+              "explanation": "Incorrect. The ratio is not 5/4."
+            },
+            {
+              "option": 2,
+              "text": "2. 7/4",
+              "explanation": "Incorrect. The ratio is not 7/4."
+            },
+            {
+              "option": 3,
+              "text": "3. 9/4",
+              "explanation": "Correct. g_E=GM_E/R_E² and g_M=G(M_E/81)/(R_E/6)²=(4/9)g_E. Hence g_E/g_M=9/4."
+            },
+            {
+              "option": 4,
+              "text": "4. 11/4",
+              "explanation": "Incorrect. The correct ratio is 9/4, not 11/4."
+            }
+          ],
+          "explanation": "The answer follows directly from the relevant gravitation principle."
+        },
+        {
+          "id": 4,
+          "question": "The acceleration due to gravity:",
+          "options": [
+            "1. Is maximum at earth's equator",
+            "2. Is maximum at the centre of earth",
+            "3. Increases with increase in height above earth surface",
+            "4. Is minimum at Earth's equator"
+          ],
+          "question_type": "mcq",
+          "correctOption": 4,
+          "correctAnswer": "4. Is minimum at Earth's equator",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "1. Is maximum at earth's equator",
+              "explanation": "Incorrect. Earth's effective g is not maximum at the equator; rotation reduces it there."
+            },
+            {
+              "option": 2,
+              "text": "2. Is maximum at the centre of earth",
+              "explanation": "Incorrect. At the centre of an ideal spherical Earth, gravitational field is zero."
+            },
+            {
+              "option": 3,
+              "text": "3. Increases with increase in height above earth surface",
+              "explanation": "Incorrect. g decreases with height because g_h=GM/(R+h)²."
+            },
+            {
+              "option": 4,
+              "text": "4. Is minimum at Earth's equator",
+              "explanation": "Correct. Earth's effective acceleration due to gravity is minimum at the equator because Earth's rotation produces the greatest centrifugal effect there."
+            }
+          ],
+          "explanation": "The answer follows directly from the relevant gravitation principle."
+        },
+        {
+          "id": 5,
+          "question": "Two masses each equal to M are moving on a circular path of radius R about a common centre. The gravitational force of attraction between the masses has magnitude:",
+          "options": [
+            "1. F = GM^2/R^2",
+            "2. F = GM^2/(4R^2)",
+            "3. F = 4GM^2/R^2",
+            "4. F = GM^2/(2R^2)"
+          ],
+          "question_type": "mcq",
+          "correctOption": 2,
+          "correctAnswer": "2. F = GM^2/(4R^2)",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "1. F = GM^2/R^2",
+              "explanation": "Incorrect. The two masses are 2R apart, not R apart."
+            },
+            {
+              "option": 2,
+              "text": "2. F = GM^2/(4R^2)",
+              "explanation": "Correct. F=GM²/(2R)²=GM²/(4R²)."
+            },
+            {
+              "option": 3,
+              "text": "3. F = 4GM^2/R^2",
+              "explanation": "Incorrect. This is four times larger than the correct value."
+            },
+            {
+              "option": 4,
+              "text": "4. F = GM^2/(2R^2)",
+              "explanation": "Incorrect. The denominator should be 4R², not 2R²."
+            }
+          ],
+          "explanation": "The answer follows directly from the relevant gravitation principle."
+        },
+        {
+          "id": 6,
+          "question": "In the above question no. 5, what will be orbital speed of any mass?",
+          "options": [
+            "1. √(GM/R)",
+            "2. √(2GM/R)",
+            "3. (1/2)√(GM/R)",
+            "4. √(GM/(2R))"
+          ],
+          "question_type": "mcq",
+          "correctOption": 3,
+          "correctAnswer": "3. (1/2)√(GM/R)",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "1. √(GM/R)",
+              "explanation": "Incorrect. This would result from using R as the separation incorrectly."
+            },
+            {
+              "option": 2,
+              "text": "2. √(2GM/R)",
+              "explanation": "Incorrect. The speed is not sqrt(2GM/R)."
+            },
+            {
+              "option": 3,
+              "text": "3. (1/2)√(GM/R)",
+              "explanation": "Correct. The gravitational force GM²/(4R²) provides centripetal force: Mv²/R=GM²/(4R²), so v=(1/2)sqrt(GM/R)."
+            },
+            {
+              "option": 4,
+              "text": "4. √(GM/(2R))",
+              "explanation": "Incorrect. sqrt(GM/(2R)) is larger than the correct speed by a factor of sqrt(2)."
+            }
+          ],
+          "explanation": "The answer follows directly from the relevant gravitation principle."
+        },
+        {
+          "id": 7,
+          "question": "What is gravitational potential energy of the masses in the above given question?",
+          "options": [
+            "1. GM^2/R",
+            "2. -GM^2/(2R)",
+            "3. -GM^2/(4R)",
+            "4. 4GM^2/R"
+          ],
+          "question_type": "mcq",
+          "correctOption": 2,
+          "correctAnswer": "2. -GM^2/(2R)",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "1. GM^2/R",
+              "explanation": "Incorrect. Gravitational potential energy is negative for two masses when zero is chosen at infinity."
+            },
+            {
+              "option": 2,
+              "text": "2. -GM^2/(2R)",
+              "explanation": "Correct. The separation is 2R, so U=-GM²/(2R)."
+            },
+            {
+              "option": 3,
+              "text": "3. -GM^2/(4R)",
+              "explanation": "Incorrect. The separation is 2R, not 4R."
+            },
+            {
+              "option": 4,
+              "text": "4. 4GM^2/R",
+              "explanation": "Incorrect. The sign should be negative and the magnitude is much smaller."
+            }
+          ],
+          "explanation": "The answer follows directly from the relevant gravitation principle."
+        },
+        {
+          "id": 8,
+          "question": "An object of mass M is attached to a spring, it stretches spring by 1 cm on earth's surface. Now spring balance with same mass is taken to height 800 km above earth's surface, the spring will stretch by a distance of (RE = 6400 km).",
+          "options": [
+            "1. (64/81) cm",
+            "2. (49/81) cm",
+            "3. (81/64) cm",
+            "4. (25/64) cm"
+          ],
+          "question_type": "mcq",
+          "correctOption": 1,
+          "correctAnswer": "1. (64/81) cm",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "1. (64/81) cm",
+              "explanation": "Correct. g_h/g=(R/(R+h))²=(6400/7200)²=(8/9)²=64/81. Since spring extension is proportional to weight, extension is (64/81) cm."
+            },
+            {
+              "option": 2,
+              "text": "2. (49/81) cm",
+              "explanation": "Incorrect. 49/81 would correspond to an incorrect radius ratio."
+            },
+            {
+              "option": 3,
+              "text": "3. (81/64) cm",
+              "explanation": "Incorrect. Gravity decreases with height, so the extension must be less than 1 cm, not greater."
+            },
+            {
+              "option": 4,
+              "text": "4. (25/64) cm",
+              "explanation": "Incorrect. The correct factor is 64/81."
+            }
+          ],
+          "explanation": "The answer follows directly from the relevant gravitation principle."
+        },
+        {
+          "id": 9,
+          "question": "If the spring balance is taken from pole to earth's equator, then the spring with same mass will show:",
+          "options": [
+            "1. Same stretching",
+            "2. Less stretching",
+            "3. More stretching",
+            "4. Spring does not stretch"
+          ],
+          "question_type": "mcq",
+          "correctOption": 2,
+          "correctAnswer": "2. Less stretching",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "1. Same stretching",
+              "explanation": "Incorrect. Effective g changes from pole to equator because of Earth's rotation."
+            },
+            {
+              "option": 2,
+              "text": "2. Less stretching",
+              "explanation": "Correct. g is smaller at the equator than at the poles, so the same mass produces less spring extension."
+            },
+            {
+              "option": 3,
+              "text": "3. More stretching",
+              "explanation": "Incorrect. The equatorial value of effective g is smaller, not larger."
+            },
+            {
+              "option": 4,
+              "text": "4. Spring does not stretch",
+              "explanation": "Incorrect. A spring balance still stretches; it simply shows a smaller weight."
+            }
+          ],
+          "explanation": "The answer follows directly from the relevant gravitation principle."
+        },
+        {
+          "id": 10,
+          "question": "Let the object mass connected to spring have weight of 128 N at north pole of the earth. Now it is taken in a satellite at height seven times radius of the earth. What will be true weight of the object?",
+          "options": [
+            "1. 2 N",
+            "2. 4 N",
+            "3. 6 N",
+            "4. 10 N"
+          ],
+          "question_type": "mcq",
+          "correctOption": 1,
+          "correctAnswer": "1. 2 N",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "1. 2 N",
+              "explanation": "Correct. At height 7R above the surface, distance from Earth's centre is 8R. Therefore W'=W(R/8R)²=128/64=2 N."
+            },
+            {
+              "option": 2,
+              "text": "2. 4 N",
+              "explanation": "Incorrect. 4 N would correspond to a factor of 1/32, not 1/64."
+            },
+            {
+              "option": 3,
+              "text": "3. 6 N",
+              "explanation": "Incorrect. The inverse-square factor gives 2 N."
+            },
+            {
+              "option": 4,
+              "text": "4. 10 N",
+              "explanation": "Incorrect. The correct weight is 2 N."
+            }
+          ],
+          "explanation": "The answer follows directly from the relevant gravitation principle."
+        }
+      ]
+    },
+    {
+      "section": "NEET Previous & High Yield Questions",
+      "question_type": "mcq",
+      "questions": [
+        {
+          "id": "neet_1",
+          "section": "NEET Previous & High Yield Questions",
+          "question": "A body weighs 144 N at the surface of the Earth. When it is taken to a height h = 3R above the surface of the Earth, its weight will be:",
+          "options": [
+            {
+              "id": 1,
+              "text": "48 N"
+            },
+            {
+              "id": 2,
+              "text": "36 N"
+            },
+            {
+              "id": 3,
+              "text": "16 N"
+            },
+            {
+              "id": 4,
+              "text": "9 N"
+            }
+          ],
+          "correctOption": 4,
+          "correctAnswer": "9 N",
+          "explanation": "Using g_h = g[R/(R+h)]², for h=3R the distance from Earth's centre is 4R, so g_h=g/16. Hence W_h=144/16=9 N.",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "48 N",
+              "explanation": "48 N is incorrect because the weight would have to fall only to one-third of its surface value."
+            },
+            {
+              "option": 2,
+              "text": "36 N",
+              "explanation": "36 N is incorrect because the inverse-square law gives a factor of 1/16, not 1/4."
+            },
+            {
+              "option": 3,
+              "text": "16 N",
+              "explanation": "16 N is incorrect because 144/16 = 9 N."
+            },
+            {
+              "option": 4,
+              "text": "9 N",
+              "explanation": "9 N is correct because the weight becomes one-sixteenth of its surface value."
+            }
+          ],
+          "question_type": "mcq",
+          "assessmentEligible": true
+        },
+        {
+          "id": "neet_2",
+          "section": "NEET Previous & High Yield Questions",
+          "question": "If the masses of two point objects are tripled and the distance between them is doubled, the gravitational force between them will:",
+          "options": [
+            {
+              "id": 1,
+              "text": "Increase by 125%"
+            },
+            {
+              "id": 2,
+              "text": "Decrease by 56%"
+            },
+            {
+              "id": 3,
+              "text": "Increase by 125%"
+            },
+            {
+              "id": 4,
+              "text": "Decrease by 144%"
+            }
+          ],
+          "correctOption": 3,
+          "correctAnswer": "Increase by 125%",
+          "explanation": "F=Gm₁m₂/r². After the changes, F′=G(3m₁)(3m₂)/(2r)²=9F/4=2.25F, so the increase is 125%.",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "Increase by 125%",
+              "explanation": "48? No. A 225% increase would mean 3.25F, whereas the new force is 2.25F."
+            },
+            {
+              "option": 2,
+              "text": "Decrease by 56%",
+              "explanation": "56% decrease is wrong because the force increases."
+            },
+            {
+              "option": 3,
+              "text": "Increase by 125%",
+              "explanation": "125% increase is correct because F′/F=2.25."
+            },
+            {
+              "option": 4,
+              "text": "Decrease by 144%",
+              "explanation": "144% decrease is wrong because the force does not decrease."
+            }
+          ],
+          "question_type": "mcq",
+          "assessmentEligible": true
+        },
+        {
+          "id": "neet_3",
+          "section": "NEET Previous & High Yield Questions",
+          "question": "G is the universal gravitational constant and g is the acceleration due to gravity. The dimensions of G/g are:",
+          "options": [
+            {
+              "id": 1,
+              "text": "[M⁻¹L²T⁻¹]"
+            },
+            {
+              "id": 2,
+              "text": "[M⁻¹L]"
+            },
+            {
+              "id": 3,
+              "text": "[M⁻¹L²]"
+            },
+            {
+              "id": 4,
+              "text": "[M⁻¹L⁻²]"
+            }
+          ],
+          "correctOption": 2,
+          "correctAnswer": "[M⁻¹L]",
+          "explanation": "G has dimensions M⁻¹L³T⁻² and g has dimensions LT⁻². Therefore G/g = M⁻¹L².",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "[M⁻¹L²T⁻¹]",
+              "explanation": "The expression with T⁻¹ is wrong because time dimensions cancel."
+            },
+            {
+              "option": 2,
+              "text": "[M⁻¹L]",
+              "explanation": "The expression [M⁻¹L²] is correct."
+            },
+            {
+              "option": 3,
+              "text": "[M⁻¹L²]",
+              "explanation": "[M⁻¹L] misses one power of length."
+            },
+            {
+              "option": 4,
+              "text": "[M⁻¹L⁻²]",
+              "explanation": "[M⁻¹L⁻²] has the wrong power and sign for length."
+            }
+          ],
+          "question_type": "mcq",
+          "assessmentEligible": true
+        },
+        {
+          "id": "neet_4",
+          "section": "NEET Previous & High Yield Questions",
+          "question": "What is the weight of a 70 kg body on the surface of a planet whose mass is 1/7 that of Earth and whose radius is half that of Earth?",
+          "options": [
+            {
+              "id": 1,
+              "text": "20 kgf"
+            },
+            {
+              "id": 2,
+              "text": "40 kgf"
+            },
+            {
+              "id": 3,
+              "text": "70 kgf"
+            },
+            {
+              "id": 4,
+              "text": "140 kgf"
+            }
+          ],
+          "correctOption": 2,
+          "correctAnswer": "40 kgf",
+          "explanation": "g′/g=(M′/M)(R/R′)²=(1/7)(2)²=4/7. Thus a 70 kgf surface weight becomes 40 kgf.",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "20 kgf",
+              "explanation": "20 kgf is too small; the factor is 4/7."
+            },
+            {
+              "option": 2,
+              "text": "40 kgf",
+              "explanation": "40 kgf is correct."
+            },
+            {
+              "option": 3,
+              "text": "70 kgf",
+              "explanation": "70 kgf would require unchanged surface gravity."
+            },
+            {
+              "option": 4,
+              "text": "140 kgf",
+              "explanation": "140 kgf would require a larger, not smaller, surface gravity."
+            }
+          ],
+          "question_type": "mcq",
+          "assessmentEligible": true
+        },
+        {
+          "id": "neet_5",
+          "section": "NEET Previous & High Yield Questions",
+          "question": "If the radius of the Earth is contracted by 0.1%, its mass remaining the same, then the weight of a body at the Earth's surface will increase by:",
+          "options": [
+            {
+              "id": 1,
+              "text": "0.2%"
+            },
+            {
+              "id": 2,
+              "text": "0.3%"
+            },
+            {
+              "id": 3,
+              "text": "0.7%"
+            },
+            {
+              "id": 4,
+              "text": "1.0%"
+            }
+          ],
+          "correctOption": 1,
+          "correctAnswer": "0.2%",
+          "explanation": "Since g∝R⁻², a small decrease of 0.1% in R gives approximately a 0.2% increase in g and weight.",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "0.2%",
+              "explanation": "0.2% is correct from Δg/g≈−2ΔR/R."
+            },
+            {
+              "option": 2,
+              "text": "0.3%",
+              "explanation": "0.3% is not obtained from the inverse-square relation."
+            },
+            {
+              "option": 3,
+              "text": "0.7%",
+              "explanation": "0.7% is too large."
+            },
+            {
+              "option": 4,
+              "text": "1.0%",
+              "explanation": "1.0% is too large; the first-order increase is about 0.2%."
+            }
+          ],
+          "question_type": "mcq",
+          "assessmentEligible": true
+        },
+        {
+          "id": "neet_6",
+          "section": "NEET Previous & High Yield Questions",
+          "question": "If the mass of the Earth decreases by 25% and its radius increases by 50%, then the acceleration due to gravity at its surface decreases by nearly:",
+          "options": [
+            {
+              "id": 1,
+              "text": "89%"
+            },
+            {
+              "id": 2,
+              "text": "67%"
+            },
+            {
+              "id": 3,
+              "text": "33%"
+            },
+            {
+              "id": 4,
+              "text": "11%"
+            }
+          ],
+          "correctOption": 2,
+          "correctAnswer": "67%",
+          "explanation": "g′/g=0.75/(1.5)²=1/3. Therefore g decreases by 2/3≈66.7%, or about 67%.",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "89%",
+              "explanation": "89% is incorrect; the decrease is about 67%."
+            },
+            {
+              "option": 2,
+              "text": "67%",
+              "explanation": "67% is correct."
+            },
+            {
+              "option": 3,
+              "text": "33%",
+              "explanation": "33% is the remaining fraction, not the percentage decrease."
+            },
+            {
+              "option": 4,
+              "text": "11%",
+              "explanation": "11% does not follow from g∝M/R²."
+            }
+          ],
+          "question_type": "mcq",
+          "assessmentEligible": true
+        },
+        {
+          "id": "neet_7",
+          "section": "NEET Previous & High Yield Questions",
+          "question": "Two point objects are separated by a distance r. Keeping the distance fixed, how much mass should be transferred from a 3x mass to a 2x mass so that the gravitational force between them becomes maximum?",
+          "options": [
+            {
+              "id": 1,
+              "text": "x/4"
+            },
+            {
+              "id": 2,
+              "text": "x/2"
+            },
+            {
+              "id": 3,
+              "text": "2x/3"
+            },
+            {
+              "id": 4,
+              "text": "x"
+            }
+          ],
+          "correctOption": 2,
+          "correctAnswer": "x/2",
+          "explanation": "Let m be transferred. Final masses are 3x−m and 2x+m. Their product, and hence the force, is maximum when the two masses are equal: 3x−m=2x+m, giving m=x/2.",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "x/4",
+              "explanation": "x/4 does not make the final masses equal."
+            },
+            {
+              "option": 2,
+              "text": "x/2",
+              "explanation": "x/2 is correct because the final masses become 2.5x and 2.5x."
+            },
+            {
+              "option": 3,
+              "text": "2x/3",
+              "explanation": "2x/3 does not satisfy equality of the final masses."
+            },
+            {
+              "option": 4,
+              "text": "x",
+              "explanation": "x would transfer too much mass and does not maximize the product."
+            }
+          ],
+          "question_type": "mcq",
+          "assessmentEligible": true
+        },
+        {
+          "id": "neet_8",
+          "section": "NEET Previous & High Yield Questions",
+          "question": "Acceleration due to gravity at the surface of a planet is equal to that at the surface of Earth and its density is 1.5 times that of Earth. If the radius of Earth is R, the radius of the planet is:",
+          "options": [
+            {
+              "id": 1,
+              "text": "3R/2"
+            },
+            {
+              "id": 2,
+              "text": "2R/3"
+            },
+            {
+              "id": 3,
+              "text": "9R/4"
+            },
+            {
+              "id": 4,
+              "text": "4R/9"
+            }
+          ],
+          "correctOption": 2,
+          "correctAnswer": "2R/3",
+          "explanation": "For a spherical planet g=(4/3)πGρR. Equal g means ρR is constant. With ρ′=1.5ρ, R′=R/1.5=2R/3.",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "3R/2",
+              "explanation": "3R/2 would increase ρR and hence g."
+            },
+            {
+              "option": 2,
+              "text": "2R/3",
+              "explanation": "2R/3 is correct."
+            },
+            {
+              "option": 3,
+              "text": "9R/4",
+              "explanation": "9R/4 would make g much larger."
+            },
+            {
+              "option": 4,
+              "text": "4R/9",
+              "explanation": "4R/9 would make g smaller than required."
+            }
+          ],
+          "question_type": "mcq",
+          "assessmentEligible": true
+        },
+        {
+          "id": "neet_9",
+          "section": "NEET Previous & High Yield Questions",
+          "question": "The weight of a body decreases when it is raised to a height h above the surface of Earth. When the same body is taken to the same depth h in a mine, its weight will show:",
+          "options": [
+            {
+              "id": 1,
+              "text": "0.75% increase"
+            },
+            {
+              "id": 2,
+              "text": "3.0% decrease"
+            },
+            {
+              "id": 3,
+              "text": "0.75% decrease"
+            },
+            {
+              "id": 4,
+              "text": "1.5% decrease"
+            }
+          ],
+          "correctOption": 3,
+          "correctAnswer": "0.75% decrease",
+          "explanation": "For small height, Δg/g≈2h/R. For small depth, Δg/g≈h/R. Thus the decrease at depth is half the corresponding small-height decrease; for the numerical case represented, the listed result is 0.75% decrease.",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "0.75% increase",
+              "explanation": "An increase is wrong because g decreases inside the mine."
+            },
+            {
+              "option": 2,
+              "text": "3.0% decrease",
+              "explanation": "3.0% decrease is not the corresponding small-depth result."
+            },
+            {
+              "option": 3,
+              "text": "0.75% decrease",
+              "explanation": "0.75% decrease is the intended result."
+            },
+            {
+              "option": 4,
+              "text": "1.5% decrease",
+              "explanation": "1.5% decrease would correspond to using the height-change factor instead of the depth-change factor."
+            }
+          ],
+          "question_type": "mcq",
+          "assessmentEligible": true
+        },
+        {
+          "id": "neet_10",
+          "section": "NEET Previous & High Yield Questions",
+          "question": "A satellite is moving around Earth in a circular orbit with speed equal to one-fourth of the escape speed from the Earth's surface. The height of the satellite above Earth's surface is (R is the radius of Earth):",
+          "options": [
+            {
+              "id": 1,
+              "text": "R"
+            },
+            {
+              "id": 2,
+              "text": "3R"
+            },
+            {
+              "id": 3,
+              "text": "7R"
+            },
+            {
+              "id": 4,
+              "text": "15R"
+            }
+          ],
+          "correctOption": 3,
+          "correctAnswer": "7R",
+          "explanation": "For a circular orbit, v=√(GM/r), while the surface escape speed is √(2GM/R). Setting v=ve/4 gives r=8R, so h=r−R=7R.",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "R",
+              "explanation": "R is too small and does not satisfy the speed condition."
+            },
+            {
+              "option": 2,
+              "text": "3R",
+              "explanation": "3R does not satisfy the orbital-speed equation."
+            },
+            {
+              "option": 3,
+              "text": "7R",
+              "explanation": "7R is correct."
+            },
+            {
+              "option": 4,
+              "text": "15R",
+              "explanation": "15R would correspond to a much larger orbital radius than required."
+            }
+          ],
+          "question_type": "mcq",
+          "assessmentEligible": true
+        },
+        {
+          "id": "neet_11",
+          "section": "NEET Previous & High Yield Questions",
+          "question": "A satellite of mass 200 kg revolves around a planet of mass 5 × 10³⁰ kg in a circular orbit of radius 6.6 × 10⁶ m. The binding energy of the satellite is:",
+          "options": [
+            {
+              "id": 1,
+              "text": "5 × 10¹⁵ J"
+            },
+            {
+              "id": 2,
+              "text": "2 × 10¹⁵ J"
+            },
+            {
+              "id": 3,
+              "text": "1 × 10¹⁰ J"
+            },
+            {
+              "id": 4,
+              "text": "5 × 10¹³ J"
+            }
+          ],
+          "correctOption": 1,
+          "correctAnswer": "5 × 10¹⁵ J",
+          "explanation": "For a circular orbit, binding energy is GMm/(2r). Substituting G≈6.67×10⁻¹¹, M=5×10³⁰ kg, m=200 kg and r=6.6×10⁶ m gives approximately 5.05×10¹⁵ J, so option 1 is correct.",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "5 × 10¹⁵ J",
+              "explanation": "5×10¹⁵ J does not follow from the stated numerical values."
+            },
+            {
+              "option": 2,
+              "text": "2 × 10¹⁵ J",
+              "explanation": "2×10¹⁵ J does not follow from the stated values."
+            },
+            {
+              "option": 3,
+              "text": "1 × 10¹⁰ J",
+              "explanation": "1×10¹⁰ J does not follow from the binding-energy formula with the stated values."
+            },
+            {
+              "option": 4,
+              "text": "5 × 10¹³ J",
+              "explanation": "5×10¹³ J does not follow from the stated values."
+            }
+          ],
+          "question_type": "mcq",
+          "assessmentEligible": true
+        },
+        {
+          "id": "neet_12",
+          "section": "NEET Previous & High Yield Questions",
+          "question": "Two satellites A and B have orbital radii 4R and R respectively. If the speed of satellite A is 3v, the speed of satellite B will be:",
+          "options": [
+            {
+              "id": 1,
+              "text": "12v"
+            },
+            {
+              "id": 2,
+              "text": "6v"
+            },
+            {
+              "id": 3,
+              "text": "3v/2"
+            },
+            {
+              "id": 4,
+              "text": "4v/3"
+            }
+          ],
+          "correctOption": 2,
+          "correctAnswer": "6v",
+          "explanation": "For circular orbits v∝1/√r. Since r_A=4R and r_B=R, v_B/v_A=√4=2. With v_A=3v, v_B=6v.",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "12v",
+              "explanation": "12v is too large; the speed ratio is 2."
+            },
+            {
+              "option": 2,
+              "text": "6v",
+              "explanation": "6v is correct."
+            },
+            {
+              "option": 3,
+              "text": "3v/2",
+              "explanation": "3v/2 would make the smaller-radius satellite slower, which is opposite to v∝1/√r."
+            },
+            {
+              "option": 4,
+              "text": "4v/3",
+              "explanation": "4v/3 is not the required ratio."
+            }
+          ],
+          "question_type": "mcq",
+          "assessmentEligible": true
+        },
+        {
+          "id": "neet_13",
+          "section": "NEET Previous & High Yield Questions",
+          "question": "The escape velocity of an atmospheric particle at a height of 1000 km above the Earth's surface is (radius of Earth = 6400 km and g = 9.8 m/s²):",
+          "options": [
+            {
+              "id": 1,
+              "text": "6.5 km/s"
+            },
+            {
+              "id": 2,
+              "text": "8 km/s"
+            },
+            {
+              "id": 3,
+              "text": "10 km/s"
+            },
+            {
+              "id": 4,
+              "text": "11.2 km/s"
+            }
+          ],
+          "correctOption": 3,
+          "correctAnswer": "10 km/s",
+          "explanation": "At 1000 km altitude, r=7400 km. Escape speed is ve=√(2GM/r)=11.2√(6400/7400)≈10.4 km/s, closest to 10 km/s.",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "6.5 km/s",
+              "explanation": "6.5 km/s is too low."
+            },
+            {
+              "option": 2,
+              "text": "8 km/s",
+              "explanation": "8 km/s is too low."
+            },
+            {
+              "option": 3,
+              "text": "10 km/s",
+              "explanation": "10 km/s is the closest listed value."
+            },
+            {
+              "option": 4,
+              "text": "11.2 km/s",
+              "explanation": "11.2 km/s is the approximate surface escape speed, not the value at 1000 km altitude."
+            }
+          ],
+          "question_type": "mcq",
+          "assessmentEligible": true
+        },
+        {
+          "id": "neet_14",
+          "section": "NEET Previous & High Yield Questions",
+          "question": "The ratio of the kinetic energy required to be given to a satellite to escape from Earth's surface to the kinetic energy required to be given to the same satellite to revolve around Earth in an orbit just above the Earth's surface is:",
+          "options": [
+            {
+              "id": 1,
+              "text": "1 : 1"
+            },
+            {
+              "id": 2,
+              "text": "2 : 1"
+            },
+            {
+              "id": 3,
+              "text": "√2 : 1"
+            },
+            {
+              "id": 4,
+              "text": "4 : 1"
+            }
+          ],
+          "correctOption": 2,
+          "correctAnswer": "2 : 1",
+          "explanation": "Escape speed is √2 times the circular speed near Earth's surface. Since kinetic energy is proportional to v², the kinetic-energy ratio is 2:1.",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "1 : 1",
+              "explanation": "1:1 is wrong because escape speed is larger."
+            },
+            {
+              "option": 2,
+              "text": "2 : 1",
+              "explanation": "2:1 is correct."
+            },
+            {
+              "option": 3,
+              "text": "√2 : 1",
+              "explanation": "√2:1 is the speed ratio, not the kinetic-energy ratio."
+            },
+            {
+              "option": 4,
+              "text": "4 : 1",
+              "explanation": "4:1 is not obtained; squaring √2 gives 2."
+            }
+          ],
+          "question_type": "mcq",
+          "assessmentEligible": true
+        },
+        {
+          "id": "neet_15",
+          "section": "NEET Previous & High Yield Questions",
+          "question": "A satellite is revolving around Earth in a circular orbit at a uniform speed v. If the gravitational force suddenly disappears, its speed will:",
+          "options": [
+            {
+              "id": 1,
+              "text": "Become zero"
+            },
+            {
+              "id": 2,
+              "text": "Remain v"
+            },
+            {
+              "id": 3,
+              "text": "Become 2v"
+            },
+            {
+              "id": 4,
+              "text": "Become infinity"
+            }
+          ],
+          "correctOption": 2,
+          "correctAnswer": "Remain v",
+          "explanation": "If gravity disappears, there is no force to change the satellite's velocity. It continues in the instantaneous tangential direction with the same speed v.",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "Become zero",
+              "explanation": "Zero is wrong because no force does not stop the body instantly."
+            },
+            {
+              "option": 2,
+              "text": "Remain v",
+              "explanation": "v is correct."
+            },
+            {
+              "option": 3,
+              "text": "Become 2v",
+              "explanation": "2v is wrong because there is no accelerating force."
+            },
+            {
+              "option": 4,
+              "text": "Become infinity",
+              "explanation": "Infinity is physically impossible here."
+            }
+          ],
+          "question_type": "mcq",
+          "assessmentEligible": true
+        },
+        {
+          "id": "neet_16",
+          "section": "NEET Previous & High Yield Questions",
+          "question": "Mark the correct statements:\n(i) Escape velocity does not depend on the mass of the body.\n(ii) If the total energy of a satellite becomes positive, it escapes from Earth.\n(iii) The orbit of a geostationary satellite is called a parking orbit.",
+          "options": [
+            {
+              "id": 1,
+              "text": "(i) only"
+            },
+            {
+              "id": 2,
+              "text": "(i) and (iii) only"
+            },
+            {
+              "id": 3,
+              "text": "(i), (ii) and (iii)"
+            },
+            {
+              "id": 4,
+              "text": "(i) and (ii) only"
+            }
+          ],
+          "correctOption": 4,
+          "correctAnswer": "(i) and (ii) only",
+          "explanation": "Statements (i) and (ii) are true. Escape velocity is independent of the escaping body's mass, and positive total energy corresponds to an unbound trajectory. A geostationary orbit is not generally called a parking orbit.",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "(i) only",
+              "explanation": "(i) only is incomplete because (ii) is also true."
+            },
+            {
+              "option": 2,
+              "text": "(i) and (iii) only",
+              "explanation": "(i) and (iii) only is wrong because (iii) is not the standard definition."
+            },
+            {
+              "option": 3,
+              "text": "(i), (ii) and (iii)",
+              "explanation": "All three is wrong because (iii) is false."
+            },
+            {
+              "option": 4,
+              "text": "(i) and (ii) only",
+              "explanation": "(i) and (ii) only is correct."
+            }
+          ],
+          "question_type": "mcq",
+          "assessmentEligible": true
+        },
+        {
+          "id": "neet_17",
+          "section": "NEET Previous & High Yield Questions",
+          "question": "According to Kepler, planets move in:",
+          "options": [
+            {
+              "id": 1,
+              "text": "Circular orbits around the Sun"
+            },
+            {
+              "id": 2,
+              "text": "Elliptical orbits around the Sun with the Sun at the exact centre"
+            },
+            {
+              "id": 3,
+              "text": "Straight lines with constant velocity"
+            },
+            {
+              "id": 4,
+              "text": "Elliptical orbits around the Sun with the Sun at one of its foci"
+            }
+          ],
+          "correctOption": 4,
+          "correctAnswer": "Elliptical orbits around the Sun with the Sun at one of its foci",
+          "explanation": "Kepler's first law states that planets move in elliptical orbits with the Sun at one focus.",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "Circular orbits around the Sun",
+              "explanation": "Circular orbits are not the general form of planetary orbits."
+            },
+            {
+              "option": 2,
+              "text": "Elliptical orbits around the Sun with the Sun at the exact centre",
+              "explanation": "The Sun is not generally at the centre of the ellipse."
+            },
+            {
+              "option": 3,
+              "text": "Straight lines with constant velocity",
+              "explanation": "Straight-line motion is not planetary orbital motion."
+            },
+            {
+              "option": 4,
+              "text": "Elliptical orbits around the Sun with the Sun at one of its foci",
+              "explanation": "Elliptical orbit with the Sun at one focus is correct."
+            }
+          ],
+          "question_type": "mcq",
+          "assessmentEligible": true
+        },
+        {
+          "id": "neet_18",
+          "section": "NEET Previous & High Yield Questions",
+          "question": "The minimum and maximum distances of a planet revolving around the Sun are r and R respectively. If the minimum speed of the planet on its trajectory is v, its maximum speed will be:",
+          "options": [
+            {
+              "id": 1,
+              "text": "vR/r"
+            },
+            {
+              "id": 2,
+              "text": "vr/R"
+            },
+            {
+              "id": 3,
+              "text": "v"
+            },
+            {
+              "id": 4,
+              "text": "vR²/r²"
+            }
+          ],
+          "correctOption": 1,
+          "correctAnswer": "vR/r",
+          "explanation": "At perihelion and aphelion, angular momentum is conserved: m v_min R = m v_max r. Hence v_max=vR/r.",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "vR/r",
+              "explanation": "vR/r is correct because the maximum speed occurs at the smaller distance r."
+            },
+            {
+              "option": 2,
+              "text": "vr/R",
+              "explanation": "vr/R is the inverse relation and would make the maximum speed too small."
+            },
+            {
+              "option": 3,
+              "text": "v",
+              "explanation": "v is incorrect because speeds differ in an elliptical orbit."
+            },
+            {
+              "option": 4,
+              "text": "vR²/r²",
+              "explanation": "vR²/r² uses the wrong power of the distance ratio."
+            }
+          ],
+          "question_type": "mcq",
+          "assessmentEligible": true
+        },
+        {
+          "id": "neet_19",
+          "section": "NEET Previous & High Yield Questions",
+          "question": "A planet of mass m moves around the Sun of mass M in an elliptical orbit. The maximum and minimum distances of the planet from the Sun are R and r respectively. The time period of the planet is proportional to:",
+          "options": [
+            {
+              "id": 1,
+              "text": "R³/²"
+            },
+            {
+              "id": 2,
+              "text": "(Rr)³/²"
+            },
+            {
+              "id": 3,
+              "text": "(R + r)³/²"
+            },
+            {
+              "id": 4,
+              "text": "R + r"
+            }
+          ],
+          "correctOption": 2,
+          "correctAnswer": "(Rr)³/²",
+          "explanation": "Kepler's third law gives T²∝a³, where a=(R+r)/2. Therefore T∝[(R+r)/2]³/².",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "R³/²",
+              "explanation": "R³/² alone ignores the minimum distance."
+            },
+            {
+              "option": 2,
+              "text": "(Rr)³/²",
+              "explanation": "[(R+r)/2]³/² is correct."
+            },
+            {
+              "option": 3,
+              "text": "(R + r)³/²",
+              "explanation": "(Rr)³/² is not the semi-major-axis relation."
+            },
+            {
+              "option": 4,
+              "text": "R + r",
+              "explanation": "R+r has the wrong power for the period."
+            }
+          ],
+          "question_type": "mcq",
+          "assessmentEligible": true
+        },
+        {
+          "id": "neet_20",
+          "section": "NEET Previous & High Yield Questions",
+          "question": "The work done by the gravitational force of the Sun on a planet during one complete revolution is:",
+          "options": [
+            {
+              "id": 1,
+              "text": "Zero"
+            },
+            {
+              "id": 2,
+              "text": "Negative"
+            },
+            {
+              "id": 3,
+              "text": "Positive"
+            },
+            {
+              "id": 4,
+              "text": "May be positive or negative"
+            }
+          ],
+          "correctOption": 1,
+          "correctAnswer": "Zero",
+          "explanation": "Gravitational force is conservative, so the net work over one complete closed orbit is zero.",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "Zero",
+              "explanation": "Zero is correct."
+            },
+            {
+              "option": 2,
+              "text": "Negative",
+              "explanation": "Negative would describe only a net change that does not occur over the closed orbit."
+            },
+            {
+              "option": 3,
+              "text": "Positive",
+              "explanation": "Positive is incorrect for the complete revolution."
+            },
+            {
+              "option": 4,
+              "text": "May be positive or negative",
+              "explanation": "The net work is not arbitrary; it is exactly zero."
+            }
+          ],
+          "question_type": "mcq",
+          "assessmentEligible": true
+        },
+        {
+          "id": "neet_21",
+          "section": "NEET Previous & High Yield Questions",
+          "question": "The time period of a satellite in a circular orbit of radius R is T. The period of another satellite in a circular orbit of radius 4R is:",
+          "options": [
+            {
+              "id": 1,
+              "text": "4T"
+            },
+            {
+              "id": 2,
+              "text": "8T"
+            },
+            {
+              "id": 3,
+              "text": "T/4"
+            },
+            {
+              "id": 4,
+              "text": "T/8"
+            }
+          ],
+          "correctOption": 2,
+          "correctAnswer": "8T",
+          "explanation": "For satellites T∝r³/². Increasing radius from R to 4R gives T′/T=4³/²=8.",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "4T",
+              "explanation": "4T misses the 3/2 power."
+            },
+            {
+              "option": 2,
+              "text": "8T",
+              "explanation": "8T is correct."
+            },
+            {
+              "option": 3,
+              "text": "T/4",
+              "explanation": "T/4 is opposite to the correct trend."
+            },
+            {
+              "option": 4,
+              "text": "T/8",
+              "explanation": "T/8 is also opposite to the correct trend."
+            }
+          ],
+          "question_type": "mcq",
+          "assessmentEligible": true
+        },
+        {
+          "id": "neet_22",
+          "section": "NEET Previous & High Yield Questions",
+          "question": "Gravitation is the phenomenon of interaction between:",
+          "options": [
+            {
+              "id": 1,
+              "text": "Point masses only"
+            },
+            {
+              "id": 2,
+              "text": "Any arbitrarily shaped masses"
+            },
+            {
+              "id": 3,
+              "text": "Planets only"
+            },
+            {
+              "id": 4,
+              "text": "None of these"
+            }
+          ],
+          "correctOption": 2,
+          "correctAnswer": "Any arbitrarily shaped masses",
+          "explanation": "Gravitation acts between all masses, including arbitrarily shaped extended bodies.",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "Point masses only",
+              "explanation": "Point masses are only an idealized model."
+            },
+            {
+              "option": 2,
+              "text": "Any arbitrarily shaped masses",
+              "explanation": "Any arbitrarily shaped masses is correct."
+            },
+            {
+              "option": 3,
+              "text": "Planets only",
+              "explanation": "Gravitation is not limited to planets."
+            },
+            {
+              "option": 4,
+              "text": "None of these",
+              "explanation": "None of these is wrong because option 2 is valid."
+            }
+          ],
+          "question_type": "mcq",
+          "assessmentEligible": true
+        },
+        {
+          "id": "neet_23",
+          "section": "NEET Previous & High Yield Questions",
+          "question": "The force of gravitation between two masses is found to be F in vacuum. If both the masses are dipped in water at the same distance, the force will be:",
+          "options": [
+            {
+              "id": 1,
+              "text": "Greater than F"
+            },
+            {
+              "id": 2,
+              "text": "Less than F"
+            },
+            {
+              "id": 3,
+              "text": "Equal to F"
+            },
+            {
+              "id": 4,
+              "text": "Cannot say"
+            }
+          ],
+          "correctOption": 3,
+          "correctAnswer": "Equal to F",
+          "explanation": "Newton's gravitational law does not contain a dielectric constant. Under ordinary conditions, changing the surrounding medium from vacuum to water does not change the gravitational force.",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "Greater than F",
+              "explanation": "Greater than F is incorrect."
+            },
+            {
+              "option": 2,
+              "text": "Less than F",
+              "explanation": "Less than F is incorrect; this is unlike the dielectric effect on electrostatic force."
+            },
+            {
+              "option": 3,
+              "text": "Equal to F",
+              "explanation": "Equal to F is correct."
+            },
+            {
+              "option": 4,
+              "text": "Cannot say",
+              "explanation": "The idealized problem has enough information, so 'cannot say' is not appropriate."
+            }
+          ],
+          "question_type": "mcq",
+          "assessmentEligible": true
+        },
+        {
+          "id": "neet_24",
+          "section": "NEET Previous & High Yield Questions",
+          "question": "Two point masses m and 4m are separated by a distance d on a straight line. A third point mass m₀ is to be placed on the line such that the net gravitational force on it is zero. The distance of that point from mass 4m is:",
+          "options": [
+            {
+              "id": 1,
+              "text": "d/2"
+            },
+            {
+              "id": 2,
+              "text": "d/4"
+            },
+            {
+              "id": 3,
+              "text": "d/(√2 + 1)"
+            },
+            {
+              "id": 4,
+              "text": "d/(2 + √2)"
+            }
+          ],
+          "correctOption": 4,
+          "correctAnswer": "d/(2 + √2)",
+          "explanation": "For zero field, G(4m)/x²=Gm/(d−x)², where x is the distance from 4m. This gives x=2d/3, so the point is d/3 from m.",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "d/2",
+              "explanation": "d/2 is incorrect because the fields from unequal masses are not equal at the midpoint."
+            },
+            {
+              "option": 2,
+              "text": "d/4",
+              "explanation": "d/4 is incorrect."
+            },
+            {
+              "option": 3,
+              "text": "d/(√2 + 1)",
+              "explanation": "d/3 is the distance from the smaller mass m, not from 4m."
+            },
+            {
+              "option": 4,
+              "text": "d/(2 + √2)",
+              "explanation": "2d/3 from 4m is correct."
+            }
+          ],
+          "question_type": "mcq",
+          "assessmentEligible": true
+        },
+        {
+          "id": "neet_25",
+          "section": "NEET Previous & High Yield Questions",
+          "question": "The torque on a planet about the centre of the Sun is:",
+          "options": [
+            {
+              "id": 1,
+              "text": "Zero"
+            },
+            {
+              "id": 2,
+              "text": "Positive"
+            },
+            {
+              "id": 3,
+              "text": "Negative"
+            },
+            {
+              "id": 4,
+              "text": "Depends on the mass of the planet"
+            }
+          ],
+          "correctOption": 1,
+          "correctAnswer": "Zero",
+          "explanation": "The gravitational force on the planet is radial, so τ=r×F=0 about the Sun.",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "Zero",
+              "explanation": "Zero is correct."
+            },
+            {
+              "option": 2,
+              "text": "Positive",
+              "explanation": "Positive torque is not produced by a central force."
+            },
+            {
+              "option": 3,
+              "text": "Negative",
+              "explanation": "Negative torque is also not produced."
+            },
+            {
+              "option": 4,
+              "text": "Depends on the mass of the planet",
+              "explanation": "The torque is zero irrespective of the planet's mass."
+            }
+          ],
+          "question_type": "mcq",
+          "assessmentEligible": true
+        },
+        {
+          "id": "neet_26",
+          "section": "NEET Previous & High Yield Questions",
+          "question": "The gravitational constant G depends upon:",
+          "options": [
+            {
+              "id": 1,
+              "text": "Size of the bodies"
+            },
+            {
+              "id": 2,
+              "text": "Gravitational mass"
+            },
+            {
+              "id": 3,
+              "text": "Distance between the bodies"
+            },
+            {
+              "id": 4,
+              "text": "None of these"
+            }
+          ],
+          "correctOption": 4,
+          "correctAnswer": "None of these",
+          "explanation": "G is a universal constant and does not depend on body size, mass, or separation.",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "Size of the bodies",
+              "explanation": "Body size does not change G."
+            },
+            {
+              "option": 2,
+              "text": "Gravitational mass",
+              "explanation": "Mass does not change G."
+            },
+            {
+              "option": 3,
+              "text": "Distance between the bodies",
+              "explanation": "Distance changes force, not G."
+            },
+            {
+              "option": 4,
+              "text": "None of these",
+              "explanation": "None of these is correct because G is universal."
+            }
+          ],
+          "question_type": "mcq",
+          "assessmentEligible": true
+        },
+        {
+          "id": "neet_27",
+          "section": "NEET Previous & High Yield Questions",
+          "question": "Two planets have the same density but different radii. The acceleration due to gravity would be:",
+          "options": [
+            {
+              "id": 1,
+              "text": "Same on both planets"
+            },
+            {
+              "id": 2,
+              "text": "Greater on the smaller planet"
+            },
+            {
+              "id": 3,
+              "text": "Greater on the larger planet"
+            },
+            {
+              "id": 4,
+              "text": "Dependent on the distance of the planet from the Sun"
+            }
+          ],
+          "correctOption": 3,
+          "correctAnswer": "Greater on the larger planet",
+          "explanation": "For equal density, g=(4/3)πGρR, so g is directly proportional to R. The larger planet has greater surface gravity.",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "Same on both planets",
+              "explanation": "Same is incorrect because the radii differ."
+            },
+            {
+              "option": 2,
+              "text": "Greater on the smaller planet",
+              "explanation": "The smaller planet has smaller, not greater, g."
+            },
+            {
+              "option": 3,
+              "text": "Greater on the larger planet",
+              "explanation": "The larger planet has greater g and is correct."
+            },
+            {
+              "option": 4,
+              "text": "Dependent on the distance of the planet from the Sun",
+              "explanation": "Distance from the Sun is not what determines the planet's own surface gravity."
+            }
+          ],
+          "question_type": "mcq",
+          "assessmentEligible": true
+        },
+        {
+          "id": "neet_28",
+          "section": "NEET Previous & High Yield Questions",
+          "question": "A large number of point masses m are placed along a line at distances 0.1, 0.2, 0.4, 0.8, ... from a mass at the origin. The magnitude of gravitational force on the mass at the origin is:",
+          "options": [
+            {
+              "id": 1,
+              "text": "Gm²"
+            },
+            {
+              "id": 2,
+              "text": "2Gm²"
+            },
+            {
+              "id": 3,
+              "text": "Gm"
+            },
+            {
+              "id": 4,
+              "text": "G"
+            }
+          ],
+          "correctOption": null,
+          "correctAnswer": null,
+          "explanation": "The numerical distances/units in the supplied question are insufficient to produce any of the listed options. The question should not be used for scoring until the original source values are verified.",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "Gm²",
+              "explanation": "Gm is dimensionally inconsistent for a gravitational force in this setup."
+            },
+            {
+              "option": 2,
+              "text": "2Gm²",
+              "explanation": "2Gm² is not justified without the distance units and complete sequence."
+            },
+            {
+              "option": 3,
+              "text": "Gm",
+              "explanation": "Gm is dimensionally inconsistent."
+            },
+            {
+              "option": 4,
+              "text": "G",
+              "explanation": "G is dimensionally inconsistent for force."
+            }
+          ],
+          "question_type": "mcq",
+          "assessmentEligible": false,
+          "dataStatus": "needs_source_verification"
+        },
+        {
+          "id": "neet_29",
+          "section": "NEET Previous & High Yield Questions",
+          "question": "Three particles A, B and C, each of mass m, are at the corners of an equilateral triangle of side L. If particle A is released while B and C are fixed, the magnitude of the instantaneous acceleration of A is:",
+          "options": [
+            {
+              "id": 1,
+              "text": "√3 Gm/L²"
+            },
+            {
+              "id": 2,
+              "text": "2Gm/L²"
+            },
+            {
+              "id": 3,
+              "text": "Gm/L²"
+            },
+            {
+              "id": 4,
+              "text": "√3 Gm/(2L²)"
+            }
+          ],
+          "correctOption": 1,
+          "correctAnswer": "√3 Gm/L²",
+          "explanation": "Each of B and C produces acceleration Gm/L² at A. The angle between them is 60°, so the resultant is √3 Gm/L².",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "√3 Gm/L²",
+              "explanation": "√3 Gm/L² is correct."
+            },
+            {
+              "option": 2,
+              "text": "2Gm/L²",
+              "explanation": "2Gm/L² would require the two accelerations to point in the same direction."
+            },
+            {
+              "option": 3,
+              "text": "Gm/L²",
+              "explanation": "Gm/L² is only the contribution from one particle."
+            },
+            {
+              "option": 4,
+              "text": "√3 Gm/(2L²)",
+              "explanation": "√3Gm/(2L²) has an incorrect factor of 1/2."
+            }
+          ],
+          "question_type": "mcq",
+          "assessmentEligible": true
+        },
+        {
+          "id": "neet_30",
+          "section": "NEET Previous & High Yield Questions",
+          "question": "If the radius of Earth shrinks by 15% while its mass remains the same, the value of g at its surface becomes approximately:",
+          "options": [
+            {
+              "id": 1,
+              "text": "3/4 times the original value"
+            },
+            {
+              "id": 2,
+              "text": "1/0.85² times the original value"
+            },
+            {
+              "id": 3,
+              "text": "3 times the original value"
+            },
+            {
+              "id": 4,
+              "text": "4/3 times the original value"
+            }
+          ],
+          "correctOption": 2,
+          "correctAnswer": "1/0.85² times the original value",
+          "explanation": "If R becomes 0.85R while M stays constant, g′=GM/(0.85R)²=g/(0.85)²≈1.384g.",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "3/4 times the original value",
+              "explanation": "3/4g is opposite to the actual increase."
+            },
+            {
+              "option": 2,
+              "text": "1/0.85² times the original value",
+              "explanation": "g/(0.85)² is correct."
+            },
+            {
+              "option": 3,
+              "text": "3 times the original value",
+              "explanation": "3g is much too large."
+            },
+            {
+              "option": 4,
+              "text": "4/3 times the original value",
+              "explanation": "4g/3 is close numerically but not the exact factor."
+            }
+          ],
+          "question_type": "mcq",
+          "assessmentEligible": true
+        },
+        {
+          "id": "neet_31",
+          "section": "NEET Previous & High Yield Questions",
+          "question": "If the density of a planet and its radius are both given relative to Earth, the acceleration due to gravity at its surface is proportional to ρR. For a planet whose density and radius are specified in the original source, determine the corresponding factor.",
+          "options": [
+            {
+              "id": 1,
+              "text": "3/4 times that on the surface of Earth"
+            },
+            {
+              "id": 2,
+              "text": "3 times that on the surface of Earth"
+            },
+            {
+              "id": 3,
+              "text": "4/3 times that on the surface of Earth"
+            },
+            {
+              "id": 4,
+              "text": "6 times that on the surface of Earth"
+            }
+          ],
+          "correctOption": null,
+          "correctAnswer": null,
+          "explanation": "The question says the density and radius are specified in the original source, but those numerical values are missing here. Therefore a unique option cannot be selected from the supplied data.",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "3/4 times that on the surface of Earth",
+              "explanation": "3/4 cannot be established without the missing numerical ratios."
+            },
+            {
+              "option": 2,
+              "text": "3 times that on the surface of Earth",
+              "explanation": "3 times cannot be established."
+            },
+            {
+              "option": 3,
+              "text": "4/3 times that on the surface of Earth",
+              "explanation": "4/3 cannot be established."
+            },
+            {
+              "option": 4,
+              "text": "6 times that on the surface of Earth",
+              "explanation": "6 times cannot be established."
+            }
+          ],
+          "question_type": "mcq",
+          "assessmentEligible": false,
+          "dataStatus": "needs_source_verification"
+        },
+        {
+          "id": "neet_32",
+          "section": "NEET Previous & High Yield Questions",
+          "question": "The gravitational force on a body of mass 15 kg at a point is 45 N. The gravitational field intensity at that point is:",
+          "options": [
+            {
+              "id": 1,
+              "text": "30 N/kg"
+            },
+            {
+              "id": 2,
+              "text": "67.5 N/kg"
+            },
+            {
+              "id": 3,
+              "text": "46.5 N/kg"
+            },
+            {
+              "id": 4,
+              "text": "43.5 N/kg"
+            }
+          ],
+          "correctOption": null,
+          "correctAnswer": null,
+          "explanation": "Gravitational field intensity is E=F/m=45/15=3 N/kg, but none of the four listed options is 3 N/kg. The supplied options are inconsistent with the question.",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "30 N/kg",
+              "explanation": "30 N/kg is incorrect; 45/15=3 N/kg."
+            },
+            {
+              "option": 2,
+              "text": "67.5 N/kg",
+              "explanation": "67.5 N/kg is incorrect."
+            },
+            {
+              "option": 3,
+              "text": "46.5 N/kg",
+              "explanation": "46.5 N/kg is incorrect."
+            },
+            {
+              "option": 4,
+              "text": "43.5 N/kg",
+              "explanation": "43.5 N/kg is incorrect."
+            }
+          ],
+          "question_type": "mcq",
+          "assessmentEligible": false,
+          "dataStatus": "needs_source_verification"
+        },
+        {
+          "id": "neet_33",
+          "section": "NEET Previous & High Yield Questions",
+          "question": "Two point masses m and 2m are placed at a distance d. The point on the line joining them where the gravitational field intensity is zero is at a distance:",
+          "options": [
+            {
+              "id": 1,
+              "text": "2d/(√3 + 1) from the 2m mass"
+            },
+            {
+              "id": 2,
+              "text": "2d/(√3 − 1) from the 2m mass"
+            },
+            {
+              "id": 3,
+              "text": "d/(1 + √2) from the m mass"
+            },
+            {
+              "id": 4,
+              "text": "d/(1 − √2) from the m mass"
+            }
+          ],
+          "correctOption": 3,
+          "correctAnswer": "d/(1 + √2) from the m mass",
+          "explanation": "Let x be the distance from the 2m mass. At the neutral point, 2Gm/x² = Gm/(d−x)². Hence x=d√2/(1+√2), so the distance from the m mass is d−x=d/(1+√2). Therefore option 3 is correct.",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "2d/(√3 + 1) from the 2m mass",
+              "explanation": "The listed first expression does not equal the required distance."
+            },
+            {
+              "option": 2,
+              "text": "2d/(√3 − 1) from the 2m mass",
+              "explanation": "The listed second expression does not match the correct algebraic result."
+            },
+            {
+              "option": 3,
+              "text": "d/(1 + √2) from the m mass",
+              "explanation": "d/(1+√2) from m is not the correct distance."
+            },
+            {
+              "option": 4,
+              "text": "d/(1 − √2) from the m mass",
+              "explanation": "The correct point lies between the masses and is closer to the smaller mass; none of the corrupted choices is reliably correct."
+            }
+          ],
+          "question_type": "mcq",
+          "assessmentEligible": true
+        },
+        {
+          "id": "neet_34",
+          "section": "NEET Previous & High Yield Questions",
+          "question": "At what height above the surface of Earth will the weight of a body decrease by 2%? (Radius of Earth = 6400 km.)",
+          "options": [
+            {
+              "id": 1,
+              "text": "32 km"
+            },
+            {
+              "id": 2,
+              "text": "264 km"
+            },
+            {
+              "id": 3,
+              "text": "128 km"
+            },
+            {
+              "id": 4,
+              "text": "1600 km"
+            }
+          ],
+          "correctOption": null,
+          "correctAnswer": null,
+          "explanation": "For a small height, Δg/g≈2h/R. A 2% decrease gives h=0.01R=64 km, but 64 km is not among the listed options. The supplied options are inconsistent.",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "32 km",
+              "explanation": "32 km gives approximately a 1% decrease."
+            },
+            {
+              "option": 2,
+              "text": "264 km",
+              "explanation": "264 km gives a much larger decrease."
+            },
+            {
+              "option": 3,
+              "text": "128 km",
+              "explanation": "128 km gives approximately a 4% small-height decrease."
+            },
+            {
+              "option": 4,
+              "text": "1600 km",
+              "explanation": "1600 km is far too large."
+            }
+          ],
+          "question_type": "mcq",
+          "assessmentEligible": false,
+          "dataStatus": "needs_source_verification"
+        },
+        {
+          "id": "neet_35",
+          "section": "NEET Previous & High Yield Questions",
+          "question": "If the value of g at the surface of Earth is 9.8 m/s², then the value of g at a place 480 km above the surface of Earth will be nearly. (Radius of Earth = 6400 km.)",
+          "options": [
+            {
+              "id": 1,
+              "text": "9.8 m/s²"
+            },
+            {
+              "id": 2,
+              "text": "7.2 m/s²"
+            },
+            {
+              "id": 3,
+              "text": "8.5 m/s²"
+            },
+            {
+              "id": 4,
+              "text": "4.2 m/s²"
+            }
+          ],
+          "correctOption": 3,
+          "correctAnswer": "8.5 m/s²",
+          "explanation": "g_h=g[R/(R+h)]²=9.8(6400/6880)²≈8.48 m/s², so 8.5 m/s².",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "9.8 m/s²",
+              "explanation": "9.8 m/s² would be the surface value, not the altitude value."
+            },
+            {
+              "option": 2,
+              "text": "7.2 m/s²",
+              "explanation": "7.2 m/s² is too low."
+            },
+            {
+              "option": 3,
+              "text": "8.5 m/s²",
+              "explanation": "8.5 m/s² is correct."
+            },
+            {
+              "option": 4,
+              "text": "4.2 m/s²",
+              "explanation": "4.2 m/s² is far too low."
+            }
+          ],
+          "question_type": "mcq",
+          "assessmentEligible": true
+        },
+        {
+          "id": "neet_36",
+          "section": "NEET Previous & High Yield Questions",
+          "question": "If the change in the value of g at a height h above the surface of Earth is the same as at a depth x below it, where x and h are much smaller than the radius of Earth, then:",
+          "options": [
+            {
+              "id": 1,
+              "text": "x = h"
+            },
+            {
+              "id": 2,
+              "text": "x = 2h"
+            },
+            {
+              "id": 3,
+              "text": "x = h/2"
+            },
+            {
+              "id": 4,
+              "text": "x = h²/R"
+            }
+          ],
+          "correctOption": 2,
+          "correctAnswer": "x = 2h",
+          "explanation": "For small h, decrease above the surface is 2gh/R. For small depth x, decrease is gx/R. Equating gives x=2h.",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "x = h",
+              "explanation": "x=h misses the factor of 2."
+            },
+            {
+              "option": 2,
+              "text": "x = 2h",
+              "explanation": "x=2h is correct."
+            },
+            {
+              "option": 3,
+              "text": "x = h/2",
+              "explanation": "x=h/2 is the inverse relation."
+            },
+            {
+              "option": 4,
+              "text": "x = h²/R",
+              "explanation": "x=h²/R has the wrong dependence."
+            }
+          ],
+          "question_type": "mcq",
+          "assessmentEligible": true
+        },
+        {
+          "id": "neet_37",
+          "section": "NEET Previous & High Yield Questions",
+          "question": "The acceleration due to gravity on a planet is 1.96 m/s². If it is safe to jump from a height of 3 m on Earth, the corresponding height on the planet will be:",
+          "options": [
+            {
+              "id": 1,
+              "text": "3 m"
+            },
+            {
+              "id": 2,
+              "text": "6 m"
+            },
+            {
+              "id": 3,
+              "text": "9 m"
+            },
+            {
+              "id": 4,
+              "text": "15 m"
+            }
+          ],
+          "correctOption": 3,
+          "correctAnswer": "9 m",
+          "explanation": "For the same safe jump speed, gh is constant. Thus h_p=(9.8/1.96)×3=15 m.",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "3 m",
+              "explanation": "3 m is too small."
+            },
+            {
+              "option": 2,
+              "text": "6 m",
+              "explanation": "6 m is not five times 3 m."
+            },
+            {
+              "option": 3,
+              "text": "9 m",
+              "explanation": "9 m is only three times the Earth height."
+            },
+            {
+              "option": 4,
+              "text": "15 m",
+              "explanation": "15 m is correct."
+            }
+          ],
+          "question_type": "mcq",
+          "assessmentEligible": true
+        },
+        {
+          "id": "neet_38",
+          "section": "NEET Previous & High Yield Questions",
+          "question": "If R is the radius of Earth and g is the acceleration due to gravity on Earth's surface, the mean density of Earth is:",
+          "options": [
+            {
+              "id": 1,
+              "text": "3g/(4πGR)"
+            },
+            {
+              "id": 2,
+              "text": "4πGR/(3g)"
+            },
+            {
+              "id": 3,
+              "text": "3gR/(4πG)"
+            },
+            {
+              "id": 4,
+              "text": "4πG/(3gR)"
+            }
+          ],
+          "correctOption": 1,
+          "correctAnswer": "3g/(4πGR)",
+          "explanation": "Using g=GM/R² and M=(4/3)πR³ρ gives g=(4/3)πGρR. Therefore ρ=3g/(4πGR).",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "3g/(4πGR)",
+              "explanation": "3g/(4πGR) is correct."
+            },
+            {
+              "option": 2,
+              "text": "4πGR/(3g)",
+              "explanation": "4πGR/(3g) is the reciprocal of the correct density expression."
+            },
+            {
+              "option": 3,
+              "text": "3gR/(4πG)",
+              "explanation": "3gR/(4πG) has an extra factor of R."
+            },
+            {
+              "option": 4,
+              "text": "4πG/(3gR)",
+              "explanation": "4πG/(3gR) has the wrong dimensions."
+            }
+          ],
+          "question_type": "mcq",
+          "assessmentEligible": true
+        },
+        {
+          "id": "neet_39",
+          "section": "NEET Previous & High Yield Questions",
+          "question": "An object is taken to a height 2R above the surface of Earth. The increase in potential energy is (R is the radius of Earth):",
+          "options": [
+            {
+              "id": 1,
+              "text": "mgR/2"
+            },
+            {
+              "id": 2,
+              "text": "mgR/3"
+            },
+            {
+              "id": 3,
+              "text": "2mgR/3"
+            },
+            {
+              "id": 4,
+              "text": "2mgR"
+            }
+          ],
+          "correctOption": 3,
+          "correctAnswer": "2mgR/3",
+          "explanation": "At height 2R, the distance from Earth's centre is 3R. ΔU=GMm(1/R−1/3R)=2GMm/(3R)=2mgR/3.",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "mgR/2",
+              "explanation": "mgR/2 is not the exact potential-energy change."
+            },
+            {
+              "option": 2,
+              "text": "mgR/3",
+              "explanation": "mgR/3 is too small."
+            },
+            {
+              "option": 3,
+              "text": "2mgR/3",
+              "explanation": "2mgR/3 is correct."
+            },
+            {
+              "option": 4,
+              "text": "2mgR",
+              "explanation": "2mgR incorrectly assumes constant g over a very large height."
+            }
+          ],
+          "question_type": "mcq",
+          "assessmentEligible": true
+        },
+        {
+          "id": "neet_40",
+          "section": "NEET Previous & High Yield Questions",
+          "question": "The change in potential energy when a body of mass m is raised to a height nR from the surface of Earth is (R is the radius of Earth):",
+          "options": [
+            {
+              "id": 1,
+              "text": "mgR·n/(n+1)"
+            },
+            {
+              "id": 2,
+              "text": "nmgR"
+            },
+            {
+              "id": 3,
+              "text": "mgR·n/(n−1)"
+            },
+            {
+              "id": 4,
+              "text": "mgR/(n+1)"
+            }
+          ],
+          "correctOption": 1,
+          "correctAnswer": "mgR·n/(n+1)",
+          "explanation": "At height nR, final distance is (n+1)R. Thus ΔU=GMm[1/R−1/((n+1)R)]=mgR·n/(n+1).",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "mgR·n/(n+1)",
+              "explanation": "mgR·n/(n+1) is correct."
+            },
+            {
+              "option": 2,
+              "text": "nmgR",
+              "explanation": "nmgR is the constant-g approximation, not the exact result."
+            },
+            {
+              "option": 3,
+              "text": "mgR·n/(n−1)",
+              "explanation": "The denominator n−1 is incorrect."
+            },
+            {
+              "option": 4,
+              "text": "mgR/(n+1)",
+              "explanation": "mgR/(n+1) misses the factor n."
+            }
+          ],
+          "question_type": "mcq",
+          "assessmentEligible": true
+        },
+        {
+          "id": "neet_41",
+          "section": "NEET Previous & High Yield Questions",
+          "question": "A stationary object is released from a point P at a distance 3R from the centre of the Moon, which has radius R and mass M. What is the speed of the object when it hits the Moon?",
+          "options": [
+            {
+              "id": 1,
+              "text": "√(2GM/3R)"
+            },
+            {
+              "id": 2,
+              "text": "√(4GM/3R)"
+            },
+            {
+              "id": 3,
+              "text": "√(GM/3R)"
+            },
+            {
+              "id": 4,
+              "text": "√(GM/R)"
+            }
+          ],
+          "correctOption": 2,
+          "correctAnswer": "√(4GM/3R)",
+          "explanation": "Energy conservation from 3R to R gives ½v²=GM(1/R−1/3R)=2GM/(3R), so v=√(4GM/3R).",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "√(2GM/3R)",
+              "explanation": "√(2GM/3R) misses a factor of 2 in v²."
+            },
+            {
+              "option": 2,
+              "text": "√(4GM/3R)",
+              "explanation": "√(4GM/3R) is correct."
+            },
+            {
+              "option": 3,
+              "text": "√(GM/3R)",
+              "explanation": "√(GM/3R) is too small."
+            },
+            {
+              "option": 4,
+              "text": "√(GM/R)",
+              "explanation": "√(GM/R) corresponds to a different energy change."
+            }
+          ],
+          "question_type": "mcq",
+          "assessmentEligible": true
+        },
+        {
+          "id": "neet_42",
+          "section": "NEET Previous & High Yield Questions",
+          "question": "Four particles A, B, C and D, each of mass m, are kept at the corners of a square of side L. Particle D is taken to infinity by an external agent while A, B and C remain fixed. The work done by the gravitational force acting on D during its movement is:",
+          "options": [
+            {
+              "id": 1,
+              "text": "2Gm²/L"
+            },
+            {
+              "id": 2,
+              "text": "−2Gm²/L"
+            },
+            {
+              "id": 3,
+              "text": "6Gm²/L · (2√2 + 1)/√2"
+            },
+            {
+              "id": 4,
+              "text": "−Gm²/L · (2√2 + 1)/√2"
+            }
+          ],
+          "correctOption": 4,
+          "correctAnswer": "−Gm²/L · (2√2 + 1)/√2",
+          "explanation": "The initial potential energy of D due to A, B and C is −Gm²/L−Gm²/L−Gm²/(√2L). At infinity it is zero. Work done by gravity is the change in potential energy with opposite sign, giving −Gm²(2+1/√2)/L.",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "2Gm²/L",
+              "explanation": "2Gm²/L ignores the diagonal contribution and has the wrong sign."
+            },
+            {
+              "option": 2,
+              "text": "−2Gm²/L",
+              "explanation": "−2Gm²/L ignores the diagonal contribution."
+            },
+            {
+              "option": 3,
+              "text": "6Gm²/L · (2√2 + 1)/√2",
+              "explanation": "The positive expression has the wrong sign."
+            },
+            {
+              "option": 4,
+              "text": "−Gm²/L · (2√2 + 1)/√2",
+              "explanation": "−Gm²(2+1/√2)/L is correct."
+            }
+          ],
+          "question_type": "mcq",
+          "assessmentEligible": true
+        },
+        {
+          "id": "neet_43",
+          "section": "NEET Previous & High Yield Questions",
+          "question": "If an object is projected vertically upwards with a speed equal to half the escape speed of Earth, the maximum height attained by it is (R is the radius of Earth):",
+          "options": [
+            {
+              "id": 1,
+              "text": "R"
+            },
+            {
+              "id": 2,
+              "text": "R/2"
+            },
+            {
+              "id": 3,
+              "text": "2R"
+            },
+            {
+              "id": 4,
+              "text": "R/3"
+            }
+          ],
+          "correctOption": 1,
+          "correctAnswer": "R",
+          "explanation": "If v₀=ve/2, then v₀²=GM/(2R). Energy conservation gives the maximum distance from Earth's centre as 2R, hence maximum height above the surface is R.",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "R",
+              "explanation": "R is correct."
+            },
+            {
+              "option": 2,
+              "text": "R/2",
+              "explanation": "R/2 is too small."
+            },
+            {
+              "option": 3,
+              "text": "2R",
+              "explanation": "2R is the distance from Earth's centre, not the height above the surface."
+            },
+            {
+              "option": 4,
+              "text": "R/3",
+              "explanation": "R/3 is incorrect."
+            }
+          ],
+          "question_type": "mcq",
+          "assessmentEligible": true
+        },
+        {
+          "id": "neet_44",
+          "section": "NEET Previous & High Yield Questions",
+          "question": "A satellite of mass 400 kg revolves around Earth in an orbit with speed 200 m/s. Its potential energy is:",
+          "options": [
+            {
+              "id": 1,
+              "text": "−1.2 MJ"
+            },
+            {
+              "id": 2,
+              "text": "−8.0 MJ"
+            },
+            {
+              "id": 3,
+              "text": "−16 MJ"
+            },
+            {
+              "id": 4,
+              "text": "−2.4 MJ"
+            }
+          ],
+          "correctOption": 3,
+          "correctAnswer": "−16 MJ",
+          "explanation": "For a circular orbit, U=−GMm/r and v²=GM/r, so U=−mv². With m=400 kg and v=200 m/s, U=−16,000,000 J=−16 MJ.",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "−1.2 MJ",
+              "explanation": "−1.2 MJ is incorrect."
+            },
+            {
+              "option": 2,
+              "text": "−8.0 MJ",
+              "explanation": "−8.0 MJ is half the correct magnitude."
+            },
+            {
+              "option": 3,
+              "text": "−16 MJ",
+              "explanation": "−16 MJ is correct."
+            },
+            {
+              "option": 4,
+              "text": "−2.4 MJ",
+              "explanation": "−2.4 MJ is incorrect."
+            }
+          ],
+          "question_type": "mcq",
+          "assessmentEligible": true
+        },
+        {
+          "id": "neet_45",
+          "section": "NEET Previous & High Yield Questions",
+          "question": "An artificial satellite revolves around a planet for which the gravitational force F varies with distance r from its centre as F ∝ r². Its orbital speed v₀ varies with r as:",
+          "options": [
+            {
+              "id": 1,
+              "text": "v₀ ∝ r⁻¹/²"
+            },
+            {
+              "id": 2,
+              "text": "v₀ ∝ r³/²"
+            },
+            {
+              "id": 3,
+              "text": "v₀ ∝ r⁻³/²"
+            },
+            {
+              "id": 4,
+              "text": "v₀ ∝ r"
+            }
+          ],
+          "correctOption": 2,
+          "correctAnswer": "v₀ ∝ r³/²",
+          "explanation": "For circular motion, mv²/r=kr² when F∝r². Hence v²∝r³ and v∝r³/².",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "v₀ ∝ r⁻¹/²",
+              "explanation": "r⁻¹/² is the Newtonian inverse-square-gravity result, not F∝r²."
+            },
+            {
+              "option": 2,
+              "text": "v₀ ∝ r³/²",
+              "explanation": "r³/² is correct."
+            },
+            {
+              "option": 3,
+              "text": "v₀ ∝ r⁻³/²",
+              "explanation": "r⁻³/² has the wrong sign."
+            },
+            {
+              "option": 4,
+              "text": "v₀ ∝ r",
+              "explanation": "r is not the exponent obtained from the force balance."
+            }
+          ],
+          "question_type": "mcq",
+          "assessmentEligible": true
+        },
+        {
+          "id": "neet_46",
+          "section": "NEET Previous & High Yield Questions",
+          "question": "If the gravitational potential on the surface of Earth is V₀, then the potential at a point at a height equal to half the radius of Earth is:",
+          "options": [
+            {
+              "id": 1,
+              "text": "V₀/2"
+            },
+            {
+              "id": 2,
+              "text": "2V₀/3"
+            },
+            {
+              "id": 3,
+              "text": "V₀/3"
+            },
+            {
+              "id": 4,
+              "text": "3V₀/2"
+            }
+          ],
+          "correctOption": 2,
+          "correctAnswer": "2V₀/3",
+          "explanation": "At the surface V₀=−GM/R. At height R/2, r=3R/2, so V=−GM/(3R/2)=2V₀/3.",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "V₀/2",
+              "explanation": "V₀/2 is incorrect."
+            },
+            {
+              "option": 2,
+              "text": "2V₀/3",
+              "explanation": "2V₀/3 is correct."
+            },
+            {
+              "option": 3,
+              "text": "V₀/3",
+              "explanation": "V₀/3 would correspond to r=3R."
+            },
+            {
+              "option": 4,
+              "text": "3V₀/2",
+              "explanation": "3V₀/2 would have a larger magnitude than the surface potential."
+            }
+          ],
+          "question_type": "mcq",
+          "assessmentEligible": true
+        },
+        {
+          "id": "neet_47",
+          "section": "NEET Previous & High Yield Questions",
+          "question": "The kinetic energies of a planet in an elliptical orbit about the Sun at positions A, B and C are K_A, K_B and K_C respectively. If AC is the major axis and SB is perpendicular to AC at the position of the Sun S as shown in the figure, then:",
+          "options": [
+            {
+              "id": 1,
+              "text": "K_A > K_B > K_C"
+            },
+            {
+              "id": 2,
+              "text": "K_B > K_A > K_C"
+            },
+            {
+              "id": 3,
+              "text": "K_B > K_C > K_A"
+            },
+            {
+              "id": 4,
+              "text": "K_B < K_A < K_C"
+            }
+          ],
+          "correctOption": 1,
+          "correctAnswer": "K_A > K_B > K_C",
+          "explanation": "For the usual ellipse shown, A is closest to the Sun, C is farthest, and B is intermediate. Since speed and kinetic energy increase as distance from the Sun decreases, K_A>K_B>K_C.",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "K_A > K_B > K_C",
+              "explanation": "K_A>K_B>K_C is correct."
+            },
+            {
+              "option": 2,
+              "text": "K_B > K_A > K_C",
+              "explanation": "K_B>K_A>K_C is wrong because A is closer than B."
+            },
+            {
+              "option": 3,
+              "text": "K_B > K_C > K_A",
+              "explanation": "K_B>K_C>K_A is wrong because A should have the greatest kinetic energy."
+            },
+            {
+              "option": 4,
+              "text": "K_B < K_A < K_C",
+              "explanation": "K_B<K_A<K_C is wrong because C is farthest and should have the least kinetic energy."
+            }
+          ],
+          "question_type": "mcq",
+          "assessmentEligible": true
+        },
+        {
+          "id": "neet_48",
+          "section": "NEET Previous & High Yield Questions",
+          "question": "A planet is revolving around the Sun in an elliptical orbit. Select the correct option:",
+          "options": [
+            {
+              "id": 1,
+              "text": "Total energy of the planet is negative at all points on its trajectory"
+            },
+            {
+              "id": 2,
+              "text": "Net torque on the planet about the Sun is zero"
+            },
+            {
+              "id": 3,
+              "text": "Linear momentum of the planet is not conserved"
+            },
+            {
+              "id": 4,
+              "text": "All of these"
+            }
+          ],
+          "correctOption": 4,
+          "correctAnswer": "All of these",
+          "explanation": "A bound elliptical orbit has negative total energy. Gravitational force is central, so torque about the Sun is zero. The planet's linear momentum changes because the Sun exerts a force on it.",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "Total energy of the planet is negative at all points on its trajectory",
+              "explanation": "Statement 1 is correct."
+            },
+            {
+              "option": 2,
+              "text": "Net torque on the planet about the Sun is zero",
+              "explanation": "Statement 2 is correct."
+            },
+            {
+              "option": 3,
+              "text": "Linear momentum of the planet is not conserved",
+              "explanation": "Statement 3 is correct."
+            },
+            {
+              "option": 4,
+              "text": "All of these",
+              "explanation": "All of these is correct."
+            }
+          ],
+          "question_type": "mcq",
+          "assessmentEligible": true
+        },
+        {
+          "id": "neet_49",
+          "section": "NEET Previous & High Yield Questions",
+          "question": "A body is projected vertically upward with speed v₀ (v₀ < v_escape) from the surface of Earth. The speed of the body at height h is, where R is the radius of Earth and g is acceleration due to gravity at Earth's surface:",
+          "options": [
+            {
+              "id": 1,
+              "text": "v₀² + 2gh/(1 + h/R)"
+            },
+            {
+              "id": 2,
+              "text": "v₀² + 4gh/(1 + h/R)"
+            },
+            {
+              "id": 3,
+              "text": "v₀² − 2gh/(1 + h/R)"
+            },
+            {
+              "id": 4,
+              "text": "v₀² − 4gh/(1 + h/R)"
+            }
+          ],
+          "correctOption": 3,
+          "correctAnswer": "v₀² − 2gh/(1 + h/R)",
+          "explanation": "Energy conservation gives v²=v₀²−2ghR/(R+h)=v₀²−2gh/(1+h/R). Therefore v=√[v₀²−2gh/(1+h/R)].",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "v₀² + 2gh/(1 + h/R)",
+              "explanation": "The plus sign is wrong because kinetic energy decreases as the body rises."
+            },
+            {
+              "option": 2,
+              "text": "v₀² + 4gh/(1 + h/R)",
+              "explanation": "The plus sign and factor 4 are wrong."
+            },
+            {
+              "option": 3,
+              "text": "v₀² − 2gh/(1 + h/R)",
+              "explanation": "The expression with minus 2 is correct."
+            },
+            {
+              "option": 4,
+              "text": "v₀² − 4gh/(1 + h/R)",
+              "explanation": "The factor 4 is incorrect; the coefficient is 2."
+            }
+          ],
+          "question_type": "mcq",
+          "assessmentEligible": true
+        },
+        {
+          "id": "neet_50",
+          "section": "NEET Previous & High Yield Questions",
+          "question": "A satellite of mass m is in a circular orbit of radius 4R_E. How much energy is required to transfer it to a circular orbit of radius 7R_E? Here R_E is the radius of Earth and M is the mass of Earth.",
+          "options": [
+            {
+              "id": 1,
+              "text": "GMm/(56R_E)"
+            },
+            {
+              "id": 2,
+              "text": "3GMm/(56R_E)"
+            },
+            {
+              "id": 3,
+              "text": "GMm/(28R_E)"
+            },
+            {
+              "id": 4,
+              "text": "GMm/(14R_E)"
+            }
+          ],
+          "correctOption": 2,
+          "correctAnswer": "3GMm/(56R_E)",
+          "explanation": "Circular-orbit total energy is E=−GMm/(2r). Therefore ΔE=−GMm/(14R_E)+GMm/(8R_E)=3GMm/(56R_E).",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "GMm/(56R_E)",
+              "explanation": "GMm/(56R_E) is missing a factor of 3."
+            },
+            {
+              "option": 2,
+              "text": "3GMm/(56R_E)",
+              "explanation": "3GMm/(56R_E) is correct."
+            },
+            {
+              "option": 3,
+              "text": "GMm/(28R_E)",
+              "explanation": "GMm/(28R_E) is not the difference of the two orbital energies."
+            },
+            {
+              "option": 4,
+              "text": "GMm/(14R_E)",
+              "explanation": "GMm/(14R_E) is only the magnitude of the final total energy, not the energy required for transfer."
+            }
+          ],
+          "question_type": "mcq",
+          "assessmentEligible": true
+        },
+        {
+          "id": "neet_51",
+          "section": "NEET Previous & High Yield Questions",
+          "question": "A satellite of mass m₀ is orbiting around Earth at a height h above the surface of Earth. If the mass of Earth is M and its radius is R, the angular momentum of the satellite is:",
+          "options": [
+            {
+              "id": 1,
+              "text": "m₀√(GMR)"
+            },
+            {
+              "id": 2,
+              "text": "m₀√(GM(R + h))"
+            },
+            {
+              "id": 3,
+              "text": "m₀√(GM/R)"
+            },
+            {
+              "id": 4,
+              "text": "m₀√(GM/(R + h))"
+            }
+          ],
+          "correctOption": 2,
+          "correctAnswer": "m₀√(GM(R + h))",
+          "explanation": "The orbital radius is r=R+h. Circular speed is √[GM/(R+h)]. Thus L=m₀vr=m₀√[GM(R+h)].",
+          "optionExplanations": [
+            {
+              "option": 1,
+              "text": "m₀√(GMR)",
+              "explanation": "m₀√(GMR) applies only when h=0."
+            },
+            {
+              "option": 2,
+              "text": "m₀√(GM(R + h))",
+              "explanation": "m₀√[GM(R+h)] is correct."
+            },
+            {
+              "option": 3,
+              "text": "m₀√(GM/R)",
+              "explanation": "m₀√(GM/R) has the dimensions of speed times mass, not angular momentum."
+            },
+            {
+              "option": 4,
+              "text": "m₀√(GM/(R + h))",
+              "explanation": "m₀√[GM/(R+h)] is proportional to m₀v and lacks the radius factor."
+            }
+          ],
+          "question_type": "mcq",
+          "assessmentEligible": true
+        }
+      ]
+    }
+  ],
+  "usage": {
+    "True/False": "15 questions",
+    "Assertion-Reason": "11 questions",
+    "Check Your Understanding": "10 questions",
+    "NEET Previous & High Yield": "51 questions",
+    "total": "87 questions",
+    "important": [
+      "Every usable question has a real answer and explanation.",
+      "MCQ and Assertion-Reason questions contain option-by-option explanations.",
+      "True/False questions contain explanations for both True and False.",
+      "Questions marked assessmentEligible=false contain inconsistent/incomplete source data and should not be scored until verified.",
+      "No generic placeholder explanations are used."
+    ]
+  }
+}

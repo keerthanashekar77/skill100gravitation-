@@ -1,0 +1,1815 @@
+{
+  "schemaVersion": "3.0-skill-merged",
+  "chapter": "Gravitation",
+  "subject": "Physics",
+  "level": "NEET / Class 11",
+  "purpose": "Canonical Gravitation learning-content for the skill100.ai-style topic-tab layout (Introduction / Core Concept / Important Formula / Worked Example / Visualization / Key Points), combining the granular current-syllabus content of Gravitation_CONTENT_ONLY_v2 with the descriptions and learning objectives of Gravitation_Complete_Theory_NEET_React.",
+  "sourceFiles": [
+    "Gravitation_CONTENT_ONLY_v2.json",
+    "Gravitation_Complete_Theory_NEET_React.json"
+  ],
+  "navigation": [
+    {
+      "id": "intro",
+      "title": "Introduction to Gravitation"
+    },
+    {
+      "id": "kepler_laws",
+      "title": "Kepler's Laws of Planetary Motion"
+    },
+    {
+      "id": "universal_law",
+      "title": "Universal Law of Gravitation"
+    },
+    {
+      "id": "G",
+      "title": "Gravitational Constant G"
+    },
+    {
+      "id": "g",
+      "title": "Acceleration Due to Gravity"
+    },
+    {
+      "id": "mass_weight",
+      "title": "Mass, Weight and g"
+    },
+    {
+      "id": "variation_g",
+      "title": "Variation of g with Altitude and Depth"
+    },
+    {
+      "id": "field",
+      "title": "Gravitational Field"
+    },
+    {
+      "id": "potential_energy",
+      "title": "Gravitational Potential Energy"
+    },
+    {
+      "id": "potential",
+      "title": "Gravitational Potential"
+    },
+    {
+      "id": "escape",
+      "title": "Escape Speed"
+    },
+    {
+      "id": "satellite",
+      "title": "Earth Satellites and Orbital Motion"
+    },
+    {
+      "id": "geostationary",
+      "title": "Geostationary Satellites"
+    },
+    {
+      "id": "satellite_energy",
+      "title": "Energy of an Orbiting Satellite"
+    },
+    {
+      "id": "spherical_bodies",
+      "title": "Spherically Symmetric Bodies"
+    },
+    {
+      "id": "formula_sheet",
+      "title": "High-Yield Formula Sheet",
+      "type": "reference"
+    },
+    {
+      "id": "neet_traps",
+      "title": "NEET Concept Traps",
+      "type": "reference"
+    },
+    {
+      "id": "problem_strategy",
+      "title": "NEET Problem-Solving Strategy",
+      "type": "reference"
+    },
+    {
+      "id": "revision",
+      "title": "One-Minute Revision",
+      "type": "reference"
+    }
+  ],
+  "topics": [
+    {
+      "id": "intro",
+      "title": "Introduction to Gravitation",
+      "importance": "High",
+      "tabs": {
+        "introduction": {
+          "summary": "Gravitation is the universal attractive interaction between masses. It explains falling bodies, the Moon’s motion, planetary motion and artificial satellites.",
+          "learning_objectives": [
+            "Understand gravitation as a universal attractive interaction between masses.",
+            "Distinguish gravitation from gravity.",
+            "Understand the historical development from early astronomical models to Newton's law.",
+            "Recognise the role of gravitation in planetary, lunar and satellite motion."
+          ],
+          "components_involved": [
+            "source mass",
+            "test/other mass",
+            "separation between centres",
+            "gravitational interaction"
+          ]
+        },
+        "core_concept": {
+          "explanation": [
+            "Gravitation is the universal attractive interaction between any two bodies having mass.",
+            "Every mass attracts every other mass. The effect is small for ordinary objects but becomes dominant for planets, stars, moons and satellites.",
+            "Falling objects, the Moon's motion around Earth, planetary motion around the Sun, artificial satellites and many astronomical phenomena are explained using gravitation.",
+            "Gravity is the gravitational attraction experienced near a celestial body such as Earth.",
+            "Gravitational force is always attractive and acts along the line joining the centres of the interacting bodies."
+          ]
+        },
+        "important_formula": {
+          "formulae": []
+        },
+        "worked_example": [
+          {
+            "title": "Why an object falls",
+            "problem": "A body released near Earth accelerates downward. Which interaction causes this acceleration?",
+            "solution": "Earth attracts the body gravitationally; the resulting force is F=GMm/R² and therefore produces acceleration g.",
+            "answer": "Gravitational attraction of Earth."
+          },
+          {
+            "title": "Mass versus gravity",
+            "problem": "If the same object is taken from Earth to Moon, what changes?",
+            "solution": "Its mass remains the same, while its weight changes because local g is different.",
+            "answer": "Mass unchanged; weight changes."
+          },
+          {
+            "title": "Universal nature",
+            "problem": "Does gravitation act only on planets?",
+            "solution": "No. Every mass attracts every other mass; planets are simply large systems where the effect is obvious.",
+            "answer": "No; gravitation is universal."
+          }
+        ],
+        "visualization": {
+          "component": "gravity_overview",
+          "title": "From falling object to satellite",
+          "controls": [
+            "body_mass",
+            "central_body_mass",
+            "distance"
+          ],
+          "outputs": [
+            "force_arrow",
+            "motion_path",
+            "force_value"
+          ],
+          "purpose": "Connect everyday falling motion with celestial motion.",
+          "status": "spec_pending_build",
+          "render_as": "react_component",
+          "note": "Interactive component not yet built. Controls and outputs below define exactly what the next AI-generated visualizer for this topic should let the student manipulate and see."
+        },
+        "key_points": {
+          "key_points": [
+            "Gravitation is universal and attractive.",
+            "The force acts along the line joining the centres.",
+            "Gravity near a celestial body is the gravitational attraction experienced there.",
+            "Gravitation is universal.",
+            "Gravitational force is attractive.",
+            "The same basic law explains terrestrial and celestial gravitational phenomena."
+          ],
+          "common_mistakes": [
+            "Confusing gravitational force with g.",
+            "Thinking gravitation acts only between planets."
+          ],
+          "neet_tips": [
+            "Start every gravitation problem by identifying the two masses and centre-to-centre distance."
+          ]
+        }
+      }
+    },
+    {
+      "id": "kepler_laws",
+      "title": "Kepler's Laws of Planetary Motion",
+      "importance": "Very High",
+      "tabs": {
+        "introduction": {
+          "summary": "Kepler’s laws describe planetary motion and provide the observational foundation connecting orbital geometry, speed and period.",
+          "learning_objectives": [],
+          "components_involved": [
+            "ellipse and foci",
+            "perihelion and aphelion",
+            "areal velocity",
+            "semi-major axis",
+            "orbital period"
+          ]
+        },
+        "core_concept": {
+          "explanation": [],
+          "subsections": [
+            {
+              "title": "First Law — Law of Orbits",
+              "content": "Every planet moves in an elliptical orbit with the Sun situated at one focus of the ellipse.",
+              "points": [
+                "An ellipse has two foci.",
+                "The circle is a special case of an ellipse.",
+                "Closest point to the Sun is perihelion.",
+                "Farthest point is aphelion.",
+                "The semi-major axis is half the major axis."
+              ]
+            },
+            {
+              "title": "Second Law — Law of Areas",
+              "content": "The line joining a planet and the Sun sweeps equal areas in equal intervals of time.",
+              "points": [
+                "A planet moves faster near perihelion.",
+                "A planet moves slower near aphelion.",
+                "Areal velocity is constant.",
+                "The law is related to conservation of angular momentum."
+              ]
+            },
+            {
+              "title": "Third Law — Law of Periods",
+              "content": "The square of the orbital period is proportional to the cube of the semi-major axis.",
+              "points": []
+            }
+          ]
+        },
+        "important_formula": {
+          "formulae": [
+            {
+              "label": "First Law — Law of Orbits",
+              "formula": "r_min = a(1-e)"
+            },
+            {
+              "label": "First Law — Law of Orbits",
+              "formula": "r_max = a(1+e)"
+            },
+            {
+              "label": "Second Law — Law of Areas",
+              "formula": "dA/dt = constant"
+            },
+            {
+              "label": "Second Law — Law of Areas",
+              "formula": "dA/dt = L/(2m)"
+            },
+            {
+              "label": "Third Law — Law of Periods",
+              "formula": "T^2 ∝ a^3"
+            },
+            {
+              "label": "Third Law — Law of Periods",
+              "formula": "T^2/a^3 = constant for bodies orbiting the same central mass"
+            },
+            {
+              "label": "Third Law — Law of Periods",
+              "formula": "T^2 = 4π^2a^3/(GM) for a circular orbit"
+            }
+          ]
+        },
+        "worked_example": [
+          {
+            "title": "Perihelion speed",
+            "problem": "A planet is closer to the Sun at perihelion. Is its speed larger or smaller than at aphelion?",
+            "solution": "By Kepler’s second law, equal areas are swept in equal times, so the planet moves faster when it is closer.",
+            "answer": "Larger at perihelion."
+          },
+          {
+            "title": "Period scaling",
+            "problem": "If the orbital size changes from a to 2a around the same Sun, how does T change?",
+            "solution": "T²∝a³, so T′/T=(2)^(3/2)=2√2.",
+            "answer": "T′=2√2 T."
+          },
+          {
+            "title": "Areal velocity",
+            "problem": "What remains constant for a planet according to Kepler’s second law?",
+            "solution": "The area swept per unit time by the Sun–planet line remains constant.",
+            "answer": "dA/dt is constant."
+          }
+        ],
+        "visualization": {
+          "status": "ai_generated_interactive",
+          "component_name": "KeplersLawsVisualizer",
+          "title": "Kepler's Laws — Interactive Visualization",
+          "description": "Switch between the 1st, 2nd and 3rd laws. The 2nd-law view animates a planet on an elliptical orbit and shades two equal swept areas (near and far from the Sun) so students see directly why the planet speeds up near perihelion.",
+          "render_as": "react_component",
+          "code": "import React, { useEffect, useMemo, useState } from \"react\";\n\nconst TAU = Math.PI * 2;\n\nfunction polar(cx, cy, rx, ry, angle) {\n  return {\n    x: cx + rx * Math.cos(angle),\n    y: cy + ry * Math.sin(angle),\n  };\n}\n\nfunction areaPath(cx, cy, rx, ry, a1, a2) {\n  const p1 = polar(cx, cy, rx, ry, a1);\n  const p2 = polar(cx, cy, rx, ry, a2);\n  const largeArc = Math.abs(a2 - a1) > Math.PI ? 1 : 0;\n  return [\n    `M ${cx} ${cy}`,\n    `L ${p1.x} ${p1.y}`,\n    `A ${rx} ${ry} 0 ${largeArc} 1 ${p2.x} ${p2.y}`,\n    \"Z\",\n  ].join(\" \");\n}\n\nexport default function KeplersLawsVisualizer() {\n  const [law, setLaw] = useState(2);\n  const [running, setRunning] = useState(true);\n  const [time, setTime] = useState(0);\n\n  useEffect(() => {\n    if (!running) return;\n    let frame;\n    let previous = performance.now();\n\n    const animate = (now) => {\n      const dt = Math.min((now - previous) / 1000, 0.05);\n      previous = now;\n      setTime((t) => t + dt * 0.55);\n      frame = requestAnimationFrame(animate);\n    };\n\n    frame = requestAnimationFrame(animate);\n    return () => cancelAnimationFrame(frame);\n  }, [running]);\n\n  const cx = 310;\n  const cy = 190;\n  const rx = 205;\n  const ry = 125;\n\n  // Elliptical orbit. The Sun is at the left focus.\n  const focus = Math.sqrt(rx * rx - ry * ry);\n  const sunX = cx - focus;\n  const sunY = cy;\n\n  const angle = time % TAU;\n\n  // Variable angular speed: faster near the Sun, slower far away.\n  // This is used only to visualize the qualitative consequence of Kepler's 2nd law.\n  const point = polar(cx, cy, rx, ry, angle);\n  const distanceFromSun = Math.hypot(point.x - sunX, point.y - sunY);\n  const speedFactor = Math.min(2.3, Math.max(0.65, 330 / distanceFromSun));\n\n  const sweep = 0.18 * speedFactor;\n  const previousAngle = angle - sweep;\n\n  const pPrevious = polar(cx, cy, rx, ry, previousAngle);\n\n  const area1 = areaPath(cx, cy, rx, ry, previousAngle, angle);\n  const area2 = areaPath(\n    cx,\n    cy,\n    rx,\n    ry,\n    angle + Math.PI,\n    previousAngle + Math.PI\n  );\n\n  const lawText = {\n    1: {\n      title: \"Kepler's First Law — Law of Orbits\",\n      text: \"Every planet moves in an elliptical orbit with the Sun at one focus.\",\n    },\n    2: {\n      title: \"Kepler's Second Law — Law of Areas\",\n      text: \"The line joining the planet and the Sun sweeps out equal areas in equal intervals of time.\",\n    },\n    3: {\n      title: \"Kepler's Third Law — Law of Periods\",\n      text: \"The square of the orbital period is proportional to the cube of the semi-major axis: T² ∝ a³.\",\n    },\n  };\n\n  const current = lawText[law];\n\n  return (\n    <div\n      style={{\n        width: \"100%\",\n        background: \"#fff\",\n        border: \"1px solid #e5e7eb\",\n        borderRadius: 18,\n        padding: 22,\n        boxSizing: \"border-box\",\n      }}\n    >\n      <div style={{ marginBottom: 18 }}>\n        <h2\n          style={{\n            margin: 0,\n            color: \"#071A3D\",\n            fontSize: 22,\n            fontWeight: 800,\n          }}\n        >\n          Kepler's Laws — Interactive Visualization\n        </h2>\n\n        <p\n          style={{\n            margin: \"8px 0 0\",\n            color: \"#526B8D\",\n            lineHeight: 1.6,\n          }}\n        >\n          {current.text}\n        </p>\n      </div>\n\n      <div\n        style={{\n          display: \"flex\",\n          gap: 8,\n          flexWrap: \"wrap\",\n          marginBottom: 18,\n        }}\n      >\n        {[1, 2, 3].map((n) => (\n          <button\n            key={n}\n            type=\"button\"\n            onClick={() => setLaw(n)}\n            style={{\n              border: law === n ? \"2px solid #2563EB\" : \"1px solid #dbe3ef\",\n              background: law === n ? \"#EFF6FF\" : \"#fff\",\n              color: law === n ? \"#2563EB\" : \"#526B8D\",\n              borderRadius: 10,\n              padding: \"9px 14px\",\n              fontWeight: 800,\n              cursor: \"pointer\",\n            }}\n          >\n            {n === 1 ? \"1st Law\" : n === 2 ? \"2nd Law\" : \"3rd Law\"}\n          </button>\n        ))}\n\n        <button\n          type=\"button\"\n          onClick={() => setRunning((v) => !v)}\n          style={{\n            marginLeft: \"auto\",\n            border: \"1px solid #F5A000\",\n            background: \"#FFF9EE\",\n            color: \"#B45309\",\n            borderRadius: 10,\n            padding: \"9px 14px\",\n            fontWeight: 800,\n            cursor: \"pointer\",\n          }}\n        >\n          {running ? \"Pause\" : \"Play\"}\n        </button>\n      </div>\n\n      <div\n        style={{\n          overflowX: \"auto\",\n          background: \"#F8FAFC\",\n          borderRadius: 14,\n          border: \"1px solid #E7ECF3\",\n        }}\n      >\n        <svg\n          viewBox=\"0 0 620 380\"\n          width=\"100%\"\n          style={{\n            minWidth: 560,\n            display: \"block\",\n          }}\n        >\n          <defs>\n            <filter id=\"planetShadow\">\n              <feDropShadow dx=\"0\" dy=\"2\" stdDeviation=\"2\" floodOpacity=\"0.2\" />\n            </filter>\n          </defs>\n\n          {/* Orbit */}\n          <ellipse\n            cx={cx}\n            cy={cy}\n            rx={rx}\n            ry={ry}\n            fill=\"none\"\n            stroke=\"#94a3b8\"\n            strokeWidth=\"2\"\n            strokeDasharray=\"7 6\"\n          />\n\n          {/* Semi-major axis */}\n          <line\n            x1={cx - rx}\n            y1={cy}\n            x2={cx + rx}\n            y2={cy}\n            stroke=\"#cbd5e1\"\n            strokeWidth=\"1\"\n          />\n\n          {/* Sun */}\n          <circle\n            cx={sunX}\n            cy={sunY}\n            r=\"19\"\n            fill=\"#F5A000\"\n            filter=\"url(#planetShadow)\"\n          />\n          <text\n            x={sunX}\n            y={sunY + 39}\n            textAnchor=\"middle\"\n            fontSize=\"13\"\n            fontWeight=\"800\"\n            fill=\"#B45309\"\n          >\n            Sun\n          </text>\n\n          {law === 2 && (\n            <>\n              {/* Equal-area demonstration */}\n              <path\n                d={area1}\n                fill=\"#2563EB\"\n                fillOpacity=\"0.20\"\n                stroke=\"#2563EB\"\n                strokeWidth=\"2\"\n              />\n              <path\n                d={area2}\n                fill=\"#16A34A\"\n                fillOpacity=\"0.20\"\n                stroke=\"#16A34A\"\n                strokeWidth=\"2\"\n              />\n\n              <line\n                x1={sunX}\n                y1={sunY}\n                x2={point.x}\n                y2={point.y}\n                stroke=\"#2563EB\"\n                strokeWidth=\"2\"\n              />\n\n              <line\n                x1={sunX}\n                y1={sunY}\n                x2={pPrevious.x}\n                y2={pPrevious.y}\n                stroke=\"#2563EB\"\n                strokeWidth=\"2\"\n              />\n\n              <line\n                x1={sunX}\n                y1={sunY}\n                x2={polar(cx, cy, rx, ry, angle + Math.PI).x}\n                y2={polar(cx, cy, rx, ry, angle + Math.PI).y}\n                stroke=\"#16A34A\"\n                strokeWidth=\"2\"\n              />\n\n              <text\n                x=\"95\"\n                y=\"55\"\n                fontSize=\"13\"\n                fontWeight=\"800\"\n                fill=\"#2563EB\"\n              >\n                Swept area A₁\n              </text>\n\n              <text\n                x=\"410\"\n                y=\"55\"\n                fontSize=\"13\"\n                fontWeight=\"800\"\n                fill=\"#15803D\"\n              >\n                Equal swept area A₂\n              </text>\n            </>\n          )}\n\n          {/* Planet */}\n          <circle\n            cx={point.x}\n            cy={point.y}\n            r=\"9\"\n            fill=\"#2563EB\"\n            filter=\"url(#planetShadow)\"\n          />\n\n          <text\n            x={point.x + 14}\n            y={point.y - 12}\n            fontSize=\"13\"\n            fontWeight=\"800\"\n            fill=\"#071A3D\"\n          >\n            Planet\n          </text>\n        </svg>\n      </div>\n\n      {law === 2 && (\n        <div\n          style={{\n            marginTop: 16,\n            padding: 16,\n            background: \"#EFF6FF\",\n            borderLeft: \"4px solid #2563EB\",\n            borderRadius: \"0 10px 10px 0\",\n          }}\n        >\n          <div\n            style={{\n              fontWeight: 800,\n              color: \"#071A3D\",\n              marginBottom: 6,\n            }}\n          >\n            Why the two areas are equal\n          </div>\n\n          <div\n            style={{\n              color: \"#526B8D\",\n              lineHeight: 1.7,\n              fontSize: 14,\n            }}\n          >\n            The gravitational force is a central force, so torque about the\n            Sun is zero. Therefore angular momentum remains constant.\n            Consequently, the areal velocity remains constant:\n          </div>\n\n          <div\n            className=\"math-block\"\n            style={{\n              marginTop: 10,\n              fontWeight: 800,\n              fontSize: 17,\n            }}\n          >\n            ΔA / Δt = L / 2m = constant\n          </div>\n\n          <div\n            style={{\n              marginTop: 10,\n              color: \"#526B8D\",\n              fontSize: 13,\n              lineHeight: 1.6,\n            }}\n          >\n            The planet therefore moves faster near perihelion and slower near\n            aphelion while sweeping equal areas in equal time intervals.\n          </div>\n        </div>\n      )}\n\n      {law === 1 && (\n        <div\n          style={{\n            marginTop: 16,\n            padding: 16,\n            background: \"#F8FAFC\",\n            borderRadius: 10,\n            color: \"#526B8D\",\n            lineHeight: 1.7,\n          }}\n        >\n          The orbit is shown as an ellipse and the Sun is placed at one focus,\n          not at the geometric centre.\n        </div>\n      )}\n\n      {law === 3 && (\n        <div\n          style={{\n            marginTop: 16,\n            padding: 16,\n            background: \"#FFF9EE\",\n            borderLeft: \"4px solid #F5A000\",\n            borderRadius: \"0 10px 10px 0\",\n            color: \"#526B8D\",\n            lineHeight: 1.7,\n          }}\n        >\n          <strong style={{ color: \"#071A3D\" }}>Key relation:</strong>{\" \"}\n          T² ∝ a³\n        </div>\n      )}\n    </div>\n  );\n}\n"
+        },
+        "key_points": {
+          "key_points": [
+            "First law: ellipse with Sun at one focus.",
+            "Second law: equal areas in equal times.",
+            "Third law: T²∝a³ for bodies orbiting the same central mass."
+          ],
+          "common_mistakes": [
+            "Putting the Sun at the centre of the ellipse instead of a focus.",
+            "Using radius instead of semi-major axis for a general ellipse."
+          ],
+          "neet_tips": [
+            "For perihelion/aphelion speed questions, think angular momentum/areal velocity first."
+          ]
+        }
+      }
+    },
+    {
+      "id": "universal_law",
+      "title": "Universal Law of Gravitation",
+      "importance": "Very High",
+      "tabs": {
+        "introduction": {
+          "summary": "Newton’s universal law gives the magnitude and direction of gravitational attraction between masses.",
+          "learning_objectives": [],
+          "components_involved": [
+            "m1",
+            "m2",
+            "centre-to-centre distance r",
+            "G",
+            "force direction"
+          ]
+        },
+        "core_concept": {
+          "explanation": [
+            "Two masses attract each other with force directly proportional to the product of their masses and inversely proportional to the square of the distance between their centres.",
+            {
+              "heading": "Properties",
+              "points": [
+                "Force acts along the line joining the masses.",
+                "Forces on the two masses are equal in magnitude and opposite in direction.",
+                "Force increases with either mass.",
+                "Force decreases as inverse square of separation.",
+                "The law applies to point masses and to spherically symmetric bodies using centre-to-centre distance."
+              ]
+            },
+            {
+              "heading": "Scaling",
+              "points": [
+                "Double one mass → 2F.",
+                "Double both masses → 4F.",
+                "Double r → F/4.",
+                "Triple r → F/9.",
+                "Halve r → 4F."
+              ]
+            },
+            {
+              "heading": "Superposition",
+              "points": [
+                "F⃗net = ΣF⃗i"
+              ]
+            }
+          ]
+        },
+        "important_formula": {
+          "formulae": [
+            {
+              "label": "Universal Law of Gravitation",
+              "formula": "F = G m1 m2 / r^2"
+            },
+            {
+              "label": "Universal Law of Gravitation (vector form)",
+              "formula": "F⃗12 = -G m1 m2 r̂12 / r^2"
+            }
+          ]
+        },
+        "worked_example": [
+          {
+            "title": "Distance scaling",
+            "problem": "If separation doubles while masses stay fixed, what happens to F?",
+            "solution": "F∝1/r², so F′=F/4.",
+            "answer": "One-fourth."
+          },
+          {
+            "title": "Mass scaling",
+            "problem": "If both masses are doubled, what happens to F?",
+            "solution": "F∝m1m2, so F′=4F.",
+            "answer": "Four times."
+          },
+          {
+            "title": "Superposition",
+            "problem": "Several masses act on a test mass. How is net force found?",
+            "solution": "Add the gravitational force vectors from each source: F⃗net=ΣF⃗i.",
+            "answer": "Vector sum."
+          }
+        ],
+        "visualization": {
+          "component": "gravity_force_simulator",
+          "title": "Change Mass and Distance",
+          "controls": [
+            "m1",
+            "m2",
+            "r"
+          ],
+          "outputs": [
+            "force",
+            "force_vs_distance_graph",
+            "direction_arrows"
+          ],
+          "purpose": "Show direct mass dependence and inverse-square distance dependence.",
+          "status": "spec_pending_build",
+          "render_as": "react_component",
+          "note": "Interactive component not yet built. Controls and outputs below define exactly what the next AI-generated visualizer for this topic should let the student manipulate and see."
+        },
+        "key_points": {
+          "key_points": [
+            "Force is always attractive.",
+            "Equal and opposite forces act on the two interacting bodies.",
+            "For spherically symmetric bodies outside the body, centre-to-centre distance is used."
+          ],
+          "common_mistakes": [
+            "Using surface-to-surface distance instead of centre-to-centre distance.",
+            "Adding scalar magnitudes when force directions differ."
+          ],
+          "neet_tips": [
+            "For ratios, write F∝m1m2/r² before substituting numbers."
+          ]
+        }
+      }
+    },
+    {
+      "id": "G",
+      "title": "Gravitational Constant G",
+      "importance": "High",
+      "tabs": {
+        "introduction": {
+          "summary": "G is the universal constant that sets the strength scale of Newtonian gravitation.",
+          "learning_objectives": [],
+          "components_involved": [
+            "universal constant",
+            "SI unit",
+            "dimensions",
+            "relation to F,m1,m2,r",
+            "Cavendish experiment"
+          ]
+        },
+        "core_concept": {
+          "explanation": [
+            "G is the universal gravitational constant.",
+            "G is approximately 6.67 × 10^-11 N m^2 kg^-2.",
+            "G is universal; g is location-dependent."
+          ]
+        },
+        "important_formula": {
+          "formulae": [
+            {
+              "label": "Gravitational Constant G",
+              "formula": "G = Fr^2/(m1m2)"
+            }
+          ],
+          "unit": "N m^2 kg^-2",
+          "dimensions": "[M^-1 L^3 T^-2]"
+        },
+        "worked_example": [
+          {
+            "title": "Dimensions",
+            "problem": "Find dimensions of G.",
+            "solution": "G=Fr²/m². Since [F]=MLT^-2, [G]=M^-1L³T^-2.",
+            "answer": "[M^-1L³T^-2]."
+          },
+          {
+            "title": "Unit",
+            "problem": "What is the SI unit of G?",
+            "solution": "From G=Fr²/m1m2, the unit is N m² kg^-2.",
+            "answer": "N m² kg^-2."
+          },
+          {
+            "title": "G versus g",
+            "problem": "Does G change from Earth to Moon?",
+            "solution": "G is universal; g is location-dependent.",
+            "answer": "G remains the same."
+          }
+        ],
+        "visualization": {
+          "component": "cavendish_simulator",
+          "title": "Cavendish Torsion Balance",
+          "controls": [
+            "large_mass",
+            "small_mass",
+            "separation"
+          ],
+          "outputs": [
+            "torsion_angle",
+            "estimated_G"
+          ],
+          "purpose": "Explain how the tiny gravitational interaction can be measured.",
+          "status": "spec_pending_build",
+          "render_as": "react_component",
+          "note": "Interactive component not yet built. Controls and outputs below define exactly what the next AI-generated visualizer for this topic should let the student manipulate and see."
+        },
+        "key_points": {
+          "key_points": [
+            "G≈6.67×10^-11 N m² kg^-2.",
+            "G is universal.",
+            "Do not confuse G with g."
+          ],
+          "common_mistakes": [
+            "Writing the wrong power of length in dimensions.",
+            "Treating G as dependent on distance.",
+            "Do not confuse G with g."
+          ],
+          "neet_tips": [
+            "Memorize both SI unit and dimensions of G."
+          ]
+        }
+      }
+    },
+    {
+      "id": "g",
+      "title": "Acceleration Due to Gravity",
+      "importance": "Very High",
+      "tabs": {
+        "introduction": {
+          "summary": "Acceleration due to gravity is the acceleration of a freely falling body caused by the gravitational attraction of a celestial body.",
+          "learning_objectives": [],
+          "components_involved": [
+            "Earth mass M",
+            "Earth radius R",
+            "falling mass m",
+            "gravitational force",
+            "acceleration g"
+          ]
+        },
+        "core_concept": {
+          "explanation": [
+            "Acceleration due to gravity is the acceleration of a freely falling body caused by the gravitational attraction of a celestial body.",
+            "Near Earth's surface, g is approximately 9.8 m/s^2.",
+            "Ignoring air resistance, g is independent of the mass of the falling object.",
+            {
+              "heading": "Conclusions",
+              "points": [
+                "g depends on the mass and radius of the planet.",
+                "The falling object's mass cancels.",
+                "g is not the same everywhere on Earth."
+              ]
+            }
+          ],
+          "derivation": [
+            "F = GMm/R^2",
+            "F = mg",
+            "Therefore mg = GMm/R^2",
+            "Therefore g = GM/R^2"
+          ]
+        },
+        "important_formula": {
+          "formulae": [
+            {
+              "label": "Acceleration Due to Gravity",
+              "formula": "g = GM/R^2"
+            }
+          ]
+        },
+        "worked_example": [
+          {
+            "title": "Surface g",
+            "problem": "Express g in terms of G, Earth mass M and radius R.",
+            "solution": "Equate GMm/R² with mg and cancel m.",
+            "answer": "g=GM/R²."
+          },
+          {
+            "title": "Mass independence",
+            "problem": "Two objects of different masses fall without air resistance. Which has larger g?",
+            "solution": "The object mass cancels from the derivation of g.",
+            "answer": "Both have the same g at the same location."
+          },
+          {
+            "title": "Planet scaling",
+            "problem": "A planet has twice Earth’s mass and the same radius. Compare surface g.",
+            "solution": "g∝M/R², so g′=2g.",
+            "answer": "Twice Earth’s g."
+          }
+        ],
+        "visualization": {
+          "component": "free_fall_simulator",
+          "title": "Free Fall on Different Worlds",
+          "controls": [
+            "planet_mass",
+            "planet_radius",
+            "object_mass"
+          ],
+          "outputs": [
+            "g",
+            "fall_time",
+            "motion"
+          ],
+          "purpose": "Show that g depends on the attracting body, not the falling object mass.",
+          "status": "spec_pending_build",
+          "render_as": "react_component",
+          "note": "Interactive component not yet built. Controls and outputs below define exactly what the next AI-generated visualizer for this topic should let the student manipulate and see."
+        },
+        "key_points": {
+          "key_points": [
+            "Near Earth g≈9.8 m/s².",
+            "Ignoring air resistance, g is independent of falling mass.",
+            "g depends on the mass and radius of the attracting body."
+          ],
+          "common_mistakes": [
+            "Using the falling object mass in the final formula for g.",
+            "Assuming g is identical everywhere on Earth."
+          ],
+          "neet_tips": [
+            "Use g=GM/R² and cancel the test mass immediately."
+          ]
+        }
+      }
+    },
+    {
+      "id": "mass_weight",
+      "title": "Mass, Weight and g",
+      "importance": "High",
+      "tabs": {
+        "introduction": {
+          "summary": "Mass measures inertia; weight is gravitational force and therefore changes when local g changes.",
+          "learning_objectives": [],
+          "components_involved": [
+            "mass",
+            "weight",
+            "local g",
+            "location"
+          ]
+        },
+        "core_concept": {
+          "explanation": [
+            "Mass - kg - Measure of inertia - False",
+            "Weight - N - Gravitational force acting on an object - True",
+            "g - m/s^2 - Acceleration due to gravity - True",
+            {
+              "heading": "Moon",
+              "points": [
+                "Mass remains unchanged on the Moon.",
+                "Weight changes because lunar g is smaller.",
+                "Weight on Moon is approximately one-sixth of weight on Earth."
+              ]
+            }
+          ]
+        },
+        "important_formula": {
+          "formulae": [
+            {
+              "label": "Mass, Weight and g",
+              "formula": "W = mg"
+            },
+            {
+              "label": "Mass, Weight and g",
+              "formula": "W = GMm/R^2"
+            }
+          ]
+        },
+        "worked_example": [
+          {
+            "title": "Moon weight",
+            "problem": "An object has mass m on Earth. What happens to its mass on the Moon?",
+            "solution": "Mass is intrinsic and remains m; weight becomes mg_moon.",
+            "answer": "Mass unchanged; weight decreases."
+          },
+          {
+            "title": "Weight ratio",
+            "problem": "If local g becomes half, what happens to weight?",
+            "solution": "W=mg and m is unchanged, so W′=W/2.",
+            "answer": "Halves."
+          },
+          {
+            "title": "Mass reading",
+            "problem": "Can a beam balance measuring mass change its mass reading merely by moving to the Moon?",
+            "solution": "Mass does not depend on local g.",
+            "answer": "No."
+          }
+        ],
+        "visualization": {
+          "component": "planet_gravity",
+          "title": "Visit Different Planets",
+          "controls": [
+            "planet",
+            "object_mass"
+          ],
+          "outputs": [
+            "g",
+            "mass",
+            "weight"
+          ],
+          "purpose": "Separate mass from weight.",
+          "status": "spec_pending_build",
+          "render_as": "react_component",
+          "note": "Interactive component not yet built. Controls and outputs below define exactly what the next AI-generated visualizer for this topic should let the student manipulate and see."
+        },
+        "key_points": {
+          "key_points": [
+            "Mass: kg; weight: N.",
+            "Weight is location-dependent.",
+            "Moon weight is approximately one-sixth of Earth weight."
+          ],
+          "common_mistakes": [
+            "Reporting weight in kilograms as if kg were a force unit.",
+            "Changing mass when only g changes."
+          ],
+          "neet_tips": [
+            "For planet comparisons use W′/W=g′/g."
+          ]
+        }
+      }
+    },
+    {
+      "id": "variation_g",
+      "title": "Variation of g with Altitude and Depth",
+      "importance": "Very High",
+      "tabs": {
+        "introduction": {
+          "summary": "The value of g changes with position relative to Earth’s surface.",
+          "learning_objectives": [],
+          "components_involved": [
+            "altitude h",
+            "depth d",
+            "Earth radius R",
+            "Earth mass M",
+            "distance from Earth centre"
+          ]
+        },
+        "core_concept": {
+          "explanation": [
+            {
+              "heading": "Altitude",
+              "points": [
+                {
+                  "formula": "g_h = GM/(R+h)^2",
+                  "ratio": "g_h/g = R^2/(R+h)^2",
+                  "small_height": "For h << R: g_h ≈ g(1-2h/R)",
+                  "conclusion": "g decreases with altitude."
+                }
+              ]
+            },
+            {
+              "heading": "Depth",
+              "points": [
+                {
+                  "formula": "g_d = g(1-d/R)",
+                  "condition": "Uniform-density Earth model",
+                  "conclusion": "g decreases linearly with depth and becomes zero at the centre."
+                }
+              ]
+            }
+          ]
+        },
+        "important_formula": {
+          "formulae": []
+        },
+        "worked_example": [
+          {
+            "title": "Altitude ratio",
+            "problem": "At h=R, compare g_h with surface g.",
+            "solution": "g_h/g=[R/(2R)]²=1/4.",
+            "answer": "g_h=g/4."
+          },
+          {
+            "title": "Small height",
+            "problem": "For h≪R, what fractional decrease occurs?",
+            "solution": "From g_h≈g(1−2h/R), fractional decrease is 2h/R.",
+            "answer": "2h/R."
+          },
+          {
+            "title": "Small depth",
+            "problem": "For depth d in a uniform-density Earth, what fractional decrease occurs?",
+            "solution": "g_d=g(1−d/R).",
+            "answer": "d/R."
+          }
+        ],
+        "visualization": {
+          "component": "g_variation",
+          "title": "Move Above and Below Earth",
+          "controls": [
+            "altitude",
+            "depth"
+          ],
+          "outputs": [
+            "g_value",
+            "earth_diagram",
+            "graph"
+          ],
+          "purpose": "Show different altitude and depth laws on the same Earth model.",
+          "status": "spec_pending_build",
+          "render_as": "react_component",
+          "note": "Interactive component not yet built. Controls and outputs below define exactly what the next AI-generated visualizer for this topic should let the student manipulate and see."
+        },
+        "key_points": {
+          "key_points": [
+            "Altitude: inverse-square dependence.",
+            "Small altitude decrease≈2h/R.",
+            "Depth: linear decrease for uniform density.",
+            "At Earth centre g=0 in the ideal model."
+          ],
+          "common_mistakes": [
+            "Using 1−h/R for small altitude.",
+            "Using the depth formula for altitude.",
+            "Forgetting r=R+h is measured from Earth centre.",
+            "Do not use the altitude formula for depth.",
+            "At Earth's centre, g = 0 in the ideal symmetric model, but gravitational potential is not zero."
+          ],
+          "neet_tips": [
+            "Remember: small height gives factor 2; small depth gives factor 1."
+          ]
+        }
+      }
+    },
+    {
+      "id": "field",
+      "title": "Gravitational Field",
+      "importance": "Very High",
+      "tabs": {
+        "introduction": {
+          "summary": "Gravitational field describes the gravitational influence around a mass and is measured as force per unit test mass.",
+          "learning_objectives": [],
+          "components_involved": [
+            "source mass",
+            "test mass",
+            "field strength",
+            "direction",
+            "superposition"
+          ]
+        },
+        "core_concept": {
+          "explanation": [
+            "A gravitational field is the region around a mass in which another mass experiences gravitational force.",
+            "Field strength is gravitational force per unit test mass.",
+            "The field due to an isolated point mass points toward the source mass."
+          ]
+        },
+        "important_formula": {
+          "formulae": [
+            {
+              "label": "Gravitational Field",
+              "formula": "g⃗ = F⃗/m"
+            },
+            {
+              "label": "Gravitational Field",
+              "formula": "For point mass: g = GM/r^2"
+            },
+            {
+              "label": "Gravitational Field",
+              "formula": "For multiple masses: g⃗net = Σg⃗i"
+            }
+          ],
+          "unit": "N/kg, equivalent to m/s^2"
+        },
+        "worked_example": [
+          {
+            "title": "Field strength",
+            "problem": "A 15 kg body experiences 45 N gravitational force. Find field strength.",
+            "solution": "g_field=F/m=45/15.",
+            "answer": "3 N/kg."
+          },
+          {
+            "title": "Direction",
+            "problem": "What is the field direction due to an isolated mass?",
+            "solution": "Gravitational attraction points toward the source mass.",
+            "answer": "Toward the source."
+          },
+          {
+            "title": "Neutral point",
+            "problem": "Can the net field be zero while potential is nonzero?",
+            "solution": "Yes. Vector fields can cancel while scalar potentials add.",
+            "answer": "Yes."
+          }
+        ],
+        "visualization": {
+          "component": "field_vector_map",
+          "title": "Gravitational Field Lines and Vectors",
+          "controls": [
+            "source_mass",
+            "test_position",
+            "second_source"
+          ],
+          "outputs": [
+            "field_vectors",
+            "net_field",
+            "neutral_point"
+          ],
+          "purpose": "Show vector addition and neutral points.",
+          "status": "spec_pending_build",
+          "render_as": "react_component",
+          "note": "Interactive component not yet built. Controls and outputs below define exactly what the next AI-generated visualizer for this topic should let the student manipulate and see."
+        },
+        "key_points": {
+          "key_points": [
+            "Field is vector.",
+            "Point-mass field magnitude is GM/r².",
+            "Superpose field vectors.",
+            "Field is vector.",
+            "Potential is scalar.",
+            "Field magnitude from a point mass follows inverse-square dependence."
+          ],
+          "common_mistakes": [
+            "Treating field like scalar potential.",
+            "Ignoring direction in superposition."
+          ],
+          "neet_tips": [
+            "For zero field between unequal masses, set magnitudes equal and choose the point between them."
+          ]
+        }
+      }
+    },
+    {
+      "id": "potential_energy",
+      "title": "Gravitational Potential Energy",
+      "importance": "Very High",
+      "tabs": {
+        "introduction": {
+          "summary": "Gravitational potential energy describes the energy associated with the configuration of masses.",
+          "learning_objectives": [],
+          "components_involved": [
+            "reference level",
+            "source mass",
+            "object mass",
+            "separation",
+            "work done by gravity"
+          ]
+        },
+        "core_concept": {
+          "explanation": [
+            "Gravitational potential energy is the energy associated with the position of a mass in a gravitational field.",
+            "Taking potential energy to be zero at infinity, the gravitational potential energy of mass m at distance r from point mass M is negative.",
+            "The negative sign indicates a bound gravitational state relative to infinity.",
+            {
+              "heading": "Near Surface",
+              "points": [
+                "For small changes in height near Earth's surface, ΔU ≈ mgh."
+              ]
+            },
+            {
+              "heading": "Important",
+              "points": [
+                "Use U = -GMm/r for large-scale planetary problems.",
+                "mgh is a near-surface approximation.",
+                "Choice of zero potential energy is a reference convention."
+              ]
+            }
+          ]
+        },
+        "important_formula": {
+          "formulae": [
+            {
+              "label": "Gravitational Potential Energy",
+              "formula": "U = -GMm/r"
+            }
+          ]
+        },
+        "worked_example": [
+          {
+            "title": "Energy change to 2R",
+            "problem": "Raise mass m from R to 3R from Earth’s centre. Find ΔU.",
+            "solution": "ΔU=GMm(1/R−1/3R)=2GMm/(3R)=2mgR/3.",
+            "answer": "2mgR/3."
+          },
+          {
+            "title": "Sign",
+            "problem": "Why is U negative when zero is at infinity?",
+            "solution": "A bound configuration has lower energy than infinite separation.",
+            "answer": "Because U=−GMm/r<0."
+          },
+          {
+            "title": "Near surface",
+            "problem": "When is mgh acceptable?",
+            "solution": "For small changes in height compared with Earth’s radius, g is approximately constant.",
+            "answer": "Near Earth’s surface for small h."
+          }
+        ],
+        "visualization": {
+          "component": "potential_energy_curve",
+          "title": "Energy vs Distance",
+          "controls": [
+            "mass",
+            "distance"
+          ],
+          "outputs": [
+            "U_curve",
+            "energy_change",
+            "reference_line"
+          ],
+          "purpose": "Show negative bound energy and its approach to zero at infinity.",
+          "status": "spec_pending_build",
+          "render_as": "react_component",
+          "note": "Interactive component not yet built. Controls and outputs below define exactly what the next AI-generated visualizer for this topic should let the student manipulate and see."
+        },
+        "key_points": {
+          "key_points": [
+            "U=−GMm/r.",
+            "mgh is a near-surface approximation.",
+            "Gravitational force is conservative."
+          ],
+          "common_mistakes": [
+            "Using mgh for huge heights without checking.",
+            "Forgetting the negative sign in U."
+          ],
+          "neet_tips": [
+            "For large heights, calculate ΔU using the difference of −GMm/r values."
+          ]
+        }
+      }
+    },
+    {
+      "id": "potential",
+      "title": "Gravitational Potential",
+      "importance": "High",
+      "tabs": {
+        "introduction": {
+          "summary": "Gravitational potential is the potential energy per unit mass at a point.",
+          "learning_objectives": [],
+          "components_involved": [
+            "source mass",
+            "reference at infinity",
+            "distance r",
+            "scalar potential",
+            "relation to field"
+          ]
+        },
+        "core_concept": {
+          "explanation": [
+            "Gravitational potential at a point is gravitational potential energy per unit mass.",
+            "It is a scalar quantity.",
+            "With zero potential at infinity, the potential due to a point mass is negative.",
+            {
+              "heading": "Field Relation",
+              "points": [
+                "g_r = -dV/dr"
+              ]
+            }
+          ]
+        },
+        "important_formula": {
+          "formulae": [
+            {
+              "label": "Gravitational Potential",
+              "formula": "V = U/m = -GM/r"
+            },
+            {
+              "label": "Gravitational Potential",
+              "formula": "U = mV"
+            },
+            {
+              "label": "Gravitational Potential",
+              "formula": "For several source masses: V_total = Σ(-GMi/ri)"
+            }
+          ],
+          "unit": "J/kg"
+        },
+        "worked_example": [
+          {
+            "title": "Potential at height",
+            "problem": "If surface potential is V0=−GM/R, find potential at r=2R.",
+            "solution": "V=−GM/(2R)=V0/2.",
+            "answer": "V0/2."
+          },
+          {
+            "title": "Zero field versus potential",
+            "problem": "At a neutral point, must potential be zero?",
+            "solution": "No. Field is a vector and can cancel; potential is scalar and can remain nonzero.",
+            "answer": "No."
+          },
+          {
+            "title": "Multiple sources",
+            "problem": "How are potentials from several masses combined?",
+            "solution": "Add them algebraically because potential is scalar.",
+            "answer": "V_total=ΣVi."
+          }
+        ],
+        "visualization": {
+          "component": "potential_well",
+          "title": "Gravitational Potential Landscape",
+          "controls": [
+            "source_mass",
+            "position"
+          ],
+          "outputs": [
+            "potential_value",
+            "potential_curve",
+            "field_slope"
+          ],
+          "purpose": "Show why potential is scalar and negative with zero at infinity.",
+          "status": "spec_pending_build",
+          "render_as": "react_component",
+          "note": "Interactive component not yet built. Controls and outputs below define exactly what the next AI-generated visualizer for this topic should let the student manipulate and see."
+        },
+        "key_points": {
+          "key_points": [
+            "Potential is scalar.",
+            "V=−GM/r for a point mass with zero at infinity.",
+            "Zero field does not imply zero potential."
+          ],
+          "common_mistakes": [
+            "Adding potential vectors.",
+            "Confusing potential V with potential energy U.",
+            "Potential is scalar, gravitational field is vector.",
+            "Zero field does not necessarily mean zero potential.",
+            "At Earth's centre the field is zero in the ideal symmetric model, while potential remains finite and negative."
+          ],
+          "neet_tips": [
+            "For several masses, add V values directly with signs."
+          ]
+        }
+      }
+    },
+    {
+      "id": "escape",
+      "title": "Escape Speed",
+      "importance": "Very High",
+      "tabs": {
+        "introduction": {
+          "summary": "Escape speed is the minimum launch speed needed to reach infinity with zero final speed under the ideal assumptions.",
+          "learning_objectives": [],
+          "components_involved": [
+            "initial kinetic energy",
+            "initial potential energy",
+            "infinity reference",
+            "energy conservation",
+            "projectile mass cancellation"
+          ]
+        },
+        "core_concept": {
+          "explanation": [
+            "Escape speed is the minimum speed required at the surface of a celestial body for an object to reach infinity with zero final speed, neglecting atmosphere and other bodies."
+          ],
+          "derivation": [
+            "Initial energy = 1/2 m v_e^2 - GMm/R.",
+            "At infinity for minimum escape condition, kinetic energy = 0 and potential energy = 0.",
+            "Conservation of energy gives 1/2 m v_e^2 = GMm/R.",
+            "Therefore v_e = sqrt(2GM/R)."
+          ]
+        },
+        "important_formula": {
+          "formulae": [
+            {
+              "label": "Escape Speed",
+              "formula": "v_e = sqrt(2GM/R)"
+            },
+            {
+              "label": "Escape Speed",
+              "formula": "v_e = sqrt(2gR)"
+            }
+          ]
+        },
+        "worked_example": [
+          {
+            "title": "Earth escape speed",
+            "problem": "Using g≈9.8 m/s² and R≈6.4×10^6 m, estimate escape speed.",
+            "solution": "v_e=√(2gR), giving approximately 11.2 km/s.",
+            "answer": "≈11.2 km/s."
+          },
+          {
+            "title": "Mass independence",
+            "problem": "Does doubling the projectile mass double escape speed?",
+            "solution": "No; projectile mass cancels from the energy equation.",
+            "answer": "No."
+          },
+          {
+            "title": "Relation to orbital speed",
+            "problem": "Compare escape and circular orbital speed at the same radius.",
+            "solution": "v_e=√2 v_o.",
+            "answer": "Escape speed is √2 times orbital speed."
+          }
+        ],
+        "visualization": {
+          "status": "ai_generated_interactive",
+          "component_name": "EscapeSpeedVisualizer",
+          "title": "Escape Speed (vₑ) Launch Simulation",
+          "description": "Student sets a launch speed and fires a projectile from Earth's surface. Below vₑ ≈ 11.2 km/s it rises and falls back; at or above vₑ it escapes off-screen — turning the abstract inequality v0 >= ve into something they watch happen.",
+          "render_as": "react_component",
+          "code": "import React, { useState, useEffect } from 'react';\n\nexport default function EscapeSpeedVisualizer() {\n  const [v0, setV0] = useState(8); // launch speed in km/s\n  const [isLaunching, setIsLaunching] = useState(false);\n  const [posY, setPosY] = useState(180);\n  const [statusText, setStatusText] = useState(\"Ready to launch\");\n\n  const ve = 11.2; // km/s\n\n  const handleLaunch = () => {\n    setIsLaunching(true);\n    setPosY(180);\n\n    if (v0 < ve) {\n      setStatusText(`Launching at ${v0} km/s (v₀ < vₑ). Object will fall back!`);\n    } else {\n      setStatusText(`Launching at ${v0} km/s (v₀ ≥ vₑ). Object ESCAPES Earth's gravity! 🚀`);\n    }\n  };\n\n  useEffect(() => {\n    if (!isLaunching) return;\n\n    let frameId;\n    let currentY = 180;\n    let velocity = v0;\n\n    const animate = () => {\n      if (v0 < ve) {\n        // Projectile goes up, slows down, falls back\n        currentY -= velocity * 0.8;\n        velocity -= 0.25;\n\n        setPosY(currentY);\n\n        if (currentY >= 180 && velocity < 0) {\n          setPosY(180);\n          setIsLaunching(false);\n          setStatusText(`Fell back to Earth. (Peak height reached)`);\n          return;\n        }\n      } else {\n        // Projectile escapes canvas\n        currentY -= velocity * 0.6;\n        setPosY(currentY);\n\n        if (currentY <= -30) {\n          setIsLaunching(false);\n          setStatusText(`Successfully escaped into interstellar space! ✨`);\n          return;\n        }\n      }\n\n      frameId = requestAnimationFrame(animate);\n    };\n\n    frameId = requestAnimationFrame(animate);\n    return () => cancelAnimationFrame(frameId);\n  }, [isLaunching, v0]);\n\n  return (\n    <div style={{ background: '#FFFFFF', border: '1px solid #E7ECF3', borderRadius: '18px', padding: '24px', margin: '20px 0' }}>\n      <h4 style={{ fontSize: '18px', fontWeight: '700', color: '#071A3D', marginBottom: '16px' }}>\n        🚀 Escape Speed (vₑ) Launch Simulation\n      </h4>\n\n      <div style={{ background: '#071A3D', borderRadius: '14px', padding: '20px', display: 'flex', flexDirection: 'column', alignItems: 'center', position: 'relative', overflow: 'hidden' }}>\n        <svg width=\"100%\" height=\"240\" viewBox=\"0 0 500 240\" style={{ maxWidth: '500px' }}>\n          {/* Earth Horizon Arc */}\n          <path d=\"M 50 250 A 200 200 0 0 1 450 250 Z\" fill=\"#2563EB\" stroke=\"#1D4ED8\" strokeWidth=\"2\" />\n          <text x=\"250\" y=\"220\" textAnchor=\"middle\" fill=\"#FFFFFF\" fontSize=\"13\" fontWeight=\"700\">Earth Surface</text>\n\n          {/* Projectile Rocket/Object */}\n          <circle cx=\"250\" cy={posY} r=\"8\" fill=\"#F5A000\" stroke=\"#FFFFFF\" strokeWidth=\"2\" />\n\n          {/* Trajectory line if launched */}\n          {isLaunching && (\n            <line x1=\"250\" y1=\"190\" x2=\"250\" y2={posY} stroke=\"#F5A000\" strokeWidth=\"2\" strokeDasharray=\"3 3\" />\n          )}\n\n          {/* Status Label Overlay */}\n          <rect x=\"20\" y=\"20\" width=\"460\" height=\"36\" rx=\"8\" fill=\"rgba(255, 255, 255, 0.12)\" />\n          <text x=\"250\" y=\"43\" textAnchor=\"middle\" fill=\"#FFFFFF\" fontSize=\"13\" fontWeight=\"600\">\n            {statusText}\n          </text>\n        </svg>\n\n        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px', width: '100%', marginTop: '12px' }}>\n          <div style={{ background: 'rgba(255, 255, 255, 0.08)', borderRadius: '10px', padding: '12px', textAlign: 'center', color: '#FFFFFF' }}>\n            <div style={{ fontSize: '12px', opacity: 0.8 }}>Earth Escape Velocity:</div>\n            <div style={{ fontSize: '18px', fontWeight: '800', color: '#F5A000' }}>vₑ = √(2gR) = 11.2 km/s</div>\n          </div>\n          <div style={{ background: 'rgba(255, 255, 255, 0.08)', borderRadius: '10px', padding: '12px', textAlign: 'center', color: '#FFFFFF' }}>\n            <div style={{ fontSize: '12px', opacity: 0.8 }}>Selected Launch Velocity:</div>\n            <div style={{ fontSize: '18px', fontWeight: '800', color: v0 >= ve ? '#16A34A' : '#DC2626' }}>\n              v₀ = {v0} km/s ({v0 >= ve ? 'Escapes!' : 'Falls Back'})\n            </div>\n          </div>\n        </div>\n      </div>\n\n      <div style={{ marginTop: '20px', display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap' }}>\n        <div style={{ flex: 1, minWidth: '200px' }}>\n          <label style={{ fontSize: '13px', fontWeight: '700', color: '#071A3D', display: 'block', marginBottom: '6px' }}>\n            Launch Velocity (v₀): {v0} km/s\n          </label>\n          <input type=\"range\" min=\"1\" max=\"15\" step=\"0.5\" value={v0} onChange={e => setV0(parseFloat(e.target.value))} disabled={isLaunching} style={{ width: '100%', cursor: 'pointer' }} />\n        </div>\n\n        <button className=\"btn btn-orange\" onClick={handleLaunch} disabled={isLaunching} style={{ height: '44px' }}>\n          {isLaunching ? 'Launching...' : '🚀 Launch Rocket'}\n        </button>\n      </div>\n    </div>\n  );\n}\n"
+        },
+        "key_points": {
+          "key_points": [
+            "Earth escape speed≈11.2 km/s.",
+            "Independent of projectile mass.",
+            "Greater than circular orbital speed by √2 at same radius.",
+            "Escape speed is independent of projectile mass.",
+            "For Earth it is approximately 11.2 km/s.",
+            "Escape speed is greater than circular orbital speed at the same radius by a factor of sqrt(2)."
+          ],
+          "common_mistakes": [
+            "Using v_e=√(GM/R) instead of √(2GM/R).",
+            "Confusing escape speed with orbital speed.",
+            "Do not confuse escape speed with orbital speed.",
+            "The projectile mass cancels."
+          ],
+          "neet_tips": [
+            "Use ratios v_e∝√(M/R) for planet-comparison questions."
+          ]
+        }
+      }
+    },
+    {
+      "id": "satellite",
+      "title": "Earth Satellites and Orbital Motion",
+      "importance": "Very High",
+      "tabs": {
+        "introduction": {
+          "summary": "An Earth satellite remains in orbit because gravitational attraction supplies the required centripetal acceleration.",
+          "learning_objectives": [],
+          "components_involved": [
+            "orbital radius r",
+            "central mass M",
+            "satellite mass m",
+            "orbital speed",
+            "period"
+          ]
+        },
+        "core_concept": {
+          "explanation": [
+            "A satellite is a body revolving around a larger body under gravitational influence.",
+            "For a circular orbit, gravity provides the centripetal acceleration.",
+            "A satellite can remain in an ideal orbit without continuous propulsion because its tangential motion and gravitational acceleration combine to produce curved motion."
+          ],
+          "derivation": [
+            "Gravitational force = GMm/r^2.",
+            "Centripetal force = mv^2/r.",
+            "Equating them gives GMm/r^2 = mv^2/r.",
+            "Therefore v_o = sqrt(GM/r)."
+          ]
+        },
+        "important_formula": {
+          "formulae": [
+            {
+              "label": "Earth Satellites and Orbital Motion",
+              "formula": "v_o = sqrt(GM/r)"
+            },
+            {
+              "label": "Earth Satellites and Orbital Motion",
+              "formula": "At Earth's surface: v_o = sqrt(GM/R) = sqrt(gR)"
+            },
+            {
+              "label": "Earth Satellites and Orbital Motion",
+              "formula": "At height h: v_o = sqrt(GM/(R+h))"
+            },
+            {
+              "label": "Time period",
+              "formula": "T = 2πsqrt(r^3/GM)"
+            },
+            {
+              "label": "Time period",
+              "formula": "T^2 = 4π^2r^3/(GM)"
+            }
+          ]
+        },
+        "worked_example": [
+          {
+            "title": "Orbital speed ratio",
+            "problem": "If orbital radius becomes 4R, how does speed change?",
+            "solution": "v∝r^-1/2, so v′=v/2.",
+            "answer": "Half."
+          },
+          {
+            "title": "Period ratio",
+            "problem": "If orbital radius becomes 4R, how does period change?",
+            "solution": "T∝r^3/2, so T′=8T.",
+            "answer": "8T."
+          },
+          {
+            "title": "Tangential motion",
+            "problem": "If gravity suddenly disappeared, what happens to the satellite’s instantaneous velocity?",
+            "solution": "With no force, velocity remains unchanged in magnitude and direction at that instant, so it moves tangentially.",
+            "answer": "Continues tangentially with same instantaneous speed."
+          }
+        ],
+        "visualization": {
+          "status": "ai_generated_interactive",
+          "component_name": "EarthSatelliteVisualizer",
+          "title": "Earth Satellite Orbital Motion Simulator",
+          "description": "A slider sets orbital altitude h from 400 km to 20,000 km; the canvas animates the satellite's orbit while orbital speed vo = sqrt(GM/r) and time period T update live, showing that higher orbits are slower and take longer.",
+          "render_as": "react_component",
+          "code": "import React, { useState, useEffect, useRef } from 'react';\n\nexport default function EarthSatelliteVisualizer() {\n  const [hKm, setHKm] = useState(1000); // height in km\n  const canvasRef = useRef(null);\n\n  const RE = 6400; // km\n  const rTotal = RE + hKm;\n  \n  // Orbital speed vo = sqrt(GM / r) -> scaled for earth surface vo ~ 7.9 km/s\n  const vo = 7.92 * Math.sqrt(RE / rTotal);\n  \n  // Time period T = 2pi * sqrt(r^3 / GM) in minutes -> surface T ~ 84 min\n  const T = 84.4 * Math.pow(rTotal / RE, 1.5);\n  const T_hours = (T / 60).toFixed(2);\n\n  useEffect(() => {\n    const canvas = canvasRef.current;\n    if (!canvas) return;\n    const ctx = canvas.getContext('2d');\n    let frameId;\n    let angle = 0;\n\n    const width = canvas.width;\n    const height = canvas.height;\n    const cx = width / 2;\n    const cy = height / 2;\n\n    const earthRadiusPx = 50;\n    const orbitRadiusPx = earthRadiusPx + (hKm / 6400) * 45;\n\n    const animate = () => {\n      ctx.clearRect(0, 0, width, height);\n\n      // Earth\n      ctx.beginPath();\n      ctx.arc(cx, cy, earthRadiusPx, 0, 2 * Math.PI);\n      ctx.fillStyle = '#2563EB';\n      ctx.fill();\n      ctx.strokeStyle = '#1D4ED8';\n      ctx.lineWidth = 2;\n      ctx.stroke();\n\n      ctx.fillStyle = '#FFFFFF';\n      ctx.font = 'bold 12px Inter';\n      ctx.textAlign = 'center';\n      ctx.fillText('Earth', cx, cy + 4);\n\n      // Orbit Path\n      ctx.beginPath();\n      ctx.arc(cx, cy, orbitRadiusPx, 0, 2 * Math.PI);\n      ctx.strokeStyle = '#F5A000';\n      ctx.lineWidth = 1.5;\n      ctx.setLineDash([4, 4]);\n      ctx.stroke();\n      ctx.setLineDash([]);\n\n      // Satellite Position\n      const sx = cx + orbitRadiusPx * Math.cos(angle);\n      const sy = cy + orbitRadiusPx * Math.sin(angle);\n\n      // Draw Satellite\n      ctx.beginPath();\n      ctx.arc(sx, sy, 7, 0, 2 * Math.PI);\n      ctx.fillStyle = '#F5A000';\n      ctx.fill();\n      ctx.strokeStyle = '#FFFFFF';\n      ctx.lineWidth = 2;\n      ctx.stroke();\n\n      // Satellite solar panels\n      ctx.fillRect(sx - 12, sy - 2, 6, 4);\n      ctx.fillRect(sx + 6, sy - 2, 6, 4);\n\n      // Speed inversely proportional to orbit radius\n      const angularSpeed = 0.05 * Math.pow(RE / rTotal, 1.5);\n      angle += angularSpeed;\n\n      frameId = requestAnimationFrame(animate);\n    };\n\n    animate();\n    return () => cancelAnimationFrame(frameId);\n  }, [hKm]);\n\n  return (\n    <div style={{ background: '#FFFFFF', border: '1px solid #E7ECF3', borderRadius: '18px', padding: '24px', margin: '20px 0' }}>\n      <h4 style={{ fontSize: '18px', fontWeight: '700', color: '#071A3D', marginBottom: '16px' }}>\n        🛰️ Earth Satellite Orbital Motion Simulator\n      </h4>\n\n      <div style={{ background: '#F7F9FC', borderRadius: '14px', padding: '20px', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>\n        <canvas ref={canvasRef} width={500} height={240} style={{ maxWidth: '500px', width: '100%', height: 'auto' }} />\n\n        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: '12px', width: '100%', marginTop: '12px' }}>\n          <div style={{ background: '#EFF6FF', border: '1px solid #2563EB', borderRadius: '12px', padding: '12px', textAlign: 'center' }}>\n            <span style={{ fontSize: '12px', color: '#526B8D' }}>Orbital Speed (vₒ):</span>\n            <div style={{ fontSize: '20px', fontWeight: '800', color: '#071A3D' }}>{vo.toFixed(2)} km/s</div>\n            <span style={{ fontSize: '11px', color: '#2563EB' }}>vₒ = √(GM / r)</span>\n          </div>\n\n          <div style={{ background: '#FFF9EE', border: '1px solid #F5A000', borderRadius: '12px', padding: '12px', textAlign: 'center' }}>\n            <span style={{ fontSize: '12px', color: '#526B8D' }}>Time Period (T):</span>\n            <div style={{ fontSize: '20px', fontWeight: '800', color: '#071A3D' }}>{T.toFixed(1)} mins</div>\n            <span style={{ fontSize: '11px', color: '#F5A000' }}>({T_hours} hours per orbit)</span>\n          </div>\n        </div>\n      </div>\n\n      <div style={{ marginTop: '20px' }}>\n        <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '8px' }}>\n          <label style={{ fontSize: '14px', fontWeight: '700', color: '#071A3D' }}>\n            Satellite Altitude Above Earth (h):\n          </label>\n          <span style={{ fontSize: '14px', fontWeight: '700', color: '#F5A000' }}>\n            h = {hKm} km (r = {rTotal} km)\n          </span>\n        </div>\n        <input type=\"range\" min=\"400\" max=\"20000\" step=\"400\" value={hKm} onChange={e => setHKm(Number(e.target.value))} style={{ width: '100%', cursor: 'pointer' }} />\n        <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '11px', color: '#8A9AB2', marginTop: '4px' }}>\n          <span>LEO (400 km)</span>\n          <span>Medium (5,000 km)</span>\n          <span>High (20,000 km)</span>\n        </div>\n      </div>\n    </div>\n  );\n}\n"
+        },
+        "key_points": {
+          "key_points": [
+            "v_o=√(GM/r).",
+            "T=2π√(r³/GM).",
+            "Satellite mass cancels from orbital speed."
+          ],
+          "common_mistakes": [
+            "Using r=h instead of r=R+h.",
+            "Thinking constant speed means zero acceleration.",
+            "Orbital velocity decreases as r increases.",
+            "Satellite mass cancels from orbital velocity.",
+            "A circularly orbiting satellite is accelerating even if its speed is constant."
+          ],
+          "neet_tips": [
+            "For satellite ratios, use v∝r^-1/2 and T∝r^3/2."
+          ]
+        }
+      }
+    },
+    {
+      "id": "geostationary",
+      "title": "Geostationary Satellites",
+      "importance": "High",
+      "tabs": {
+        "introduction": {
+          "summary": "Geostationary satellites appear fixed over one point on Earth because their orbital motion matches Earth’s rotation.",
+          "learning_objectives": [],
+          "components_involved": [
+            "circular orbit",
+            "equatorial plane",
+            "west-to-east direction",
+            "24-hour period",
+            "same angular velocity"
+          ]
+        },
+        "core_concept": {
+          "explanation": [
+            "A geostationary satellite appears fixed relative to a point on Earth's surface.",
+            {
+              "heading": "Conditions",
+              "points": [
+                "Circular orbit.",
+                "Orbit lies in Earth's equatorial plane.",
+                "Moves west to east, the direction of Earth's rotation.",
+                "Orbital period equals Earth's rotational period.",
+                "Its angular speed matches Earth's rotation."
+              ]
+            },
+            {
+              "heading": "Uses",
+              "points": [
+                "Communication.",
+                "Television and broadcasting.",
+                "Meteorological observation and communication links."
+              ]
+            }
+          ]
+        },
+        "important_formula": {
+          "formulae": []
+        },
+        "worked_example": [
+          {
+            "title": "Necessary conditions",
+            "problem": "Is a 24-hour period alone sufficient for geostationary status?",
+            "solution": "No. Circular equatorial orbit and correct direction are also required.",
+            "answer": "No."
+          },
+          {
+            "title": "Direction",
+            "problem": "Which direction must a geostationary satellite move?",
+            "solution": "It must move west to east, the same sense as Earth’s rotation.",
+            "answer": "West to east."
+          },
+          {
+            "title": "Use",
+            "problem": "Why are geostationary satellites useful for communication?",
+            "solution": "They appear fixed over a region, allowing fixed ground antennas to point toward them.",
+            "answer": "Stable apparent position."
+          }
+        ],
+        "visualization": {
+          "status": "ai_generated_interactive",
+          "component_name": "GeostationaryVisualizer",
+          "title": "Geostationary vs. Polar Satellites Comparison",
+          "description": "A toggle switches the diagram between an equatorial geostationary orbit and a pole-to-pole polar orbit, with a side-by-side card comparing period, altitude and typical use for each.",
+          "render_as": "react_component",
+          "code": "import React, { useState } from 'react';\n\nexport default function GeostationaryVisualizer() {\n  const [selectedType, setSelectedType] = useState('geo');\n\n  return (\n    <div style={{ background: '#FFFFFF', border: '1px solid #E7ECF3', borderRadius: '18px', padding: '24px', margin: '20px 0' }}>\n      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '12px', marginBottom: '16px' }}>\n        <h4 style={{ fontSize: '18px', fontWeight: '700', color: '#071A3D' }}>\n          🌐 Geostationary vs. Polar Satellites Comparison\n        </h4>\n        <div className=\"pill-tab-group\">\n          <button className={`pill-tab ${selectedType === 'geo' ? 'active' : ''}`} onClick={() => setSelectedType('geo')}>\n            Geostationary Orbit\n          </button>\n          <button className={`pill-tab ${selectedType === 'polar' ? 'active' : ''}`} onClick={() => setSelectedType('polar')}>\n            Polar Orbit\n          </button>\n        </div>\n      </div>\n\n      <div style={{ background: '#F7F9FC', borderRadius: '14px', padding: '20px', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>\n        <svg width=\"100%\" height=\"220\" viewBox=\"0 0 500 220\" style={{ maxWidth: '500px' }}>\n          {/* Earth Circle with Axis */}\n          <circle cx=\"250\" cy=\"110\" r=\"55\" fill=\"#2563EB\" opacity=\"0.9\" />\n          <line x1=\"250\" y1=\"20\" x2=\"250\" y2=\"200\" stroke=\"#FFFFFF\" strokeWidth=\"1.5\" strokeDasharray=\"3 3\" />\n          <text x=\"250\" y=\"15\" textAnchor=\"middle\" fill=\"#071A3D\" fontSize=\"11\" fontWeight=\"700\">N-Pole</text>\n          <text x=\"250\" y=\"215\" textAnchor=\"middle\" fill=\"#071A3D\" fontSize=\"11\" fontWeight=\"700\">S-Pole</text>\n          \n          <line x1=\"170\" y1=\"110\" x2=\"330\" y2=\"110\" stroke=\"#F5A000\" strokeWidth=\"1.5\" />\n          <text x=\"345\" y=\"114\" fill=\"#F5A000\" fontSize=\"11\" fontWeight=\"700\">Equator</text>\n\n          {selectedType === 'geo' ? (\n            <>\n              {/* Geostationary Orbit (Equatorial Plane) */}\n              <ellipse cx=\"250\" cy=\"110\" rx=\"160\" ry=\"40\" fill=\"none\" stroke=\"#F5A000\" strokeWidth=\"2\" strokeDasharray=\"5 5\" />\n              <circle cx=\"410\" cy=\"110\" r=\"8\" fill=\"#F5A000\" stroke=\"#FFFFFF\" strokeWidth=\"2\" />\n              <text x=\"410\" y=\"90\" textAnchor=\"middle\" fill=\"#071A3D\" fontSize=\"11\" fontWeight=\"800\">Geostationary Satellite</text>\n            </>\n          ) : (\n            <>\n              {/* Polar Orbit (Vertical Meridian Plane) */}\n              <ellipse cx=\"250\" cy=\"110\" rx=\"35\" ry=\"90\" fill=\"none\" stroke=\"#16A34A\" strokeWidth=\"2\" strokeDasharray=\"5 5\" />\n              <circle cx=\"250\" cy=\"20\" r=\"8\" fill=\"#16A34A\" stroke=\"#FFFFFF\" strokeWidth=\"2\" />\n              <text x=\"310\" y=\"30\" textAnchor=\"middle\" fill=\"#16A34A\" fontSize=\"11\" fontWeight=\"800\">Polar Satellite</text>\n            </>\n          )}\n        </svg>\n\n        {/* Feature Comparison Grid */}\n        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '12px', width: '100%', marginTop: '12px' }}>\n          {selectedType === 'geo' ? (\n            <>\n              <div style={{ background: '#FFF9EE', border: '1px solid #F5A000', borderRadius: '12px', padding: '12px' }}>\n                <div style={{ fontSize: '13px', fontWeight: '800', color: '#071A3D' }}>Time Period:</div>\n                <div style={{ fontSize: '16px', fontWeight: '700', color: '#F5A000' }}>T = 24 Hours</div>\n                <div style={{ fontSize: '12px', color: '#526B8D' }}>Matches Earth's rotation</div>\n              </div>\n              <div style={{ background: '#FFF9EE', border: '1px solid #F5A000', borderRadius: '12px', padding: '12px' }}>\n                <div style={{ fontSize: '13px', fontWeight: '800', color: '#071A3D' }}>Altitude:</div>\n                <div style={{ fontSize: '16px', fontWeight: '700', color: '#F5A000' }}>h ≈ 35,786 km (~6R)</div>\n                <div style={{ fontSize: '12px', color: '#526B8D' }}>Used for TV & Telecom</div>\n              </div>\n            </>\n          ) : (\n            <>\n              <div style={{ background: '#F0FDF4', border: '1px solid #16A34A', borderRadius: '12px', padding: '12px' }}>\n                <div style={{ fontSize: '13px', fontWeight: '800', color: '#071A3D' }}>Time Period:</div>\n                <div style={{ fontSize: '16px', fontWeight: '700', color: '#16A34A' }}>T ≈ 100 Minutes</div>\n                <div style={{ fontSize: '12px', color: '#526B8D' }}>Scans entire Earth daily</div>\n              </div>\n              <div style={{ background: '#F0FDF4', border: '1px solid #16A34A', borderRadius: '12px', padding: '12px' }}>\n                <div style={{ fontSize: '13px', fontWeight: '800', color: '#071A3D' }}>Altitude:</div>\n                <div style={{ fontSize: '16px', fontWeight: '700', color: '#16A34A' }}>h ≈ 500 to 800 km</div>\n                <div style={{ fontSize: '12px', color: '#526B8D' }}>Used for Weather & Mapping</div>\n              </div>\n            </>\n          )}\n        </div>\n      </div>\n    </div>\n  );\n}\n"
+        },
+        "key_points": {
+          "key_points": [
+            "Circular.",
+            "Equatorial.",
+            "West to east.",
+            "Period equal to Earth’s rotation."
+          ],
+          "common_mistakes": [
+            "Calling every 24-hour satellite geostationary.",
+            "Putting the orbit in a polar plane.",
+            "A 24-hour period alone is not sufficient; the equatorial plane, circular orbit and correct direction are also required."
+          ],
+          "neet_tips": [
+            "Use the four-condition checklist in every geostationary question."
+          ]
+        }
+      }
+    },
+    {
+      "id": "satellite_energy",
+      "title": "Energy of an Orbiting Satellite",
+      "importance": "Very High",
+      "tabs": {
+        "introduction": {
+          "summary": "A circular satellite has positive kinetic energy, negative potential energy and negative total mechanical energy.",
+          "learning_objectives": [],
+          "components_involved": [
+            "kinetic energy",
+            "potential energy",
+            "total energy",
+            "orbital radius",
+            "binding energy"
+          ]
+        },
+        "core_concept": {
+          "explanation": [
+            "For a circular orbit, kinetic energy is positive and gravitational potential energy is negative.",
+            "Total mechanical energy is negative, showing that the satellite is gravitationally bound.",
+            "When a satellite is moved to a higher circular orbit, orbital speed and kinetic energy decrease, while potential energy and total mechanical energy increase (become less negative)."
+          ]
+        },
+        "important_formula": {
+          "formulae": [
+            {
+              "label": "Energy of an Orbiting Satellite",
+              "formula": "K = GMm/(2r)"
+            },
+            {
+              "label": "Energy of an Orbiting Satellite",
+              "formula": "U = -GMm/r"
+            },
+            {
+              "label": "Energy of an Orbiting Satellite",
+              "formula": "E = -GMm/(2r)"
+            },
+            {
+              "label": "Energy of an Orbiting Satellite",
+              "formula": "U = -2K"
+            },
+            {
+              "label": "Energy of an Orbiting Satellite",
+              "formula": "E = -K"
+            }
+          ]
+        },
+        "worked_example": [
+          {
+            "title": "Energy relation",
+            "problem": "If K=5 J for a circular satellite, find U and E.",
+            "solution": "U=−2K and E=−K.",
+            "answer": "U=−10 J, E=−5 J."
+          },
+          {
+            "title": "Higher orbit",
+            "problem": "What happens to K when r increases?",
+            "solution": "K∝1/r, so K decreases.",
+            "answer": "K decreases."
+          },
+          {
+            "title": "Binding energy",
+            "problem": "What is the magnitude of energy needed to remove a circular satellite to infinity?",
+            "solution": "It equals |E|=GMm/(2r).",
+            "answer": "GMm/(2r)."
+          }
+        ],
+        "visualization": {
+          "component": "satellite_energy_bars",
+          "title": "Satellite Energy Balance",
+          "controls": [
+            "orbital_radius",
+            "satellite_mass"
+          ],
+          "outputs": [
+            "K",
+            "U",
+            "E",
+            "binding_energy"
+          ],
+          "purpose": "Show how K, U and E change with orbit size.",
+          "status": "spec_pending_build",
+          "render_as": "react_component",
+          "note": "Interactive component not yet built. Controls and outputs below define exactly what the next AI-generated visualizer for this topic should let the student manipulate and see."
+        },
+        "key_points": {
+          "key_points": [
+            "K=GMm/(2r).",
+            "U=−GMm/r.",
+            "E=−GMm/(2r).",
+            "Higher orbit means less negative total energy."
+          ],
+          "common_mistakes": [
+            "Calling negative total energy positive binding energy.",
+            "Assuming U becomes more negative at larger r."
+          ],
+          "neet_tips": [
+            "Memorize U=−2K and E=−K for circular orbits."
+          ]
+        }
+      }
+    },
+    {
+      "id": "spherical_bodies",
+      "title": "Spherically Symmetric Bodies",
+      "importance": "High",
+      "tabs": {
+        "introduction": {
+          "summary": "Spherical symmetry simplifies gravitational calculations and explains shell results, centre behaviour and superposition.",
+          "learning_objectives": [],
+          "components_involved": [
+            "spherical shell",
+            "uniform sphere",
+            "inside field",
+            "outside field",
+            "superposition"
+          ]
+        },
+        "core_concept": {
+          "explanation": [
+            "Outside a spherically symmetric body, its gravitational effect can be treated as though its entire mass were concentrated at its centre.",
+            "For an ideal spherical shell, gravitational field inside the shell is zero.",
+            "For a uniform solid sphere, gravitational field inside varies linearly with distance from the centre."
+          ]
+        },
+        "important_formula": {
+          "formulae": [
+            {
+              "label": "Spherically Symmetric Bodies",
+              "formula": "Outside: g = GM/r^2"
+            },
+            {
+              "label": "Spherically Symmetric Bodies",
+              "formula": "Inside uniform sphere: g(r) = GMr/R^3 = g_surface(r/R)"
+            },
+            {
+              "label": "Spherically Symmetric Bodies",
+              "formula": "At centre: g = 0"
+            }
+          ]
+        },
+        "worked_example": [
+          {
+            "title": "Shell interior",
+            "problem": "What is gravitational field inside an ideal spherical shell?",
+            "solution": "Contributions cancel by spherical symmetry.",
+            "answer": "Zero."
+          },
+          {
+            "title": "Uniform sphere centre",
+            "problem": "What is g at the centre of a uniform solid sphere?",
+            "solution": "g(r)∝r inside, so at r=0, g=0.",
+            "answer": "Zero."
+          },
+          {
+            "title": "Outside body",
+            "problem": "Can a spherically symmetric body be treated as a point mass outside it?",
+            "solution": "Yes, with the whole mass concentrated at its centre for the external gravitational effect.",
+            "answer": "Yes."
+          }
+        ],
+        "visualization": {
+          "component": "spherical_shell_cutaway",
+          "title": "Inside and Outside a Spherical Body",
+          "controls": [
+            "position",
+            "body_type"
+          ],
+          "outputs": [
+            "field_value",
+            "field_vectors",
+            "graph"
+          ],
+          "purpose": "Compare shell, solid sphere and external field.",
+          "status": "spec_pending_build",
+          "render_as": "react_component",
+          "note": "Interactive component not yet built. Controls and outputs below define exactly what the next AI-generated visualizer for this topic should let the student manipulate and see."
+        },
+        "key_points": {
+          "key_points": [
+            "Outside: g=GM/r².",
+            "Shell interior field is zero.",
+            "Uniform solid sphere interior field is proportional to r.",
+            "Zero field does not imply zero potential."
+          ],
+          "common_mistakes": [
+            "Using GM/r² inside a shell.",
+            "Assuming potential is zero whenever field is zero.",
+            "Zero gravitational field at a point does not imply zero gravitational potential at that point."
+          ],
+          "neet_tips": [
+            "First identify whether the point is inside, on, or outside the spherical body."
+          ]
+        }
+      }
+    }
+  ],
+  "reference_pages": [
+    {
+      "id": "formula_sheet",
+      "title": "High-Yield Formula Sheet",
+      "type": "formula_sheet",
+      "formulae": [
+        "F = Gm1m2/r^2",
+        "g = GM/R^2",
+        "W = mg",
+        "g_h = GM/(R+h)^2",
+        "For h << R: g_h ≈ g(1-2h/R)",
+        "g_d = g(1-d/R)",
+        "V = -GM/r",
+        "U = -GMm/r",
+        "v_e = sqrt(2GM/R)",
+        "v_o = sqrt(GM/r)",
+        "v_o(surface) = sqrt(gR)",
+        "v_e = sqrt(2)v_o(surface)",
+        "T = 2πsqrt(r^3/GM)",
+        "T^2 ∝ r^3",
+        "K = GMm/(2r)",
+        "U = -GMm/r",
+        "E = -GMm/(2r)"
+      ]
+    },
+    {
+      "id": "neet_traps",
+      "title": "NEET Concept Traps",
+      "type": "exam_focus",
+      "traps": [
+        {
+          "claim": "Doubling the mass of a falling object doubles g.",
+          "answer": "False",
+          "why": "The object's mass cancels from GMm/R^2 = mg."
+        },
+        {
+          "claim": "G and g are the same quantity.",
+          "answer": "False",
+          "why": "G is universal gravitational constant; g is acceleration due to gravity."
+        },
+        {
+          "claim": "Potential is a vector.",
+          "answer": "False",
+          "why": "Potential is scalar; field is vector."
+        },
+        {
+          "claim": "At Earth's centre both g and gravitational potential are zero.",
+          "answer": "False",
+          "why": "g is zero in the ideal symmetric model, but potential is finite and negative when zero is chosen at infinity."
+        },
+        {
+          "claim": "Escape velocity depends on projectile mass.",
+          "answer": "False",
+          "why": "Projectile mass cancels in the energy equation."
+        },
+        {
+          "claim": "Satellite speed increases when orbital radius increases.",
+          "answer": "False",
+          "why": "v_o = sqrt(GM/r), so it decreases with r."
+        },
+        {
+          "claim": "Any satellite with a 24-hour period is geostationary.",
+          "answer": "False",
+          "why": "It must also be circular, equatorial and rotate west-to-east with Earth."
+        }
+      ]
+    },
+    {
+      "id": "problem_strategy",
+      "title": "NEET Problem-Solving Strategy",
+      "type": "strategy",
+      "steps": [
+        "Identify the required quantity: force, g, potential, energy, escape speed, orbital speed, period or satellite energy.",
+        "Write the governing formula first.",
+        "Check whether distance is measured from Earth's centre or surface.",
+        "Use r = R+h for a satellite at height h.",
+        "Convert to SI units when required.",
+        "For ratio questions, use proportionality before calculating.",
+        "Use energy conservation for escape speed and orbital energy.",
+        "Use gravitational force = centripetal force for circular satellite motion.",
+        "Check units and limiting cases.",
+        "Finally compare the answer with the physical expectation."
+      ]
+    },
+    {
+      "id": "revision",
+      "title": "One-Minute Revision",
+      "type": "revision",
+      "points": [
+        "Kepler 1: elliptical orbit, Sun at one focus.",
+        "Kepler 2: equal areas in equal times.",
+        "Kepler 3: T^2 ∝ a^3.",
+        "Newton: F = Gm1m2/r^2.",
+        "G ≈ 6.67 × 10^-11 N m^2 kg^-2.",
+        "Surface g = GM/R^2.",
+        "Weight = mg.",
+        "g decreases with altitude.",
+        "g decreases with depth and is zero at Earth's centre in the ideal uniform-density model.",
+        "V = -GM/r.",
+        "U = -GMm/r.",
+        "Escape speed = sqrt(2GM/R).",
+        "Orbital speed = sqrt(GM/r).",
+        "Geostationary satellite: equatorial, circular, west-to-east, same rotational period as Earth.",
+        "Circular satellite total energy = -GMm/(2r)."
+      ]
+    }
+  ],
+  "chapter_formula_sheet": [
+    {
+      "name": "Universal gravitation",
+      "formula": "F = Gm₁m₂/r²",
+      "topic": "Universal Law"
+    },
+    {
+      "name": "Surface gravity",
+      "formula": "g = GM/R²",
+      "topic": "Acceleration due to gravity"
+    },
+    {
+      "name": "Gravitational field",
+      "formula": "E_g = GM/r²",
+      "topic": "Gravitational field"
+    },
+    {
+      "name": "Altitude variation",
+      "formula": "g_h = GM/(R+h)²",
+      "topic": "Variation of g"
+    },
+    {
+      "name": "Small altitude approximation",
+      "formula": "g_h ≈ g(1-2h/R)",
+      "topic": "Variation of g"
+    },
+    {
+      "name": "Depth variation",
+      "formula": "g_d = g(1-d/R)",
+      "topic": "Variation of g"
+    },
+    {
+      "name": "Point-mass potential",
+      "formula": "V = -GM/r",
+      "topic": "Potential"
+    },
+    {
+      "name": "Two-mass potential energy",
+      "formula": "U = -Gm₁m₂/r",
+      "topic": "Potential Energy"
+    },
+    {
+      "name": "Escape speed",
+      "formula": "v_e = √(2GM/R) = √(2gR)",
+      "topic": "Escape Velocity"
+    },
+    {
+      "name": "Orbital speed",
+      "formula": "v_o = √(GM/r)",
+      "topic": "Satellites"
+    },
+    {
+      "name": "Near-surface orbital speed",
+      "formula": "v_o = √(gR)",
+      "topic": "Satellites"
+    },
+    {
+      "name": "Escape/orbital relation",
+      "formula": "v_e = √2 v_o",
+      "topic": "Satellites"
+    },
+    {
+      "name": "Orbital period",
+      "formula": "T = 2π√(r³/GM)",
+      "topic": "Satellites"
+    },
+    {
+      "name": "Angular velocity",
+      "formula": "ω = √(GM/r³)",
+      "topic": "Satellites"
+    },
+    {
+      "name": "Satellite kinetic energy",
+      "formula": "K = GMm/(2r)",
+      "topic": "Satellite Energy"
+    },
+    {
+      "name": "Satellite potential energy",
+      "formula": "U = -GMm/r",
+      "topic": "Satellite Energy"
+    },
+    {
+      "name": "Satellite total energy",
+      "formula": "E = -GMm/(2r)",
+      "topic": "Satellite Energy"
+    },
+    {
+      "name": "Kepler third law",
+      "formula": "T² ∝ a³",
+      "topic": "Kepler's Laws"
+    },
+    {
+      "name": "Field-potential relation",
+      "formula": "g_r = -dV/dr",
+      "topic": "Potential"
+    }
+  ],
+  "important_constants": [
+    {
+      "symbol": "G",
+      "value": "6.67 × 10⁻¹¹ N m² kg⁻²",
+      "description": "Universal gravitational constant"
+    },
+    {
+      "symbol": "g",
+      "value": "≈ 9.8 m s⁻²",
+      "description": "Acceleration due to gravity near Earth's surface"
+    },
+    {
+      "symbol": "Earth radius R",
+      "value": "≈ 6.4 × 10⁶ m",
+      "description": "Approximate mean Earth radius"
+    },
+    {
+      "symbol": "Earth mass M",
+      "value": "≈ 5.97 × 10²⁴ kg",
+      "description": "Approximate Earth mass"
+    },
+    {
+      "symbol": "Earth escape speed",
+      "value": "≈ 11.2 km s⁻¹",
+      "description": "Ideal escape speed from Earth's surface"
+    },
+    {
+      "symbol": "Near-surface circular speed",
+      "value": "≈ 7.9 km s⁻¹",
+      "description": "Ideal circular orbital speed close to Earth's surface"
+    }
+  ],
+  "questionPolicy": {
+    "questionsIncluded": false,
+    "practiceSource": "Gravitation_Class11_NEET_300_Questions_Complete.json",
+    "assessmentSource": "Gravitation_Class11_NEET_300_Questions_Complete.json",
+    "pyqSource": "NEET_Gravitation_All_Verified_PYQs.json"
+  },
+  "crossCheckedAgainst": "Gravitation_NCERT_NEET_Content_With_TF_AR_HighYield.json (base content verified byte-identical, confirming current Class 11 / NEET syllabus scope; its placeholder question bank was intentionally excluded)",
+  "note": "This file is Skill-page content ONLY. It intentionally excludes Connectomics/connections content (see Gravitation_Connectomics.json) and excludes all question banks (handled by the separate practice/assessment/exam-edge question files)."
+}

@@ -1,0 +1,621 @@
+{
+  "metadata": {
+    "id": "gravitation_terminology",
+    "title": "Gravitation Lexicon",
+    "chapter": "Gravitation",
+    "class": 11,
+    "subject": "Physics",
+    "exam": "Common Foundation — JEE, NEET, JEE Advanced",
+    "purpose": "Standalone terminology and concept-reference file for the Gravitation React learning module.",
+    "source_alignment": "Aligned to the current NCERT Class XI Physics Unit VI — Gravitation syllabus.",
+    "syllabus_scope": [
+      "Kepler's laws of planetary motion",
+      "Universal law of gravitation",
+      "Acceleration due to gravity and its variation with altitude and depth",
+      "Gravitational potential energy",
+      "Gravitational potential",
+      "Escape velocity",
+      "Orbital velocity of a satellite",
+      "Geostationary satellites"
+    ],
+    "ui_sections": [
+      "Key Terms",
+      "5 Golden Rules",
+      "Quiz Time"
+    ],
+    "important_note": "Exam-specific question banks belong under Exam Edge. This file is for common terminology, definitions, laws, formulas and quick concept checks."
+  },
+  "categories": [
+    "All",
+    "Definitions",
+    "Kepler's Laws",
+    "Universal Gravitation",
+    "Acceleration Due to Gravity",
+    "Potential & Potential Energy",
+    "Escape Speed",
+    "Satellites"
+  ],
+  "definitions": [
+    {
+      "id": "gravitation",
+      "term": "Gravitation",
+      "category": "Definitions",
+      "definition": "Gravitation is the universal attractive interaction between any two masses.",
+      "keywords": [
+        "universal",
+        "attraction",
+        "mass"
+      ]
+    },
+    {
+      "id": "gravitational_force",
+      "term": "Gravitational Force",
+      "category": "Universal Gravitation",
+      "definition": "The gravitational force between two masses acts along the line joining their centres and is always attractive.",
+      "formula": "F = Gm₁m₂/r²",
+      "keywords": [
+        "force",
+        "attraction",
+        "inverse square"
+      ]
+    },
+    {
+      "id": "universal_gravitational_constant",
+      "term": "Universal Gravitational Constant G",
+      "category": "Universal Gravitation",
+      "definition": "G is the universal constant appearing in Newton's law of universal gravitation.",
+      "value": "6.67 × 10⁻¹¹ N m² kg⁻²",
+      "unit": "N m² kg⁻²",
+      "dimensions": "[M⁻¹L³T⁻²]",
+      "keywords": [
+        "G",
+        "constant",
+        "Cavendish"
+      ]
+    },
+    {
+      "id": "central_force",
+      "term": "Central Force",
+      "category": "Universal Gravitation",
+      "definition": "A force whose direction is along the line joining the particle to a fixed centre. Gravitational force is a central force.",
+      "keywords": [
+        "central",
+        "radial",
+        "gravity"
+      ]
+    },
+    {
+      "id": "keplers_first_law",
+      "term": "Kepler's First Law",
+      "category": "Kepler's Laws",
+      "definition": "Every planet moves in an elliptical orbit with the Sun at one focus of the ellipse.",
+      "keywords": [
+        "ellipse",
+        "orbit",
+        "focus"
+      ]
+    },
+    {
+      "id": "keplers_second_law",
+      "term": "Kepler's Second Law",
+      "category": "Kepler's Laws",
+      "definition": "The line joining a planet to the Sun sweeps out equal areas in equal intervals of time.",
+      "formula": "dA/dt = constant",
+      "keywords": [
+        "equal areas",
+        "areal velocity",
+        "angular momentum"
+      ]
+    },
+    {
+      "id": "keplers_third_law",
+      "term": "Kepler's Third Law",
+      "category": "Kepler's Laws",
+      "definition": "For planets orbiting the same central body, the square of the orbital period is proportional to the cube of the semi-major axis.",
+      "formula": "T² ∝ a³",
+      "keywords": [
+        "period",
+        "semi-major axis",
+        "orbit"
+      ]
+    },
+    {
+      "id": "perihelion",
+      "term": "Perihelion",
+      "category": "Kepler's Laws",
+      "definition": "The point in a planet's elliptical orbit closest to the Sun.",
+      "keywords": [
+        "closest",
+        "Sun",
+        "orbit"
+      ]
+    },
+    {
+      "id": "aphelion",
+      "term": "Aphelion",
+      "category": "Kepler's Laws",
+      "definition": "The point in a planet's elliptical orbit farthest from the Sun.",
+      "keywords": [
+        "farthest",
+        "Sun",
+        "orbit"
+      ]
+    },
+    {
+      "id": "semi_major_axis",
+      "term": "Semi-Major Axis",
+      "category": "Kepler's Laws",
+      "definition": "Half of the major axis of an elliptical orbit; denoted by a.",
+      "keywords": [
+        "a",
+        "ellipse",
+        "Kepler"
+      ]
+    },
+    {
+      "id": "acceleration_due_to_gravity",
+      "term": "Acceleration Due to Gravity",
+      "category": "Acceleration Due to Gravity",
+      "definition": "The acceleration acquired by a freely falling body due to gravitational attraction.",
+      "formula": "g = GM/R²",
+      "value_near_earth": "Approximately 9.8 m/s²",
+      "keywords": [
+        "g",
+        "free fall",
+        "Earth"
+      ]
+    },
+    {
+      "id": "g_altitude",
+      "term": "Acceleration Due to Gravity at Height",
+      "category": "Acceleration Due to Gravity",
+      "definition": "At height h above Earth's surface, the distance from Earth's centre is R+h, so g decreases with height.",
+      "formula": "gₕ = GM/(R+h)²",
+      "keywords": [
+        "height",
+        "altitude",
+        "decrease"
+      ]
+    },
+    {
+      "id": "g_altitude_approx",
+      "term": "Small-Height Approximation",
+      "category": "Acceleration Due to Gravity",
+      "definition": "When h is much smaller than Earth's radius, the first-order approximation gives the decrease of g with height.",
+      "formula": "gₕ ≈ g(1 − 2h/R), for h ≪ R",
+      "keywords": [
+        "small height",
+        "approximation",
+        "h ≪ R"
+      ]
+    },
+    {
+      "id": "g_depth",
+      "term": "Acceleration Due to Gravity at Depth",
+      "category": "Acceleration Due to Gravity",
+      "definition": "For a uniform Earth, acceleration due to gravity decreases linearly with depth below the surface.",
+      "formula": "g_d = g(1 − d/R)",
+      "keywords": [
+        "depth",
+        "uniform Earth",
+        "decrease"
+      ]
+    },
+    {
+      "id": "gravitational_potential",
+      "term": "Gravitational Potential",
+      "category": "Potential & Potential Energy",
+      "definition": "Gravitational potential at a point is the gravitational potential energy per unit mass placed at that point.",
+      "formula": "V = U/m = −GM/r",
+      "unit": "J/kg",
+      "keywords": [
+        "scalar",
+        "potential",
+        "J/kg"
+      ]
+    },
+    {
+      "id": "gravitational_potential_energy",
+      "term": "Gravitational Potential Energy",
+      "category": "Potential & Potential Energy",
+      "definition": "The gravitational potential energy of a mass m at distance r from a spherical source mass M, taking zero energy at infinity, is negative.",
+      "formula": "U = −GMm/r",
+      "keywords": [
+        "energy",
+        "negative",
+        "infinity"
+      ]
+    },
+    {
+      "id": "zero_potential_reference",
+      "term": "Zero Potential at Infinity",
+      "category": "Potential & Potential Energy",
+      "definition": "In the standard gravitation convention, gravitational potential and potential energy are taken as zero when the separation tends to infinity.",
+      "keywords": [
+        "infinity",
+        "zero",
+        "reference"
+      ]
+    },
+    {
+      "id": "escape_velocity",
+      "term": "Escape Velocity",
+      "category": "Escape Speed",
+      "definition": "The minimum initial speed required for an object to escape from a celestial body and reach infinity with zero final speed, neglecting atmosphere and other bodies.",
+      "formula": "vₑ = √(2GM/R) = √(2gR)",
+      "earth_value": "Approximately 11.2 km/s",
+      "keywords": [
+        "escape",
+        "minimum speed",
+        "energy conservation"
+      ]
+    },
+    {
+      "id": "orbital_velocity",
+      "term": "Orbital Velocity",
+      "category": "Satellites",
+      "definition": "The speed required for a satellite to maintain a circular orbit of radius r around a central mass M.",
+      "formula": "vₒ = √(GM/r)",
+      "keywords": [
+        "circular orbit",
+        "satellite",
+        "speed"
+      ]
+    },
+    {
+      "id": "satellite",
+      "term": "Satellite",
+      "category": "Satellites",
+      "definition": "A body that revolves around a larger celestial body under gravitational influence.",
+      "keywords": [
+        "orbit",
+        "gravity",
+        "Earth"
+      ]
+    },
+    {
+      "id": "orbital_period",
+      "term": "Orbital Period",
+      "category": "Satellites",
+      "definition": "The time taken by a satellite or planet to complete one revolution around its central body.",
+      "formula": "T = 2π√(r³/GM)",
+      "keywords": [
+        "period",
+        "revolution",
+        "orbit"
+      ]
+    },
+    {
+      "id": "geostationary_satellite",
+      "term": "Geostationary Satellite",
+      "category": "Satellites",
+      "definition": "A satellite that appears stationary relative to an observer on Earth because its orbital motion matches Earth's rotation.",
+      "conditions": [
+        "Circular orbit",
+        "Orbit lies in the equatorial plane",
+        "Moves from west to east",
+        "Orbital period equals Earth's rotation period",
+        "Angular speed equals Earth's angular speed"
+      ],
+      "keywords": [
+        "geostationary",
+        "equatorial",
+        "24 hours",
+        "communication"
+      ]
+    },
+    {
+      "id": "orbital_energy",
+      "term": "Energy of a Circular Satellite",
+      "category": "Satellites",
+      "definition": "For a satellite in a circular orbit, total mechanical energy is negative, showing that the satellite is gravitationally bound.",
+      "formula": "E = −GMm/(2r)",
+      "keywords": [
+        "energy",
+        "circular orbit",
+        "bound"
+      ]
+    }
+  ],
+  "laws_and_principles": [
+    {
+      "id": "newtons_universal_law",
+      "name": "Newton's Universal Law of Gravitation",
+      "category": "Universal Gravitation",
+      "statement": "Every two masses attract each other with a force directly proportional to the product of their masses and inversely proportional to the square of the distance between their centres.",
+      "formula": "F = Gm₁m₂/r²",
+      "explanation": "The force is attractive and acts along the line joining the centres."
+    },
+    {
+      "id": "kepler_first_law",
+      "name": "Kepler's First Law — Law of Orbits",
+      "category": "Kepler's Laws",
+      "statement": "Every planet moves in an elliptical orbit with the Sun at one focus.",
+      "explanation": "The orbit is an ellipse; a circle is a special case of an ellipse."
+    },
+    {
+      "id": "kepler_second_law",
+      "name": "Kepler's Second Law — Law of Areas",
+      "category": "Kepler's Laws",
+      "statement": "The line joining a planet and the Sun sweeps equal areas in equal intervals of time.",
+      "formula": "dA/dt = constant",
+      "explanation": "The planet moves faster near perihelion and slower near aphelion."
+    },
+    {
+      "id": "kepler_third_law",
+      "name": "Kepler's Third Law — Law of Periods",
+      "category": "Kepler's Laws",
+      "statement": "The square of the orbital period is proportional to the cube of the semi-major axis for bodies orbiting the same central mass.",
+      "formula": "T² ∝ a³",
+      "explanation": "A larger orbital size corresponds to a longer orbital period."
+    },
+    {
+      "id": "g_variation",
+      "name": "Variation of Acceleration Due to Gravity",
+      "category": "Acceleration Due to Gravity",
+      "statement": "The value of g decreases with altitude and, for a uniform Earth, decreases with depth.",
+      "formula": "gₕ = GM/(R+h)²;  g_d = g(1 − d/R)",
+      "explanation": "Increasing the distance from Earth's centre reduces gravitational acceleration."
+    }
+  ],
+  "important_formulae": [
+    {
+      "id": "universal_force",
+      "name": "Universal gravitational force",
+      "formula": "F = Gm₁m₂/r²"
+    },
+    {
+      "id": "surface_g",
+      "name": "Acceleration due to gravity at Earth's surface",
+      "formula": "g = GM/R²"
+    },
+    {
+      "id": "g_height",
+      "name": "g at height h",
+      "formula": "gₕ = GM/(R+h)²"
+    },
+    {
+      "id": "g_height_approx",
+      "name": "Small-height approximation",
+      "formula": "gₕ ≈ g(1 − 2h/R), for h ≪ R"
+    },
+    {
+      "id": "g_depth",
+      "name": "g at depth d",
+      "formula": "g_d = g(1 − d/R)"
+    },
+    {
+      "id": "potential",
+      "name": "Gravitational potential",
+      "formula": "V = −GM/r"
+    },
+    {
+      "id": "potential_energy",
+      "name": "Gravitational potential energy",
+      "formula": "U = −GMm/r"
+    },
+    {
+      "id": "escape_speed",
+      "name": "Escape velocity",
+      "formula": "vₑ = √(2GM/R) = √(2gR)"
+    },
+    {
+      "id": "orbital_speed",
+      "name": "Orbital velocity",
+      "formula": "vₒ = √(GM/r)"
+    },
+    {
+      "id": "orbital_period",
+      "name": "Orbital period",
+      "formula": "T = 2π√(r³/GM)"
+    },
+    {
+      "id": "circular_kinetic_energy",
+      "name": "Kinetic energy of a circular satellite",
+      "formula": "K = GMm/(2r)"
+    },
+    {
+      "id": "circular_potential_energy",
+      "name": "Potential energy of a circular satellite",
+      "formula": "U = −GMm/r"
+    },
+    {
+      "id": "circular_total_energy",
+      "name": "Total energy of a circular satellite",
+      "formula": "E = −GMm/(2r)"
+    }
+  ],
+  "golden_rules": [
+    {
+      "id": 1,
+      "title": "Gravity is an inverse-square force",
+      "rule": "For fixed masses, gravitational force varies as 1/r².",
+      "formula": "F ∝ 1/r²",
+      "survival_tip": "If separation doubles, gravitational force becomes one-fourth."
+    },
+    {
+      "id": 2,
+      "title": "Kepler's area law means changing speed",
+      "rule": "Equal areas are swept in equal times, so a planet moves faster when it is closer to the Sun and slower when it is farther away.",
+      "formula": "dA/dt = constant",
+      "survival_tip": "Fastest at perihelion; slowest at aphelion."
+    },
+    {
+      "id": 3,
+      "title": "g decreases away from Earth's surface",
+      "rule": "Acceleration due to gravity decreases with altitude and, for a uniform Earth, decreases linearly with depth.",
+      "formula": "gₕ = GM/(R+h)²; g_d = g(1 − d/R)",
+      "survival_tip": "At the centre of a uniform Earth, g becomes zero."
+    },
+    {
+      "id": 4,
+      "title": "Potential is negative when zero is taken at infinity",
+      "rule": "For an isolated mass, gravitational potential and gravitational potential energy are negative at finite distance.",
+      "formula": "V = −GM/r; U = −GMm/r",
+      "survival_tip": "As r increases, V becomes less negative and approaches zero."
+    },
+    {
+      "id": 5,
+      "title": "Satellite speeds and energies follow orbit relations",
+      "rule": "For a circular orbit, orbital speed decreases with radius, while total mechanical energy is negative.",
+      "formula": "vₒ = √(GM/r), E = −GMm/(2r)",
+      "survival_tip": "Higher circular orbit → lower orbital speed but higher (less negative) total energy."
+    }
+  ],
+  "quiz_time": {
+    "title": "Quiz Time",
+    "description": "Quick terminology check based only on the current Gravitation syllabus.",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Which law states that a planet sweeps equal areas in equal intervals of time?",
+        "options": [
+          "Kepler's First Law",
+          "Kepler's Second Law",
+          "Kepler's Third Law",
+          "Newton's Law"
+        ],
+        "correctOption": 2,
+        "explanation": "Kepler's Second Law is the law of areas."
+      },
+      {
+        "id": 2,
+        "question": "The gravitational force between two masses varies with distance as:",
+        "options": [
+          "r",
+          "1/r",
+          "1/r²",
+          "r²"
+        ],
+        "correctOption": 3,
+        "explanation": "Newton's law gives F ∝ 1/r²."
+      },
+      {
+        "id": 3,
+        "question": "At height h above Earth's surface, the distance from Earth's centre is:",
+        "options": [
+          "h",
+          "R − h",
+          "R + h",
+          "R/h"
+        ],
+        "correctOption": 3,
+        "explanation": "The distance from Earth's centre is R+h."
+      },
+      {
+        "id": 4,
+        "question": "With zero gravitational potential at infinity, the potential due to an isolated mass M at distance r is:",
+        "options": [
+          "GM/r",
+          "−GM/r",
+          "GM/r²",
+          "−GM/r²"
+        ],
+        "correctOption": 2,
+        "explanation": "V = −GM/r."
+      },
+      {
+        "id": 5,
+        "question": "Escape velocity from Earth's surface is approximately:",
+        "options": [
+          "7.9 km/s",
+          "9.8 km/s",
+          "11.2 km/s",
+          "24 km/s"
+        ],
+        "correctOption": 3,
+        "explanation": "Earth's escape velocity is approximately 11.2 km/s."
+      },
+      {
+        "id": 6,
+        "question": "For a circular satellite orbit, orbital speed is proportional to:",
+        "options": [
+          "√r",
+          "r",
+          "1/√r",
+          "1/r"
+        ],
+        "correctOption": 3,
+        "explanation": "vₒ = √(GM/r), so vₒ ∝ 1/√r."
+      },
+      {
+        "id": 7,
+        "question": "A geostationary satellite must orbit in the:",
+        "options": [
+          "Polar plane",
+          "Equatorial plane",
+          "Any inclined plane",
+          "Meridian plane only"
+        ],
+        "correctOption": 2,
+        "explanation": "A geostationary orbit is circular and lies in Earth's equatorial plane."
+      },
+      {
+        "id": 8,
+        "question": "For a uniform Earth, acceleration due to gravity at the centre is:",
+        "options": [
+          "g",
+          "g/2",
+          "2g",
+          "0"
+        ],
+        "correctOption": 4,
+        "explanation": "For a uniform Earth, g decreases linearly with depth and becomes zero at the centre."
+      },
+      {
+        "id": 9,
+        "question": "According to Kepler's Third Law, for planets orbiting the same Sun:",
+        "options": [
+          "T ∝ a",
+          "T² ∝ a³",
+          "T³ ∝ a²",
+          "T ∝ 1/a³"
+        ],
+        "correctOption": 2,
+        "explanation": "Kepler's Third Law gives T² ∝ a³."
+      },
+      {
+        "id": 10,
+        "question": "For a satellite in a circular orbit, the total mechanical energy is:",
+        "options": [
+          "Positive",
+          "Zero",
+          "Negative",
+          "Always equal to kinetic energy"
+        ],
+        "correctOption": 3,
+        "explanation": "E = −GMm/(2r), so the satellite is gravitationally bound."
+      }
+    ]
+  },
+  "ui_config": {
+    "page_title": "Gravitation Lexicon",
+    "subtitle": "Essential terms, laws and formulas for Class 11 Gravitation.",
+    "tabs": [
+      "Key Terms",
+      "5 Golden Rules",
+      "Quiz Time"
+    ],
+    "search_fields": [
+      "term",
+      "definition",
+      "formula",
+      "keywords",
+      "name",
+      "statement",
+      "explanation",
+      "title",
+      "rule"
+    ],
+    "alphabetical_sort_definitions": true,
+    "show_term_count": true,
+    "show_formula_badges": true,
+    "show_laws_section": false,
+    "show_formula_section": true,
+    "recommended_columns": {
+      "mobile": 1,
+      "tablet": 2,
+      "desktop": 3
+    }
+  }
+}

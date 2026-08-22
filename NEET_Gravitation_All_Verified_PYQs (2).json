@@ -1,0 +1,1362 @@
+{
+  "title": "NEET/AIPMT Gravitation Previous Year Questions",
+  "chapter": "Gravitation",
+  "purpose": "Practice bank for the Gravitation chapter in the NEET Physics learning website.",
+  "coverage": "Verified chapter-indexed PYQs from 2000 through NEET UG 2026, with fully structured records where the accessible source exposed the complete question/answer data.",
+  "important_note": "This file does not invent missing options or answers. Some older/source-image questions are retained as verified index entries and explicitly marked as incomplete.",
+  "interaction_schema": {
+    "after_answer": {
+      "correct": "Show correct feedback, concept explanation, and step-by-step solution.",
+      "incorrect": "Show incorrect feedback, correct answer, concept explanation, why the selected answer is wrong when available, and step-by-step solution."
+    }
+  },
+  "source_verification": [
+    {
+      "source": "ExamSIDE",
+      "coverage": "66 Gravitation MCQs listed, spanning NEET 2026 through AIPMT 2000.",
+      "url": "https://questions.examside.com/past-years/medical/neet/physics/gravitation"
+    },
+    {
+      "source": "SATHEE / IIT Kanpur",
+      "coverage": "Dedicated Gravitation previous-year question collection.",
+      "url": "https://sathee.iitk.ac.in/sathee-neet/previous-year-neet-exam-problems/gravitation/"
+    },
+    {
+      "source": "EduRev",
+      "coverage": "Year-wise Gravitation PYQs including 2026, 2025 and earlier years.",
+      "url": "https://edurev.in/t/169648/NEET-Previous-Year-Questions-2014-22-Gravitation"
+    }
+  ],
+  "statistics": {
+    "fully_structured_questions": 38,
+    "verified_index_entries": 30,
+    "total_records": 68
+  },
+  "questions": [
+    {
+      "id": "neet_grav_2026_re_01",
+      "year": 2026,
+      "exam": "NEET UG 2026 Re-Examination",
+      "topic": "Escape Velocity",
+      "question": "Two planets have equal mass. Planet 2 has half the radius of planet 1. If their escape speeds are v2 and v1, find v2/v1.",
+      "options": [
+        "1/sqrt(2)",
+        "1",
+        "sqrt(2)",
+        "2"
+      ],
+      "correct_option": 3,
+      "correct_answer": "sqrt(2)",
+      "explanation": {
+        "concept": "Escape velocity",
+        "steps": [
+          "Escape velocity is ve = sqrt(2GM/R).",
+          "The masses are equal, so ve is proportional to 1/sqrt(R).",
+          "R2 = R1/2, therefore v2/v1 = sqrt(R1/R2) = sqrt(2)."
+        ],
+        "final": "The escape speed of the smaller-radius planet is sqrt(2) times larger."
+      }
+    },
+    {
+      "id": "neet_grav_2026_re_02",
+      "year": 2026,
+      "exam": "NEET UG 2026 Re-Examination",
+      "topic": "Kepler's Third Law",
+      "question": "For a planet moving in a circular orbit of radius R around a star, how is its orbital period T proportional to R?",
+      "options": [
+        "R^(1/2)",
+        "R^(3/2)",
+        "R^2",
+        "R^3"
+      ],
+      "correct_option": 2,
+      "correct_answer": "R^(3/2)",
+      "explanation": {
+        "concept": "Kepler's third law",
+        "steps": [
+          "Kepler's third law gives T^2 proportional to R^3 for circular orbits.",
+          "Taking the square root gives T proportional to R^(3/2)."
+        ],
+        "final": "T is proportional to R^(3/2)."
+      }
+    },
+    {
+      "id": "neet_grav_2026_cancelled_01",
+      "year": 2026,
+      "exam": "NEET UG 2026 Cancelled Examination",
+      "topic": "Gravitational Potential Energy",
+      "question": "Find the work required to raise a mass m from Earth's surface to a height equal to Earth's radius R.",
+      "options": [
+        "2mgR",
+        "mgR",
+        "mgR/4",
+        "mgR/2"
+      ],
+      "correct_option": 4,
+      "correct_answer": "mgR/2",
+      "explanation": {
+        "concept": "Change in gravitational potential energy",
+        "steps": [
+          "Initial distance from Earth's centre is R.",
+          "Final distance is 2R.",
+          "Work required = GMm/R - GMm/(2R).",
+          "Therefore W = GMm/(2R).",
+          "Using GM/R^2 = g, W = mgR/2."
+        ],
+        "final": "The required work is mgR/2."
+      }
+    },
+    {
+      "id": "neet_grav_2025_01",
+      "year": 2025,
+      "exam": "NEET UG 2025",
+      "topic": "Kepler's Third Law",
+      "question": "Mars has an orbital radius about four times Mercury's orbital radius. If the Martian year is 687 Earth days, estimate Mercury's orbital period.",
+      "options": [
+        "172 days",
+        "124 days",
+        "88 days",
+        "225 days"
+      ],
+      "correct_option": 3,
+      "correct_answer": "88 days (nearest option)",
+      "explanation": {
+        "concept": "Kepler's third law",
+        "steps": [
+          "T^2 is proportional to r^3.",
+          "Mars has r_Mars = 4r_Mercury.",
+          "Therefore T_Mars/T_Mercury = 4^(3/2) = 8.",
+          "T_Mercury = 687/8 = 85.875 days.",
+          "The nearest option is 88 days."
+        ],
+        "final": "Mercury's year is approximately 86 days, so the closest option is 88 days."
+      }
+    },
+    {
+      "id": "neet_grav_2025_02",
+      "year": 2025,
+      "exam": "NEET UG 2025",
+      "topic": "Variation of g with Altitude",
+      "question": "A body weighs 48 N on Earth's surface. What gravitational force acts on it at a height equal to one-third of Earth's radius?",
+      "options": [
+        "32 N",
+        "36 N",
+        "16 N",
+        "27 N"
+      ],
+      "correct_option": 4,
+      "correct_answer": "27 N",
+      "explanation": {
+        "concept": "Gravity at altitude",
+        "steps": [
+          "At height h = R/3, distance from Earth's centre is 4R/3.",
+          "Force varies as 1/r^2.",
+          "F_h/F_surface = [R/(4R/3)]^2 = (3/4)^2 = 9/16.",
+          "F_h = 48 × 9/16 = 27 N."
+        ],
+        "final": "The gravitational force is 27 N."
+      }
+    },
+    {
+      "id": "neet_grav_2024_01",
+      "year": 2024,
+      "exam": "NEET UG 2024",
+      "topic": "Acceleration Due to Gravity",
+      "question": "A planet has one-tenth Earth's mass and half Earth's diameter. Find its surface acceleration due to gravity if Earth's value is 9.8 m/s^2.",
+      "options": [
+        "19.6 m/s^2",
+        "9.8 m/s^2",
+        "4.9 m/s^2",
+        "3.92 m/s^2"
+      ],
+      "correct_option": 4,
+      "correct_answer": "3.92 m/s^2",
+      "explanation": {
+        "concept": "g = GM/R^2",
+        "steps": [
+          "The planet mass is M/10.",
+          "Half the diameter means half the radius: R/2.",
+          "Therefore gp/ge = (M/10)/(R/2)^2 × R^2/M.",
+          "This ratio is 4/10 = 0.4.",
+          "gp = 0.4 × 9.8 = 3.92 m/s^2."
+        ],
+        "final": "The planet's surface gravity is 3.92 m/s^2."
+      }
+    },
+    {
+      "id": "neet_grav_2024_02",
+      "year": 2024,
+      "exam": "NEET UG 2024",
+      "topic": "Satellite Energy",
+      "question": "Find the minimum energy needed to take a satellite of mass m from Earth's surface into a circular orbit at an altitude 2R, where Earth has mass M and radius R.",
+      "options": [],
+      "correct_option": 1,
+      "correct_answer": "Source marks option 1; expression is image-rendered in the source.",
+      "explanation": {
+        "concept": "Energy required for transfer to a circular orbit",
+        "steps": [
+          "Initial energy at Earth's surface is -GMm/R.",
+          "At altitude 2R, orbital radius is 3R.",
+          "Total energy of a circular satellite orbit is -GMm/(2r) = -GMm/(6R).",
+          "Required energy is final total energy minus initial energy.",
+          "This gives a positive energy input."
+        ],
+        "final": "The exact option expression is image-rendered in the source; the calculation should use ΔE = E_orbit - E_surface."
+      }
+    },
+    {
+      "id": "neet_grav_2024_03",
+      "year": 2024,
+      "exam": "NEET UG 2024",
+      "topic": "Escape Velocity",
+      "question": "A rocket is launched from Earth's surface with speed ve/sqrt(2), where ve is Earth's escape velocity. Find its maximum height above Earth's surface if R = 6400 km.",
+      "options": [
+        "1600 km",
+        "3200 km",
+        "6400 km",
+        "12800 km"
+      ],
+      "correct_option": 3,
+      "correct_answer": "6400 km",
+      "explanation": {
+        "concept": "Conservation of mechanical energy",
+        "steps": [
+          "Initial speed is ve/sqrt(2).",
+          "Use ve^2 = 2GM/R.",
+          "At maximum height, final speed is zero.",
+          "Energy conservation gives R+h = 2R.",
+          "Therefore h = R = 6400 km."
+        ],
+        "final": "The rocket reaches 6400 km above Earth's surface."
+      }
+    },
+    {
+      "id": "neet_grav_2024_04",
+      "year": 2024,
+      "exam": "NEET UG 2024",
+      "topic": "Variation of g with Altitude",
+      "question": "A body weighs 100 N at Earth's surface. With g = 10 m/s^2, what is its weight at a height R/9 above Earth's surface?",
+      "options": [
+        "72 N",
+        "54 N",
+        "81 N",
+        "62 N"
+      ],
+      "correct_option": 3,
+      "correct_answer": "81 N",
+      "explanation": {
+        "concept": "Variation of g with altitude",
+        "steps": [
+          "At h = R/9, distance from Earth's centre is 10R/9.",
+          "g_h/g = [R/(10R/9)]^2 = (9/10)^2.",
+          "Thus g_h = 10 × 81/100 = 8.1 m/s^2.",
+          "Weight is proportional to g, so W_h = 100 × 8.1/10 = 81 N."
+        ],
+        "final": "The weight becomes 81 N."
+      }
+    },
+    {
+      "id": "neet_grav_2024_05",
+      "year": 2024,
+      "exam": "NEET UG 2024",
+      "topic": "Escape Velocity",
+      "question": "If Earth's escape velocity is v, what is the escape velocity of a planet having nine times Earth's mass and sixteen times Earth's radius?",
+      "options": [
+        "v/3",
+        "2v/3",
+        "3v/4",
+        "9v/4"
+      ],
+      "correct_option": 3,
+      "correct_answer": "3v/4",
+      "explanation": {
+        "concept": "Escape velocity scaling",
+        "steps": [
+          "Escape velocity is proportional to sqrt(M/R).",
+          "For the new planet, M' = 9M and R' = 16R.",
+          "Therefore v'/v = sqrt[(9M/16R)/(M/R)] = sqrt(9/16) = 3/4."
+        ],
+        "final": "The new escape velocity is 3v/4."
+      }
+    },
+    {
+      "id": "neet_grav_2024_06",
+      "year": 2024,
+      "exam": "NEET UG 2024",
+      "topic": "Variation of Weight",
+      "question": "A 100 kg object moves from point A to B as shown in the original question figure. Find the change in its weight.",
+      "options": [
+        "49 N",
+        "89 N",
+        "5 N",
+        "10 N"
+      ],
+      "correct_option": 1,
+      "correct_answer": "49 N",
+      "explanation": {
+        "concept": "Weight depends on distance from Earth's centre",
+        "steps": [
+          "Use W = GMm/r^2.",
+          "The exact locations of A and B are defined by the source figure.",
+          "Substituting the radii shown in that figure gives a change of approximately 49 N."
+        ],
+        "final": "The source answer is 49 N. The original diagram is required to reproduce the full numerical derivation."
+      }
+    },
+    {
+      "id": "neet_grav_2023_01",
+      "year": 2023,
+      "exam": "NEET UG 2023 Manipur",
+      "topic": "Escape Velocity",
+      "question": "Earth's escape speed is 11.2 km/s. If a body is launched upward at 22.4 km/s, what speed will it have at infinity?",
+      "options": [
+        "11.2sqrt(2) km/s",
+        "0",
+        "11.2 km/s",
+        "11.2sqrt(3) km/s"
+      ],
+      "correct_option": 4,
+      "correct_answer": "11.2sqrt(3) km/s",
+      "explanation": {
+        "concept": "Energy conservation",
+        "steps": [
+          "At Earth's surface, escape speed satisfies ve^2 = 2GM/R.",
+          "The launch speed is 2ve.",
+          "At infinity, potential energy is zero.",
+          "Energy conservation gives v_infinity^2 = (2ve)^2 - ve^2 = 3ve^2.",
+          "Hence v_infinity = sqrt(3)ve = 11.2sqrt(3) km/s."
+        ],
+        "final": "The speed at infinity is 11.2sqrt(3) km/s."
+      }
+    },
+    {
+      "id": "neet_grav_2023_02",
+      "year": 2023,
+      "exam": "NEET UG 2023 Manipur",
+      "topic": "Mean Density of Earth",
+      "question": "If Earth's radius is R and surface gravity is g, find Earth's mean density.",
+      "options": [],
+      "correct_option": 3,
+      "correct_answer": "3g/(4piGR)",
+      "explanation": {
+        "concept": "Relation between g and mean density",
+        "steps": [
+          "Use g = GM/R^2.",
+          "For a spherical Earth, M = (4/3)pi R^3 rho.",
+          "Substitute M into the first equation.",
+          "g = (4/3)pi G R rho.",
+          "Therefore rho = 3g/(4piGR)."
+        ],
+        "final": "Mean density is 3g/(4piGR)."
+      }
+    },
+    {
+      "id": "neet_grav_2023_03",
+      "year": 2023,
+      "exam": "NEET UG 2023",
+      "topic": "Gravitational Potential",
+      "question": "Two masses m and 9m are separated by R. At the point between them where gravitational field is zero, find the gravitational potential.",
+      "options": [],
+      "correct_option": 2,
+      "correct_answer": "-16Gm/R",
+      "explanation": {
+        "concept": "Zero gravitational field and potential",
+        "steps": [
+          "Let the zero-field point be x from mass m.",
+          "Then R-x is its distance from 9m.",
+          "Set field magnitudes equal: Gm/x^2 = G(9m)/(R-x)^2.",
+          "This gives R-x = 3x, so x = R/4.",
+          "Potential is V = -Gm/x - G(9m)/(R-x).",
+          "Substitution gives V = -16Gm/R."
+        ],
+        "final": "The gravitational potential is -16Gm/R."
+      }
+    },
+    {
+      "id": "neet_grav_2023_04",
+      "year": 2023,
+      "exam": "NEET UG 2023",
+      "topic": "Satellite Time Period and Density",
+      "question": "A satellite just above Earth's surface has period T. If Earth's density is d and G is the gravitational constant, what physical quantity is represented by 3pi/(Gd)?",
+      "options": [
+        "T",
+        "T^2",
+        "T^3",
+        "sqrt(T)"
+      ],
+      "correct_option": 2,
+      "correct_answer": "T^2",
+      "explanation": {
+        "concept": "Satellite period and Earth density",
+        "steps": [
+          "For a near-surface satellite, T = 2pi sqrt(R^3/GM).",
+          "Use M = (4/3)pi R^3 d.",
+          "Then T^2 = 4pi^2R^3/(G M) = 3pi/(Gd)."
+        ],
+        "final": "3pi/(Gd) has the dimensions and value of T^2."
+      }
+    },
+    {
+      "id": "neet_grav_2022_01",
+      "year": 2022,
+      "exam": "NEET UG 2022 Phase 1",
+      "topic": "Gravitational Field",
+      "question": "A 60 g mass experiences a gravitational force of 3.0 N. What is the gravitational field intensity at that point?",
+      "options": [
+        "50 N/kg",
+        "20 N/kg",
+        "180 N/kg",
+        "0.05 N/kg"
+      ],
+      "correct_option": 1,
+      "correct_answer": "50 N/kg",
+      "explanation": {
+        "concept": "Gravitational field intensity",
+        "steps": [
+          "Field intensity is g = F/m.",
+          "Convert 60 g to 0.06 kg.",
+          "g = 3/0.06 = 50 N/kg."
+        ],
+        "final": "The field intensity is 50 N/kg."
+      }
+    },
+    {
+      "id": "neet_grav_2022_02",
+      "year": 2022,
+      "exam": "NEET UG 2022 Phase 1",
+      "topic": "Dimensions",
+      "question": "Match the dimensions of G, gravitational potential energy, gravitational potential, and gravitational intensity with their dimensional formulae.",
+      "options": [],
+      "correct_option": 2,
+      "correct_answer": "The matching corresponding to option 2 in the source",
+      "explanation": {
+        "concept": "Dimensional analysis",
+        "steps": [
+          "G has dimensions M^-1 L^3 T^-2.",
+          "Potential energy has dimensions M L^2 T^-2.",
+          "Potential has dimensions L^2 T^-2.",
+          "Gravitational intensity has dimensions L T^-2."
+        ],
+        "final": "Match each physical quantity using its defining equation and SI dimensions."
+      }
+    },
+    {
+      "id": "neet_grav_2022_03",
+      "year": 2022,
+      "exam": "NEET UG 2022 Phase 2",
+      "topic": "Conservative Gravitational Field",
+      "question": "A mass moves from A to B through three different paths in a gravitational field. Compare the work W1, W2 and W3 done by gravity.",
+      "options": [
+        "W1 < W2 < W3",
+        "W1 = W2 = W3",
+        "W1 > W2 > W3",
+        "W1 > W3 > W2"
+      ],
+      "correct_option": 2,
+      "correct_answer": "W1 = W2 = W3",
+      "explanation": {
+        "concept": "Conservative force",
+        "steps": [
+          "Gravity is a conservative force.",
+          "For a conservative force, work depends only on initial and final positions.",
+          "All three paths have the same initial and final points.",
+          "Therefore W1 = W2 = W3."
+        ],
+        "final": "The work done by gravity is path independent."
+      }
+    },
+    {
+      "id": "neet_grav_2022_04",
+      "year": 2022,
+      "exam": "NEET UG 2022 Phase 2",
+      "topic": "Gravitational Potential and Field",
+      "question": "The gravitational potential is V = -K/x J/kg. Find the field intensity at point (2,0,3) m.",
+      "options": [
+        "+K/4",
+        "+K/2",
+        "-K/2",
+        "-K/4"
+      ],
+      "correct_option": 4,
+      "correct_answer": "-K/4",
+      "explanation": {
+        "concept": "Field as gradient of potential",
+        "steps": [
+          "The field component along x is related to potential by g_x = -dV/dx.",
+          "For V = -K/x, dV/dx = K/x^2.",
+          "Therefore g_x = -K/x^2.",
+          "At x = 2 m, g_x = -K/4."
+        ],
+        "final": "The field intensity component at the specified point is -K/4 in the x-direction."
+      }
+    },
+    {
+      "id": "neet_grav_2021_01",
+      "year": 2021,
+      "exam": "NEET UG 2021",
+      "topic": "Escape Velocity",
+      "question": "A planet has four times Earth's radius but the same mean density. If Earth's escape velocity is v, find the new planet's escape velocity.",
+      "options": [
+        "3v",
+        "4v",
+        "v",
+        "2v"
+      ],
+      "correct_option": 2,
+      "correct_answer": "4v",
+      "explanation": {
+        "concept": "Escape velocity and density",
+        "steps": [
+          "For a spherical planet, M is proportional to rho R^3.",
+          "Escape speed is proportional to sqrt(M/R).",
+          "Thus ve is proportional to R sqrt(rho).",
+          "Density is unchanged and radius becomes 4R.",
+          "Therefore escape speed becomes 4v."
+        ],
+        "final": "The escape velocity becomes 4v."
+      }
+    },
+    {
+      "id": "neet_grav_2021_02",
+      "year": 2021,
+      "exam": "NEET UG 2021",
+      "topic": "Maximum Height",
+      "question": "A particle is projected from Earth's surface with speed k times the escape velocity, where k < 1. Find the maximum height above Earth's surface.",
+      "options": [],
+      "correct_option": 2,
+      "correct_answer": "R k^2/(1-k^2)",
+      "explanation": {
+        "concept": "Energy conservation",
+        "steps": [
+          "Initial energy is (1/2)m k^2 ve^2 - GMm/R.",
+          "Use ve^2 = 2GM/R.",
+          "At maximum height, velocity is zero and potential energy is -GMm/(R+h).",
+          "Solving gives R+h = R/(1-k^2).",
+          "Therefore h = Rk^2/(1-k^2)."
+        ],
+        "final": "The maximum height is Rk^2/(1-k^2)."
+      }
+    },
+    {
+      "id": "neet_grav_2020_01",
+      "year": 2020,
+      "exam": "NEET UG 2020 Phase 1",
+      "topic": "Variation of g with Altitude",
+      "question": "A body weighs 72 N on Earth's surface. What gravitational force acts on it at a height equal to half Earth's radius?",
+      "options": [
+        "30 N",
+        "24 N",
+        "48 N",
+        "32 N"
+      ],
+      "correct_option": 4,
+      "correct_answer": "32 N",
+      "explanation": {
+        "concept": "Gravity at altitude",
+        "steps": [
+          "At h = R/2, distance from Earth's centre is 3R/2.",
+          "Force ratio is [R/(3R/2)]^2 = 4/9.",
+          "New force = 72 × 4/9 = 32 N."
+        ],
+        "final": "The gravitational force is 32 N."
+      }
+    },
+    {
+      "id": "neet_grav_2019_01",
+      "year": 2019,
+      "exam": "NEET UG 2019",
+      "topic": "Variation of g with Depth",
+      "question": "A body weighs 200 N on Earth's surface. What will it weigh halfway from the surface to Earth's centre?",
+      "options": [
+        "150 N",
+        "200 N",
+        "250 N",
+        "100 N"
+      ],
+      "correct_option": 4,
+      "correct_answer": "100 N",
+      "explanation": {
+        "concept": "Gravity inside Earth",
+        "steps": [
+          "At depth d, g_d = g(1-d/R).",
+          "Halfway to the centre means d = R/2.",
+          "Therefore g_d = g/2.",
+          "Weight is proportional to g, so W_d = 200/2 = 100 N."
+        ],
+        "final": "The weight becomes 100 N."
+      }
+    },
+    {
+      "id": "neet_grav_2019_02",
+      "year": 2019,
+      "exam": "NEET UG 2019",
+      "topic": "Gravitational Potential Energy",
+      "question": "Find the work required to raise mass m from Earth's surface to a height equal to Earth's radius.",
+      "options": [
+        "mgR",
+        "2mgR",
+        "mgR/2",
+        "3mgR/2"
+      ],
+      "correct_option": 3,
+      "correct_answer": "mgR/2",
+      "explanation": {
+        "concept": "Gravitational potential energy",
+        "steps": [
+          "Initial potential energy is -GMm/R.",
+          "At h=R, distance from Earth's centre is 2R.",
+          "Final potential energy is -GMm/(2R).",
+          "Required work is ΔU = GMm/(2R) = mgR/2."
+        ],
+        "final": "The required work is mgR/2."
+      }
+    },
+    {
+      "id": "neet_grav_2018_01",
+      "year": 2018,
+      "exam": "NEET UG 2018",
+      "topic": "Effect of G and Solar Mass",
+      "question": "If the Sun's mass became one-tenth while G became ten times larger, identify the statement that is not correct.",
+      "options": [
+        "Raindrops will fall faster",
+        "Walking on the ground would become more difficult",
+        "A simple pendulum's period on Earth would decrease",
+        "g on Earth would not change"
+      ],
+      "correct_option": 4,
+      "correct_answer": "g on Earth would not change",
+      "explanation": {
+        "concept": "Dependence of gravity on GM",
+        "steps": [
+          "Earth's surface gravity depends on G and Earth's mass, not directly on the Sun's mass.",
+          "Changing G to 10G changes Earth's surface g to 10g if Earth's mass is unchanged.",
+          "Therefore the statement that g would not change is incorrect."
+        ],
+        "final": "The incorrect statement is that Earth's g would not change."
+      }
+    },
+    {
+      "id": "neet_grav_2018_02",
+      "year": 2018,
+      "exam": "NEET UG 2018",
+      "topic": "Kepler's Second Law",
+      "question": "A planet follows an elliptical orbit with positions A, B and C as shown, with A at perihelion and C at aphelion. Compare its kinetic energies at these positions.",
+      "options": [
+        "KA < KB < KC",
+        "KA > KB > KC",
+        "KB < KA < KC",
+        "KB > KA > KC"
+      ],
+      "correct_option": 2,
+      "correct_answer": "KA > KB > KC",
+      "explanation": {
+        "concept": "Conservation of angular momentum",
+        "steps": [
+          "For a central force, angular momentum is conserved.",
+          "Near perihelion the planet is closer to the Sun and moves faster.",
+          "At aphelion it moves slowest.",
+          "Kinetic energy is proportional to v^2.",
+          "Therefore KA > KB > KC."
+        ],
+        "final": "The kinetic energy is greatest at perihelion and least at aphelion."
+      }
+    },
+    {
+      "id": "neet_grav_2017_01",
+      "year": 2017,
+      "exam": "NEET UG 2017",
+      "topic": "Variation of g with Altitude and Depth",
+      "question": "If the acceleration due to gravity at a height of 1 km above Earth's surface equals the acceleration at depth d below the surface, find d approximately.",
+      "options": [],
+      "correct_option": 3,
+      "correct_answer": "2 km",
+      "explanation": {
+        "concept": "Small-height approximations",
+        "steps": [
+          "For small height h, g_h ≈ g(1 - 2h/R).",
+          "At depth d, g_d = g(1 - d/R).",
+          "Equating the two gives d = 2h.",
+          "For h = 1 km, d = 2 km."
+        ],
+        "final": "The depth is 2 km."
+      }
+    },
+    {
+      "id": "neet_grav_2017_02",
+      "year": 2017,
+      "exam": "NEET UG 2017",
+      "topic": "Mutual Gravitation",
+      "question": "Two astronauts are floating freely after losing contact with their spacecraft. What will happen to their separation?",
+      "options": [
+        "They move towards each other",
+        "They move away from each other",
+        "They become stationary",
+        "They remain at the same separation"
+      ],
+      "correct_option": 1,
+      "correct_answer": "They move towards each other",
+      "explanation": {
+        "concept": "Mutual gravitational attraction",
+        "steps": [
+          "Even in otherwise gravity-free surroundings, the astronauts have mass.",
+          "Therefore they exert gravitational forces on one another.",
+          "The forces are attractive and pull them together."
+        ],
+        "final": "They move towards each other."
+      }
+    },
+    {
+      "id": "neet_grav_2016_01",
+      "year": 2016,
+      "exam": "NEET UG 2016 Phase 1",
+      "topic": "Gravitational Potential and Field",
+      "question": "At what height above Earth is the gravitational potential about -5.4×10^7 J/kg and g about 6.0 m/s^2, given Earth's radius is 6400 km?",
+      "options": [
+        "2000 km",
+        "2600 km",
+        "1600 km",
+        "1400 km"
+      ],
+      "correct_option": 2,
+      "correct_answer": "2600 km",
+      "explanation": {
+        "concept": "V = -GM/r and g = GM/r^2",
+        "steps": [
+          "Divide the magnitudes of potential and field: |V|/g = r.",
+          "Using the given values gives r = 9000 km.",
+          "Height above Earth's surface is 9000 - 6400 = 2600 km."
+        ],
+        "final": "The height is 2600 km."
+      }
+    },
+    {
+      "id": "neet_grav_2016_02",
+      "year": 2016,
+      "exam": "NEET UG 2016 Phase 1",
+      "topic": "Escape Velocity",
+      "question": "Earth's escape speed is ve. A planet has twice Earth's radius and twice Earth's mean density. Find ve/vp.",
+      "options": [
+        "1:sqrt(2)",
+        "1:2",
+        "1:2sqrt(2)",
+        "1:4"
+      ],
+      "correct_option": 3,
+      "correct_answer": "1:2sqrt(2)",
+      "explanation": {
+        "concept": "Escape velocity and density",
+        "steps": [
+          "Since M = (4/3)pi R^3 rho, escape velocity is proportional to R sqrt(rho).",
+          "The new planet has R' = 2R and rho' = 2rho.",
+          "Therefore vp/ve = 2sqrt(2).",
+          "Hence ve/vp = 1/(2sqrt(2))."
+        ],
+        "final": "The ratio is 1:2sqrt(2)."
+      }
+    },
+    {
+      "id": "neet_grav_2016_03",
+      "year": 2016,
+      "exam": "NEET UG 2016 Phase 2",
+      "topic": "Energy of Satellite",
+      "question": "A satellite of mass m orbits Earth at height h. Express its total energy using g0, Earth's surface acceleration, R and h.",
+      "options": [],
+      "correct_option": 2,
+      "correct_answer": "The expression corresponding to -mg0R^2/[2(R+h)]",
+      "explanation": {
+        "concept": "Total energy of a circular satellite",
+        "steps": [
+          "For a circular orbit of radius r = R+h, total energy is -GMm/(2r).",
+          "Use GM = g0R^2.",
+          "Therefore E = -m g0 R^2/[2(R+h)]."
+        ],
+        "final": "The total energy is -m g0 R^2/[2(R+h)]."
+      }
+    },
+    {
+      "id": "neet_grav_2016_04",
+      "year": 2016,
+      "exam": "NEET UG 2016 Phase 2",
+      "topic": "Variation of g",
+      "question": "Which graph correctly shows the variation of acceleration due to gravity from Earth's centre outward?",
+      "options": [],
+      "correct_option": 2,
+      "correct_answer": "The graph represented by option 2 in the source",
+      "explanation": {
+        "concept": "g inside and outside Earth",
+        "steps": [
+          "For uniform density inside Earth, g is proportional to r.",
+          "Thus g starts from zero at the centre and increases linearly to the surface.",
+          "Outside Earth, g varies as 1/r^2.",
+          "Therefore the graph rises linearly inside and falls as 1/r^2 outside."
+        ],
+        "final": "Choose the graph showing linear increase inside and inverse-square decrease outside."
+      }
+    },
+    {
+      "id": "neet_grav_2015_01",
+      "year": 2015,
+      "exam": "AIPMT 2015 Cancelled Paper",
+      "topic": "Kepler's Third Law",
+      "question": "If T^2 = Kr^3 for planetary motion, determine the relation among G, K and the Sun's mass M.",
+      "options": [
+        "K = 1/G",
+        "GK = 4pi^2",
+        "GMK = 4pi^2",
+        "K = G"
+      ],
+      "correct_option": 3,
+      "correct_answer": "GMK = 4pi^2",
+      "explanation": {
+        "concept": "Deriving Kepler's third law",
+        "steps": [
+          "For a circular orbit, GMm/r^2 = mv^2/r.",
+          "Using v = 2pi r/T gives T^2 = 4pi^2 r^3/(GM).",
+          "Comparing with T^2 = Kr^3 gives K = 4pi^2/(GM).",
+          "Therefore GMK = 4pi^2."
+        ],
+        "final": "The relation is GMK = 4pi^2."
+      }
+    },
+    {
+      "id": "neet_grav_2015_02",
+      "year": 2015,
+      "exam": "AIPMT 2015",
+      "topic": "Two-Body Gravitation",
+      "question": "Two spherical bodies of masses M and 5M and radii R and 2R start separated by 12R. If they move only under mutual gravity, how far does the smaller body travel before contact?",
+      "options": [
+        "1.5R",
+        "2.5R",
+        "4.5R",
+        "7.5R"
+      ],
+      "correct_option": 4,
+      "correct_answer": "7.5R",
+      "explanation": {
+        "concept": "Centre of mass",
+        "steps": [
+          "The centre of mass remains fixed because only internal forces act.",
+          "Initial centre separation is 12R.",
+          "At contact, centre separation is R + 2R = 3R.",
+          "The smaller body's displacement is found from the centre-of-mass division of the relative displacement.",
+          "The result is 7.5R."
+        ],
+        "final": "The smaller body travels 7.5R."
+      }
+    },
+    {
+      "id": "neet_grav_2015_03",
+      "year": 2015,
+      "exam": "AIPMT 2015",
+      "topic": "Orbital Velocity",
+      "question": "A remote-sensing satellite is at height 0.25×10^6 m above Earth. With R = 6.38×10^6 m and g = 9.8 m/s^2, find its orbital speed.",
+      "options": [
+        "9.13 km/s",
+        "6.67 km/s",
+        "7.76 km/s",
+        "8.56 km/s"
+      ],
+      "correct_option": 3,
+      "correct_answer": "7.76 km/s",
+      "explanation": {
+        "concept": "Orbital velocity",
+        "steps": [
+          "Orbital speed is v = sqrt(gR^2/(R+h)).",
+          "Use R = 6.38×10^6 m and h = 0.25×10^6 m.",
+          "Substitution gives approximately 7.76×10^3 m/s."
+        ],
+        "final": "The orbital speed is 7.76 km/s."
+      }
+    },
+    {
+      "id": "neet_grav_2015_04",
+      "year": 2015,
+      "exam": "AIPMT 2015",
+      "topic": "Motion in Elliptical Orbit",
+      "question": "A light satellite moves in an elliptical Earth orbit. Which statement is correct?",
+      "options": [
+        "Its linear momentum magnitude remains constant",
+        "Its acceleration is always directed towards Earth's centre",
+        "Its angular momentum changes direction but keeps constant magnitude",
+        "Its total mechanical energy varies periodically"
+      ],
+      "correct_option": 2,
+      "correct_answer": "Its acceleration is always directed towards Earth's centre",
+      "explanation": {
+        "concept": "Central gravitational force",
+        "steps": [
+          "The only force is Earth's gravitational force.",
+          "This force always points toward Earth's centre.",
+          "Therefore acceleration also always points toward Earth's centre.",
+          "Angular momentum and total mechanical energy are conserved for the ideal isolated orbit."
+        ],
+        "final": "Only the second statement is correct."
+      }
+    },
+    {
+      "id": "neet_grav_2014_01",
+      "year": 2014,
+      "exam": "AIPMT 2014",
+      "topic": "Gravitational Field inside and outside Earth",
+      "question": "Choose the graph that correctly represents Earth's gravitational field intensity as a function of distance r from its centre.",
+      "options": [],
+      "correct_option": 2,
+      "correct_answer": "Option 2 in the source",
+      "explanation": {
+        "concept": "Shell theorem and field variation",
+        "steps": [
+          "Inside a uniform spherical Earth, g is proportional to r.",
+          "At the centre, g = 0.",
+          "At the surface, g is maximum.",
+          "Outside Earth, g decreases as 1/r^2."
+        ],
+        "final": "The correct graph rises linearly inside and falls as 1/r^2 outside."
+      }
+    },
+    {
+      "id": "neet_grav_2014_02",
+      "year": 2014,
+      "exam": "AIPMT 2014",
+      "topic": "Escape Velocity and Black Hole",
+      "question": "To what approximate radius would Earth, with mass 5.98×10^24 kg, need to be compressed so that its escape speed equals the speed of light?",
+      "options": [
+        "10^-2 m",
+        "100 m",
+        "10^-9 m",
+        "10^-6 m"
+      ],
+      "correct_option": 1,
+      "correct_answer": "10^-2 m",
+      "explanation": {
+        "concept": "Escape speed equal to speed of light",
+        "steps": [
+          "Use ve = sqrt(2GM/R).",
+          "For the limiting case, set ve = c.",
+          "Then R = 2GM/c^2.",
+          "Substitution for Earth's mass gives a radius of order 10^-2 m."
+        ],
+        "final": "Earth would need to be compressed to a radius of roughly one centimetre."
+      }
+    },
+    {
+      "id": "neet_grav_index_2013_01",
+      "year": 2013,
+      "exam": "AIPMT/NEET (as labelled by the source)",
+      "topic": "Escape Velocity",
+      "question_summary": "A particle at height 3R above Earth's surface: minimum projection speed so it never returns.",
+      "options": [],
+      "correct_option": null,
+      "correct_answer": null,
+      "explanation": {
+        "status": "Not populated from guesswork",
+        "message": "The accessible source index confirms this Gravitation PYQ, but its complete option set/answer was not exposed in the retrieved text. It is intentionally left unfilled rather than inventing an answer."
+      }
+    },
+    {
+      "id": "neet_grav_index_2013_02",
+      "year": 2013,
+      "exam": "AIPMT/NEET (as labelled by the source)",
+      "topic": "Escape Velocity",
+      "question_summary": "A planet has twice Earth's radius and approximately the same mean density. Compare its escape speed with Earth's.",
+      "options": [],
+      "correct_option": null,
+      "correct_answer": null,
+      "explanation": {
+        "status": "Not populated from guesswork",
+        "message": "The accessible source index confirms this Gravitation PYQ, but its complete option set/answer was not exposed in the retrieved text. It is intentionally left unfilled rather than inventing an answer."
+      }
+    },
+    {
+      "id": "neet_grav_index_2013_03",
+      "year": 2013,
+      "exam": "AIPMT/NEET (as labelled by the source)",
+      "topic": "Gravitational Potential",
+      "question_summary": "Infinite 2 kg masses lie on the x-axis at distances 1, 2, 4, 8, ... m. Find the gravitational potential at the origin.",
+      "options": [],
+      "correct_option": null,
+      "correct_answer": null,
+      "explanation": {
+        "status": "Not populated from guesswork",
+        "message": "The accessible source index confirms this Gravitation PYQ, but its complete option set/answer was not exposed in the retrieved text. It is intentionally left unfilled rather than inventing an answer."
+      }
+    },
+    {
+      "id": "neet_grav_index_2013_04",
+      "year": 2013,
+      "exam": "AIPMT/NEET (as labelled by the source)",
+      "topic": "Gravitational Potential Energy",
+      "question_summary": "A mass is moved from Earth's surface to height 2R. Find the change in gravitational potential energy.",
+      "options": [],
+      "correct_option": null,
+      "correct_answer": null,
+      "explanation": {
+        "status": "Not populated from guesswork",
+        "message": "The accessible source index confirms this Gravitation PYQ, but its complete option set/answer was not exposed in the retrieved text. It is intentionally left unfilled rather than inventing an answer."
+      }
+    },
+    {
+      "id": "neet_grav_index_2012_05",
+      "year": 2012,
+      "exam": "AIPMT/NEET (as labelled by the source)",
+      "topic": "Gravitational Field",
+      "question_summary": "Select the graph for gravitational field due to a thin spherical shell as a function of distance from its centre.",
+      "options": [],
+      "correct_option": null,
+      "correct_answer": null,
+      "explanation": {
+        "status": "Not populated from guesswork",
+        "message": "The accessible source index confirms this Gravitation PYQ, but its complete option set/answer was not exposed in the retrieved text. It is intentionally left unfilled rather than inventing an answer."
+      }
+    },
+    {
+      "id": "neet_grav_index_2012_06",
+      "year": 2012,
+      "exam": "AIPMT/NEET (as labelled by the source)",
+      "topic": "Escape and Orbital Velocity",
+      "question_summary": "Relate escape velocity and orbital velocity for an orbit close to Earth's surface.",
+      "options": [],
+      "correct_option": null,
+      "correct_answer": null,
+      "explanation": {
+        "status": "Not populated from guesswork",
+        "message": "The accessible source index confirms this Gravitation PYQ, but its complete option set/answer was not exposed in the retrieved text. It is intentionally left unfilled rather than inventing an answer."
+      }
+    },
+    {
+      "id": "neet_grav_index_2012_07",
+      "year": 2012,
+      "exam": "AIPMT/NEET (as labelled by the source)",
+      "topic": "Satellite Time Period",
+      "question_summary": "A geostationary satellite is at height 5R. Find the period of another satellite at height 2R.",
+      "options": [],
+      "correct_option": null,
+      "correct_answer": null,
+      "explanation": {
+        "status": "Not populated from guesswork",
+        "message": "The accessible source index confirms this Gravitation PYQ, but its complete option set/answer was not exposed in the retrieved text. It is intentionally left unfilled rather than inventing an answer."
+      }
+    },
+    {
+      "id": "neet_grav_index_2012_08",
+      "year": 2012,
+      "exam": "AIPMT/NEET (as labelled by the source)",
+      "topic": "Acceleration Due to Gravity",
+      "question_summary": "Find surface gravity of a spherical planet of mass MP and diameter DP.",
+      "options": [],
+      "correct_option": null,
+      "correct_answer": null,
+      "explanation": {
+        "status": "Not populated from guesswork",
+        "message": "The accessible source index confirms this Gravitation PYQ, but its complete option set/answer was not exposed in the retrieved text. It is intentionally left unfilled rather than inventing an answer."
+      }
+    },
+    {
+      "id": "neet_grav_index_2012_09",
+      "year": 2012,
+      "exam": "AIPMT/NEET (as labelled by the source)",
+      "topic": "Variation of g with Altitude",
+      "question_summary": "At what height does a body's weight become one-sixteenth of its surface value?",
+      "options": [],
+      "correct_option": null,
+      "correct_answer": null,
+      "explanation": {
+        "status": "Not populated from guesswork",
+        "message": "The accessible source index confirms this Gravitation PYQ, but its complete option set/answer was not exposed in the retrieved text. It is intentionally left unfilled rather than inventing an answer."
+      }
+    },
+    {
+      "id": "neet_grav_index_2011_10",
+      "year": 2011,
+      "exam": "AIPMT/NEET (as labelled by the source)",
+      "topic": "Gravitational Potential",
+      "question_summary": "A particle is at the centre of a spherical shell of equal mass and radius a. Find potential at a/2.",
+      "options": [],
+      "correct_option": null,
+      "correct_answer": null,
+      "explanation": {
+        "status": "Not populated from guesswork",
+        "message": "The accessible source index confirms this Gravitation PYQ, but its complete option set/answer was not exposed in the retrieved text. It is intentionally left unfilled rather than inventing an answer."
+      }
+    },
+    {
+      "id": "neet_grav_index_2011_11",
+      "year": 2011,
+      "exam": "AIPMT/NEET (as labelled by the source)",
+      "topic": "Escape Velocity",
+      "question_summary": "Find the minimum launch speed from Earth's surface so a particle never returns.",
+      "options": [],
+      "correct_option": null,
+      "correct_answer": null,
+      "explanation": {
+        "status": "Not populated from guesswork",
+        "message": "The accessible source index confirms this Gravitation PYQ, but its complete option set/answer was not exposed in the retrieved text. It is intentionally left unfilled rather than inventing an answer."
+      }
+    },
+    {
+      "id": "neet_grav_index_2011_12",
+      "year": 2011,
+      "exam": "AIPMT/NEET (as labelled by the source)",
+      "topic": "Kepler's Second Law",
+      "question_summary": "A planet is closest to the Sun at r1 and farthest at r2. Find v1/v2.",
+      "options": [],
+      "correct_option": null,
+      "correct_answer": null,
+      "explanation": {
+        "status": "Not populated from guesswork",
+        "message": "The accessible source index confirms this Gravitation PYQ, but its complete option set/answer was not exposed in the retrieved text. It is intentionally left unfilled rather than inventing an answer."
+      }
+    },
+    {
+      "id": "neet_grav_index_2010_13",
+      "year": 2010,
+      "exam": "AIPMT/NEET (as labelled by the source)",
+      "topic": "Variation of g",
+      "question_summary": "Choose the correct graph for g versus distance from Earth's centre for uniform density Earth.",
+      "options": [],
+      "correct_option": null,
+      "correct_answer": null,
+      "explanation": {
+        "status": "Not populated from guesswork",
+        "message": "The accessible source index confirms this Gravitation PYQ, but its complete option set/answer was not exposed in the retrieved text. It is intentionally left unfilled rather than inventing an answer."
+      }
+    },
+    {
+      "id": "neet_grav_index_2010_14",
+      "year": 2010,
+      "exam": "AIPMT/NEET (as labelled by the source)",
+      "topic": "Gravitational Concepts",
+      "question_summary": "Identify the correct pair among statements about centre of gravity, centre of mass and gravitational field.",
+      "options": [],
+      "correct_option": null,
+      "correct_answer": null,
+      "explanation": {
+        "status": "Not populated from guesswork",
+        "message": "The accessible source index confirms this Gravitation PYQ, but its complete option set/answer was not exposed in the retrieved text. It is intentionally left unfilled rather than inventing an answer."
+      }
+    },
+    {
+      "id": "neet_grav_index_2010_15",
+      "year": 2010,
+      "exam": "AIPMT/NEET (as labelled by the source)",
+      "topic": "Satellite Energy",
+      "question_summary": "Find the extra kinetic energy needed to transfer a satellite from circular radius R1 to larger circular radius R2.",
+      "options": [],
+      "correct_option": null,
+      "correct_answer": null,
+      "explanation": {
+        "status": "Not populated from guesswork",
+        "message": "The accessible source index confirms this Gravitation PYQ, but its complete option set/answer was not exposed in the retrieved text. It is intentionally left unfilled rather than inventing an answer."
+      }
+    },
+    {
+      "id": "neet_grav_index_2010_16",
+      "year": 2010,
+      "exam": "AIPMT/NEET (as labelled by the source)",
+      "topic": "Conservation of Momentum",
+      "question_summary": "A man in gravity-free space throws a stone downward. Find the man's height above the floor when the stone reaches it.",
+      "options": [],
+      "correct_option": null,
+      "correct_answer": null,
+      "explanation": {
+        "status": "Not populated from guesswork",
+        "message": "The accessible source index confirms this Gravitation PYQ, but its complete option set/answer was not exposed in the retrieved text. It is intentionally left unfilled rather than inventing an answer."
+      }
+    },
+    {
+      "id": "neet_grav_index_2010_17",
+      "year": 2010,
+      "exam": "AIPMT/NEET (as labelled by the source)",
+      "topic": "Orbital Velocity",
+      "question_summary": "Two satellites have orbital radii 4R and R. If the first has speed 3V, find the second's speed.",
+      "options": [],
+      "correct_option": null,
+      "correct_answer": null,
+      "explanation": {
+        "status": "Not populated from guesswork",
+        "message": "The accessible source index confirms this Gravitation PYQ, but its complete option set/answer was not exposed in the retrieved text. It is intentionally left unfilled rather than inventing an answer."
+      }
+    },
+    {
+      "id": "neet_grav_index_2009_18",
+      "year": 2009,
+      "exam": "AIPMT/NEET (as labelled by the source)",
+      "topic": "Kepler's Second Law",
+      "question_summary": "For an elliptical planetary orbit, compare travel times when swept areas are in a 2:1 ratio.",
+      "options": [],
+      "correct_option": null,
+      "correct_answer": null,
+      "explanation": {
+        "status": "Not populated from guesswork",
+        "message": "The accessible source index confirms this Gravitation PYQ, but its complete option set/answer was not exposed in the retrieved text. It is intentionally left unfilled rather than inventing an answer."
+      }
+    },
+    {
+      "id": "neet_grav_index_2007_19",
+      "year": 2007,
+      "exam": "AIPMT/NEET (as labelled by the source)",
+      "topic": "Satellite Motion",
+      "question_summary": "Two satellites occupy the same orbit but have different masses. Determine which statement is true.",
+      "options": [],
+      "correct_option": null,
+      "correct_answer": null,
+      "explanation": {
+        "status": "Not populated from guesswork",
+        "message": "The accessible source index confirms this Gravitation PYQ, but its complete option set/answer was not exposed in the retrieved text. It is intentionally left unfilled rather than inventing an answer."
+      }
+    },
+    {
+      "id": "neet_grav_index_2006_20",
+      "year": 2006,
+      "exam": "AIPMT/NEET (as labelled by the source)",
+      "topic": "Escape Velocity",
+      "question_summary": "A platform is at height R above Earth's surface. Compare its escape speed with surface escape speed.",
+      "options": [],
+      "correct_option": null,
+      "correct_answer": null,
+      "explanation": {
+        "status": "Not populated from guesswork",
+        "message": "The accessible source index confirms this Gravitation PYQ, but its complete option set/answer was not exposed in the retrieved text. It is intentionally left unfilled rather than inventing an answer."
+      }
+    },
+    {
+      "id": "neet_grav_index_2005_21",
+      "year": 2005,
+      "exam": "AIPMT/NEET (as labelled by the source)",
+      "topic": "Acceleration Due to Gravity",
+      "question_summary": "A planet has the same density as Earth but is three times larger. Compare surface gravity.",
+      "options": [],
+      "correct_option": null,
+      "correct_answer": null,
+      "explanation": {
+        "status": "Not populated from guesswork",
+        "message": "The accessible source index confirms this Gravitation PYQ, but its complete option set/answer was not exposed in the retrieved text. It is intentionally left unfilled rather than inventing an answer."
+      }
+    },
+    {
+      "id": "neet_grav_index_2005_22",
+      "year": 2005,
+      "exam": "AIPMT/NEET (as labelled by the source)",
+      "topic": "Satellite Energy",
+      "question_summary": "For a satellite orbiting Earth, find the ratio of kinetic energy to potential energy.",
+      "options": [],
+      "correct_option": null,
+      "correct_answer": null,
+      "explanation": {
+        "status": "Not populated from guesswork",
+        "message": "The accessible source index confirms this Gravitation PYQ, but its complete option set/answer was not exposed in the retrieved text. It is intentionally left unfilled rather than inventing an answer."
+      }
+    },
+    {
+      "id": "neet_grav_index_2004_23",
+      "year": 2004,
+      "exam": "AIPMT/NEET (as labelled by the source)",
+      "topic": "Acceleration Due to Gravity",
+      "question_summary": "A planet has twice Earth's density. Find its radius if its surface gravity equals Earth's.",
+      "options": [],
+      "correct_option": null,
+      "correct_answer": null,
+      "explanation": {
+        "status": "Not populated from guesswork",
+        "message": "The accessible source index confirms this Gravitation PYQ, but its complete option set/answer was not exposed in the retrieved text. It is intentionally left unfilled rather than inventing an answer."
+      }
+    },
+    {
+      "id": "neet_grav_index_2003_24",
+      "year": 2003,
+      "exam": "AIPMT/NEET (as labelled by the source)",
+      "topic": "Gravitational Potential Energy",
+      "question_summary": "A mass is raised from Earth's surface to height 3R. Find change in gravitational potential energy.",
+      "options": [],
+      "correct_option": null,
+      "correct_answer": null,
+      "explanation": {
+        "status": "Not populated from guesswork",
+        "message": "The accessible source index confirms this Gravitation PYQ, but its complete option set/answer was not exposed in the retrieved text. It is intentionally left unfilled rather than inventing an answer."
+      }
+    },
+    {
+      "id": "neet_grav_index_2003_25",
+      "year": 2003,
+      "exam": "AIPMT/NEET (as labelled by the source)",
+      "topic": "Acceleration Due to Gravity",
+      "question_summary": "Planet A has nine times the surface gravity of planet B. Compare jump heights for the same person.",
+      "options": [],
+      "correct_option": null,
+      "correct_answer": null,
+      "explanation": {
+        "status": "Not populated from guesswork",
+        "message": "The accessible source index confirms this Gravitation PYQ, but its complete option set/answer was not exposed in the retrieved text. It is intentionally left unfilled rather than inventing an answer."
+      }
+    },
+    {
+      "id": "neet_grav_index_2003_26",
+      "year": 2003,
+      "exam": "AIPMT/NEET (as labelled by the source)",
+      "topic": "Newton's Law of Gravitation",
+      "question_summary": "How does gravitational force change if the space between two masses is filled with a liquid of specific gravity 3?",
+      "options": [],
+      "correct_option": null,
+      "correct_answer": null,
+      "explanation": {
+        "status": "Not populated from guesswork",
+        "message": "The accessible source index confirms this Gravitation PYQ, but its complete option set/answer was not exposed in the retrieved text. It is intentionally left unfilled rather than inventing an answer."
+      }
+    },
+    {
+      "id": "neet_grav_index_2001_27",
+      "year": 2001,
+      "exam": "AIPMT/NEET (as labelled by the source)",
+      "topic": "Escape Velocity",
+      "question_summary": "Find the projection speed needed to reach a height equal to Earth's radius.",
+      "options": [],
+      "correct_option": null,
+      "correct_answer": null,
+      "explanation": {
+        "status": "Not populated from guesswork",
+        "message": "The accessible source index confirms this Gravitation PYQ, but its complete option set/answer was not exposed in the retrieved text. It is intentionally left unfilled rather than inventing an answer."
+      }
+    },
+    {
+      "id": "neet_grav_index_2000_28",
+      "year": 2000,
+      "exam": "AIPMT/NEET (as labelled by the source)",
+      "topic": "Variation of g with Altitude",
+      "question_summary": "A 72 N body is raised to height R/2. Find its new gravitational force.",
+      "options": [],
+      "correct_option": null,
+      "correct_answer": null,
+      "explanation": {
+        "status": "Not populated from guesswork",
+        "message": "The accessible source index confirms this Gravitation PYQ, but its complete option set/answer was not exposed in the retrieved text. It is intentionally left unfilled rather than inventing an answer."
+      }
+    },
+    {
+      "id": "neet_grav_index_2000_29",
+      "year": 2000,
+      "exam": "AIPMT/NEET (as labelled by the source)",
+      "topic": "Universal Gravitation",
+      "question_summary": "A question asks for the nature of gravitational force.",
+      "options": [],
+      "correct_option": null,
+      "correct_answer": null,
+      "explanation": {
+        "status": "Not populated from guesswork",
+        "message": "The accessible source index confirms this Gravitation PYQ, but its complete option set/answer was not exposed in the retrieved text. It is intentionally left unfilled rather than inventing an answer."
+      }
+    },
+    {
+      "id": "neet_grav_index_2000_30",
+      "year": 2000,
+      "exam": "AIPMT/NEET (as labelled by the source)",
+      "topic": "Escape Velocity",
+      "question_summary": "A planet has Earth's mass but one-fourth Earth's radius. Compare its escape velocity.",
+      "options": [],
+      "correct_option": null,
+      "correct_answer": null,
+      "explanation": {
+        "status": "Not populated from guesswork",
+        "message": "The accessible source index confirms this Gravitation PYQ, but its complete option set/answer was not exposed in the retrieved text. It is intentionally left unfilled rather than inventing an answer."
+      }
+    }
+  ]
+}

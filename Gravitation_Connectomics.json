@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "1.0-connectomics",
+  "page": "connectomics",
+  "chapter": "Gravitation",
+  "hero": {
+    "eyebrow": "Gravitation Connectomics",
+    "title": "Discover the hidden threads linking Gravitation to the entire world of science.",
+    "subtitle": "The Web of Physics"
+  },
+  "web_of_physics": {
+    "heading": "The Web of Physics",
+    "connections": [
+      {
+        "icon": "🎯",
+        "tag": "Direct",
+        "from": "Gravitation",
+        "to": "Circular Motion",
+        "description": "A satellite in orbit is simply an object in uniform circular motion where gravity itself supplies the centripetal force: GMm/r\u00b2 = mv\u00b2/r."
+      },
+      {
+        "icon": "🍎",
+        "tag": "Fundamental",
+        "from": "Gravitation",
+        "to": "Newton's Laws of Motion",
+        "description": "Gravitation is a force, so every orbit, fall, and escape trajectory is governed by F = ma. Newton's third law also explains why the Earth rises to meet a falling apple, even if immeasurably little."
+      },
+      {
+        "icon": "⚡",
+        "tag": "Essential",
+        "from": "Gravitation",
+        "to": "Work, Energy & Power",
+        "description": "Gravitational potential energy (U = -GMm/r) and the work-energy theorem together explain escape speed, orbital energy, and why launching a satellite higher always costs more energy."
+      },
+      {
+        "icon": "🧮",
+        "tag": "Mathematical",
+        "from": "Gravitation",
+        "to": "Calculus",
+        "description": "Gravitational field is the negative gradient of potential, E = -dV/dr, and potential itself is built by integrating the field: V(r) = -\u222bE dr from infinity to r."
+      },
+      {
+        "icon": "🌊",
+        "tag": "Indirect",
+        "from": "Gravitation",
+        "to": "Fluid Mechanics",
+        "description": "Ocean tides arise because the Moon's gravitational pull is stronger on the near side of Earth than the far side, stretching the oceans into two tidal bulges."
+      },
+      {
+        "icon": "🪐",
+        "tag": "Historical",
+        "from": "Gravitation",
+        "to": "Kepler's Laws & Astronomy",
+        "description": "Kepler's three empirical laws of planetary motion, derived purely from observational data, were later shown by Newton to be direct mathematical consequences of the inverse-square law of gravitation."
+      },
+      {
+        "icon": "🌀",
+        "tag": "Advanced",
+        "from": "Gravitation",
+        "to": "General Relativity",
+        "description": "Newtonian gravitation is the low-speed, weak-field limit of Einstein's General Relativity, where gravity is reinterpreted not as a force but as the curvature of spacetime caused by mass."
+      }
+    ]
+  },
+  "real_world_systems": {
+    "heading": "Real World Systems",
+    "systems": [
+      {
+        "impact": "Life-Saving",
+        "title": "GPS & Satellite Navigation",
+        "description": "GPS satellites orbit at a precisely calculated altitude and speed so that vo = \u221a(GM/r) and T = 2\u03c0\u221a(r\u00b3/GM) stay exact; even a tiny orbital-radius error would make positioning drift by kilometres, and the system must also correct for gravitational time dilation predicted by relativity."
+      },
+      {
+        "impact": "Critical",
+        "title": "Space Mission Trajectory Design",
+        "description": "Interplanetary missions use gravitational potential energy and orbital mechanics to plan Hohmann transfer orbits and gravity-assist flybys, letting a spacecraft 'steal' momentum from a planet's gravity to reach its destination using far less fuel."
+      },
+      {
+        "impact": "High",
+        "title": "Geostationary Communication Satellites",
+        "description": "TV, weather, and telecom satellites are placed at the one specific altitude (~35,786 km) where the orbital period exactly equals Earth's rotational period, keeping them fixed over the same point on the ground."
+      },
+      {
+        "impact": "High",
+        "title": "Ocean Tides & Coastal Engineering",
+        "description": "Harbour design, tidal power stations, and coastal flood planning all depend on predicting tidal ranges caused by the differential gravitational pull of the Moon (and, to a lesser extent, the Sun) across Earth's oceans."
+      }
+    ]
+  },
+  "closing": {
+    "heading": "Infinite Connections",
+    "text": "Gravitation is the force that never lets go. It is the same universal attraction that pulls an apple to the ground, holds the Moon in its monthly circuit, keeps every planet bound to the Sun, and gathers gas clouds into stars and galaxies. Every equation in this chapter -- from a satellite's orbital speed to a rocket's escape velocity -- is one local expression of a single rule that governs the entire universe."
+  },
+  "footer": {
+    "copyright": "\u00a9 2026 skill100.ai. All rights reserved."
+  }
+}
