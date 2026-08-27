@@ -76,26 +76,23 @@ export const getAssertionReasonQuestions = () => {
   });
 };
 
-// Retrieve distinct Assessment questions including Assertion & Reasoning questions
+// Retrieve exactly 20 Assessment questions for a topic from Gravitation_Class11_NEET_300_Questions_Complete.json
 export const getAssessmentQuestions = (skillIdOrTitle = '') => {
   const allQs = get300Questions();
-  const assessQs = allQs.filter(q => q.type === 'Assessment');
-  const arQs = getAssertionReasonQuestions();
 
-  const combinedQs = [...assessQs, ...arQs];
-
-  if (!skillIdOrTitle) return combinedQs;
+  if (!skillIdOrTitle) return allQs.slice(0, 20);
 
   const topics = skillsContentData.topics || [];
   const matchedTopic = topics.find(t => t.id === skillIdOrTitle || t.title?.toLowerCase() === skillIdOrTitle.toLowerCase());
   const targetTitle = matchedTopic ? matchedTopic.title : skillIdOrTitle;
 
-  // Filter matched topic questions first by exact title
-  const matched = combinedQs.filter(q => q.concept?.toLowerCase() === targetTitle.toLowerCase());
-  const remaining = combinedQs.filter(q => q.concept?.toLowerCase() !== targetTitle.toLowerCase());
+  const matched = allQs.filter(q => q.concept?.toLowerCase() === targetTitle.toLowerCase());
 
-  const result = [...matched, ...remaining];
-  return result;
+  if (matched.length > 0) {
+    return matched.slice(0, 20);
+  }
+
+  return allQs.slice(0, 20);
 };
 
 export const getTerminology = () => terminologyData;
